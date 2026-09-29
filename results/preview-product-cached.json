@@ -1,0 +1,3042 @@
+{
+  "schema": 1,
+  "checkpoint_sha256": "5ac42eff62af59ae393e637e73e237b355695b6b4aafcfbf05ef9a42d1c46a4b",
+  "parameter_count": 49295872,
+  "trained_tokens": 12288000,
+  "device": "cpu",
+  "cpu": "x86_64",
+  "threads": 4,
+  "load_seconds": 0.8766364159528166,
+  "weight_file_bytes": 198352565,
+  "prompt_set_sha256": "230af30e6e591c8a2ceeae78dde7c83b5ea121b3b9f27a7a3d73d2c427e891c6",
+  "generation": [
+    {
+      "prompt": "The ocean stores heat from the sun. As the surface water warms,",
+      "text": " the park makes the water-fear and you may look at a tropical gas.\nThe roadway is the only way to the park, and it's not the next day.\nThe winding ice has a wind and a tropical gas, but it does not mean that the storm continues to remove the wind. These areas make it a dryer and the water, and the river will be in the way it flows, and a lot of water is a good source of",
+      "tokens": 96,
+      "seconds": 1.019667869899422,
+      "tokens_per_second": 94.14830341714038,
+      "trace": [
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.3928472101688385
+        },
+        {
+          "id": 4073,
+          "text": " park",
+          "probability": 0.005916666705161333
+        },
+        {
+          "id": 2399,
+          "text": " makes",
+          "probability": 0.011602134443819523
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.09716694802045822
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.03003711812198162
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.009165836498141289
+        },
+        {
+          "id": 70,
+          "text": "f",
+          "probability": 0.054353076964616776
+        },
+        {
+          "id": 479,
+          "text": "ear",
+          "probability": 0.007459582295268774
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.03667489066720009
+        },
+        {
+          "id": 485,
+          "text": " you",
+          "probability": 0.004477484151721001
+        },
+        {
+          "id": 724,
+          "text": " may",
+          "probability": 0.011339385062456131
+        },
+        {
+          "id": 1333,
+          "text": " look",
+          "probability": 0.011945512145757675
+        },
+        {
+          "id": 391,
+          "text": " at",
+          "probability": 0.2991253435611725
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.13858814537525177
+        },
+        {
+          "id": 3608,
+          "text": " tropical",
+          "probability": 0.010736475698649883
+        },
+        {
+          "id": 2716,
+          "text": " gas",
+          "probability": 0.012077501974999905
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.12771059572696686
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.2592722177505493
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.24220608174800873
+        },
+        {
+          "id": 2269,
+          "text": " road",
+          "probability": 0.005822090432047844
+        },
+        {
+          "id": 971,
+          "text": "way",
+          "probability": 0.1329331398010254
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.21883191168308258
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.1334918588399887
+        },
+        {
+          "id": 742,
+          "text": " only",
+          "probability": 0.01204309519380331
+        },
+        {
+          "id": 1072,
+          "text": " way",
+          "probability": 0.033428650349378586
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.7100217342376709
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.14684253931045532
+        },
+        {
+          "id": 4073,
+          "text": " park",
+          "probability": 0.016429048031568527
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.16342444717884064
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.1652558296918869
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.16760553419589996
+        },
+        {
+          "id": 712,
+          "text": "'s",
+          "probability": 0.05105198919773102
+        },
+        {
+          "id": 452,
+          "text": " not",
+          "probability": 0.031554754823446274
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.17063161730766296
+        },
+        {
+          "id": 1690,
+          "text": " next",
+          "probability": 0.012526781298220158
+        },
+        {
+          "id": 1126,
+          "text": " day",
+          "probability": 0.07099588215351105
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.4225959777832031
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.09806448221206665
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.2335021048784256
+        },
+        {
+          "id": 1756,
+          "text": " wind",
+          "probability": 0.0065948693081736565
+        },
+        {
+          "id": 285,
+          "text": "ing",
+          "probability": 0.01797684095799923
+        },
+        {
+          "id": 4007,
+          "text": " ice",
+          "probability": 0.006264237221330404
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.036002788692712784
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.22226852178573608
+        },
+        {
+          "id": 1756,
+          "text": " wind",
+          "probability": 0.020705988630652428
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.06101695075631142
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.18748748302459717
+        },
+        {
+          "id": 3608,
+          "text": " tropical",
+          "probability": 0.014862156473100185
+        },
+        {
+          "id": 2716,
+          "text": " gas",
+          "probability": 0.025057531893253326
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.08269341289997101
+        },
+        {
+          "id": 523,
+          "text": " but",
+          "probability": 0.04145895689725876
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.25605228543281555
+        },
+        {
+          "id": 1263,
+          "text": " does",
+          "probability": 0.019125256687402725
+        },
+        {
+          "id": 452,
+          "text": " not",
+          "probability": 0.6737307906150818
+        },
+        {
+          "id": 1801,
+          "text": " mean",
+          "probability": 0.07354950159788132
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.06340648978948593
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.22201086580753326
+        },
+        {
+          "id": 2383,
+          "text": " storm",
+          "probability": 0.044927164912223816
+        },
+        {
+          "id": 4762,
+          "text": " continues",
+          "probability": 0.0060104988515377045
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.46132731437683105
+        },
+        {
+          "id": 5298,
+          "text": " remove",
+          "probability": 0.004733393434435129
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.24203751981258392
+        },
+        {
+          "id": 1756,
+          "text": " wind",
+          "probability": 0.014015601947903633
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.19213882088661194
+        },
+        {
+          "id": 1505,
+          "text": " These",
+          "probability": 0.0037190758157521486
+        },
+        {
+          "id": 1752,
+          "text": " areas",
+          "probability": 0.033073414117097855
+        },
+        {
+          "id": 988,
+          "text": " make",
+          "probability": 0.00474858982488513
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.21799127757549286
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.09359922260046005
+        },
+        {
+          "id": 3919,
+          "text": " dry",
+          "probability": 0.015606229193508625
+        },
+        {
+          "id": 264,
+          "text": "er",
+          "probability": 0.267781525850296
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.1897638589143753
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.05353662744164467
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.05151224881410599
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.019241057336330414
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.18912853300571442
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.1767209768295288
+        },
+        {
+          "id": 3750,
+          "text": " river",
+          "probability": 0.0042250738479197025
+        },
+        {
+          "id": 603,
+          "text": " will",
+          "probability": 0.10907319188117981
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.1744617223739624
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.021506359800696373
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.4415878653526306
+        },
+        {
+          "id": 1072,
+          "text": " way",
+          "probability": 0.022215470671653748
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.14119960367679596
+        },
+        {
+          "id": 9454,
+          "text": " flows",
+          "probability": 0.019034642726182938
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.029200950637459755
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.28705769777297974
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.00963249709457159
+        },
+        {
+          "id": 2679,
+          "text": " lot",
+          "probability": 0.01500228326767683
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.5350595712661743
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.12475904822349548
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.19168679416179657
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.05533002316951752
+        },
+        {
+          "id": 1257,
+          "text": " good",
+          "probability": 0.058197394013404846
+        },
+        {
+          "id": 2605,
+          "text": " source",
+          "probability": 0.01914619840681553
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.28601130843162537
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "The lighthouse keeper found a small wooden box on the beach. Inside the box was",
+      "text": " the way to the northernmost of the Earth-Dan, which would be the most important space in the United States.\nThe United States, which has since been developed in the US, is a long time that is a major one in the US. A small number of people who have been over the US as those of the world's most important places in the US. It is the biggest number of cities in the world. A large number of small groups of the world",
+      "tokens": 96,
+      "seconds": 1.0407079739961773,
+      "tokens_per_second": 92.2448971264946,
+      "trace": [
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.09361308813095093
+        },
+        {
+          "id": 1072,
+          "text": " way",
+          "probability": 0.003662251401692629
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.3639204800128937
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.2781531810760498
+        },
+        {
+          "id": 3571,
+          "text": " northern",
+          "probability": 0.005131253972649574
+        },
+        {
+          "id": 1943,
+          "text": "most",
+          "probability": 0.007364964112639427
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.03762821480631828
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.7199177145957947
+        },
+        {
+          "id": 2914,
+          "text": " Earth",
+          "probability": 0.004156933631747961
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.004067577887326479
+        },
+        {
+          "id": 36,
+          "text": "D",
+          "probability": 0.009509152732789516
+        },
+        {
+          "id": 282,
+          "text": "an",
+          "probability": 0.010487695224583149
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.04190235957503319
+        },
+        {
+          "id": 475,
+          "text": " which",
+          "probability": 0.08342237770557404
+        },
+        {
+          "id": 670,
+          "text": " would",
+          "probability": 0.034363292157649994
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.47606316208839417
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.07397088408470154
+        },
+        {
+          "id": 706,
+          "text": " most",
+          "probability": 0.024132460355758667
+        },
+        {
+          "id": 1222,
+          "text": " important",
+          "probability": 0.04507051780819893
+        },
+        {
+          "id": 2282,
+          "text": " space",
+          "probability": 0.0054656281135976315
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.16407136619091034
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6693587899208069
+        },
+        {
+          "id": 1164,
+          "text": " United",
+          "probability": 0.05055608972907066
+        },
+        {
+          "id": 1366,
+          "text": " States",
+          "probability": 0.9001421332359314
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.49438971281051636
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.2302287369966507
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.3725598454475403
+        },
+        {
+          "id": 1164,
+          "text": " United",
+          "probability": 0.0027096448466181755
+        },
+        {
+          "id": 1366,
+          "text": " States",
+          "probability": 0.8075544834136963
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.053274109959602356
+        },
+        {
+          "id": 475,
+          "text": " which",
+          "probability": 0.09830839931964874
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.04524577409029007
+        },
+        {
+          "id": 1446,
+          "text": " since",
+          "probability": 0.02505180425941944
+        },
+        {
+          "id": 622,
+          "text": " been",
+          "probability": 0.5337409377098083
+        },
+        {
+          "id": 2083,
+          "text": " developed",
+          "probability": 0.012418663129210472
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.17588461935520172
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5408971309661865
+        },
+        {
+          "id": 1423,
+          "text": " US",
+          "probability": 0.025230340659618378
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.46121591329574585
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.2048466056585312
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.1704777628183365
+        },
+        {
+          "id": 923,
+          "text": " long",
+          "probability": 0.004681549966335297
+        },
+        {
+          "id": 651,
+          "text": " time",
+          "probability": 0.10406279563903809
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.027295056730508804
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.10592857748270035
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.07980318367481232
+        },
+        {
+          "id": 1400,
+          "text": " major",
+          "probability": 0.033256396651268005
+        },
+        {
+          "id": 559,
+          "text": " one",
+          "probability": 0.009196393191814423
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.061461545526981354
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6304654479026794
+        },
+        {
+          "id": 1423,
+          "text": " US",
+          "probability": 0.03600272536277771
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.3214173913002014
+        },
+        {
+          "id": 314,
+          "text": " A",
+          "probability": 0.013969000428915024
+        },
+        {
+          "id": 1144,
+          "text": " small",
+          "probability": 0.02856825850903988
+        },
+        {
+          "id": 1018,
+          "text": " number",
+          "probability": 0.0750165805220604
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.6353017687797546
+        },
+        {
+          "id": 772,
+          "text": " people",
+          "probability": 0.020572343841195107
+        },
+        {
+          "id": 562,
+          "text": " who",
+          "probability": 0.08841878920793533
+        },
+        {
+          "id": 472,
+          "text": " have",
+          "probability": 0.17448899149894714
+        },
+        {
+          "id": 622,
+          "text": " been",
+          "probability": 0.3396020531654358
+        },
+        {
+          "id": 631,
+          "text": " over",
+          "probability": 0.0038237839471548796
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.23791521787643433
+        },
+        {
+          "id": 1423,
+          "text": " US",
+          "probability": 0.018696455284953117
+        },
+        {
+          "id": 345,
+          "text": " as",
+          "probability": 0.005235715303570032
+        },
+        {
+          "id": 1107,
+          "text": " those",
+          "probability": 0.002092955866828561
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.13627269864082336
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5939092040061951
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.14954066276550293
+        },
+        {
+          "id": 712,
+          "text": "'s",
+          "probability": 0.22254836559295654
+        },
+        {
+          "id": 706,
+          "text": " most",
+          "probability": 0.0345001183450222
+        },
+        {
+          "id": 1222,
+          "text": " important",
+          "probability": 0.0625714585185051
+        },
+        {
+          "id": 4053,
+          "text": " places",
+          "probability": 0.00635173823684454
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.2016495019197464
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6143652200698853
+        },
+        {
+          "id": 1423,
+          "text": " US",
+          "probability": 0.026877352967858315
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.23066335916519165
+        },
+        {
+          "id": 607,
+          "text": " It",
+          "probability": 0.0533062107861042
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.3270999491214752
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.169119194149971
+        },
+        {
+          "id": 6843,
+          "text": " biggest",
+          "probability": 0.00972510501742363
+        },
+        {
+          "id": 1018,
+          "text": " number",
+          "probability": 0.010720123536884785
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.6757412552833557
+        },
+        {
+          "id": 4253,
+          "text": " cities",
+          "probability": 0.015347604639828205
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.36240506172180176
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5894699096679688
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.1845933198928833
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.43201228976249695
+        },
+        {
+          "id": 314,
+          "text": " A",
+          "probability": 0.014341283589601517
+        },
+        {
+          "id": 1189,
+          "text": " large",
+          "probability": 0.030861062929034233
+        },
+        {
+          "id": 1018,
+          "text": " number",
+          "probability": 0.32596540451049805
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.6615819931030273
+        },
+        {
+          "id": 1144,
+          "text": " small",
+          "probability": 0.002778301713988185
+        },
+        {
+          "id": 2432,
+          "text": " groups",
+          "probability": 0.02141089364886284
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.23781785368919373
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.05146951973438263
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.16888675093650818
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "Plants need sunlight to grow because",
+      "text": " they can produce an increase in the entire country because they are not just about 3 miles (10 km ) in the world.\nAnother reason why the planet has the same size of the world\u2019s surface.\nThe fact that the planet is a very small portion of the world is that the planet is the highest in the world \u2013 the world\u2019s highest in the world. It is a long term that we have sincereted, it is a human body that has a",
+      "tokens": 96,
+      "seconds": 1.0248639930505306,
+      "tokens_per_second": 93.67096575834795,
+      "trace": [
+        {
+          "id": 535,
+          "text": " they",
+          "probability": 0.22162370383739471
+        },
+        {
+          "id": 466,
+          "text": " can",
+          "probability": 0.07113330811262131
+        },
+        {
+          "id": 2850,
+          "text": " produce",
+          "probability": 0.014553766697645187
+        },
+        {
+          "id": 363,
+          "text": " an",
+          "probability": 0.012151248753070831
+        },
+        {
+          "id": 2183,
+          "text": " increase",
+          "probability": 0.046049490571022034
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.7305259704589844
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.32634076476097107
+        },
+        {
+          "id": 2275,
+          "text": " entire",
+          "probability": 0.006403680425137281
+        },
+        {
+          "id": 1664,
+          "text": " country",
+          "probability": 0.035097260028123856
+        },
+        {
+          "id": 987,
+          "text": " because",
+          "probability": 0.004108475986868143
+        },
+        {
+          "id": 535,
+          "text": " they",
+          "probability": 0.4554007649421692
+        },
+        {
+          "id": 386,
+          "text": " are",
+          "probability": 0.40108373761177063
+        },
+        {
+          "id": 452,
+          "text": " not",
+          "probability": 0.07001391798257828
+        },
+        {
+          "id": 1022,
+          "text": " just",
+          "probability": 0.022347701713442802
+        },
+        {
+          "id": 643,
+          "text": " about",
+          "probability": 0.019801966845989227
+        },
+        {
+          "id": 574,
+          "text": " 3",
+          "probability": 0.017578493803739548
+        },
+        {
+          "id": 2862,
+          "text": " miles",
+          "probability": 0.026344522833824158
+        },
+        {
+          "id": 365,
+          "text": " (",
+          "probability": 0.24056844413280487
+        },
+        {
+          "id": 1691,
+          "text": "10",
+          "probability": 0.022800857201218605
+        },
+        {
+          "id": 1998,
+          "text": " km",
+          "probability": 0.4285842180252075
+        },
+        {
+          "id": 486,
+          "text": " )",
+          "probability": 0.41129860281944275
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.06202162057161331
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.4601062834262848
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.04327712953090668
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.13481095433235168
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.35534802079200745
+        },
+        {
+          "id": 7943,
+          "text": "Another",
+          "probability": 0.008049823343753815
+        },
+        {
+          "id": 2408,
+          "text": " reason",
+          "probability": 0.025207987055182457
+        },
+        {
+          "id": 2395,
+          "text": " why",
+          "probability": 0.20485253632068634
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.21366971731185913
+        },
+        {
+          "id": 4493,
+          "text": " planet",
+          "probability": 0.0065733157098293304
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.11773675680160522
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.045643698424100876
+        },
+        {
+          "id": 1077,
+          "text": " same",
+          "probability": 0.0941016748547554
+        },
+        {
+          "id": 2487,
+          "text": " size",
+          "probability": 0.011401147581636906
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.17977078258991241
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.4592531621456146
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.0461944080889225
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.06625615805387497
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.997337281703949
+        },
+        {
+          "id": 2646,
+          "text": " surface",
+          "probability": 0.018420185893774033
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.058059774339199066
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.08494806289672852
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.21842505037784576
+        },
+        {
+          "id": 1146,
+          "text": " fact",
+          "probability": 0.002938087796792388
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.7184903621673584
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.35381725430488586
+        },
+        {
+          "id": 4493,
+          "text": " planet",
+          "probability": 0.017073990777134895
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.2666417062282562
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.09201671183109283
+        },
+        {
+          "id": 1053,
+          "text": " very",
+          "probability": 0.013810953125357628
+        },
+        {
+          "id": 1144,
+          "text": " small",
+          "probability": 0.050970979034900665
+        },
+        {
+          "id": 5069,
+          "text": " portion",
+          "probability": 0.012409781105816364
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.757261335849762
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.7456002235412598
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.21581535041332245
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.1852184385061264
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.10908737033605576
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.2577805519104004
+        },
+        {
+          "id": 4493,
+          "text": " planet",
+          "probability": 0.030412202700972557
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.3043893277645111
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.07213982194662094
+        },
+        {
+          "id": 3319,
+          "text": " highest",
+          "probability": 0.015941515564918518
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.07546623051166534
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6448138952255249
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.4443947672843933
+        },
+        {
+          "id": 648,
+          "text": " \u2013",
+          "probability": 0.007460540160536766
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.15581929683685303
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.07153055816888809
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.16329744458198547
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9977691173553467
+        },
+        {
+          "id": 3319,
+          "text": " highest",
+          "probability": 0.00805447343736887
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.04569392278790474
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6295832395553589
+        },
+        {
+          "id": 1000,
+          "text": " world",
+          "probability": 0.46765831112861633
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.2812710106372833
+        },
+        {
+          "id": 607,
+          "text": " It",
+          "probability": 0.11053091287612915
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.3748432695865631
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.13167451322078705
+        },
+        {
+          "id": 923,
+          "text": " long",
+          "probability": 0.007740791887044907
+        },
+        {
+          "id": 1385,
+          "text": " term",
+          "probability": 0.06803414970636368
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.25376859307289124
+        },
+        {
+          "id": 511,
+          "text": " we",
+          "probability": 0.044819679111242294
+        },
+        {
+          "id": 472,
+          "text": " have",
+          "probability": 0.19208785891532898
+        },
+        {
+          "id": 1446,
+          "text": " since",
+          "probability": 0.01081581600010395
+        },
+        {
+          "id": 262,
+          "text": "re",
+          "probability": 0.019619593396782875
+        },
+        {
+          "id": 902,
+          "text": "ted",
+          "probability": 0.02082247845828533
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.021171797066926956
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.050501588732004166
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.215597465634346
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.13163408637046814
+        },
+        {
+          "id": 1468,
+          "text": " human",
+          "probability": 0.0030836991500109434
+        },
+        {
+          "id": 1374,
+          "text": " body",
+          "probability": 0.01759057492017746
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.17675727605819702
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.12185414880514145
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.12046216428279877
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "A simple way to save water at home is",
+      "text": " to make an additional way more than other parts of the Earth. The water temperature is the way to save the gas from the air, and the gas will begin the airway.\nA plantation system is the area of the ocean. This is an area for the gas industry, which is a hot and is no longer the last year. The water is the same in the summer, when the air is in the United States. As it comes, the water is a bit",
+      "tokens": 96,
+      "seconds": 1.0151162080001086,
+      "tokens_per_second": 94.5704533564001,
+      "trace": [
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.38360142707824707
+        },
+        {
+          "id": 988,
+          "text": " make",
+          "probability": 0.04590890556573868
+        },
+        {
+          "id": 363,
+          "text": " an",
+          "probability": 0.013550401665270329
+        },
+        {
+          "id": 3060,
+          "text": " additional",
+          "probability": 0.010080276988446712
+        },
+        {
+          "id": 1072,
+          "text": " way",
+          "probability": 0.01881127990782261
+        },
+        {
+          "id": 557,
+          "text": " more",
+          "probability": 0.008733534254133701
+        },
+        {
+          "id": 666,
+          "text": " than",
+          "probability": 0.11137709021568298
+        },
+        {
+          "id": 567,
+          "text": " other",
+          "probability": 0.005348880775272846
+        },
+        {
+          "id": 2548,
+          "text": " parts",
+          "probability": 0.02471591718494892
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.6214313507080078
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6394275426864624
+        },
+        {
+          "id": 2914,
+          "text": " Earth",
+          "probability": 0.011596143245697021
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.6622902750968933
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.0812818855047226
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.008981053717434406
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.010185706429183483
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.27963191270828247
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.04059571400284767
+        },
+        {
+          "id": 1072,
+          "text": " way",
+          "probability": 0.01460250560194254
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.3641113340854645
+        },
+        {
+          "id": 4876,
+          "text": " save",
+          "probability": 0.0061374143697321415
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.35912084579467773
+        },
+        {
+          "id": 2716,
+          "text": " gas",
+          "probability": 0.03685247525572777
+        },
+        {
+          "id": 419,
+          "text": " from",
+          "probability": 0.0756487026810646
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5251137018203735
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.04976823180913925
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.1732829511165619
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.24230338633060455
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.2808839678764343
+        },
+        {
+          "id": 2716,
+          "text": " gas",
+          "probability": 0.04971608147025108
+        },
+        {
+          "id": 603,
+          "text": " will",
+          "probability": 0.060999881476163864
+        },
+        {
+          "id": 1932,
+          "text": " begin",
+          "probability": 0.008786669000983238
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.04152320325374603
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.038573846220970154
+        },
+        {
+          "id": 971,
+          "text": "way",
+          "probability": 0.015444457530975342
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.3519744277000427
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.30242764949798584
+        },
+        {
+          "id": 33,
+          "text": "A",
+          "probability": 0.030101647600531578
+        },
+        {
+          "id": 1995,
+          "text": " plant",
+          "probability": 0.010800348594784737
+        },
+        {
+          "id": 327,
+          "text": "ation",
+          "probability": 0.008060486987233162
+        },
+        {
+          "id": 895,
+          "text": " system",
+          "probability": 0.030551418662071228
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.13263273239135742
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.07148433476686478
+        },
+        {
+          "id": 1323,
+          "text": " area",
+          "probability": 0.01026840042322874
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.2545672655105591
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5461166501045227
+        },
+        {
+          "id": 5744,
+          "text": " ocean",
+          "probability": 0.02812531217932701
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.11754091084003448
+        },
+        {
+          "id": 721,
+          "text": " This",
+          "probability": 0.051365964114665985
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.1860111653804779
+        },
+        {
+          "id": 363,
+          "text": " an",
+          "probability": 0.033610519021749496
+        },
+        {
+          "id": 1323,
+          "text": " area",
+          "probability": 0.04561571031808853
+        },
+        {
+          "id": 331,
+          "text": " for",
+          "probability": 0.024061985313892365
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.36211609840393066
+        },
+        {
+          "id": 2716,
+          "text": " gas",
+          "probability": 0.014797172509133816
+        },
+        {
+          "id": 2863,
+          "text": " industry",
+          "probability": 0.04426565766334534
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.21072836220264435
+        },
+        {
+          "id": 475,
+          "text": " which",
+          "probability": 0.18047355115413666
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.279971718788147
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.06658805906772614
+        },
+        {
+          "id": 3576,
+          "text": " hot",
+          "probability": 0.003890759777277708
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.0494515635073185
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.011404276825487614
+        },
+        {
+          "id": 762,
+          "text": " no",
+          "probability": 0.004047366790473461
+        },
+        {
+          "id": 2776,
+          "text": " longer",
+          "probability": 0.5501213073730469
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.14442887902259827
+        },
+        {
+          "id": 1407,
+          "text": " last",
+          "probability": 0.007251139264553785
+        },
+        {
+          "id": 618,
+          "text": " year",
+          "probability": 0.06671407073736191
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.48201897740364075
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.15380749106407166
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.022994551807641983
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.23492155969142914
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.06178983673453331
+        },
+        {
+          "id": 1077,
+          "text": " same",
+          "probability": 0.024680640548467636
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.018347106873989105
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.649100661277771
+        },
+        {
+          "id": 3374,
+          "text": " summer",
+          "probability": 0.030472630634903908
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.2649497985839844
+        },
+        {
+          "id": 667,
+          "text": " when",
+          "probability": 0.06822928786277771
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.3580760061740875
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.03361811861395836
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.36651891469955444
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.010255668312311172
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.4957606792449951
+        },
+        {
+          "id": 1164,
+          "text": " United",
+          "probability": 0.014525015838444233
+        },
+        {
+          "id": 1366,
+          "text": " States",
+          "probability": 0.8594755530357361
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.31202229857444763
+        },
+        {
+          "id": 799,
+          "text": " As",
+          "probability": 0.012220174074172974
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.06103213131427765
+        },
+        {
+          "id": 2930,
+          "text": " comes",
+          "probability": 0.09434670209884644
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.24645085632801056
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.46993833780288696
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.05134851485490799
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.2664872109889984
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.037810176610946655
+        },
+        {
+          "id": 3584,
+          "text": " bit",
+          "probability": 0.00792097207158804
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "The moon orbits Earth. Unlike the sun, the moon",
+      "text": " is a part of the atmosphere, it will produce a few miles from it to the center. The surface is a form of the river.\nThe gas will not be built. The temperature will be used for a variety of hours. It can be a result of the air-based waterfall in the area of the land. That is the most common species of the earth. It is the main species of the Earth.\nThe Sun has been the western portion of the state",
+      "tokens": 96,
+      "seconds": 1.027177610900253,
+      "tokens_per_second": 93.45998100159365,
+      "trace": [
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.2810068130493164
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.0984383225440979
+        },
+        {
+          "id": 579,
+          "text": " part",
+          "probability": 0.006948293186724186
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9345265030860901
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6737493276596069
+        },
+        {
+          "id": 5901,
+          "text": " atmosphere",
+          "probability": 0.009363548830151558
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.4083564281463623
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.18498112261295319
+        },
+        {
+          "id": 603,
+          "text": " will",
+          "probability": 0.04704583063721657
+        },
+        {
+          "id": 2850,
+          "text": " produce",
+          "probability": 0.004804113879799843
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.2300429493188858
+        },
+        {
+          "id": 1432,
+          "text": " few",
+          "probability": 0.00701826810836792
+        },
+        {
+          "id": 2862,
+          "text": " miles",
+          "probability": 0.03614005818963051
+        },
+        {
+          "id": 419,
+          "text": " from",
+          "probability": 0.11114019900560379
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.011460934765636921
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.20817869901657104
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6972639560699463
+        },
+        {
+          "id": 3294,
+          "text": " center",
+          "probability": 0.012811441905796528
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.2387213557958603
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.17586594820022583
+        },
+        {
+          "id": 2646,
+          "text": " surface",
+          "probability": 0.004783947020769119
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.16785113513469696
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.07279366254806519
+        },
+        {
+          "id": 795,
+          "text": " form",
+          "probability": 0.006893460638821125
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.8042525053024292
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.08062224835157394
+        },
+        {
+          "id": 3750,
+          "text": " river",
+          "probability": 0.004244656767696142
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.10994218289852142
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.22620275616645813
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.28564801812171936
+        },
+        {
+          "id": 2716,
+          "text": " gas",
+          "probability": 0.00571049889549613
+        },
+        {
+          "id": 603,
+          "text": " will",
+          "probability": 0.019984785467386246
+        },
+        {
+          "id": 452,
+          "text": " not",
+          "probability": 0.016938496381044388
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.31513527035713196
+        },
+        {
+          "id": 1892,
+          "text": " built",
+          "probability": 0.01015857420861721
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.03167750686407089
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.21178218722343445
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.016744500026106834
+        },
+        {
+          "id": 603,
+          "text": " will",
+          "probability": 0.07089410722255707
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.365784615278244
+        },
+        {
+          "id": 777,
+          "text": " used",
+          "probability": 0.01807045005261898
+        },
+        {
+          "id": 331,
+          "text": " for",
+          "probability": 0.0830175057053566
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.10807795077562332
+        },
+        {
+          "id": 2929,
+          "text": " variety",
+          "probability": 0.007757928688079119
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9744277596473694
+        },
+        {
+          "id": 2588,
+          "text": " hours",
+          "probability": 0.0032988199964165688
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.2737395465373993
+        },
+        {
+          "id": 607,
+          "text": " It",
+          "probability": 0.07129718363285065
+        },
+        {
+          "id": 466,
+          "text": " can",
+          "probability": 0.04470111429691315
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.42782482504844666
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.024414019659161568
+        },
+        {
+          "id": 1023,
+          "text": " result",
+          "probability": 0.0261409729719162
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.6836328506469727
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.461123526096344
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.011877626180648804
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.02856719121336937
+        },
+        {
+          "id": 3590,
+          "text": "based",
+          "probability": 0.03562444821000099
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.01854456216096878
+        },
+        {
+          "id": 3741,
+          "text": "fall",
+          "probability": 0.006406500469893217
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.06490689516067505
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.745621919631958
+        },
+        {
+          "id": 1323,
+          "text": " area",
+          "probability": 0.03758208081126213
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.20962490141391754
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6054322123527527
+        },
+        {
+          "id": 1172,
+          "text": " land",
+          "probability": 0.006210129242390394
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5367329120635986
+        },
+        {
+          "id": 2377,
+          "text": " That",
+          "probability": 0.007910260930657387
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.23798435926437378
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.21232320368289948
+        },
+        {
+          "id": 706,
+          "text": " most",
+          "probability": 0.021252743899822235
+        },
+        {
+          "id": 1329,
+          "text": " common",
+          "probability": 0.18309995532035828
+        },
+        {
+          "id": 1570,
+          "text": " species",
+          "probability": 0.010136025957763195
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.3426896035671234
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.2902311682701111
+        },
+        {
+          "id": 3124,
+          "text": " earth",
+          "probability": 0.017062440514564514
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.2667326033115387
+        },
+        {
+          "id": 607,
+          "text": " It",
+          "probability": 0.08941945433616638
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.3689775764942169
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.18195073306560516
+        },
+        {
+          "id": 1024,
+          "text": " main",
+          "probability": 0.010345988906919956
+        },
+        {
+          "id": 1570,
+          "text": " species",
+          "probability": 0.019823357462882996
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.5426676273345947
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.2698619067668915
+        },
+        {
+          "id": 2914,
+          "text": " Earth",
+          "probability": 0.027736490592360497
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.2959674596786499
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.176876962184906
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.3409990966320038
+        },
+        {
+          "id": 4480,
+          "text": " Sun",
+          "probability": 0.006555662490427494
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.035834334790706635
+        },
+        {
+          "id": 622,
+          "text": " been",
+          "probability": 0.12711071968078613
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.09109562635421753
+        },
+        {
+          "id": 4185,
+          "text": " western",
+          "probability": 0.002992326393723488
+        },
+        {
+          "id": 5069,
+          "text": " portion",
+          "probability": 0.024283895269036293
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9382832646369934
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.7898550629615784
+        },
+        {
+          "id": 1094,
+          "text": " state",
+          "probability": 0.013080321252346039
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "When a metal spoon is placed in a cup of hot tea,",
+      "text": " it can be added to make the more information needed to the same thing about their own.\nThe air is the right to be able to be used in a new way. The air is the water that can be used to make the heat to the surface. When the air is removed and the heat is removed the back has the road, the water is taken to the right. This is a good place, so the process is to do it.\nThe air is a large",
+      "tokens": 96,
+      "seconds": 1.0076467820908874,
+      "tokens_per_second": 95.27147975483835,
+      "trace": [
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.2912559509277344
+        },
+        {
+          "id": 466,
+          "text": " can",
+          "probability": 0.0671050176024437
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.41961556673049927
+        },
+        {
+          "id": 2648,
+          "text": " added",
+          "probability": 0.00950580183416605
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.5972974896430969
+        },
+        {
+          "id": 988,
+          "text": " make",
+          "probability": 0.02983679063618183
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.18984444439411163
+        },
+        {
+          "id": 557,
+          "text": " more",
+          "probability": 0.003632360603660345
+        },
+        {
+          "id": 1276,
+          "text": " information",
+          "probability": 0.0034383595921099186
+        },
+        {
+          "id": 2699,
+          "text": " needed",
+          "probability": 0.00535535579547286
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.26913270354270935
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.01002088189125061
+        },
+        {
+          "id": 1077,
+          "text": " same",
+          "probability": 0.022543737664818764
+        },
+        {
+          "id": 3314,
+          "text": " thing",
+          "probability": 0.037918414920568466
+        },
+        {
+          "id": 643,
+          "text": " about",
+          "probability": 0.023434191942214966
+        },
+        {
+          "id": 500,
+          "text": " their",
+          "probability": 0.01904156245291233
+        },
+        {
+          "id": 1014,
+          "text": " own",
+          "probability": 0.046021364629268646
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.0410948321223259
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.4359273612499237
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.16915945708751678
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.0032613736111670732
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.19590163230895996
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.041801199316978455
+        },
+        {
+          "id": 1128,
+          "text": " right",
+          "probability": 0.013946804217994213
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.06915619224309921
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.09032990038394928
+        },
+        {
+          "id": 1729,
+          "text": " able",
+          "probability": 0.014237755909562111
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.9794345498085022
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.05310298874974251
+        },
+        {
+          "id": 777,
+          "text": " used",
+          "probability": 0.058497749269008636
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.1626642942428589
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.16311009228229523
+        },
+        {
+          "id": 704,
+          "text": " new",
+          "probability": 0.01355501264333725
+        },
+        {
+          "id": 1072,
+          "text": " way",
+          "probability": 0.04627532139420509
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.37314674258232117
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.19438610970973969
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.026689918711781502
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.37065887451171875
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.03833993151783943
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.0072836256586015224
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.062148042023181915
+        },
+        {
+          "id": 466,
+          "text": " can",
+          "probability": 0.02861860767006874
+        },
+        {
+          "id": 312,
+          "text": " be",
+          "probability": 0.3908770680427551
+        },
+        {
+          "id": 777,
+          "text": " used",
+          "probability": 0.1734040528535843
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.3636684715747833
+        },
+        {
+          "id": 988,
+          "text": " make",
+          "probability": 0.06148877367377281
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.2810026705265045
+        },
+        {
+          "id": 3490,
+          "text": " heat",
+          "probability": 0.012598494067788124
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.05308852344751358
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.26624542474746704
+        },
+        {
+          "id": 2646,
+          "text": " surface",
+          "probability": 0.03840816020965576
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.2917826771736145
+        },
+        {
+          "id": 1484,
+          "text": " When",
+          "probability": 0.019483929499983788
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5037829875946045
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.07860000431537628
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.3726162016391754
+        },
+        {
+          "id": 4211,
+          "text": " removed",
+          "probability": 0.0152594530954957
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.0801573246717453
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.2640096843242645
+        },
+        {
+          "id": 3490,
+          "text": " heat",
+          "probability": 0.018805669620633125
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.32024163007736206
+        },
+        {
+          "id": 4211,
+          "text": " removed",
+          "probability": 0.01855265535414219
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.02823159284889698
+        },
+        {
+          "id": 992,
+          "text": " back",
+          "probability": 0.004368194378912449
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.0032927184365689754
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.10943697392940521
+        },
+        {
+          "id": 2269,
+          "text": " road",
+          "probability": 0.005714564584195614
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.17581066489219666
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5194430947303772
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.030992738902568817
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.24525520205497742
+        },
+        {
+          "id": 2182,
+          "text": " taken",
+          "probability": 0.007876073941588402
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.13810987770557404
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.20284833014011383
+        },
+        {
+          "id": 1128,
+          "text": " right",
+          "probability": 0.022956719622015953
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.23386552929878235
+        },
+        {
+          "id": 721,
+          "text": " This",
+          "probability": 0.061787817627191544
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.24308884143829346
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.11635343730449677
+        },
+        {
+          "id": 1257,
+          "text": " good",
+          "probability": 0.07196085900068283
+        },
+        {
+          "id": 1320,
+          "text": " place",
+          "probability": 0.02227943204343319
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.12738971412181854
+        },
+        {
+          "id": 635,
+          "text": " so",
+          "probability": 0.03696191683411598
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.23023252189159393
+        },
+        {
+          "id": 1193,
+          "text": " process",
+          "probability": 0.007184591609984636
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.36997702717781067
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.2870717942714691
+        },
+        {
+          "id": 594,
+          "text": " do",
+          "probability": 0.01119872648268938
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.12916986644268036
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.35801777243614197
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.38635045289993286
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.2637576460838318
+        },
+        {
+          "id": 1224,
+          "text": " air",
+          "probability": 0.030439546331763268
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.25555866956710815
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.06158708781003952
+        },
+        {
+          "id": 1189,
+          "text": " large",
+          "probability": 0.006373646203428507
+        }
+      ],
+      "context_truncated": false
+    }
+  ],
+  "comparison": [
+    {
+      "prompt": "Water left in a freezer will eventually",
+      "candidates": [
+        "turn into ice.",
+        "begin to boil."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -4.696069240570068,
+        -4.9787492752075195
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "When a metal spoon is placed in hot tea, the handle",
+      "candidates": [
+        "becomes colder.",
+        "gradually becomes warmer."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -5.22597599029541,
+        -5.794116973876953
+      ],
+      "predicted": 0,
+      "correct": false
+    },
+    {
+      "prompt": "A plant kept in complete darkness for a long time will",
+      "candidates": [
+        "struggle to grow.",
+        "produce more energy from sunlight."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -4.342294692993164,
+        -4.010333061218262
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "A wet towel dries faster on a warm windy day because",
+      "candidates": [
+        "the water evaporates more quickly.",
+        "the cloth creates more water."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.4475512504577637,
+        -4.995309511820476
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "A person puts on a coat before going outside in winter to",
+      "candidates": [
+        "stay warm.",
+        "make the weather warmer."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -5.2688798904418945,
+        -4.656440734863281
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "When the power goes out, an electric lamp usually",
+      "candidates": [
+        "shines more brightly.",
+        "stops producing light."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -5.345897674560547,
+        -5.824212074279785
+      ],
+      "predicted": 0,
+      "correct": false
+    }
+  ],
+  "comparison_accuracy": 0.3333333333333333,
+  "limitations": "Six locally authored comparisons and six fixed prompts; qualitative demonstration only, not independent validation or an official benchmark. CPU latency is host- and load-dependent."
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "Fixed qualitative prompts selected before main training completed; not official benchmarks, not a statistically representative test set",
+  "generation": [
+    "The ocean stores heat from the sun. As the surface water warms,",
+    "The lighthouse keeper found a small wooden box on the beach. Inside the box was",
+    "Plants need sunlight to grow because",
+    "A simple way to save water at home is",
+    "The moon orbits Earth. Unlike the sun, the moon",
+    "When a metal spoon is placed in a cup of hot tea,"
+  ],
+  "comparison": [
+    {"prompt":"Water left in a freezer will eventually", "candidates":["turn into ice.","begin to boil."], "expected":0},
+    {"prompt":"When a metal spoon is placed in hot tea, the handle", "candidates":["becomes colder.","gradually becomes warmer."], "expected":1},
+    {"prompt":"A plant kept in complete darkness for a long time will", "candidates":["struggle to grow.","produce more energy from sunlight."], "expected":0},
+    {"prompt":"A wet towel dries faster on a warm windy day because", "candidates":["the water evaporates more quickly.","the cloth creates more water."], "expected":0},
+    {"prompt":"A person puts on a coat before going outside in winter to", "candidates":["stay warm.","make the weather warmer."], "expected":0},
+    {"prompt":"When the power goes out, an electric lamp usually", "candidates":["shines more brightly.","stops producing light."], "expected":1}
+  ]
+}

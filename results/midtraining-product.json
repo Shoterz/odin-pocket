@@ -1,0 +1,3042 @@
+{
+  "schema": 1,
+  "checkpoint_sha256": "3240bb01585cbac34db5b0739eeb5a17b513e561147362d282263e71e6ced421",
+  "parameter_count": 49295872,
+  "trained_tokens": 495616000,
+  "device": "cpu",
+  "cpu": "x86_64",
+  "threads": 4,
+  "load_seconds": 1.2455270639620721,
+  "weight_file_bytes": 198352933,
+  "prompt_set_sha256": "230af30e6e591c8a2ceeae78dde7c83b5ea121b3b9f27a7a3d73d2c427e891c6",
+  "generation": [
+    {
+      "prompt": "The ocean stores heat from the sun. As the surface water warms,",
+      "text": " it\u2019s heated and warms a little but at the same time the temperature drops. The sun\u2019s temperature has increased steadily over the course of a year as the sun\u2019s heat flows. It\u2019s about the same as the sun\u2019s temperature has increased in the last decade, and it\u2019s about where the sun\u2019s temperature is being increased. This is the fact the sun\u2019s sun\u2019s temperature is at its lowest point in the sun\u2019s",
+      "tokens": 96,
+      "seconds": 1.0382888799067587,
+      "tokens_per_second": 92.45981716439174,
+      "trace": [
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.33634325861930847
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.061538759618997574
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9556451439857483
+        },
+        {
+          "id": 12998,
+          "text": " heated",
+          "probability": 0.013972532004117966
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.2729126513004303
+        },
+        {
+          "id": 3664,
+          "text": " warm",
+          "probability": 0.012127994559705257
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.679429829120636
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.00802934356033802
+        },
+        {
+          "id": 1814,
+          "text": " little",
+          "probability": 0.06788413971662521
+        },
+        {
+          "id": 523,
+          "text": " but",
+          "probability": 0.0038662755396217108
+        },
+        {
+          "id": 391,
+          "text": " at",
+          "probability": 0.012208214029669762
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5447892546653748
+        },
+        {
+          "id": 1077,
+          "text": " same",
+          "probability": 0.5810835957527161
+        },
+        {
+          "id": 651,
+          "text": " time",
+          "probability": 0.9463818073272705
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.05484970286488533
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.055177997797727585
+        },
+        {
+          "id": 12592,
+          "text": " drops",
+          "probability": 0.18196363747119904
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5276850461959839
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.10501696169376373
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.12635073065757751
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.39549562335014343
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.999484658241272
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.1474529653787613
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.025099437683820724
+        },
+        {
+          "id": 2424,
+          "text": " increased",
+          "probability": 0.22606869041919708
+        },
+        {
+          "id": 14339,
+          "text": " steadily",
+          "probability": 0.01873934641480446
+        },
+        {
+          "id": 631,
+          "text": " over",
+          "probability": 0.149333193898201
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.768600583076477
+        },
+        {
+          "id": 2129,
+          "text": " course",
+          "probability": 0.30835145711898804
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9939013719558716
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.10348919034004211
+        },
+        {
+          "id": 618,
+          "text": " year",
+          "probability": 0.05644157528877258
+        },
+        {
+          "id": 345,
+          "text": " as",
+          "probability": 0.02588551864027977
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.34600594639778137
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.3900459110736847
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.3456197679042816
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9996960163116455
+        },
+        {
+          "id": 3490,
+          "text": " heat",
+          "probability": 0.10361262410879135
+        },
+        {
+          "id": 9454,
+          "text": " flows",
+          "probability": 0.03471394255757332
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.11836043745279312
+        },
+        {
+          "id": 607,
+          "text": " It",
+          "probability": 0.03316815197467804
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.5663884282112122
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9939436316490173
+        },
+        {
+          "id": 643,
+          "text": " about",
+          "probability": 0.014136211015284061
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.1332053542137146
+        },
+        {
+          "id": 1077,
+          "text": " same",
+          "probability": 0.40514615178108215
+        },
+        {
+          "id": 345,
+          "text": " as",
+          "probability": 0.4960111379623413
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.43802446126937866
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.7183317542076111
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.6617304682731628
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9998892545700073
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.32004573941230774
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.021594161167740822
+        },
+        {
+          "id": 2424,
+          "text": " increased",
+          "probability": 0.34452587366104126
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.07043914496898651
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5519260168075562
+        },
+        {
+          "id": 1407,
+          "text": " last",
+          "probability": 0.23697295784950256
+        },
+        {
+          "id": 6252,
+          "text": " decade",
+          "probability": 0.0821138545870781
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.21583418548107147
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.13629081845283508
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.18733341991901398
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.6765986680984497
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.993441104888916
+        },
+        {
+          "id": 643,
+          "text": " about",
+          "probability": 0.6017642021179199
+        },
+        {
+          "id": 835,
+          "text": " where",
+          "probability": 0.00392127875238657
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.43377646803855896
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.7562341690063477
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.39296749234199524
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9993450045585632
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.3100302219390869
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.14069302380084991
+        },
+        {
+          "id": 932,
+          "text": " being",
+          "probability": 0.020733393728733063
+        },
+        {
+          "id": 2424,
+          "text": " increased",
+          "probability": 0.04500867798924446
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5435675978660583
+        },
+        {
+          "id": 721,
+          "text": " This",
+          "probability": 0.031667254865169525
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.31158483028411865
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.08748593926429749
+        },
+        {
+          "id": 1146,
+          "text": " fact",
+          "probability": 0.008742745034396648
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.02250079996883869
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.7086457014083862
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.4852290153503418
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9997703433036804
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.017603270709514618
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.3011862337589264
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9997537732124329
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.6471297144889832
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.2954220473766327
+        },
+        {
+          "id": 391,
+          "text": " at",
+          "probability": 0.025868337601423264
+        },
+        {
+          "id": 597,
+          "text": " its",
+          "probability": 0.08295245468616486
+        },
+        {
+          "id": 8488,
+          "text": " lowest",
+          "probability": 0.16790661215782166
+        },
+        {
+          "id": 1183,
+          "text": " point",
+          "probability": 0.38433071970939636
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.2342613935470581
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.7911236882209778
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.2234170287847519
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.6542996764183044
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9999315738677979
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "The lighthouse keeper found a small wooden box on the beach. Inside the box was",
+      "text": " a large piece of wood and a bamboo container that was covered in glass.\nThe lighthouse keeper was the only person who had been there since the late 19th century. The house was owned by the Houses of the American Association of Artists, who had previously managed to access the grounds. Here, you can see a large bronze statue of an American woman standing in the grounds. A statue of an American woman holding a lighthouse was erected at",
+      "tokens": 96,
+      "seconds": 1.0725078890100121,
+      "tokens_per_second": 89.50983110120863,
+      "trace": [
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.6994516253471375
+        },
+        {
+          "id": 1189,
+          "text": " large",
+          "probability": 0.053309615701436996
+        },
+        {
+          "id": 4147,
+          "text": " piece",
+          "probability": 0.009019080549478531
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9961293935775757
+        },
+        {
+          "id": 2963,
+          "text": " wood",
+          "probability": 0.16313135623931885
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.10342821478843689
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.21416892111301422
+        },
+        {
+          "id": 279,
+          "text": " b",
+          "probability": 0.00371241825632751
+        },
+        {
+          "id": 2441,
+          "text": "amb",
+          "probability": 0.06347251683473587
+        },
+        {
+          "id": 4671,
+          "text": "oo",
+          "probability": 0.9954994320869446
+        },
+        {
+          "id": 11369,
+          "text": " container",
+          "probability": 0.008928263559937477
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.06610419601202011
+        },
+        {
+          "id": 352,
+          "text": " was",
+          "probability": 0.2867259383201599
+        },
+        {
+          "id": 4115,
+          "text": " covered",
+          "probability": 0.036870911717414856
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.1065313071012497
+        },
+        {
+          "id": 4719,
+          "text": " glass",
+          "probability": 0.01472184807062149
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5663189888000488
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.2123546153306961
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.32291924953460693
+        },
+        {
+          "id": 308,
+          "text": " l",
+          "probability": 0.21280169486999512
+        },
+        {
+          "id": 6925,
+          "text": "ighth",
+          "probability": 0.9981947541236877
+        },
+        {
+          "id": 1125,
+          "text": "ouse",
+          "probability": 0.9981179237365723
+        },
+        {
+          "id": 1032,
+          "text": " ke",
+          "probability": 0.20985552668571472
+        },
+        {
+          "id": 6218,
+          "text": "eper",
+          "probability": 0.9995718598365784
+        },
+        {
+          "id": 352,
+          "text": " was",
+          "probability": 0.22563596069812775
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.08727108687162399
+        },
+        {
+          "id": 742,
+          "text": " only",
+          "probability": 0.126561239361763
+        },
+        {
+          "id": 1137,
+          "text": " person",
+          "probability": 0.35501179099082947
+        },
+        {
+          "id": 562,
+          "text": " who",
+          "probability": 0.4453970491886139
+        },
+        {
+          "id": 536,
+          "text": " had",
+          "probability": 0.11189549416303635
+        },
+        {
+          "id": 622,
+          "text": " been",
+          "probability": 0.09198063611984253
+        },
+        {
+          "id": 703,
+          "text": " there",
+          "probability": 0.026524852961301804
+        },
+        {
+          "id": 1446,
+          "text": " since",
+          "probability": 0.039644885808229446
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6383060216903687
+        },
+        {
+          "id": 2058,
+          "text": " late",
+          "probability": 0.037896569818258286
+        },
+        {
+          "id": 443,
+          "text": " 19",
+          "probability": 0.17887277901172638
+        },
+        {
+          "id": 368,
+          "text": "th",
+          "probability": 0.9988273978233337
+        },
+        {
+          "id": 1508,
+          "text": " century",
+          "probability": 0.9186479449272156
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.7135322093963623
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.105132557451725
+        },
+        {
+          "id": 1909,
+          "text": " house",
+          "probability": 0.02102583274245262
+        },
+        {
+          "id": 352,
+          "text": " was",
+          "probability": 0.6248038411140442
+        },
+        {
+          "id": 5747,
+          "text": " owned",
+          "probability": 0.04910039156675339
+        },
+        {
+          "id": 377,
+          "text": " by",
+          "probability": 0.9154844880104065
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.37818676233291626
+        },
+        {
+          "id": 361,
+          "text": " H",
+          "probability": 0.0032727757934480906
+        },
+        {
+          "id": 10192,
+          "text": "ouses",
+          "probability": 0.1155070886015892
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.45617833733558655
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.27040567994117737
+        },
+        {
+          "id": 1201,
+          "text": " American",
+          "probability": 0.023869412019848824
+        },
+        {
+          "id": 3737,
+          "text": " Association",
+          "probability": 0.04254661872982979
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.8307271599769592
+        },
+        {
+          "id": 3144,
+          "text": " Art",
+          "probability": 0.01667460799217224
+        },
+        {
+          "id": 959,
+          "text": "ists",
+          "probability": 0.7481028437614441
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.27537769079208374
+        },
+        {
+          "id": 562,
+          "text": " who",
+          "probability": 0.09629029780626297
+        },
+        {
+          "id": 536,
+          "text": " had",
+          "probability": 0.07150332629680634
+        },
+        {
+          "id": 3658,
+          "text": " previously",
+          "probability": 0.038657959550619125
+        },
+        {
+          "id": 5035,
+          "text": " managed",
+          "probability": 0.007273329887539148
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.13228702545166016
+        },
+        {
+          "id": 1868,
+          "text": " access",
+          "probability": 0.005144301801919937
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6515368223190308
+        },
+        {
+          "id": 7363,
+          "text": " grounds",
+          "probability": 0.01738128997385502
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.41623446345329285
+        },
+        {
+          "id": 3941,
+          "text": " Here",
+          "probability": 0.0032189744524657726
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.30448412895202637
+        },
+        {
+          "id": 485,
+          "text": " you",
+          "probability": 0.007675121538341045
+        },
+        {
+          "id": 466,
+          "text": " can",
+          "probability": 0.5777087807655334
+        },
+        {
+          "id": 1116,
+          "text": " see",
+          "probability": 0.37371644377708435
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.2570323348045349
+        },
+        {
+          "id": 1189,
+          "text": " large",
+          "probability": 0.10076992958784103
+        },
+        {
+          "id": 11731,
+          "text": " bronze",
+          "probability": 0.013113134540617466
+        },
+        {
+          "id": 11441,
+          "text": " statue",
+          "probability": 0.21738840639591217
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.7167232036590576
+        },
+        {
+          "id": 363,
+          "text": " an",
+          "probability": 0.03510565683245659
+        },
+        {
+          "id": 1201,
+          "text": " American",
+          "probability": 0.11536337435245514
+        },
+        {
+          "id": 3465,
+          "text": " woman",
+          "probability": 0.27257609367370605
+        },
+        {
+          "id": 6001,
+          "text": " standing",
+          "probability": 0.12135913968086243
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.21137239038944244
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6228004097938538
+        },
+        {
+          "id": 7363,
+          "text": " grounds",
+          "probability": 0.0863914042711258
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.45920196175575256
+        },
+        {
+          "id": 314,
+          "text": " A",
+          "probability": 0.026110749691724777
+        },
+        {
+          "id": 11441,
+          "text": " statue",
+          "probability": 0.12335044890642166
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.8326416611671448
+        },
+        {
+          "id": 363,
+          "text": " an",
+          "probability": 0.1714865267276764
+        },
+        {
+          "id": 1201,
+          "text": " American",
+          "probability": 0.9721712470054626
+        },
+        {
+          "id": 3465,
+          "text": " woman",
+          "probability": 0.8396264314651489
+        },
+        {
+          "id": 6026,
+          "text": " holding",
+          "probability": 0.046231430023908615
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.6423218846321106
+        },
+        {
+          "id": 308,
+          "text": " l",
+          "probability": 0.05355910211801529
+        },
+        {
+          "id": 6925,
+          "text": "ighth",
+          "probability": 0.9551340341567993
+        },
+        {
+          "id": 1125,
+          "text": "ouse",
+          "probability": 0.9998406171798706
+        },
+        {
+          "id": 352,
+          "text": " was",
+          "probability": 0.20865894854068756
+        },
+        {
+          "id": 11800,
+          "text": " erected",
+          "probability": 0.1973494440317154
+        },
+        {
+          "id": 391,
+          "text": " at",
+          "probability": 0.09128113090991974
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "Plants need sunlight to grow because",
+      "text": " they don\u2019t need electricity to grow and multiply with each other; their roots need to grow their own roots, and they need to grow their own roots and roots.\nThe plants need sunlight for the first time. The plants need light and the plants need to grow the plants in their new age.\nThere are many uses of sunlight in the garden:\n- Plants require sunlight to grow and thrive.\n- Plants are used for growing plants.\n-",
+      "tokens": 96,
+      "seconds": 1.0419034829828888,
+      "tokens_per_second": 92.13905277018506,
+      "trace": [
+        {
+          "id": 535,
+          "text": " they",
+          "probability": 0.3460756540298462
+        },
+        {
+          "id": 1658,
+          "text": " don",
+          "probability": 0.08578541874885559
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.7824416160583496
+        },
+        {
+          "id": 84,
+          "text": "t",
+          "probability": 0.9985490441322327
+        },
+        {
+          "id": 861,
+          "text": " need",
+          "probability": 0.24557116627693176
+        },
+        {
+          "id": 5322,
+          "text": " electricity",
+          "probability": 0.01267785020172596
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.3811948001384735
+        },
+        {
+          "id": 1363,
+          "text": " grow",
+          "probability": 0.6144481897354126
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.052518270909786224
+        },
+        {
+          "id": 2918,
+          "text": " multip",
+          "probability": 0.007781158667057753
+        },
+        {
+          "id": 311,
+          "text": "ly",
+          "probability": 0.9442041516304016
+        },
+        {
+          "id": 354,
+          "text": " with",
+          "probability": 0.01316808070987463
+        },
+        {
+          "id": 1063,
+          "text": " each",
+          "probability": 0.22476612031459808
+        },
+        {
+          "id": 567,
+          "text": " other",
+          "probability": 0.8810404539108276
+        },
+        {
+          "id": 27,
+          "text": ";",
+          "probability": 0.012363329529762268
+        },
+        {
+          "id": 500,
+          "text": " their",
+          "probability": 0.02008865959942341
+        },
+        {
+          "id": 6838,
+          "text": " roots",
+          "probability": 0.15559402108192444
+        },
+        {
+          "id": 861,
+          "text": " need",
+          "probability": 0.5501735806465149
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.10696874558925629
+        },
+        {
+          "id": 1363,
+          "text": " grow",
+          "probability": 0.4492962956428528
+        },
+        {
+          "id": 500,
+          "text": " their",
+          "probability": 0.007071309722959995
+        },
+        {
+          "id": 1014,
+          "text": " own",
+          "probability": 0.4262762665748596
+        },
+        {
+          "id": 6838,
+          "text": " roots",
+          "probability": 0.07335897535085678
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.08212228119373322
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.14944571256637573
+        },
+        {
+          "id": 535,
+          "text": " they",
+          "probability": 0.19940833747386932
+        },
+        {
+          "id": 861,
+          "text": " need",
+          "probability": 0.73753821849823
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.41171762347221375
+        },
+        {
+          "id": 1363,
+          "text": " grow",
+          "probability": 0.5142903327941895
+        },
+        {
+          "id": 500,
+          "text": " their",
+          "probability": 0.20903314650058746
+        },
+        {
+          "id": 1014,
+          "text": " own",
+          "probability": 0.7850892543792725
+        },
+        {
+          "id": 6838,
+          "text": " roots",
+          "probability": 0.4625081419944763
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.033968474715948105
+        },
+        {
+          "id": 6838,
+          "text": " roots",
+          "probability": 0.10277346521615982
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5777960419654846
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.31291836500167847
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.0863032266497612
+        },
+        {
+          "id": 2514,
+          "text": " plants",
+          "probability": 0.04945653676986694
+        },
+        {
+          "id": 861,
+          "text": " need",
+          "probability": 0.3967432677745819
+        },
+        {
+          "id": 10906,
+          "text": " sunlight",
+          "probability": 0.14545948803424835
+        },
+        {
+          "id": 331,
+          "text": " for",
+          "probability": 0.07825442403554916
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.20146895945072174
+        },
+        {
+          "id": 629,
+          "text": " first",
+          "probability": 0.09825621545314789
+        },
+        {
+          "id": 651,
+          "text": " time",
+          "probability": 0.3117205500602722
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.13678313791751862
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.08919897675514221
+        },
+        {
+          "id": 2514,
+          "text": " plants",
+          "probability": 0.2465052753686905
+        },
+        {
+          "id": 861,
+          "text": " need",
+          "probability": 0.6576705574989319
+        },
+        {
+          "id": 1595,
+          "text": " light",
+          "probability": 0.04328196868300438
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.26227012276649475
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.03712117299437523
+        },
+        {
+          "id": 2514,
+          "text": " plants",
+          "probability": 0.08603297919034958
+        },
+        {
+          "id": 861,
+          "text": " need",
+          "probability": 0.761252760887146
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.14670783281326294
+        },
+        {
+          "id": 1363,
+          "text": " grow",
+          "probability": 0.639118492603302
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.047355033457279205
+        },
+        {
+          "id": 2514,
+          "text": " plants",
+          "probability": 0.11531111598014832
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.06116022169589996
+        },
+        {
+          "id": 500,
+          "text": " their",
+          "probability": 0.22063657641410828
+        },
+        {
+          "id": 704,
+          "text": " new",
+          "probability": 0.08802805095911026
+        },
+        {
+          "id": 1776,
+          "text": " age",
+          "probability": 0.005553486291319132
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5800584554672241
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.12258409708738327
+        },
+        {
+          "id": 2710,
+          "text": "There",
+          "probability": 0.012373334728181362
+        },
+        {
+          "id": 386,
+          "text": " are",
+          "probability": 0.601148247718811
+        },
+        {
+          "id": 810,
+          "text": " many",
+          "probability": 0.2885086238384247
+        },
+        {
+          "id": 3090,
+          "text": " uses",
+          "probability": 0.006799519993364811
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.5567337870597839
+        },
+        {
+          "id": 10906,
+          "text": " sunlight",
+          "probability": 0.1260320544242859
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.14524874091148376
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.19727088510990143
+        },
+        {
+          "id": 5149,
+          "text": " garden",
+          "probability": 0.42343875765800476
+        },
+        {
+          "id": 26,
+          "text": ":",
+          "probability": 0.2933601140975952
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.7738803625106812
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.6327502727508545
+        },
+        {
+          "id": 1397,
+          "text": " Pl",
+          "probability": 0.011818031780421734
+        },
+        {
+          "id": 962,
+          "text": "ants",
+          "probability": 0.95943284034729
+        },
+        {
+          "id": 2363,
+          "text": " require",
+          "probability": 0.1404823511838913
+        },
+        {
+          "id": 10906,
+          "text": " sunlight",
+          "probability": 0.08684631437063217
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.27223289012908936
+        },
+        {
+          "id": 1363,
+          "text": " grow",
+          "probability": 0.8374844193458557
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.22309450805187225
+        },
+        {
+          "id": 14471,
+          "text": " thrive",
+          "probability": 0.02223392203450203
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.33508285880088806
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.38601893186569214
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.9532161355018616
+        },
+        {
+          "id": 1397,
+          "text": " Pl",
+          "probability": 0.23398467898368835
+        },
+        {
+          "id": 962,
+          "text": "ants",
+          "probability": 0.9974051117897034
+        },
+        {
+          "id": 386,
+          "text": " are",
+          "probability": 0.021358689293265343
+        },
+        {
+          "id": 777,
+          "text": " used",
+          "probability": 0.047747496515512466
+        },
+        {
+          "id": 331,
+          "text": " for",
+          "probability": 0.4341999590396881
+        },
+        {
+          "id": 3389,
+          "text": " growing",
+          "probability": 0.19734418392181396
+        },
+        {
+          "id": 2514,
+          "text": " plants",
+          "probability": 0.32203948497772217
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.25186029076576233
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.7603477239608765
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.8519310355186462
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "A simple way to save water at home is",
+      "text": " to start saving water at a local community water consortium. The system\u2019s goal is to conserve water through the use of water-saving technology in the area.\nHow to install the system:\n- Place the water at the top of the water-saving toolbar and connect it to the toilet. After the water-saving tool is complete, it will take about 10 minutes to open a tap water source, and then set the tap water-",
+      "tokens": 96,
+      "seconds": 1.0398192398715764,
+      "tokens_per_second": 92.3237388950954,
+      "trace": [
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.5632108449935913
+        },
+        {
+          "id": 1200,
+          "text": " start",
+          "probability": 0.007010660599917173
+        },
+        {
+          "id": 10929,
+          "text": " saving",
+          "probability": 0.019249729812145233
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.6241146922111511
+        },
+        {
+          "id": 391,
+          "text": " at",
+          "probability": 0.2969302833080292
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.04772309213876724
+        },
+        {
+          "id": 1659,
+          "text": " local",
+          "probability": 0.08226721733808517
+        },
+        {
+          "id": 2135,
+          "text": " community",
+          "probability": 0.008062254637479782
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.07901237905025482
+        },
+        {
+          "id": 693,
+          "text": " cons",
+          "probability": 0.0060439989902079105
+        },
+        {
+          "id": 430,
+          "text": "ort",
+          "probability": 0.6524714827537537
+        },
+        {
+          "id": 1122,
+          "text": "ium",
+          "probability": 0.9110673666000366
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5232846736907959
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.07042526453733444
+        },
+        {
+          "id": 895,
+          "text": " system",
+          "probability": 0.013260330073535442
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.01819549687206745
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9999372959136963
+        },
+        {
+          "id": 2973,
+          "text": " goal",
+          "probability": 0.04276052862405777
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.8707107305526733
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.8809166550636292
+        },
+        {
+          "id": 693,
+          "text": " cons",
+          "probability": 0.008077465929090977
+        },
+        {
+          "id": 2556,
+          "text": "erve",
+          "probability": 0.9953091740608215
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.6107715964317322
+        },
+        {
+          "id": 754,
+          "text": " through",
+          "probability": 0.04756544530391693
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.10022374242544174
+        },
+        {
+          "id": 767,
+          "text": " use",
+          "probability": 0.5347976684570312
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9842276573181152
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.06828951090574265
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.2414480745792389
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.24691732227802277
+        },
+        {
+          "id": 2498,
+          "text": "aving",
+          "probability": 0.9113634824752808
+        },
+        {
+          "id": 2413,
+          "text": " technology",
+          "probability": 0.16196560859680176
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.05170583352446556
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.1840227246284485
+        },
+        {
+          "id": 1323,
+          "text": " area",
+          "probability": 0.015856176614761353
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5318899154663086
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.47578418254852295
+        },
+        {
+          "id": 2654,
+          "text": "How",
+          "probability": 0.03358655795454979
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.44168850779533386
+        },
+        {
+          "id": 5367,
+          "text": " install",
+          "probability": 0.011032136157155037
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.056393519043922424
+        },
+        {
+          "id": 895,
+          "text": " system",
+          "probability": 0.1910821944475174
+        },
+        {
+          "id": 26,
+          "text": ":",
+          "probability": 0.1793513298034668
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.8508616089820862
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.4930098056793213
+        },
+        {
+          "id": 10787,
+          "text": " Place",
+          "probability": 0.004795032553374767
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.3524109125137329
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.22605717182159424
+        },
+        {
+          "id": 391,
+          "text": " at",
+          "probability": 0.045583032071590424
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.4223725497722626
+        },
+        {
+          "id": 1480,
+          "text": " top",
+          "probability": 0.03384099155664444
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9263939261436462
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6179507374763489
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.059823472052812576
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.1392209827899933
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.7484663724899292
+        },
+        {
+          "id": 2498,
+          "text": "aving",
+          "probability": 0.9844462275505066
+        },
+        {
+          "id": 4715,
+          "text": " tool",
+          "probability": 0.03784594684839249
+        },
+        {
+          "id": 7284,
+          "text": "bar",
+          "probability": 0.38560041785240173
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.06474070250988007
+        },
+        {
+          "id": 3246,
+          "text": " connect",
+          "probability": 0.005612923298031092
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.6875509023666382
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.6132543683052063
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.654748797416687
+        },
+        {
+          "id": 16111,
+          "text": " toilet",
+          "probability": 0.0039461515843868256
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.30086347460746765
+        },
+        {
+          "id": 1368,
+          "text": " After",
+          "probability": 0.006576965097337961
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.16041500866413116
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.29498937726020813
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.22639256715774536
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9338271021842957
+        },
+        {
+          "id": 2498,
+          "text": "aving",
+          "probability": 0.9968042373657227
+        },
+        {
+          "id": 4715,
+          "text": " tool",
+          "probability": 0.7024354934692383
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.503852367401123
+        },
+        {
+          "id": 1929,
+          "text": " complete",
+          "probability": 0.018010105937719345
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.9452056884765625
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.084713414311409
+        },
+        {
+          "id": 603,
+          "text": " will",
+          "probability": 0.25217926502227783
+        },
+        {
+          "id": 1292,
+          "text": " take",
+          "probability": 0.04017230123281479
+        },
+        {
+          "id": 643,
+          "text": " about",
+          "probability": 0.2205832302570343
+        },
+        {
+          "id": 1002,
+          "text": " 10",
+          "probability": 0.062463369220495224
+        },
+        {
+          "id": 3059,
+          "text": " minutes",
+          "probability": 0.3757983446121216
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.5946467518806458
+        },
+        {
+          "id": 1308,
+          "text": " open",
+          "probability": 0.07565303891897202
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.02046911045908928
+        },
+        {
+          "id": 10914,
+          "text": " tap",
+          "probability": 0.01928229071199894
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.4463033974170685
+        },
+        {
+          "id": 2605,
+          "text": " source",
+          "probability": 0.013975445181131363
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.07596781104803085
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.12227445840835571
+        },
+        {
+          "id": 891,
+          "text": " then",
+          "probability": 0.09888508915901184
+        },
+        {
+          "id": 969,
+          "text": " set",
+          "probability": 0.004472818691283464
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.3607296049594879
+        },
+        {
+          "id": 10914,
+          "text": " tap",
+          "probability": 0.23674236238002777
+        },
+        {
+          "id": 947,
+          "text": " water",
+          "probability": 0.8361063599586487
+        },
+        {
+          "id": 13,
+          "text": "-",
+          "probability": 0.3710630238056183
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "The moon orbits Earth. Unlike the sun, the moon",
+      "text": " is orbiting around the Earth. So it appears that all of this has occurred.\nWhat is the moon\u2019s moon?\nThe moon is a star of the constellation Europa, and the moon is the only moon of the Sun. Europa is a member of the four main dwarf planets around the sun. The moon is the only planet on the night of its birth. The moon is the only planet on the night of its birth. The moon",
+      "tokens": 96,
+      "seconds": 1.016946842893958,
+      "tokens_per_second": 94.40021439745044,
+      "trace": [
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.4001366198062897
+        },
+        {
+          "id": 8360,
+          "text": " orb",
+          "probability": 0.044402167201042175
+        },
+        {
+          "id": 2027,
+          "text": "iting",
+          "probability": 0.9660566449165344
+        },
+        {
+          "id": 1168,
+          "text": " around",
+          "probability": 0.012559396214783192
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.3980023264884949
+        },
+        {
+          "id": 2914,
+          "text": " Earth",
+          "probability": 0.08274733275175095
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.3278444707393646
+        },
+        {
+          "id": 2160,
+          "text": " So",
+          "probability": 0.007085992489010096
+        },
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.050767309963703156
+        },
+        {
+          "id": 3785,
+          "text": " appears",
+          "probability": 0.006316827610135078
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.3273531496524811
+        },
+        {
+          "id": 526,
+          "text": " all",
+          "probability": 0.016733890399336815
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.34531456232070923
+        },
+        {
+          "id": 489,
+          "text": " this",
+          "probability": 0.0898626372218132
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.021954484283924103
+        },
+        {
+          "id": 4406,
+          "text": " occurred",
+          "probability": 0.03413338214159012
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.21141329407691956
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.3695039749145508
+        },
+        {
+          "id": 2318,
+          "text": "What",
+          "probability": 0.02207939699292183
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.2098885327577591
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.5342184901237488
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.2160624861717224
+        },
+        {
+          "id": 465,
+          "text": "\u2019",
+          "probability": 0.18707877397537231
+        },
+        {
+          "id": 83,
+          "text": "s",
+          "probability": 0.9992554783821106
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.10756681114435196
+        },
+        {
+          "id": 31,
+          "text": "?",
+          "probability": 0.5027074217796326
+        },
+        {
+          "id": 199,
+          "text": "\n",
+          "probability": 0.8442702889442444
+        },
+        {
+          "id": 571,
+          "text": "The",
+          "probability": 0.4633747339248657
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.9694059491157532
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.3943290710449219
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.08212719112634659
+        },
+        {
+          "id": 2807,
+          "text": " star",
+          "probability": 0.024704093113541603
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.06483247876167297
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.26172393560409546
+        },
+        {
+          "id": 1190,
+          "text": " const",
+          "probability": 0.030333973467350006
+        },
+        {
+          "id": 491,
+          "text": "ell",
+          "probability": 0.9918789863586426
+        },
+        {
+          "id": 327,
+          "text": "ation",
+          "probability": 0.8160207867622375
+        },
+        {
+          "id": 407,
+          "text": " E",
+          "probability": 0.039376214146614075
+        },
+        {
+          "id": 13325,
+          "text": "urop",
+          "probability": 0.6151453256607056
+        },
+        {
+          "id": 65,
+          "text": "a",
+          "probability": 0.9870218634605408
+        },
+        {
+          "id": 12,
+          "text": ",",
+          "probability": 0.2964800000190735
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.054017968475818634
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.15440426766872406
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.6992408633232117
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.6301077604293823
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.13246749341487885
+        },
+        {
+          "id": 742,
+          "text": " only",
+          "probability": 0.09657835960388184
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.06030925735831261
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.0819389745593071
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.7193565368652344
+        },
+        {
+          "id": 4480,
+          "text": " Sun",
+          "probability": 0.051257070153951645
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.44301867485046387
+        },
+        {
+          "id": 407,
+          "text": " E",
+          "probability": 0.020540963858366013
+        },
+        {
+          "id": 13325,
+          "text": "urop",
+          "probability": 0.9917077422142029
+        },
+        {
+          "id": 65,
+          "text": "a",
+          "probability": 0.99689781665802
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.5313242077827454
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.1676434576511383
+        },
+        {
+          "id": 2770,
+          "text": " member",
+          "probability": 0.03907440975308418
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.9910486936569214
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.8641326427459717
+        },
+        {
+          "id": 1106,
+          "text": " four",
+          "probability": 0.005728664807975292
+        },
+        {
+          "id": 1024,
+          "text": " main",
+          "probability": 0.1537887454032898
+        },
+        {
+          "id": 13740,
+          "text": " dwarf",
+          "probability": 0.015057460404932499
+        },
+        {
+          "id": 9003,
+          "text": " planets",
+          "probability": 0.49640458822250366
+        },
+        {
+          "id": 1168,
+          "text": " around",
+          "probability": 0.0014376757899299264
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.8985173106193542
+        },
+        {
+          "id": 2834,
+          "text": " sun",
+          "probability": 0.48415935039520264
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.5941768884658813
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.27739232778549194
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.6550818681716919
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.5354092717170715
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.18426503241062164
+        },
+        {
+          "id": 742,
+          "text": " only",
+          "probability": 0.14692534506320953
+        },
+        {
+          "id": 4493,
+          "text": " planet",
+          "probability": 0.1733783483505249
+        },
+        {
+          "id": 328,
+          "text": " on",
+          "probability": 0.06781303137540817
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6435843110084534
+        },
+        {
+          "id": 2644,
+          "text": " night",
+          "probability": 0.044580839574337006
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.5274766683578491
+        },
+        {
+          "id": 597,
+          "text": " its",
+          "probability": 0.06157901510596275
+        },
+        {
+          "id": 3392,
+          "text": " birth",
+          "probability": 0.13359872996807098
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.48375293612480164
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.2730928659439087
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.7898810505867004
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.591613233089447
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.3124329447746277
+        },
+        {
+          "id": 742,
+          "text": " only",
+          "probability": 0.28733542561531067
+        },
+        {
+          "id": 4493,
+          "text": " planet",
+          "probability": 0.32418695092201233
+        },
+        {
+          "id": 328,
+          "text": " on",
+          "probability": 0.35841283202171326
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.8119204044342041
+        },
+        {
+          "id": 2644,
+          "text": " night",
+          "probability": 0.5718690752983093
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.8480880856513977
+        },
+        {
+          "id": 597,
+          "text": " its",
+          "probability": 0.7999667525291443
+        },
+        {
+          "id": 3392,
+          "text": " birth",
+          "probability": 0.8227994441986084
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.7047091126441956
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.25612741708755493
+        },
+        {
+          "id": 7091,
+          "text": " moon",
+          "probability": 0.8178547024726868
+        }
+      ],
+      "context_truncated": false
+    },
+    {
+      "prompt": "When a metal spoon is placed in a cup of hot tea,",
+      "text": " it is not too hot for the gas to start dissolving. The hot liquids in the cup are then cooled to a point that is about 20 degrees F. This is the same as a glass spoon. The liquid is then coated into a layer of liquid and the mixture is coated into a liquid or a glass spoon. The liquid is then heated and the liquid has a high temperature of about 410 K. This is the same as a glass sp",
+      "tokens": 96,
+      "seconds": 1.023913887096569,
+      "tokens_per_second": 93.75788453482114,
+      "trace": [
+        {
+          "id": 366,
+          "text": " it",
+          "probability": 0.21374842524528503
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.2039315402507782
+        },
+        {
+          "id": 452,
+          "text": " not",
+          "probability": 0.023292511701583862
+        },
+        {
+          "id": 1665,
+          "text": " too",
+          "probability": 0.015341624617576599
+        },
+        {
+          "id": 3576,
+          "text": " hot",
+          "probability": 0.492163747549057
+        },
+        {
+          "id": 331,
+          "text": " for",
+          "probability": 0.1058889850974083
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.32290300726890564
+        },
+        {
+          "id": 2716,
+          "text": " gas",
+          "probability": 0.0055616083554923534
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.7647988796234131
+        },
+        {
+          "id": 1200,
+          "text": " start",
+          "probability": 0.007844245992600918
+        },
+        {
+          "id": 4057,
+          "text": " diss",
+          "probability": 0.009989283978939056
+        },
+        {
+          "id": 9653,
+          "text": "olving",
+          "probability": 0.9474972486495972
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.6288962364196777
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.09487122297286987
+        },
+        {
+          "id": 3576,
+          "text": " hot",
+          "probability": 0.015541248954832554
+        },
+        {
+          "id": 5330,
+          "text": " liqu",
+          "probability": 0.025835765525698662
+        },
+        {
+          "id": 1606,
+          "text": "ids",
+          "probability": 0.8487776517868042
+        },
+        {
+          "id": 284,
+          "text": " in",
+          "probability": 0.11044616997241974
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.6846221685409546
+        },
+        {
+          "id": 7420,
+          "text": " cup",
+          "probability": 0.4449597895145416
+        },
+        {
+          "id": 386,
+          "text": " are",
+          "probability": 0.2611690163612366
+        },
+        {
+          "id": 891,
+          "text": " then",
+          "probability": 0.3532530665397644
+        },
+        {
+          "id": 4262,
+          "text": " cool",
+          "probability": 0.0412147119641304
+        },
+        {
+          "id": 272,
+          "text": "ed",
+          "probability": 0.9954934120178223
+        },
+        {
+          "id": 289,
+          "text": " to",
+          "probability": 0.1784662902355194
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.12876762449741364
+        },
+        {
+          "id": 1183,
+          "text": " point",
+          "probability": 0.006016282830387354
+        },
+        {
+          "id": 341,
+          "text": " that",
+          "probability": 0.12983068823814392
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.6124135851860046
+        },
+        {
+          "id": 643,
+          "text": " about",
+          "probability": 0.15410394966602325
+        },
+        {
+          "id": 588,
+          "text": " 20",
+          "probability": 0.029790183529257774
+        },
+        {
+          "id": 5726,
+          "text": " degrees",
+          "probability": 0.5043655633926392
+        },
+        {
+          "id": 392,
+          "text": " F",
+          "probability": 0.05500723421573639
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.547321081161499
+        },
+        {
+          "id": 721,
+          "text": " This",
+          "probability": 0.025072865188121796
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.18286585807800293
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.10371912270784378
+        },
+        {
+          "id": 1077,
+          "text": " same",
+          "probability": 0.06102057918906212
+        },
+        {
+          "id": 345,
+          "text": " as",
+          "probability": 0.28519514203071594
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.09208893030881882
+        },
+        {
+          "id": 4719,
+          "text": " glass",
+          "probability": 0.027346951887011528
+        },
+        {
+          "id": 637,
+          "text": " sp",
+          "probability": 0.04742717742919922
+        },
+        {
+          "id": 2633,
+          "text": "oon",
+          "probability": 0.9602058529853821
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.33712926506996155
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.19120098650455475
+        },
+        {
+          "id": 6570,
+          "text": " liquid",
+          "probability": 0.10264978557825089
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.15390339493751526
+        },
+        {
+          "id": 891,
+          "text": " then",
+          "probability": 0.7663761973381042
+        },
+        {
+          "id": 734,
+          "text": " co",
+          "probability": 0.02436963841319084
+        },
+        {
+          "id": 458,
+          "text": "ated",
+          "probability": 0.8880794048309326
+        },
+        {
+          "id": 650,
+          "text": " into",
+          "probability": 0.09005508571863174
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.4683094024658203
+        },
+        {
+          "id": 5461,
+          "text": " layer",
+          "probability": 0.01489823404699564
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.805304229259491
+        },
+        {
+          "id": 6570,
+          "text": " liquid",
+          "probability": 0.30617472529411316
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.06437070667743683
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.06813891977071762
+        },
+        {
+          "id": 9095,
+          "text": " mixture",
+          "probability": 0.07371653616428375
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.46569496393203735
+        },
+        {
+          "id": 734,
+          "text": " co",
+          "probability": 0.045512501150369644
+        },
+        {
+          "id": 458,
+          "text": "ated",
+          "probability": 0.9896404147148132
+        },
+        {
+          "id": 650,
+          "text": " into",
+          "probability": 0.3073168694972992
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.6855887770652771
+        },
+        {
+          "id": 6570,
+          "text": " liquid",
+          "probability": 0.17664100229740143
+        },
+        {
+          "id": 382,
+          "text": " or",
+          "probability": 0.0029237319249659777
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.05948890745639801
+        },
+        {
+          "id": 4719,
+          "text": " glass",
+          "probability": 0.3440757393836975
+        },
+        {
+          "id": 637,
+          "text": " sp",
+          "probability": 0.8278936743736267
+        },
+        {
+          "id": 2633,
+          "text": "oon",
+          "probability": 0.985995352268219
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.8875322937965393
+        },
+        {
+          "id": 346,
+          "text": " The",
+          "probability": 0.2899834215641022
+        },
+        {
+          "id": 6570,
+          "text": " liquid",
+          "probability": 0.5346461534500122
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.3907114565372467
+        },
+        {
+          "id": 891,
+          "text": " then",
+          "probability": 0.8843318819999695
+        },
+        {
+          "id": 12998,
+          "text": " heated",
+          "probability": 0.024583153426647186
+        },
+        {
+          "id": 286,
+          "text": " and",
+          "probability": 0.2959643602371216
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.061716921627521515
+        },
+        {
+          "id": 6570,
+          "text": " liquid",
+          "probability": 0.5770323872566223
+        },
+        {
+          "id": 540,
+          "text": " has",
+          "probability": 0.026726964861154556
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.2581414580345154
+        },
+        {
+          "id": 850,
+          "text": " high",
+          "probability": 0.04846455529332161
+        },
+        {
+          "id": 3377,
+          "text": " temperature",
+          "probability": 0.2268405556678772
+        },
+        {
+          "id": 280,
+          "text": " of",
+          "probability": 0.02962653711438179
+        },
+        {
+          "id": 643,
+          "text": " about",
+          "probability": 0.5555691719055176
+        },
+        {
+          "id": 684,
+          "text": " 4",
+          "probability": 0.026690639555454254
+        },
+        {
+          "id": 1691,
+          "text": "10",
+          "probability": 0.04364939033985138
+        },
+        {
+          "id": 499,
+          "text": " K",
+          "probability": 0.28796395659446716
+        },
+        {
+          "id": 14,
+          "text": ".",
+          "probability": 0.8440325260162354
+        },
+        {
+          "id": 721,
+          "text": " This",
+          "probability": 0.07173649221658707
+        },
+        {
+          "id": 323,
+          "text": " is",
+          "probability": 0.325390100479126
+        },
+        {
+          "id": 261,
+          "text": " the",
+          "probability": 0.25744810700416565
+        },
+        {
+          "id": 1077,
+          "text": " same",
+          "probability": 0.3282262980937958
+        },
+        {
+          "id": 345,
+          "text": " as",
+          "probability": 0.9190430641174316
+        },
+        {
+          "id": 258,
+          "text": " a",
+          "probability": 0.671339213848114
+        },
+        {
+          "id": 4719,
+          "text": " glass",
+          "probability": 0.6891164779663086
+        },
+        {
+          "id": 637,
+          "text": " sp",
+          "probability": 0.9430579543113708
+        }
+      ],
+      "context_truncated": false
+    }
+  ],
+  "comparison": [
+    {
+      "prompt": "Water left in a freezer will eventually",
+      "candidates": [
+        "turn into ice.",
+        "begin to boil."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.4145278930664062,
+        -3.1045937538146973
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "When a metal spoon is placed in hot tea, the handle",
+      "candidates": [
+        "becomes colder.",
+        "gradually becomes warmer."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -3.763157606124878,
+        -4.191961765289307
+      ],
+      "predicted": 0,
+      "correct": false
+    },
+    {
+      "prompt": "A plant kept in complete darkness for a long time will",
+      "candidates": [
+        "struggle to grow.",
+        "produce more energy from sunlight."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.011995315551758,
+        -3.042788505554199
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "A wet towel dries faster on a warm windy day because",
+      "candidates": [
+        "the water evaporates more quickly.",
+        "the cloth creates more water."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -1.726078987121582,
+        -4.4336442947387695
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "A person puts on a coat before going outside in winter to",
+      "candidates": [
+        "stay warm.",
+        "make the weather warmer."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.6616462071736655,
+        -2.9558372497558594
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "When the power goes out, an electric lamp usually",
+      "candidates": [
+        "shines more brightly.",
+        "stops producing light."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -3.012470245361328,
+        -4.347997665405273
+      ],
+      "predicted": 0,
+      "correct": false
+    }
+  ],
+  "comparison_accuracy": 0.5,
+  "limitations": "Six locally authored comparisons and six fixed prompts; qualitative demonstration only, not independent validation or an official benchmark. CPU latency is host- and load-dependent."
+}

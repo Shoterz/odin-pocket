@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ODIN Pocket · Local language workbench</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<aside class="sidebar">
+  <a href="#write" class="brand" aria-label="ODIN Pocket home"><span class="mark">o<span>·</span></span><span>ODIN <b>Pocket</b></span></a>
+  <div class="nav-label">WORKBENCH</div>
+  <nav aria-label="Main navigation">
+    <button class="nav active" data-view="write" aria-current="page"><span>↗</span> Continue a passage</button>
+    <button class="nav" data-view="compare"><span>⇄</span> Compare endings</button>
+    <button class="nav" data-view="evidence"><span>▥</span> Model evidence</button>
+  </nav>
+  <div class="sidebar-note"><span class="local-dot"></span> Runs on your machine<p>Your text stays here.<br>No inference API. No account.</p></div>
+  <footer><strong>Built from the first weight.</strong><p>Axiom AI · GIBC V2 Track 01<br>Foundational language models</p></footer><button class="text-button reload-button" id="reload">Reload checkpoint ↻</button>
+</aside>
+<main>
+  <header class="topbar"><span>Local language workbench</span><span class="connection" id="connection">Connecting…</span></header>
+  <div class="workspace">
+    <div class="model-line"><span class="model-badge" id="model-badge">ODIN / POCKET</span><span id="model-caption">From-scratch causal language model</span></div>
+    <section id="write-view" class="view">
+      <div class="page-heading"><h1>A little model.<br>A page of possibilities.</h1><p>Give ODIN a beginning. See where a language model<br class="desktop"> small enough to run locally takes it.</p></div>
+      <div class="editor-layout">
+        <div class="editor">
+          <div class="editor-bar"><label for="prompt">Your beginning</label><span>English text</span></div>
+          <textarea id="prompt" maxlength="16000" spellcheck="false" placeholder="Start with a few sentences…">The ocean stores heat from the sun. As the surface water warms,</textarea>
+          <div id="completion" class="completion" aria-live="polite"><span class="placeholder">Your continuation will appear here.</span></div>
+          <div class="editor-bottom"><span id="generation-stats">Every continuation is generated locally.</span><button class="primary" id="generate">Continue passage <span>↗</span></button></div>
+        </div>
+        <aside class="controls">
+          <h2>Make it your own</h2><p class="muted">Start with a passage, not an instruction. ODIN is a base language model.</p>
+          <label for="length">New tokens <output id="length-value">96</output></label><input id="length" type="range" min="16" max="256" step="16" value="96">
+          <label for="temperature">Variation <output id="temperature-value">0.7</output></label><input id="temperature" type="range" min="0" max="1.2" step="0.1" value="0.7"><div class="range-hints"><span>Predictable</span><span>Exploratory</span></div>
+          <div class="suggestions"><h3>Try a beginning</h3><button data-example="science">An idea from science <span>↗</span></button><button data-example="story">A story by the sea <span>↗</span></button><button data-example="everyday">An everyday explanation <span>↗</span></button></div>
+          <div class="small-note">Small models can repeat themselves or invent facts. Treat the output as a writing experiment.</div>
+        </aside>
+      </div>
+      <section class="token-section"><div class="section-heading"><h2>Under the words</h2><button class="text-button" id="tokenize">Inspect input tokens ↗</button></div><p class="muted" id="token-caption">After generation, explore the tokens and the probability the model assigned to each one.</p><div id="tokens" class="token-ribbon"><span class="empty-token">Tokens appear here after a run</span></div></section>
+    </section>
+    <section id="compare-view" class="view" hidden>
+      <div class="page-heading"><h1>Which ending fits?</h1><p>Compare how likely the model finds each continuation.<br>Its preference is a language score, not a fact check.</p></div>
+      <div class="comparison-form"><label for="compare-prompt">The shared beginning</label><textarea id="compare-prompt" maxlength="16000">Water left in a freezer will eventually</textarea><div class="candidate-inputs"><div><label for="candidate-a">Ending A</label><textarea id="candidate-a" maxlength="2000">turn into ice.</textarea></div><div><label for="candidate-b">Ending B</label><textarea id="candidate-b" maxlength="2000">begin to boil.</textarea></div></div><button id="compare" class="primary">Compare endings ⇄</button></div>
+      <div id="comparison-results" aria-live="polite"></div>
+    </section>
+    <section id="evidence-view" class="view" hidden>
+      <div class="page-heading"><h1>Nothing behind the curtain.</h1><p>One small model, a visible training run, and results<br>bound to the checkpoint you're actually using.</p></div>
+      <div class="facts"><div><span>Trainable parameters</span><strong id="parameters">Unmeasured</strong><small>50,000,000 maximum</small></div><div><span>Training tokens seen</span><strong id="training-tokens">Unmeasured</strong><small id="training-time">No training record loaded</small></div><div><span>Training hardware</span><strong id="hardware">Unmeasured</strong><small>Randomly initialized weights</small></div></div>
+      <div class="evidence-grid"><section class="chart-panel"><div class="section-heading"><h2>Learning, measured</h2><span class="legend">● Held-out development loss</span></div><div id="loss-chart" class="loss-chart"><p class="muted">Training measurements appear after a checkpoint is loaded.</p></div><p class="muted">Cross-entropy loss on a fixed development sample. Lower is better.</p></section><section class="architecture"><h2>Built to fit</h2><dl><dt>Architecture</dt><dd>Causal Transformer</dd><dt>Layers / width</dt><dd id="layers">Unmeasured</dd><dt>Attention</dt><dd id="heads">Unmeasured</dd><dt>Feed-forward</dt><dd>SwiGLU</dd><dt>Tokenizer</dt><dd id="vocab">Unmeasured</dd><dt>Weights</dt><dd>Tied input / output</dd><dt>Inference</dt><dd id="inference-device">CPU · local</dd></dl></section></div>
+      <section class="benchmark-panel"><div class="section-heading"><h2>The competition tests</h2><span id="benchmark-status" class="muted">Not yet measured</span></div><div class="table-scroll"><table><thead><tr><th>Benchmark</th><th>What it tests</th><th>Accuracy / perplexity</th><th>Coverage</th></tr></thead><tbody id="benchmarks"></tbody></table></div><p class="muted">Zero-shot lm-evaluation-harness results. WikiText-103 token perplexity uses this model's tokenizer; it is not directly comparable across tokenizers.</p></section>
+      <details class="provenance"><summary>Checkpoint identity and training provenance</summary><pre id="provenance">No checkpoint loaded.</pre></details>
+    </section>
+    <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+  </div>
+</main>
+<script src="/app.js"></script>
+</body></html>
