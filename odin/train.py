@@ -13,6 +13,7 @@ import torch
 from odin.data import sha256
 from odin.model import LanguageModel, ModelConfig
 from odin.tokenizer import Tokenizer
+from odin.sampling import TokenSampler, training_sources
 
 
 def atomic_save(value, path):
@@ -32,11 +33,16 @@ def load_checkpoint(path, device='cpu'):
     return model, tokenizer, state
 
 
-def train(*, data, config, output, steps, batch_size=8, accumulation=1, lr=0.0006, device='cpu', seed=20260929, eval_every=250, stop_after=None, resume=None, threads=4):
+def train(*, data, config, output, steps, batch_size=8, accumulation=1, lr=0.0006, device='cpu', seed=20260929, eval_every=250, stop_after=None, resume=None, threads=4, compile_model=False, deterministic=False):
     if steps < 1 or batch_size < 1 or accumulation < 1 or eval_every < 1 or not math.isfinite(lr) or lr <= 0:
         raise ValueError('Training counts and learning rate must be positive')
     if device == 'cuda' and not torch.cuda.is_available():
         raise RuntimeError('CUDA requested but unavailable; no silent CPU fallback')
+    if compile_model and device != 'cuda':
+        raise ValueError('Compiled training requires CUDA')
+    if deterministic:
+        os.environ['CUBLAS_WORKSPACE_CONFIG']=':4096:8'
+    torch.use_deterministic_algorithms(deterministic)
     torch.set_num_threads(threads)
     torch.manual_seed(seed)
     np.random.seed(seed)
@@ -51,20 +57,19 @@ def train(*, data, config, output, steps, batch_size=8, accumulation=1, lr=0.000
     tokenizer = Tokenizer.load(data/'tokenizer.json')
     if tokenizer.vocab_size != config.vocab_size:
         raise ValueError(f'Tokenizer has {tokenizer.vocab_size} tokens, model expects {config.vocab_size}')
-    fingerprint = {n:sha256(data/n) for n in ('train.bin','dev.bin','tokenizer.json','manifest.json')}
-    arrays = {n:np.memmap(data/f'{n}.bin', dtype=np.uint16, mode='r') for n in ('train','dev')}
-    if min(len(x) for x in arrays.values()) <= config.context:
-        raise ValueError('Token corpora must exceed context length')
-    if max(int(x.max()) for x in arrays.values()) >= config.vocab_size:
-        raise ValueError('Corpus contains token IDs outside vocabulary')
+    sources = training_sources(data)
+    fingerprint = {n:sha256(data/n) for n in sorted(set(['train.bin','dev.bin','tokenizer.json','manifest.json']+[s['file'] for s in sources]))}
+    samplers = {
+        'train':TokenSampler([(np.memmap(data/s['file'], dtype=np.uint16, mode='r'),s['weight']) for s in sources],config.context,config.vocab_size),
+        'dev':TokenSampler([(np.memmap(data/'dev.bin', dtype=np.uint16, mode='r'),1.0)],config.context,config.vocab_size)}
     model = LanguageModel(config).to(device)
     params = list(model.parameters())
     groups = [{'params':[p for p in params if p.dim() >= 2], 'weight_decay':0.1}, {'params':[p for p in params if p.dim() < 2], 'weight_decay':0.0}]
     optimizer = torch.optim.AdamW(groups, lr=lr, betas=(0.9,0.95), eps=1e-8, fused=(device=='cuda'))
-    recipe = dict(steps=steps, batch_size=batch_size, accumulation=accumulation, lr=lr, seed=seed)
+    recipe = dict(steps=steps, batch_size=batch_size, accumulation=accumulation, lr=lr, seed=seed, compile_model=compile_model, deterministic=deterministic)
     step, tokens, previous_seconds = 0, 0, 0.0
     run_id=str(uuid.uuid4())
-    code_hashes={name:sha256(Path(__file__).parent/name) for name in ('train.py','model.py','tokenizer.py')}
+    code_hashes={name:sha256(Path(__file__).parent/name) for name in ('train.py','model.py','tokenizer.py','sampling.py')}
     if resume:
         state = torch.load(resume, map_location='cpu', weights_only=True)
         if state['fingerprint'] != fingerprint or state['config'] != config.to_dict() or state['recipe'] != recipe:
@@ -100,13 +105,11 @@ def train(*, data, config, output, steps, batch_size=8, accumulation=1, lr=0.000
             os.replace(temporary,metrics_path)
     hardware = torch.cuda.get_device_name() if device=='cuda' else platform.processor() or 'CPU'
     provenance = {'initialization':'random', 'pretrained_weights':False, 'distillation':False, 'seed':seed, 'hardware':hardware, 'device':device, 'precision':'bfloat16 autocast / float32 optimizer' if device=='cuda' else 'float32', 'torch':str(torch.__version__), 'python':platform.python_version(), 'source_sha256':code_hashes}
+    training_model = torch.compile(model) if compile_model else model
     amp = lambda: torch.autocast('cuda', dtype=torch.bfloat16) if device=='cuda' else nullcontext()
     def batch(split, generator=None):
-        a = arrays[split]
-        starts = torch.randint(len(a)-config.context, (batch_size,), generator=generator).tolist()
-        x = torch.tensor(np.stack([a[s:s+config.context].astype(np.int64) for s in starts]), device=device)
-        y = torch.tensor(np.stack([a[s+1:s+config.context+1].astype(np.int64) for s in starts]), device=device)
-        return x,y
+        x, y = samplers[split].batch(batch_size, generator)
+        return x.to(device),y.to(device)
     def validate():
         model.eval()
         g = torch.Generator().manual_seed(991)
@@ -147,7 +150,7 @@ def train(*, data, config, output, steps, batch_size=8, accumulation=1, lr=0.000
             for _ in range(accumulation):
                 x,y = batch('train')
                 with amp():
-                    _, loss = model(x,y)
+                    _, loss = training_model(x,y)
                 if not torch.isfinite(loss):
                     raise FloatingPointError('Nonfinite training loss')
                 loss_sum += loss.item()/accumulation
@@ -183,6 +186,8 @@ if __name__ == '__main__':
     p.add_argument('--stop-after',type=int)
     p.add_argument('--resume')
     p.add_argument('--threads',type=int,default=4)
+    p.add_argument('--compile-model',action='store_true')
+    p.add_argument('--deterministic',action='store_true')
     args=vars(p.parse_args())
     args['config']=ModelConfig(**json.loads(Path(args['config']).read_text()))
     train(**args)

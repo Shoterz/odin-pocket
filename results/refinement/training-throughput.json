@@ -1,0 +1,32 @@
+[
+  {
+    "compiled": false,
+    "batch_size": 16,
+    "steps": 100,
+    "warmup_seconds": 1.789345373166725,
+    "seconds": 11.629347153007984,
+    "tokens_per_second": 70442.47533603897,
+    "peak_vram": 5430228992,
+    "final_random_batch_loss": 0.013336912728846073
+  },
+  {
+    "compiled": true,
+    "batch_size": 16,
+    "steps": 100,
+    "warmup_seconds": 3.766796214040369,
+    "seconds": 7.561674166005105,
+    "tokens_per_second": 108335.79734007372,
+    "peak_vram": 3794844160,
+    "final_random_batch_loss": 0.08518937230110168
+  },
+  {
+    "compiled": true,
+    "batch_size": 32,
+    "steps": 100,
+    "warmup_seconds": 38.38619625288993,
+    "seconds": 14.956054890993983,
+    "tokens_per_second": 109547.60543080031,
+    "peak_vram": 6830307840,
+    "final_random_batch_loss": 0.0061338795349001884
+  }
+]

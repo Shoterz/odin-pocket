@@ -1,0 +1,34 @@
+{
+  "purpose": "Development-only prompts frozen before refinement training. Authored by Codex for evaluation, never training targets. Not an independent benchmark.",
+  "generation": [
+    "I saw my friend on the road today",
+    "Mira put her red umbrella beside the door. When the rain began,",
+    "The little boat had a hole in its bottom. Sam noticed water coming in and",
+    "Two friends wanted to share one apple. They found a knife and",
+    "Nora was looking for her lost dog. At the end of the street she heard",
+    "Yesterday I missed the bus. Today I left home earlier because",
+    "The shop was closed, but there was a light in the window. I knocked and",
+    "A child planted a seed in a small pot. Every morning she",
+    "Ice melts when it gets warmer because",
+    "A bicycle slows down when the rider presses the brakes because",
+    "Plants need sunlight because",
+    "A metal spoon feels colder than a wooden spoon in the same room because",
+    "The Moon looks bright at night because",
+    "We see lightning before we hear thunder because",
+    "To keep a cup from falling off a table,",
+    "When water freezes inside a full glass bottle,"
+  ],
+  "seeds": [42, 137],
+  "temperature": 0.8,
+  "max_new_tokens": 128,
+  "comparison": [
+    {"prompt":"Mira left her umbrella beside the door. Later she wanted it. She should look", "candidates":[" beside the door."," inside the refrigerator."],"expected":0},
+    {"prompt":"The boat had a hole and was filling with water. To stop the leak, Sam should", "candidates":[" make the hole larger."," plug the hole."],"expected":1},
+    {"prompt":"A person wants two equal pieces of one apple. They should", "candidates":[" cut the apple in half."," eat the whole apple."],"expected":0},
+    {"prompt":"Rain is falling outside. To keep dry while walking, you can", "candidates":[" carry an open umbrella."," remove your raincoat."],"expected":0},
+    {"prompt":"The bus leaves at eight. To catch it, you should arrive", "candidates":[" at nine."," before eight."],"expected":1},
+    {"prompt":"An empty cup is lighter than the same cup filled with water because", "candidates":[" water has weight."," empty cups contain more water."],"expected":0},
+    {"prompt":"A person drops a stone. Without anything holding it up, the stone will", "candidates":[" float upward."," fall toward the ground."],"expected":1},
+    {"prompt":"Ana gave Ben her blue book. Ben placed it on his desk. The book is now", "candidates":[" on Ben's desk."," in Ana's hand."],"expected":0}
+  ]
+}
