@@ -15,4 +15,4 @@ Review focus: future-token leakage; lost/duplicated targets in perplexity; misla
 - [x] 4. Product. Files `odin/server.py`, `web/`, `tests/test_server.py`. Test missing checkpoint, bounded input, real generated continuation, candidate likelihood and HTTP access. Build browser interface, inspect desktop/mobile and capture screenshots.
 - [x] 5. Local submission artifacts. Files `README.md`, `docs/model-card.md`, `docs/data-card.md`, `submission/`. Document actual run/results/limits, parameter report, dependencies, attribution and AI assistance. Produce demo recording and screenshots. Run full tests and independent final review; address findings. Publish only with available authorization/account access.
 
-Training and full evaluation completed. Local capture, visual inspection, final source and evidence are complete. Public publication and Devpost submission remain unverified.
+Training and full evaluation completed. Local capture, visual inspection, final source and evidence are complete. Source publication is verified at https://github.com/Shoterz/odin-pocket. Required video-platform hosting and Devpost submission remain unverified.

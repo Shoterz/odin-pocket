@@ -4,18 +4,24 @@ A **49,295,872-parameter causal language model**, trained from random initializa
 
 **Axiom AI** · Yong Li Zhong · Solo developer.
 
-**Status:** trained from scratch and fully evaluated. The local workbench and release checks pass. Public repository/video publication and Devpost submission are still separate, unverified steps.
+**Status:** trained from scratch and fully evaluated. The local workbench and release checks pass. Source is public on GitHub. A YouTube/Vimeo/Youku video upload and Devpost submission remain separate, unverified steps.
 
 ## Use the workbench
 
 Python 3.10 or later. In a fresh environment:
 
 ```bash
+git clone https://github.com/Shoterz/odin-pocket.git
+cd odin-pocket
 python3 -m venv .venv
 # RTX 4070 / CUDA 12.6 runtime:
 .venv/bin/pip install torch==2.7.0 --index-url https://download.pytorch.org/whl/cu126
 # CPU-only alternative: use https://download.pytorch.org/whl/cpu above.
 .venv/bin/pip install -r requirements.txt
+mkdir -p runs/pocket
+curl --fail --location --output runs/pocket/submission.pt \
+  https://github.com/Shoterz/odin-pocket/releases/download/v0.1.0/submission.pt
+echo "4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e  runs/pocket/submission.pt" | sha256sum --check
 bash run.sh --checkpoint runs/pocket/submission.pt --evidence submission/evidence
 ```
 
@@ -33,7 +39,7 @@ The model is a base next-token predictor, not an instruction-tuned chatbot. It c
 
 ## Final weights and evidence
 
-The inference-only checkpoint is `runs/pocket/submission.pt` (198,352,841 bytes). It is distributed separately from the source archive.
+The inference-only checkpoint is `runs/pocket/submission.pt` (198,352,841 bytes). Download it from the [v0.1.0 release](https://github.com/Shoterz/odin-pocket/releases/tag/v0.1.0). It is distributed separately from the source archive.
 
 SHA-256: `4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e`.
 

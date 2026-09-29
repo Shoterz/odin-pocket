@@ -18,9 +18,9 @@ Solo developer: **Yong Li Zhong**
 
 ## External steps still unverified
 
-Publish the source repository and provide a downloadable checkpoint. Upload the English demo to YouTube, Vimeo or Youku and copy its link. Confirm the Devpost team registration and associate Yong Li Zhong with Axiom AI. Add the description, complete Built With list, at least three screenshots, repository link and hosted video to Track 01. Review the entry before submitting.
+Public repository: https://github.com/Shoterz/odin-pocket . Checkpoint and downloadable demo: https://github.com/Shoterz/odin-pocket/releases/tag/v0.1.0 . Upload the English demo to YouTube, Vimeo or Youku and copy its link. Confirm the Devpost team registration and associate Yong Li Zhong with Axiom AI. Add the description, complete Built With list, at least three screenshots, repository link and hosted video to Track 01. Review the entry before submitting.
 
-No public repository, hosted video or Devpost submission is claimed by these local files. Rules: https://gibc-v2.devpost.com/rules . The rules list October 1 at 23:45 UTC+8; an update lists October 2 at 23:59. Use the earlier deadline unless the organizer confirms otherwise.
+The GitHub repository is public. GitHub-hosted video is provided for review but does not replace the specified YouTube/Vimeo/Youku link. No Devpost submission is claimed. Rules: https://gibc-v2.devpost.com/rules . The rules list October 1 at 23:45 UTC+8; an update lists October 2 at 23:59. Use the earlier deadline unless the organizer confirms otherwise.
 
 ## Claims to preserve
 
