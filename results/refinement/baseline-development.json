@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "checkpoint_sha256": "4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e",
+  "parameter_count": 49295872,
+  "trained_tokens": 983040000,
+  "protocol": {
+    "context": 512,
+    "windows_per_domain": 256,
+    "window_seed": 90210,
+    "prompt_file_sha256": "bb0c2fab280ae9f8f556dd3763cc6a482d0f301ef68ff245a7d1fb72932c99d0",
+    "tokenizer_sha256": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+    "domain_files": {
+      "web": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+      "stories": "6366189afed3b36e5c625e1ba23055b52315c6d520c6ad9d42e521b90f990b2f"
+    },
+    "temperature": 0.8,
+    "seeds": [
+      42,
+      137
+    ],
+    "max_new_tokens": 128,
+    "top_k": 40,
+    "device": "cuda",
+    "precision": "bfloat16-autocast",
+    "generation_cache": true
+  },
+  "protocol_sha256": "d91197d67a5e3b45ff81f0e9ba3fe482d0cfad2e32f622a972a4424fc7aff376",
+  "domains": {
+    "web": {
+      "nll": 3.289340063929558,
+      "perplexity": 26.825154925895625,
+      "windows": 256,
+      "tokens": 131072
+    },
+    "stories": {
+      "nll": 2.837258256971836,
+      "perplexity": 17.068902778489846,
+      "windows": 256,
+      "tokens": 131072
+    }
+  },
+  "generation": [
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 42,
+      "text": ".\nSkills for our readers\nKrista's teacher now works with our students for our schools.\nPeter is a real friend of the year.\nThe only way to teach this class is to teach a school day.\nThank you for your help.\nI'm going to bring you a copy of the Kathy's book in order to teach you.\nYou are here\nTomorrow we will be teaching a day.\nLudwell's (Joseph) book (1881) is the book that teaches an hour.\nBarry's (Joseph) book is",
+      "tokens": 128,
+      "seconds": 1.473711130907759,
+      "tokens_per_second": 86.85555623180784,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 137,
+      "text": " after he was injured.\nMy friend was very impressed with the story. He called me \u201cThe Happy Old Lady.\u201d He was a great friend who had made me a friend of the American Civil War and he wanted my own life. I\u2019m very proud of my friend. I can count on him, but I\u2019m afraid I can\u2019t help my friend. He\u2019s a pretty quiet man and a little older. I\u2019m not a great friend. I\u2019m a great friend.\nSo, with a big part to me, I had the opportunity to be the American Civil War hero in the Army.",
+      "tokens": 128,
+      "seconds": 1.2909066649153829,
+      "tokens_per_second": 99.15511591877188,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.00980392156862745
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 42,
+      "text": " she was standing on a bed and daddy came out. I didn\u2019t even know I would see her because she was standing on her lap. I did not know that she was standing next to me at the door of her husband\u2019s house. She was standing on her lap. This is what I call a \u201cdaddy.\u201d\nShe was dressed as a boy and wearing a black outfit. When the rain came, she was dancing on her lap. Then she turned in and started to dance along with her body. I started to dance my daddy. When she was dancing, she was dancing on her",
+      "tokens": 128,
+      "seconds": 1.302392973098904,
+      "tokens_per_second": 98.28062853828041,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.05825242718446602
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 137,
+      "text": " she was left behind in the hall and surrounded by the fire. It was a huge fire, but with a huge explosion. The fire was so terrible for her as to be a shattering fire and the fire was not only a fire, but a fire that would be enough to burn it, in the hope that it could be brought out. She was the last of her four sisters, and when she was last to come to the rescue, she brought the fire, and then she put it in the room, all the way to the bed. She was the last of her three sisters who, as a rule, had her own",
+      "tokens": 128,
+      "seconds": 1.2929875659756362,
+      "tokens_per_second": 98.99553821572628,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02727272727272727
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 42,
+      "text": " took it home. Sam and a sailor saw the boat, with the assistance of an eye on her, and then immediately went out to find her. Sam asked Sam to take her out and to get him and her passengers, along with a large amount of money, to help him take the vessel to his destination. Sam was so anxious about his departure that he could not keep him except by taking Sam and a few others back to his home. His return was a terrible event, but Sam knew he could not make up his mind and decided to go home. Sam knew Sam was still alive, and he was now looking for Sam",
+      "tokens": 128,
+      "seconds": 1.2902241440024227,
+      "tokens_per_second": 99.20756838647382,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 137,
+      "text": " called out to the other boat.\nBednuts were on the boat to collect water from the water. They kept the water in the water with the two sides of the boat and then they ran into the water to a depth of 1,000 feet. They then used the water to find a way back to the water. The water then ran into the bottom of the boat. The boat would return to the boat with a single bar and the water would return to the boat.\nThe boat was headed for the water and the men got the boat back to Sam\u2019s home. It was a beautiful white stone with white stars",
+      "tokens": 128,
+      "seconds": 1.293408390134573,
+      "tokens_per_second": 98.96332896578954,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02702702702702703
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 42,
+      "text": " a knife in a shrine. (Great Legend is included with the picture.) When asked by the family if they could get a copy of this picture, they said they did not like it because they thought it was only that they were the same person.\nThe family wanted to be part of the family. They wanted to go out and collect the materials and see what they wanted to buy. It was an easy way to get the supplies but it was a nice way to give the family the materials. In other words, it was just a way to get out the clothes you want to buy.\nThe picture is really",
+      "tokens": 128,
+      "seconds": 1.2911578840576112,
+      "tokens_per_second": 99.1358234190116,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 137,
+      "text": " took it to a store. It was a great toy that they thought was a bad thing and it was a great toy that they thought was a bad item and was a bad thing. It was a nice toy that they could take home and take home.\nThe story was really different. I took the apple out of the house and then bought the fruit. I thought it was an awesome one. I was going to see some of the fruit. I knew that it was a good thing. I was going to see the fruit of a good friend. I had the fruit and I wanted to see who gets a fruit when I",
+      "tokens": 128,
+      "seconds": 1.2927194710355252,
+      "tokens_per_second": 99.01606873567579,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.09734513274336283
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 42,
+      "text": " a loud \"momentary\" sound when she was in a bad way. Her saddled-up mother said she had been unable to cope with the noise. She then gave birth to a new girl.\nAfter having an abortion, she was diagnosed with breast cancer. She was placed on chemotherapy before being given a hormone that was the same as any other hormone. Her symptoms seemed to be normal and her symptoms were not yet clear. A patient who had previously taken antidepressants, started taking some form of their drug, called \"Arena\". The same person had also taken antidepressants, called",
+      "tokens": 128,
+      "seconds": 1.2887571169994771,
+      "tokens_per_second": 99.32049903865007,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 137,
+      "text": " a sound of a young boy and it was her. Then she had to go to the local church and found a way out.\nShe was just trying to take the baby out of a window. Then she turned to her lover, the lover, and there was to be a lover to take. She was too young to have any responsibility for her life.\nWhen she got home it was a good idea for the little boy to take a house in. He went to the local church and told him his mother had been given the house to them. The child was a little old woman and then moved back to the church",
+      "tokens": 128,
+      "seconds": 1.2892342219129205,
+      "tokens_per_second": 99.28374365526699,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.018018018018018018
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 42,
+      "text": " I was too busy. I did not plan to go to the cinema the first time I saw him in my movie. I was too busy and the audience liked him. I was really surprised to find my mother is a good friend; her mother has a great role in the movie. I was always so disappointed because I was so nervous when I saw her in the movie. I was in a situation of bad fortune, but I was very happy in the movie. Then there was someone who was a little bit sad. I took the picture of her and did it again. I did it again. I was like, \"C",
+      "tokens": 128,
+      "seconds": 1.2952585499733686,
+      "tokens_per_second": 98.82196878965344,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.03636363636363636
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 137,
+      "text": " I was very disappointed. I would have been happy.\nBob: \u201cI was so fortunate that my mother was a child. It was just a small boy. It was a man, a woman.\u201d\nBob: \u201cI was so fortunate that I knew her.\u201d\nAlex: \u201cI saw that I had a big eye.\u201d\nJon: \u201cWell, I had a great laugh.\u201d\nBob: \u201cI was just a little girl. I was a kid. I was always kind to my mother. It was a man.\nBob: \u201cHe was the little",
+      "tokens": 128,
+      "seconds": 1.2888709290418774,
+      "tokens_per_second": 99.31172867336903,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.04938271604938271
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 42,
+      "text": " sat down the door. I ran the door and sat down the door. Then I was just walking down the street and looking at a good few of the horses. I was running and sitting down and seeing them standing on the side of the street. I was not walking. I was walking. So I left the door and returned to the barn. I found someone that was sleeping and told him I was in the room, but I couldn\u2019t go home. I left, but just found myself there, and a big little thing.\nYou can see the door in the wall above the house. I was just sleeping and you",
+      "tokens": 128,
+      "seconds": 1.292050973046571,
+      "tokens_per_second": 99.06729894578729,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.009174311926605505
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 137,
+      "text": " couldn\u2019t find it. It was really, but we started to be very close to it, and I was just a little bit out of the corner, because we had to stay there, but then I didn\u2019t need to go back to the shop. It was so weird, so it was like we were in the bathroom, we were in the bathroom and there were weaving parties. I\u2019d do one thing, but it was fun, and there was an awesome dance, like that. It was quite fun.\nI\u2019ve been in the barber shop for weeks now, the only",
+      "tokens": 128,
+      "seconds": 1.2881429749540985,
+      "tokens_per_second": 99.36785161954646,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02040816326530612
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 42,
+      "text": " would plant some of the seed to plant from the bottom of the pot. If she would plant some seeds and then place them in the pot, the seed would be harvested and the seed would become a plant and a seed was kept from the pot.\nThe seedlings would be picked from two sides. The seedlings would be ready to be planted in the opposite sides. The seedlings should be ready to plant and be planted in the same way they would be planted in the same ways they would be planted in the same way they would be planted in the same way the same way they would be planted in the same way.\n",
+      "tokens": 128,
+      "seconds": 1.2962195279542357,
+      "tokens_per_second": 98.74870516880469,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.22123893805309736
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 137,
+      "text": " and her baby, all the way to the field, rolled their seedlings to the top. If they were in a small pot, they would take a picture of the seedlings, then put one on the first seed that they would be able to see. They would place the seedlings a couple of centimeters apart. They would put a small pot on the other end and put a little finger on the top. Then the first seedlings would be able to see the seedlings as they were about to get inside.\nThe process is very easy. The child would take the seed and throw it. With this process, the",
+      "tokens": 128,
+      "seconds": 1.2883909409865737,
+      "tokens_per_second": 99.34872710451158,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.01904761904761905
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 42,
+      "text": " of the influence of sunlight. If you change your light levels, turn off the lights to stay warm, and you have a better chance of getting the nutrients that are needed to keep your teeth healthy.\nIf you have a dark coat in your mouth, you may need to use a darker coat that doesn\u2019t allow your teeth to dry out.\nWhen you replace a dark coat, your tooth is likely damaged and will require a new coat.\nThere are several ways to help prevent you from getting dark, but it\u2019s important to keep a dark coat between you and your dentist or dentist.\nYou can also buy a darker",
+      "tokens": 128,
+      "seconds": 1.2892246670089662,
+      "tokens_per_second": 99.28447948251194,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 137,
+      "text": " of the weather.\nThe sun does not rise at this time, but it sets in the night sky.\nIt\u2019s not a sunny spot. A sunny day makes a lot of things worse.\nA solar system is the largest solar system in the universe.\nA solar system is the second largest solar system in the universe, and the second largest solar system in the universe.\nThese are the most massive solar systems in the universe, and they\u2019re the most massive.\nThe sun\u2019s energy is the product of a solar system. The solar system\u2019s total energy is the smallest solar system in the",
+      "tokens": 128,
+      "seconds": 1.29343880712986,
+      "tokens_per_second": 98.96100170678498,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.11764705882352941
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 42,
+      "text": " the brakes are too close to the stopgap. The brakes have to be taken in and out of reach of the brake pedals. After the brakes have been taken out of the rider\u2019s body, you can take the brakes into the brake tank. When you lift the brakes, you should keep the brakes in between the brakes, making them a bit easier to work out.\nTraining to Avoid the Traco Pullin\u2019s Train\nAsk your horse to train you to a more reliable track than you have. To train your horse, keep a constant",
+      "tokens": 128,
+      "seconds": 1.2902865880168974,
+      "tokens_per_second": 99.20276719044973,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 137,
+      "text": " the brakes are out of order.\n- One or two paces of brake is used to slow the bike down.\n- One or a half times a bike is short.\n- Some brakes are not at all useful, but they are useful to slow the bike down.\n- One brake is not important, so the bike is not too long.\n- The brake starts at the start of the brake.\n- The brake is not used until the brake is good.\n- The brake stops when the brake is good.\n- The brake, when the brake",
+      "tokens": 128,
+      "seconds": 1.2941212020814419,
+      "tokens_per_second": 98.90881920034,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.07058823529411765
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 42,
+      "text": " they are easy to get enough sunlight. Even green plants require light to grow; they also need a few times the light to grow and will not require too much sunlight.\nSo the most common form of sunbathing is not sunbathing. When the sun is shining, a few different types of sunbathing are used.\nDestroys: Dicots are made with light, so the sun has a high number of light sources: it contains hundreds of different kinds of light, so it is best for people to avoid their sunbeams. It is best to use a sun light filter for",
+      "tokens": 128,
+      "seconds": 1.287834401940927,
+      "tokens_per_second": 99.391660765614,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 137,
+      "text": " they can\u2019t be exposed to sunlight. So plants are likely to be exposed to sunlight, which results in a more balanced and more balanced diet. If the amount of sunlight is adequate to keep your plants healthy, it is the best way to make sure that your plants have room to grow.\nGreen Plants: The goal of the green plants is to protect the plants that need it most. A green plant can grow in the same way as a green plant. The green plants grow in the same way. For example, the green plant grows on the ground and is the main source of light. When one is growing one\u2019",
+      "tokens": 128,
+      "seconds": 1.2915695901028812,
+      "tokens_per_second": 99.10422247538675,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.027522935779816515
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 42,
+      "text": " it is very thin and doesn't seem to stretch out.\nBone spoon\nLife-saving plastic spoon is a common type of metal spoon used in all but the best known applications and for the use of many people in the industry.\nBone spoon is often used as a source of electrical power for many different industries.\nThere are many different types of spoon that use the same spoon.\nBone spoon can be used both for everyday objects and in a variety of other applications.\nThe common type of spoon used by many types of metal spoon manufacturers is the spoon",
+      "tokens": 128,
+      "seconds": 1.3151537640951574,
+      "tokens_per_second": 97.32702250832672,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 137,
+      "text": " it is slightly easier to hold a metal spoon when using a screw.\nTap a spoon to the right and press it into the metal and hold with the screw. In a nut, do the pressing and press the screw to the right.\nYou will need to press the screw, press two or more holes to create the screw, and press the screw. You will need to press the screw with your finger or pressing the screw to the right place.\nIf you are using a screw, hold the screw with the hook, pressing the screw and press the screw into the metal spoon to the left.",
+      "tokens": 128,
+      "seconds": 1.2895417180843651,
+      "tokens_per_second": 99.2600690655794,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.09615384615384616
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 42,
+      "text": " it is in the middle of the night. For the moon, astronomers would like to see this effect, but that would be the only way for the astronomers to see the effect.\nBut that is an interesting question. According to the researchers, the Moon would be bright enough to be the most intense, as it is in the middle of the night. What\u2019s more, scientists would like to see this effect.\nThe team is still developing the technology to look more clearly at the Moon.\n\u201cYou don\u2019t need a high-resolution camera for a project to get to the Moon,\u201d said James Sore",
+      "tokens": 128,
+      "seconds": 1.29839020781219,
+      "tokens_per_second": 98.5836147175526,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0784313725490196
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 137,
+      "text": " it is located in the middle of the sky, just a few light years away.\nA team of scientists from Stanford and the National Aeronautically Tested Space Telescope at the University of California, San Jose has been able to study the Moon for a while.\n\u201cOur job is to study the Moon, and we can do it in the morning,\u201d says the National Aeronautics and Space Administration\u2019s Jeffrey G. Miller, the program\u2019s director of space science. \u201cIt\u2019s our job to observe and understand the Moon and the Moon. It also gives us a basis in which to study",
+      "tokens": 128,
+      "seconds": 1.3153643868863583,
+      "tokens_per_second": 97.31143801376055,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.01020408163265306
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 42,
+      "text": " it is caused by lightning. They seem to be too loud. No wonder they don\u2019t get it. We are not aware of them, but it is true. They are only a matter of years ago.\nSo many scientists are still wondering what the lightning is. It doesn\u2019t matter that lightning is caused by lightning. It was first thought that lightning is caused by the sun and that lightning is caused by electricity.\nThe myth says that the sun is a black hole, the sun is a white one, and the lightning is caused by the sun\u2019s rays. These are not",
+      "tokens": 128,
+      "seconds": 1.3083422200288624,
+      "tokens_per_second": 97.8337303807075,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.09
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 137,
+      "text": " it is still lightning.\n\"But there is more lightning in the sky than lightning in the sky,\" says the New York Times. But the researchers say the lightning in the sky doesn't travel along that trail.\n\"What we see is the lightning in the sky. The light from the lightning is that light from the sky. That's what the lightning in the sky is in the sky.\n\"The lightning in the sky is going to be the lightning in the sky. It's going to travel in the sky.\"\nThe team says it's not just lightning in the sky",
+      "tokens": 128,
+      "seconds": 1.3017520448192954,
+      "tokens_per_second": 98.32901781058351,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.1414141414141414
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 42,
+      "text": " you can add a few different teas to your tea, or bring one with a lid and an electric light for a few minutes.\nIf you want to help your body\u2019s natural energy needs by keeping a cup of tea and a cup of tea, you can add a few more teas in a few minutes.\nWhen you\u2019re not allowed to have tea, you will want to use your own teaspoon to help your body in the right way. A teaspoon can help to keep your body in the right shape.\nIt\u2019s a natural way to hold a cup of tea, for a short",
+      "tokens": 128,
+      "seconds": 1.3012007279321551,
+      "tokens_per_second": 98.37067967477647,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0673076923076923
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 137,
+      "text": " there is a big problem with the fact that it is too hot, too hot, too cold. For example, you might want to keep a cup that has not been warmed, or too cold if it has been cooled, or too cold if it has not been warmed. Also, the temperature at the bottom of the cup will not change the temperature at the top, and you have to maintain the temperature of the cup in the same way as you can keep the cup in the same temperature.\nTo take a minute to warm the cup with the cup in the same way as your body needs it, the cup you have",
+      "tokens": 128,
+      "seconds": 1.3196131000295281,
+      "tokens_per_second": 96.9981277066254,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.1
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 42,
+      "text": " the glass bottles can be made of ceramic or metal components. If you use a large amount of ceramic, it is not necessary to prepare the glass bottles. For example, glass bottles are made of stone (may be used in the glass bottles), woodblock bottles, and glass bottles.\nIn order to keep the glass bottles warm and strong, the glass bottles must be made of metal material. This is essential as they can be made from either metal (often brass or titanium) or metal material (often quartz).\nThe glass bottles should",
+      "tokens": 128,
+      "seconds": 1.2978487329091877,
+      "tokens_per_second": 98.62474474439105,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 137,
+      "text": " your glass bottle will dry out, dry out and even finish.\nFreezing is a natural process that can take some time. It is easy as you know it. But remember to not use water freezing with water if you want it to dry out. It can make your glass bottle wired to water faster.\nSo choose freezing as your glass bottle to have your glass bottle to dry out. You should never put a bottle in a glass bottle or make a bottle to dry out.\nWhat are the benefits of freezing?\nThere are many benefits to freezing. Some of the benefits of freezing in the",
+      "tokens": 128,
+      "seconds": 1.2961644849274307,
+      "tokens_per_second": 98.75289863937788,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02912621359223301
+    }
+  ],
+  "comparison": [
+    {
+      "prompt": "Mira left her umbrella beside the door. Later she wanted it. She should look",
+      "candidates": [
+        " beside the door.",
+        " inside the refrigerator."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.241227912902832,
+        -3.2439657847086587
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "The boat had a hole and was filling with water. To stop the leak, Sam should",
+      "candidates": [
+        " make the hole larger.",
+        " plug the hole."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -4.089588165283203,
+        -3.3188703060150146
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "A person wants two equal pieces of one apple. They should",
+      "candidates": [
+        " cut the apple in half.",
+        " eat the whole apple."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.0690186818440757,
+        -2.354035568237305
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "Rain is falling outside. To keep dry while walking, you can",
+      "candidates": [
+        " carry an open umbrella.",
+        " remove your raincoat."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.122318983078003,
+        -3.651587894984654
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "The bus leaves at eight. To catch it, you should arrive",
+      "candidates": [
+        " at nine.",
+        " before eight."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -3.044663111368815,
+        -4.644681612650554
+      ],
+      "predicted": 0,
+      "correct": false
+    },
+    {
+      "prompt": "An empty cup is lighter than the same cup filled with water because",
+      "candidates": [
+        " water has weight.",
+        " empty cups contain more water."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -4.532777786254883,
+        -2.767470496041434
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "A person drops a stone. Without anything holding it up, the stone will",
+      "candidates": [
+        " float upward.",
+        " fall toward the ground."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -2.846231460571289,
+        -2.3126291275024413
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "Ana gave Ben her blue book. Ben placed it on his desk. The book is now",
+      "candidates": [
+        " on Ben's desk.",
+        " in Ana's hand."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.0868036270141603,
+        -4.272441864013672
+      ],
+      "predicted": 0,
+      "correct": true
+    }
+  ],
+  "comparison_accuracy": 0.75,
+  "mean_repeated_4gram_rate": 0.044429069252091405,
+  "mean_generated_tokens": 128.0,
+  "elapsed_seconds": 43.17390105989762,
+  "limitations": "Local development suite, not independent validation. Fixed random windows may overlap; repetition metric does not establish coherence or truth."
+}

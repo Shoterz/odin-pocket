@@ -1,0 +1,65 @@
+{
+  "verified": true,
+  "baseline_manifest_sha256": "6f1d69e7488838bb4d92b6a0d0841ac892d2465557f7c411dbd6fffbce0c95ab",
+  "protected_files": [
+    {
+      "file": "hellaswag-test.arrow",
+      "sha256": "ccfab73ded659df04451e5576ae8fece2750bbcc926b58698d8c29664c835b9c"
+    },
+    {
+      "file": "hellaswag-validation.arrow",
+      "sha256": "fdd100245fae28e387869527dd0b8af1a0a931f7cf364abaf6f3138de7f0d27b"
+    },
+    {
+      "file": "wikitext-test.arrow",
+      "sha256": "2b8a3efac7b468cbe6432edba5f55c21e435d93873acc6727431f08d5ed328ea"
+    },
+    {
+      "file": "wikitext-validation.arrow",
+      "sha256": "8e136ab7130c5fca602eb406ce2557967a974d901b53c4f2992f87b873e0fe5b"
+    },
+    {
+      "file": "ai2_arc-test.arrow",
+      "sha256": "8d1f615aaf6fd5256003a72e33b24394a8460806b59e11fe7e6586a9b6642f71"
+    },
+    {
+      "file": "ai2_arc-validation.arrow",
+      "sha256": "caa0a247e56619a9cf109290abd532ce41dd911fe86210772c256c95b52e8d69"
+    },
+    {
+      "file": "winogrande-test.arrow",
+      "sha256": "16c4d5659ce041e76575baeb34a47cdba17c5f8243701a158b28f4247ebd09e3"
+    },
+    {
+      "file": "winogrande-validation.arrow",
+      "sha256": "992af8404b202ada4356228ed2ebb27f10495126efdf78678ced33e94e82b830"
+    },
+    {
+      "file": "piqa-test.arrow",
+      "sha256": "6794b0a1f28626db5797ef21928f672901636973e0546056caffe03509cb3a16"
+    },
+    {
+      "file": "piqa-validation.arrow",
+      "sha256": "6e14731c78016adc6a5738d661111f5cb4c6bce461c454561eb66be4abc39222"
+    }
+  ],
+  "wiki_train_files": [
+    {
+      "file": "wikitext-train-00000-of-00002.arrow",
+      "sha256": "0c22278eac8186f5dd6060fcf84e4bcb4aa2266c51c77a279169764814f9a99e"
+    },
+    {
+      "file": "wikitext-train-00001-of-00002.arrow",
+      "sha256": "c42d51e7604e5a9aa11b078a7115a80a6967b6f0c05b2ecf8cef2d596f375561"
+    }
+  ],
+  "fineweb_sha256": "b1ba7b2ce4cb5ea6ef42dca40263eabb85f37700d01693a68e9b30a31d78e871",
+  "stories_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "stories_sha256": "6418d412de72888f52b5142c761ac21a582f7d1166f0bfbdb5f03ccfdec90443",
+  "story_hash_authority": "Pinned Hugging Face download metadata / LFS SHA256",
+  "baseline_files": {
+    "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+    "dev.jsonl": "fdc7f727b50f01be1265d21f648b305bc1e7e5d63429805748ac9ab0ef54f56e",
+    "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb"
+  }
+}

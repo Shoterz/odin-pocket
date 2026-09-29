@@ -1,0 +1,50 @@
+{
+  "recipe": {
+    "steps": 183106,
+    "batch_size": 32,
+    "accumulation": 1,
+    "lr": 0.0006,
+    "seed": 20260929,
+    "compile_model": true,
+    "deterministic": true
+  },
+  "pilot_steps": 15259,
+  "candidates": {
+    "A": [
+      "configs/pocket.json",
+      "data/edu"
+    ],
+    "B": [
+      "configs/pocket.json",
+      "data/mixed"
+    ],
+    "C": [
+      "configs/pocket-deep.json",
+      "data/mixed"
+    ]
+  },
+  "config_sha256": {
+    "A": "379c861659691522b24fff2fdd5d57f1370c8f00f495c6a2ec4be4f82a3015be",
+    "B": "379c861659691522b24fff2fdd5d57f1370c8f00f495c6a2ec4be4f82a3015be",
+    "C": "2aa41ac5f64395b2c86e303c2e088baa01deb25337984ce5be8332d1022d0c18"
+  },
+  "prompt_sha256": "bb0c2fab280ae9f8f556dd3763cc6a482d0f301ef68ff245a7d1fb72932c99d0",
+  "common_manifest_sha256": "d718bca0ae7cc2850ec9be98a82dd52d730afa69cd98c6be1bc5c910ddae37ae",
+  "source_sha256": {
+    "odin/__init__.py": "49df7335a46f422233fda31a3606dd17849a2197d8ce027bf0aa54ae0ee0d202",
+    "odin/corpus.py": "755ca4e7f8a18a0428633cee28df46ed6d941522cc37d677d3eaf4c875cb6848",
+    "odin/data.py": "0c45647c8e23c9c4bda3e5ba89432618ea88526e565286131ea538b9a96692bf",
+    "odin/development.py": "2daf221e1b049d05d4b1bb6956e27caab1b32a9732156b822bbb8237cd5c2979",
+    "odin/evaluate.py": "2661dcd50e10033c699c6f0c0430f8dc1ac18929e4e342779654a1da4659ecf1",
+    "odin/experiment.py": "243443ebb2fb5e98d45bace180f0b6220abffe0d6ef09133f40d6daed6cc489b",
+    "odin/inference.py": "0e785fd78eb263a10ad1c3e56a24d0cbd0682aa507d8fc37a7c30da604d5eb4c",
+    "odin/model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+    "odin/release.py": "5a311523dad2722732b15d360d212de8d008c62ad0352f9123baad3d609bb5c1",
+    "odin/reporting.py": "6884853252f4c91bc6aca63113c191cf432cf4509cfef9d8a8698b8e64f96b07",
+    "odin/sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3",
+    "odin/server.py": "e8c1ca1f4bfc60fb631f9e48385ffc52dfa887ba01e62785fc143c0db45b3687",
+    "odin/tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+    "odin/train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+    "scripts/refinement.py": "66c65e7e0ceb6e31a4d64d12fb5fe2c28b4452eb6e65c40b4148691840255599"
+  }
+}

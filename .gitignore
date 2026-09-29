@@ -5,3 +5,6 @@ data/
 runs/
 *.pt
 .cache/
+results/refinement/*.log
+results/refinement/runner.lock
+results/refinement/status.json
