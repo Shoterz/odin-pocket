@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "protocol_sha256": "a9b503faadee133f884120aadfa4a9485921c2c68e244bf76c48bb26b7d3bbcb",
+  "scoring": {
+    "request_documents": 570,
+    "saved_metric_documents": 285,
+    "live_cpu_likelihood_pairs": 16,
+    "device": "cpu",
+    "harness_version": "0.4.13"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "torch": "2.7.0+cu126",
+  "compiled_control_weights_and_moments_exact": true,
+  "charged_tokens": 1572864,
+  "checkpoints": {
+    "legacy": "10067e7213866355af4a13937194425b928855231fcbaa9e48a98d6caaa1116c",
+    "control": "09c2b24b45ab0c558b762f07c81f729a284f871e660afb192adbfb6a1e270245",
+    "candidate": "1489cac220e0911fd2bd7b395e53030ecb72a7ba3b084df561a6557e8522e520"
+  }
+}

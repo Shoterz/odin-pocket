@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-09-30T16:11:31.521546+00:00",
+  "run_id": "1306cf52-952f-4018-945e-91d3e1bb2b4c",
+  "step": 1000,
+  "tokens": 16384000,
+  "beta2": 0.999,
+  "parameter_count": 49295872,
+  "source_tokens": {
+    "fineweb.bin": 9807360,
+    "wiki.bin": 6576640
+  },
+  "dev_loss": 4.911414802074432,
+  "training_seconds": 156.91708140820265,
+  "peak_allocated_gib": 6.409926414489746,
+  "status": "First saved CUDA checkpoint verified; early warmup metrics are not an improvement claim."
+}

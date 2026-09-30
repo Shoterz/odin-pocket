@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "recipe": {
+    "steps": 61036,
+    "batch_size": 32,
+    "accumulation": 1,
+    "lr": 0.0006,
+    "seed": 20261001,
+    "compile_model": true,
+    "deterministic": true,
+    "warmup_steps": 1000,
+    "beta2": 0.999
+  },
+  "candidate_charged_cap": 1000013824,
+  "verification_charged_cap": 1572864,
+  "cutoff_utc": "2026-10-01T04:00:00+00:00",
+  "child_training_timeout_seconds": 14400,
+  "data": {
+    "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+    "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+    "manifest.json": "226155a37aa517e2e1d258b0364b44875257f11c271ebf292a42817e1945c7a0",
+    "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+    "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+    "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+  },
+  "config": {
+    "vocab_size": 16384,
+    "width": 512,
+    "layers": 12,
+    "heads": 8,
+    "ff": 1536,
+    "context": 512,
+    "rope_base": 10000.0
+  },
+  "control_sha256": "9fc57cb057ed5781bc9c147b84b1ee3b52bfc4d7db1da85560ce15518ebae0ab",
+  "training_source_sha256": {
+    "beta_train.py": "f4bdd63b5bad87ad433b5c76d37590e648da1cec17effe5b5e8eb95596582af3",
+    "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+    "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+    "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+    "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+    "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+  },
+  "source_sha256": {
+    "scripts/beta_refinement.py": "b8a434fe47c724e5ec8e6fff13fccef5eeaec19afc3fea807ff3f04865dee776",
+    "docs/superpowers/plans/2026-09-30-beta2-refinement.md": "c0d6079d8966d074352ce3ba0b3ea1b84fbc256492dadb3512f46fde55d62997",
+    "experiments/beta-prompts.json": "9ed01dea4954dcd913f7538523d557d9522c990e8e3b71adecb62ef88dc223b1",
+    "odin/beta_eval.py": "c862dbba1dc5f1a84cf8552df5a7bc8d11f4e9d8c5dc56977b773d700d7eb761",
+    "odin/release.py": "5a311523dad2722732b15d360d212de8d008c62ad0352f9123baad3d609bb5c1",
+    "odin/experiment.py": "243443ebb2fb5e98d45bace180f0b6220abffe0d6ef09133f40d6daed6cc489b",
+    "scripts/controlled_refinement.py": "ae62dd4222dc37e38725a0aaec940fef2f94b46be093d2fa39ae028dc049994a",
+    "scripts/owned_child.py": "b667e3d6efbf4af4643bd002fd03442b4537dba053dc93a62247bcdd6ba75362"
+  },
+  "evaluation": {
+    "schema": 1,
+    "partition": "observed-development",
+    "choice_score": "raw summed log likelihood",
+    "secondary_score": "likelihood / answer character count excluding inserted separator",
+    "wrapper_sha256": "c862dbba1dc5f1a84cf8552df5a7bc8d11f4e9d8c5dc56977b773d700d7eb761",
+    "parts": [
+      {
+        "partition": "screen",
+        "device": "cuda",
+        "windows": 256,
+        "context": 512,
+        "window_seed": 48117,
+        "choice_score": "mean continuation token log likelihood",
+        "generation": true,
+        "prompts_sha256": "9ed01dea4954dcd913f7538523d557d9522c990e8e3b71adecb62ef88dc223b1",
+        "data_manifest_sha256": "abb13bb6f79483d439e113fe512453a7cfd9070365c11d28940d8bc71a2a1083",
+        "evaluation_sha256": "026cc9f1645b393a4c2c05387cd27559df34b9dd82a55fb2aee55a3b32a623e3",
+        "source_sha256": {
+          "evaluate.py": "2661dcd50e10033c699c6f0c0430f8dc1ac18929e4e342779654a1da4659ecf1",
+          "inference.py": "0e785fd78eb263a10ad1c3e56a24d0cbd0682aa507d8fc37a7c30da604d5eb4c",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b"
+        },
+        "domain_sha256": {
+          "fineweb": "d4a7604de0d8be72eee759bb04edd2a4cb51b8c29fa1345bcf1c40eccb5ab1a4",
+          "wiki": "8ad486e761cc837553feced553d117e9d1d1549cc2b104a8087c8452b0b6c5ee",
+          "stories": "6366189afed3b36e5c625e1ba23055b52315c6d520c6ad9d42e521b90f990b2f"
+        },
+        "questions_sha256": "2c2fc3e6c1ca6be6b36faa5d7af743ab6818423d32d57c3c6dcf8969e8483d73",
+        "tokenizer_sha256": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb"
+      },
+      {
+        "partition": "confirmation",
+        "device": "cuda",
+        "windows": 256,
+        "context": 512,
+        "window_seed": 48117,
+        "choice_score": "mean continuation token log likelihood",
+        "generation": false,
+        "prompts_sha256": "9ed01dea4954dcd913f7538523d557d9522c990e8e3b71adecb62ef88dc223b1",
+        "data_manifest_sha256": "abb13bb6f79483d439e113fe512453a7cfd9070365c11d28940d8bc71a2a1083",
+        "evaluation_sha256": "026cc9f1645b393a4c2c05387cd27559df34b9dd82a55fb2aee55a3b32a623e3",
+        "source_sha256": {
+          "evaluate.py": "2661dcd50e10033c699c6f0c0430f8dc1ac18929e4e342779654a1da4659ecf1",
+          "inference.py": "0e785fd78eb263a10ad1c3e56a24d0cbd0682aa507d8fc37a7c30da604d5eb4c",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b"
+        },
+        "domain_sha256": {
+          "fineweb": "d4a7604de0d8be72eee759bb04edd2a4cb51b8c29fa1345bcf1c40eccb5ab1a4",
+          "wiki": "8ad486e761cc837553feced553d117e9d1d1549cc2b104a8087c8452b0b6c5ee",
+          "stories": "6366189afed3b36e5c625e1ba23055b52315c6d520c6ad9d42e521b90f990b2f"
+        },
+        "questions_sha256": "2c2fc3e6c1ca6be6b36faa5d7af743ab6818423d32d57c3c6dcf8969e8483d73",
+        "tokenizer_sha256": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb"
+      }
+    ]
+  },
+  "harness": {
+    "version": "0.4.13",
+    "task_sha256": "4c25a4f1949488483b833ce4fcf91cfd3e066084a9ea00079c6879ae3ba95657",
+    "arc_yaml_sha256": "96da1d9efe1df88659481cedc13985cb347dc068554a2eae561303fa39bfab3f"
+  },
+  "gates": {
+    "fineweb_ppl_ratio_max": 0.97,
+    "wiki_ppl_ratio_max": 1.02,
+    "raw_accuracy_delta_min_exclusive": 0,
+    "acc_norm_delta_min": -0.01,
+    "additional_coherent_outputs_min": 4,
+    "quality_review_required": true
+  }
+}
