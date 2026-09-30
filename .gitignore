@@ -13,3 +13,5 @@ results/controlled/runner.lock
 results/controlled/status.json
 results/warmup-confirmation/*.log
 results/warmup-confirmation/status.json
+results/beta-refinement/*.log
+results/beta-refinement/status.json

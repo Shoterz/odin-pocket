@@ -1,0 +1,25 @@
+{
+  "purpose": "Fresh author-created development prompts frozen before the beta2 candidate; never training targets. Not independent human validation.",
+  "generation": [
+    "Mara put her yellow scarf in a drawer before leaving the house. When she returned that evening, she opened the same drawer and",
+    "Jon and his sister built a paper boat. They carried it to a shallow pond, placed it on the water, and watched as",
+    "A librarian found a child's drawing inside a returned book. She kept it behind the desk. The next day, the child came back and",
+    "Ravi had two apples in his bag. He gave one to his friend and saved the other for lunch. At lunchtime,",
+    "The dog waited beside the closed garden gate. Its owner came down the path with the key. When she opened the gate,",
+    "Nora planted a bean in a pot and watered the soil. Several days later, a small green shoot appeared. She moved the pot near the window so that",
+    "The bus stopped outside the museum. After the passengers stepped off, the driver checked that everyone was clear of the doors and",
+    "Eli borrowed a red pencil from Sam to finish a picture. Once the picture was complete, Eli turned to Sam and",
+    "A metal spoon left in a bowl of hot soup becomes warm. Heat moves from the hot soup into the spoon because",
+    "A puddle on the pavement becomes smaller during a warm, dry afternoon. Some of the liquid water",
+    "The Moon does not make its own visible light like the Sun does. We can see the Moon at night because",
+    "A plant kept in a dark cupboard for many days usually grows poorly. Green plants need light to",
+    "Before cutting a piece of paper with scissors, place it on a clear surface and keep your fingers away from",
+    "To find a book on a library shelf, first check its label in the catalogue. Then look for the matching section and",
+    "If a glass of water spills on a wooden table, use a clean cloth to absorb the water. Drying the surface promptly helps",
+    "To compare which of two cups holds more water, fill the first cup and carefully pour its water into the second. If water overflows from the second cup,"
+  ],
+  "seeds": [42, 73],
+  "temperature": 0.8,
+  "top_k": 40,
+  "max_new_tokens": 128
+}
