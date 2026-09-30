@@ -1,0 +1,71 @@
+{
+  "screen_steps": 7813,
+  "confirmation_steps": 61036,
+  "maximum_training_tokens": 2768076800,
+  "mixtures": {
+    "control": {
+      "fineweb": 0.6,
+      "wiki": 0.4,
+      "stories": 0.0
+    },
+    "stories10": {
+      "fineweb": 0.5,
+      "wiki": 0.4,
+      "stories": 0.1
+    },
+    "stories20": {
+      "fineweb": 0.4,
+      "wiki": 0.4,
+      "stories": 0.2
+    }
+  },
+  "optimizers": {
+    "lr6-w200": [
+      0.0006,
+      200
+    ],
+    "lr6-w1000": [
+      0.0006,
+      1000
+    ],
+    "lr12-w200": [
+      0.0012,
+      200
+    ],
+    "lr12-w1000": [
+      0.0012,
+      1000
+    ]
+  },
+  "screen_seed": 20260930,
+  "confirmation_seed": 20261001,
+  "common_manifest_sha256": "abb13bb6f79483d439e113fe512453a7cfd9070365c11d28940d8bc71a2a1083",
+  "prompt_sha256": "bb0c2fab280ae9f8f556dd3763cc6a482d0f301ef68ff245a7d1fb72932c99d0",
+  "source_sha256": {
+    "odin/__init__.py": "49df7335a46f422233fda31a3606dd17849a2197d8ce027bf0aa54ae0ee0d202",
+    "odin/controlled_data.py": "095ebbdf0413c991917131eb556dba4473ce9ec7b8b120ae5e516920844bd669",
+    "odin/controlled_eval.py": "026cc9f1645b393a4c2c05387cd27559df34b9dd82a55fb2aee55a3b32a623e3",
+    "odin/controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+    "odin/corpus.py": "755ca4e7f8a18a0428633cee28df46ed6d941522cc37d677d3eaf4c875cb6848",
+    "odin/data.py": "0c45647c8e23c9c4bda3e5ba89432618ea88526e565286131ea538b9a96692bf",
+    "odin/development.py": "2daf221e1b049d05d4b1bb6956e27caab1b32a9732156b822bbb8237cd5c2979",
+    "odin/evaluate.py": "2661dcd50e10033c699c6f0c0430f8dc1ac18929e4e342779654a1da4659ecf1",
+    "odin/experiment.py": "243443ebb2fb5e98d45bace180f0b6220abffe0d6ef09133f40d6daed6cc489b",
+    "odin/inference.py": "0e785fd78eb263a10ad1c3e56a24d0cbd0682aa507d8fc37a7c30da604d5eb4c",
+    "odin/model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+    "odin/release.py": "5a311523dad2722732b15d360d212de8d008c62ad0352f9123baad3d609bb5c1",
+    "odin/reporting.py": "6884853252f4c91bc6aca63113c191cf432cf4509cfef9d8a8698b8e64f96b07",
+    "odin/sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3",
+    "odin/server.py": "e8c1ca1f4bfc60fb631f9e48385ffc52dfa887ba01e62785fc143c0db45b3687",
+    "odin/tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+    "odin/train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b"
+  },
+  "runner_sha256": "ae62dd4222dc37e38725a0aaec940fef2f94b46be093d2fa39ae028dc049994a",
+  "config_sha256": "379c861659691522b24fff2fdd5d57f1370c8f00f495c6a2ec4be4f82a3015be",
+  "plan_sha256": "f909c0518abaceaebeb5d6155ed4f62266f7d19e6ebf428d242a02415a187045",
+  "mixture_manifest_sha256": {
+    "control": "226155a37aa517e2e1d258b0364b44875257f11c271ebf292a42817e1945c7a0",
+    "stories10": "13ad938896db26eef160ed23244bad98f54528364b0de0abddacd0333fe61493",
+    "stories20": "cd0585847b2a4d26c0121f6a67143a343e4cde585c72291c93b14226877ad720"
+  }
+}

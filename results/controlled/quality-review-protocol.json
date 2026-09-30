@@ -1,0 +1,5 @@
+{
+  "rubric_sha256": "c2ebffb11a45df6c3d7304aebef62d78a489f27be4988d08192923c4337c8701",
+  "scope": "All 32 continuations/model; inspect anonymized items before mapping; Codex review is not independent human validation.",
+  "frozen_before_new_candidate_generations": true
+}
