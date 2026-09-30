@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "max_abs_resume_difference": 0.0,
+  "source_tokens": {
+    "fineweb.bin": 65024,
+    "wiki.bin": 48128,
+    "stories.bin": 17920
+  },
+  "source_sha256": {
+    "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+    "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+    "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+    "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+    "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+  },
+  "parameters": 49295872
+}

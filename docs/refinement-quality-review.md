@@ -17,6 +17,8 @@ Verified the final checkpoint SHA256 `dab13b8947f5a7ac4bc5dcd0a9eb0056d69bcad0dc
 
 ## Next experiment recommendation
 
+**Research update (2026-09-30):** The [subsequent audit](refinement-research-audit.md) found that expected WikiText sampling fell from 41.39% to 9.94%. This confounds the story-percentage recommendation below. Explicit per-source weights, stronger selection, and matched controls take priority; 5–10% stories is only an untested hypothesis.
+
 Do not spend another long run repeating the same recipe. First strengthen development selection to include a larger, independently sourced held-out comprehension set and explicit entity/causal consistency review, with the final official test results reserved for reporting. Existing official test outcomes are already observed and must not become a repeatedly optimized selection target.
 
 Then test a smaller story proportion (e.g. 5% and 10%) against the same expanded educational control under equal budgets, retaining the current architecture initially. This is a hypothesis, not a proven optimal mixture. Data curation should also target fluent explanatory prose and basic causal explanations; any added public corpus requires source/license verification and exclusion of held-out material. The previous pilot suggests data composition is the more useful immediate axis than adding depth, but does not prove depth cannot help.

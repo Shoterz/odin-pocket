@@ -1,0 +1,26 @@
+{
+  "schema": 3,
+  "parent_manifest_sha256": "d718bca0ae7cc2850ec9be98a82dd52d730afa69cd98c6be1bc5c910ddae37ae",
+  "prompts_sha256": "bb0c2fab280ae9f8f556dd3763cc6a482d0f301ef68ff245a7d1fb72932c99d0",
+  "validation_sources": {
+    "wikitext-validation.arrow": "8e136ab7130c5fca602eb406ce2557967a974d901b53c4f2992f87b873e0fe5b",
+    "ai2_arc-validation.arrow": "caa0a247e56619a9cf109290abd532ce41dd911fe86210772c256c95b52e8d69"
+  },
+  "source_tokens": {
+    "fineweb": 778581610,
+    "wiki": 110444950,
+    "stories": 576905922
+  },
+  "files": {
+    "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+    "fineweb-dev.bin": "d4a7604de0d8be72eee759bb04edd2a4cb51b8c29fa1345bcf1c40eccb5ab1a4",
+    "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+    "questions.json": "2c2fc3e6c1ca6be6b36faa5d7af743ab6818423d32d57c3c6dcf8969e8483d73",
+    "source-audit.json": "29aee1d69e55cf0f1496050d8f47502c1747015c5b50113014afb2882ca2453c",
+    "stories-dev.bin": "6366189afed3b36e5c625e1ba23055b52315c6d520c6ad9d42e521b90f990b2f",
+    "stories.bin": "3ac73a70ec814d28a11586465f4a94c1a1246ed4933de2d3c92b7489c30b41be",
+    "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+    "wiki-dev.bin": "8ad486e761cc837553feced553d117e9d1d1549cc2b104a8087c8452b0b6c5ee",
+    "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+  }
+}

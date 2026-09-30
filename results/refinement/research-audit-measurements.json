@@ -1,0 +1,30 @@
+{
+  "original_source_tokens": {
+    "fineweb": 164580318,
+    "wikitext": 116217380
+  },
+  "refinement_web_source_tokens": {
+    "fineweb": 778581610,
+    "wikitext": 110444950
+  },
+  "expected_original_sampling_percent": {
+    "fineweb": 58.611704858064755,
+    "wikitext": 41.388295141935245
+  },
+  "expected_B_sampling_percent": {
+    "fineweb": 70.061493775844,
+    "wikitext": 9.938506224156002,
+    "stories": 20
+  },
+  "B_minus_A_selection_score": {
+    "web_contribution": 0.05942700505256653,
+    "story_contribution": -0.3305612236261368,
+    "total": -0.2711342185735703
+  },
+  "pilot_fraction_of_final_tokens": 0.0833342435529147,
+  "warmup_steps": 200,
+  "warmup_tokens": 3276800,
+  "warmup_fraction": 0.001092263497646172,
+  "tokens_per_parameter": 60.85719923972539,
+  "method": "Per-source token counts recovered from concatenation order and EOS offsets, checking EOS count equals manifest document count. Sampling percentages are expectations under uniform random-window sampling; source-boundary windows cause negligible differences. No realized per-source draw log exists."
+}

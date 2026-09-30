@@ -1,0 +1,20 @@
+{
+  "method": "100 deterministic reservoir samples/source; within-source exact 5-word-shingle Jaccard >=0.8; no corpus-wide near-duplicate guarantee",
+  "sources": {
+    "fineweb_edu": {
+      "sample_size": 100,
+      "near_duplicate_pairs_jaccard_0.8": [],
+      "median_characters": 3671.5
+    },
+    "wikitext_103_train": {
+      "sample_size": 100,
+      "near_duplicate_pairs_jaccard_0.8": [],
+      "median_characters": 14650.5
+    },
+    "tinystories_gpt4": {
+      "sample_size": 100,
+      "near_duplicate_pairs_jaccard_0.8": [],
+      "median_characters": 698.5
+    }
+  }
+}

@@ -8,3 +8,6 @@ runs/
 results/refinement/*.log
 results/refinement/runner.lock
 results/refinement/status.json
+results/controlled/*.log
+results/controlled/runner.lock
+results/controlled/status.json
