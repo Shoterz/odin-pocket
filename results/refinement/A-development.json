@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "checkpoint_sha256": "34506cb338659821e17e1e55efab852ca8d2a90b06f274901be770fc90101e1f",
+  "parameter_count": 49295872,
+  "trained_tokens": 250003456,
+  "protocol": {
+    "context": 512,
+    "windows_per_domain": 256,
+    "window_seed": 90210,
+    "prompt_file_sha256": "bb0c2fab280ae9f8f556dd3763cc6a482d0f301ef68ff245a7d1fb72932c99d0",
+    "tokenizer_sha256": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+    "domain_files": {
+      "web": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+      "stories": "6366189afed3b36e5c625e1ba23055b52315c6d520c6ad9d42e521b90f990b2f"
+    },
+    "temperature": 0.8,
+    "seeds": [
+      42,
+      137
+    ],
+    "max_new_tokens": 128,
+    "top_k": 40,
+    "device": "cuda",
+    "precision": "bfloat16-autocast",
+    "generation_cache": true
+  },
+  "protocol_sha256": "d91197d67a5e3b45ff81f0e9ba3fe482d0cfad2e32f622a972a4424fc7aff376",
+  "domains": {
+    "web": {
+      "nll": 3.6757911816239357,
+      "perplexity": 39.47988025965728,
+      "windows": 256,
+      "tokens": 131072
+    },
+    "stories": {
+      "nll": 3.16408671438694,
+      "perplexity": 23.66711931998709,
+      "windows": 256,
+      "tokens": 131072
+    }
+  },
+  "generation": [
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 42,
+      "text": ".\nWe had to have all the parts of the road in between each road.\nPortable cars were a great way of running, and\nthose vehicles were not in use. It was the time of the\nwar years that a road was the key to the road.\nThis is what we saw in the road today.\nThere were also bridges, roads, and motor lines in the roads.\nWe saw the roads and roads to be very important to the traffic\nworld. The road was to be very important and very important.\nAfter the first road was constructed, it was very important to the road\n",
+      "tokens": 128,
+      "seconds": 1.4510598939377815,
+      "tokens_per_second": 88.21138295859232,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02
+    },
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 137,
+      "text": ".\nPHYSIS PYNASAIDE ACCESSIBILE \u2013 First, we did a good job of having students take our lessons in the lessons and use the pre-aligned worksheets. We also took a glimpse at the workings of my students. It was a great way to make students understand the lessons in the lesson, but we did also keep the teacher engaged and able to understand the lessons and use them to make them understand the lessons.\nThis is something that I\u2019ve made to help students understand what the lessons and use that they\u2019ve played with the lessons.",
+      "tokens": 128,
+      "seconds": 1.2885053409263492,
+      "tokens_per_second": 99.33990642830906,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.021739130434782608
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 42,
+      "text": " she was finally finally brought by a crowd of three or four men gathered at the end of the street to meet the crowd.\nIn the morning the crowd and the crowd gathered in the crowd. On the second hour, the crowd reported. The crowd was about a hundred and a half to the crowd. All the crowd had to be treated for their suffering.\nBasic Stereotypes Of Criminal Stereotypes Of Criminal Stereotypes Of Criminal Stereotypes Of Criminal Stereotypes Of Criminal Stereotypes Of Criminal Stereotypes Of Criminal Stereotypes",
+      "tokens": 128,
+      "seconds": 1.282684569945559,
+      "tokens_per_second": 99.79070692760631,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.18823529411764706
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 137,
+      "text": " she was very frightened, and she had no eyes. In the middle of the morning she felt the light and the light came.\nTherefore she said, 'I believe the Lord, your God, have made him a better place to live.\nSurely there is no proof to this.\"\nThe story of the Lord is that the Lord gave his father an image of the Lord but he had a big bliss in his hands, and He had a bliss in his hands.\n\"We have only one bliss and the bliss in the hand is the most visible.\nBesides the two bl",
+      "tokens": 128,
+      "seconds": 1.2913328360300511,
+      "tokens_per_second": 99.1223923287747,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.010309278350515464
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 42,
+      "text": " out of the boat, and it was ready to return to the boat. When the boat was on, it was in the water and the boat had been drilled out of the boat.\nOn the way into the boat, some members of the boat were stranded and the boat was sunk with the men. On the way, the boat was on the boat itself and the boat was being rushed into the boat. It was not until the boat passed through the boat; a ship broke down the boat. The boat fell into the water, the boat was lifted by the boat\u2019s boat. The boat was opened and the",
+      "tokens": 128,
+      "seconds": 1.2966379011049867,
+      "tokens_per_second": 98.71684291421623,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.028037383177570093
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 137,
+      "text": " from the boat.\nThe boat was too slow to sink. So the boat that was not there did not sink and was not well.\nThe only way for the boat to sink was through a cable. If the boat went to the boat, it would have to sink if the boat that was in the river was not.\nOn the way to the boat, the boat that had been in the boat was taken out of the boat and it was made to be the boat that was on the boat.\nOnce the boat was in the boat and it was there, the boat that was going to sink was going to sink as the",
+      "tokens": 128,
+      "seconds": 1.285179666010663,
+      "tokens_per_second": 99.59696950180194,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0625
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 42,
+      "text": " a small stick. They used an iron piece of cardboard. After several weeks, the friends decided to be the same artist. They had a small wooden ring, an iron piece of cardboard, and an iron piece of cardboard to make it look like a big piece of cardboard. After the group had formed a small circle, they were able to show it, and they had already started doing something about it. The students were given a small group of cards and, on the right side, the children were also given a small piece of cardboard. Finally, after all, we had finished the activity.\nDid you",
+      "tokens": 128,
+      "seconds": 1.276805910980329,
+      "tokens_per_second": 100.25016245556215,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.049019607843137254
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 137,
+      "text": " shaved at the time.\nFormed in the spring of 1934, the word \u201ccreation\u201d became the word for \u201ccreation\u201d for the word \u201ccreation\u201d. When it became an official, it was not.\nTHEIR OF BRAIN, also called the CREation, was officially recognized in the United States by the United Kingdom on November 28, 1923. The name was later changed to the word \"creation\" for the word \"creation\" but it was changed to the \"creation.\"\nThe name \"creation\" may not be synonymous",
+      "tokens": 128,
+      "seconds": 1.2813776729162782,
+      "tokens_per_second": 99.89248502253494,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02631578947368421
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 42,
+      "text": " a news briefing that showed she had discovered a dog with the old dog.\n\"Passioning the animal to the point of becoming the dog is a mystery,\" said Serena Da, another dog in the United States. She was a dog that was not a dog.",
+      "tokens": 59,
+      "seconds": 0.5973466010764241,
+      "tokens_per_second": 98.77012758368667,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 137,
+      "text": " a huge loud call. She heard a lot of talk on the way to the airport.\nIn the back of her bed, the police were still walking and then, as she stood at the door of the police station and told her that she had been in the hotel. In the back of the room, it was a great quiet. It seemed to be a little more convenient than a large one. They were very nice to get that night.\nOfficially the police were in the town of Lausanne, now in the village. The police were going to be there to give it a public presentation to the police.",
+      "tokens": 128,
+      "seconds": 1.2802047468721867,
+      "tokens_per_second": 99.98400670887318,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.009433962264150943
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 42,
+      "text": " I was very proud. I did not stay or get married.",
+      "tokens": 13,
+      "seconds": 0.13929223897866905,
+      "tokens_per_second": 93.32896143618451,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 137,
+      "text": " I was unable to find it. I missed a car on the road. I lost my seat and were not able to find it. I was not a part of the traffic. I lost a car that I lost. It would be a part of the traffic. It was all an important part of the traffic because it was the right service. It was a part of the traffic that I was doing so. I had no choice. I had no choice but to continue and I had no choice. I was not able to find it. I had to go to the car to get it. My car was not too bad. This was",
+      "tokens": 128,
+      "seconds": 1.2787551491055638,
+      "tokens_per_second": 100.09734865156219,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.10714285714285714
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 42,
+      "text": " tried to keep it.\nIt was easier to see the light again. But I could see what I found. So, I was surprised to find what I found. I had already noticed that somehow it did not appear like all kinds of things.\nI was surprised to see that the lighting in the window was not made. This was not a great opportunity for me to see the light. It was also very much the same. It was not just a great opportunity. You were only doing this in a very few times. This is the same.\nSignaling to the room was only a great way to help the person",
+      "tokens": 128,
+      "seconds": 1.2820864049717784,
+      "tokens_per_second": 99.83726487047304,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.018691588785046728
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 137,
+      "text": " pulled the store. The shop was closed and all the people were happy.\nPractically speaking, the shop had to be built in a way, and in the middle of the morning it was opened and the business had to be opened.\nThe shop was a part of the shop in the morning. This was a very busy time and the shop was a great place for people.\nThe shop was a great place for the shop and the shop was a very important place. It was a very important place. It was a very big trade.\nThe shop is the only one that can be found in South-central India",
+      "tokens": 128,
+      "seconds": 1.2807334719691426,
+      "tokens_per_second": 99.9427303193681,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.12149532710280374
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 42,
+      "text": " will be planted in the seed-topping.\nSnow: On her first plant, she is in the midst of a great mowing season. As she grows, she will have to grow for a few months at that time.\nSnow: On her second plant, in the middle of the month, she will plant a seed in the potted soil. The main shears are about 2.3 inches tall.\nSnow: The main shears are up to 5 inches in length and will grow until she has grown.\nSnow: Shell will grow between 1.5 and 3.3",
+      "tokens": 128,
+      "seconds": 1.2740786569193006,
+      "tokens_per_second": 100.4647549072847,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.01098901098901099
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 137,
+      "text": " gets a mix of fruit and seed, and the next morning she gets a mix of fruit, seeds, and seed. The next day she gets a cut, then she gets a mix of seed and seed, and the second crop, then she gets a mix of fruit and seed, and the next crop, which she gets, he gets a mix of fruit and seed, and she gets a mix of fruit and seed. When the next day she gets a mix of fruit, seeds, and seed, she gets a mix of fruit and seed. The third crop, after that, is planted with fruit, and grows a mix of fruit",
+      "tokens": 128,
+      "seconds": 1.2811919008381665,
+      "tokens_per_second": 99.90696937458107,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.36792452830188677
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 42,
+      "text": " it is hard to see it out. How much melting is usually to have melted an organic liquid with a high amount of soluble solids such as boron and omele or water? I have seen that these have a lot of soluble solids and solids, with a high concentration of solids such as ethyl boron. How much melting of a soluble compound in water can be a little more than enough to make a big contribution to melting it. The more melted the almonds and the more melted it can be in the water, the more melted the car",
+      "tokens": 128,
+      "seconds": 1.2797939640004188,
+      "tokens_per_second": 100.01609915387765,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.010416666666666666
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 137,
+      "text": " it is hotter.\nElephants are known to have a higher number of electrons than them.\nIn the case of the most common species of echoes, echoes are generally a red glow in the atmosphere.\nThey are all blue, and blue light is bright on the surface in the atmosphere.\nLuckily, the most common echoes of the most common echoes in the atmosphere are the red glow, the black glow, the red glow, the black glow, the black glow, the blue light, the black glow, the blue glow, the black glow, the black glow,",
+      "tokens": 128,
+      "seconds": 1.2828339219558984,
+      "tokens_per_second": 99.77908894460964,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.15555555555555556
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 42,
+      "text": " of the pressure on his back that would eventually drive him. The bizarre feeling of shocking force in a slot in the front of the eye might be a sign of a serious health condition that causes a dopamine reflex in the eyes. The body may be made of many different substances, but the body may be more prone to some form of depression, fatigue, vomiting or vomiting. The brain may be a sign of one of these symptoms including trouble swallowing, irritable eyesight, dizziness, or tightness in the eye that can cause an actual sensation.\nTherefore, it",
+      "tokens": 128,
+      "seconds": 1.2767963949590921,
+      "tokens_per_second": 100.25090962455377,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.021052631578947368
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 137,
+      "text": " of the airflow.\nAt the same time, the crankshaft fills up the brakes because of the higher airflow. When the car is not running, the car is slow enough to stop at the same speed, but the brake starts at the same speed in the opposite direction and the brake stops at the same speed.\nThere is no way to see the cause of the buildup, and the brake stops at the same speed. As the brake stops, the brake stops at the same speed, and the brake stops at that speed.\nHowever, the problem is",
+      "tokens": 128,
+      "seconds": 1.2817476449999958,
+      "tokens_per_second": 99.86365139762002,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.13978494623655913
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 42,
+      "text": " they are only used in the same conditions. Many of these are so close to the surface that we have seen. In addition to being able to absorb it, they are also used in photovoltaic devices.\nThere are some types of photovoltaic devices. However, some photovoltaic devices are not like photovoltaic devices. Therefore, only photovoltaic devices have the same insulation and do not need to hold all of the components of photovoltaic devices.\nIn addition to photovoltaic devices, photovoltaic devices don\u2019t",
+      "tokens": 128,
+      "seconds": 1.2826890968717635,
+      "tokens_per_second": 99.79035474158768,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 137,
+      "text": " they are not needed.\nTomatoes grow by 3 to 5 inches in length and can be planted in full sun.\nIn addition to being planted at home, it is important for your plant to be a soil fertile.\nIf you want to grow a tomato, it is best to plant at least 2 inches in length in a sunny soil.\nA well-drained soil and soil fertile soil can be used to grow tomato, and it is important to plant at least 2 inches in length in a sunny soil.\nIf the soil fertile soil has an organic soil base that is more than",
+      "tokens": 128,
+      "seconds": 1.276068310951814,
+      "tokens_per_second": 100.30810960623678,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0891089108910891
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 42,
+      "text": " it is very hard. But when the spoon is stuck in the bath and the spoon is pulled to the floor, the spoon will not be fused.\nThe spoon will start to stick together and the spoon will stick in the bath. You can see the spoon being pushed at the inside of the spoon.\nSure, however, the spoon will not stick and you should only get the spoon in the center of the bath that your spoon is stuck. If the spoon is getting too hot for the spoon to go off, your spoon will stick in the bath and then",
+      "tokens": 128,
+      "seconds": 1.2791217879857868,
+      "tokens_per_second": 100.06865741968137,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.050505050505050504
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 137,
+      "text": " it is much darker than a wood spoon, but this is what makes it \"full.\"\nRabidification of a spoon\nIf the spoon is not filled in, the spoon will leave a clear marker or a marker. The spoon will not be touched by the wall or the wall of the spoon, but will move around and the spoon will go as it moves inward, from the wall to the wall, where the spoon will move inward. The spoon will not be felt, and the spoon will not move inward, but will flow slowly through the wall",
+      "tokens": 128,
+      "seconds": 1.2767643288243562,
+      "tokens_per_second": 100.25342744174434,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.043010752688172046
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 42,
+      "text": " it is still in its normal position. To our knowledge, we find \"four-number planets are in a series of planets.\" The planets are our star-mass objects, and it is a great way to understand the solar system.\nThe Moon is the only planet in the heavens and it is the only planet in the universe. It is known to have been around 11 billion years ago by the moon's time.\nThe Moon itself is a planet around a thousand times the size of our universe. It is thought that it has been around 110 billion years ago. In the past, it was around 4 million years",
+      "tokens": 128,
+      "seconds": 1.2841644890140742,
+      "tokens_per_second": 99.67570439381394,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02830188679245283
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 137,
+      "text": " it is at the center of the Moon. The moon was at the center of the Moon, which was at the center.\nSun was the center of the Moon, which is about 10 degrees and is roughly the size of the Moon. It is the center of the Moon.\nThis night, the lunar surface was filled with the moon\u2019s surface. The surface is at the center of the Moon. It consists of two rings, the Sun and the Moon.\nThe Moon is the center of the Moon. It consists of the moon. It consists of a ring. It consists of two rings. There are at least",
+      "tokens": 128,
+      "seconds": 1.2762743290513754,
+      "tokens_per_second": 100.29191772206167,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.25
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 42,
+      "text": " it is an object of our nature. To observe lightning we know that is the only object to observe that is our natural lightness. We have an experience of lightning, lightning, and lightning which we have. These lights are not the same as the lightning. A lightning is not a lightning. It is not a lightning. lightning is not the brightness of lightning. Lightning is not lightning. lightning is not lightning. It is lightning. Lightning is lightning. It is lightning. Lightning is lightning. It is lightning. Lightning is",
+      "tokens": 128,
+      "seconds": 1.2795386959332973,
+      "tokens_per_second": 100.03605237326303,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.15294117647058825
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 137,
+      "text": " it is clear in the light of the past,\nI wonder what is clear in the past.\nI know the lightning at the beginning of our\nliturgy. It is clear from the start. The present\ntime lightning is clear in the light of the past. It\nis seen in the past. It is light in the past.\nThe lightning is clear in the past. The\nmechanical lightning is light colored. It is light colored.\nThe lightning is light colored. It is clear.\nThe lightning is light colored by the lightning. This light in the",
+      "tokens": 128,
+      "seconds": 1.2819204709958285,
+      "tokens_per_second": 99.85018797661164,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.17582417582417584
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 42,
+      "text": " the table below is the last thing to do.\nMake a chart to show all the possible factors of the time of the day.\nMake a chart to show all the details of what the time of the day is the previous day.\nMake a chart to show all the possible factors of the day.\nMake a chart to show all the things that the date should have occurred.\nMake an chart to show all the dates to show all the factors that would be observed in the day.\nMake a chart of all the variables that would be observed from the previous day.\nMake a chart",
+      "tokens": 128,
+      "seconds": 1.2776635591872036,
+      "tokens_per_second": 100.18286823600751,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.2980769230769231
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 137,
+      "text": " try to have a cup of wine and try to keep a cup of tea in the kitchen, as that may help in reducing the risk of cavities or tooth infections.\n- Always put the taste of the cup on one side of the table.\n- Ensure that the cup is in a water bottle.\n- Blend in the cup of wine and make it clear that the cup is in a water bottle.\n- Keep the cup in the water bottle.\n- Allow the cup to drain.\n- Make sure the cup is in a water bottle.\nCare to Drink Your Teeth\n",
+      "tokens": 128,
+      "seconds": 1.280138085829094,
+      "tokens_per_second": 99.98921320827631,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.10638297872340426
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 42,
+      "text": " it can be used as a water sprayer.\nHigh humidity lasers can be used as a water sprayer. They can be applied inside glass bottles, glass bottles, glass bottles, and glass bottles can be used as a water sprayer.\nLow air temperature lasers can be used in bathrooms and other bathrooms. They can be used to warm rooms and rooms with water.\nMagnolia filters are often used in bathrooms, such as the ones in these settings. If the temperature lasers are too cold or too little, they can be used in bathrooms,",
+      "tokens": 128,
+      "seconds": 1.2750107639003545,
+      "tokens_per_second": 100.39130933172541,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.14606741573033707
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 137,
+      "text": " it is an essential part of your life. When you begin to experience water freezing, it can be a huge way of getting your water from the water you choose.\nWhen the water temperature in your home is between 30 degrees Celsius and 50 degrees Felsius, it can be especially hard to remove the water. A study in The Journal of the American Medical Association found that while water that the water is freezing can be a great way of reducing the likelihood of getting water from the water, it is usually not for your overall wellbeing and can be an essential part of your daily health.\nAs with water filt",
+      "tokens": 128,
+      "seconds": 1.288366779917851,
+      "tokens_per_second": 99.350590216368,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.027777777777777776
+    }
+  ],
+  "comparison": [
+    {
+      "prompt": "Mira left her umbrella beside the door. Later she wanted it. She should look",
+      "candidates": [
+        " beside the door.",
+        " inside the refrigerator."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.131195068359375,
+        -3.241870880126953
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "The boat had a hole and was filling with water. To stop the leak, Sam should",
+      "candidates": [
+        " make the hole larger.",
+        " plug the hole."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -4.653780364990235,
+        -3.9637646675109863
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "A person wants two equal pieces of one apple. They should",
+      "candidates": [
+        " cut the apple in half.",
+        " eat the whole apple."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.251501719156901,
+        -2.415905570983887
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "Rain is falling outside. To keep dry while walking, you can",
+      "candidates": [
+        " carry an open umbrella.",
+        " remove your raincoat."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.5885794162750244,
+        -4.178571156093052
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "The bus leaves at eight. To catch it, you should arrive",
+      "candidates": [
+        " at nine.",
+        " before eight."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -2.726353963216146,
+        -5.027242660522461
+      ],
+      "predicted": 0,
+      "correct": false
+    },
+    {
+      "prompt": "An empty cup is lighter than the same cup filled with water because",
+      "candidates": [
+        " water has weight.",
+        " empty cups contain more water."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -4.892134189605713,
+        -3.5299339294433594
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "A person drops a stone. Without anything holding it up, the stone will",
+      "candidates": [
+        " float upward.",
+        " fall toward the ground."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -3.3714950561523436,
+        -2.300040435791016
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "Ana gave Ben her blue book. Ben placed it on his desk. The book is now",
+      "candidates": [
+        " on Ben's desk.",
+        " in Ana's hand."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.1346548080444334,
+        -4.466651916503906
+      ],
+      "predicted": 0,
+      "correct": true
+    }
+  ],
+  "comparison_accuracy": 0.75,
+  "mean_repeated_4gram_rate": 0.08552001895314976,
+  "mean_generated_tokens": 122.25,
+  "elapsed_seconds": 40.86340530985035,
+  "limitations": "Local development suite, not independent validation. Fixed random windows may overlap; repetition metric does not establish coherence or truth."
+}

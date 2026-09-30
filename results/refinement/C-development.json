@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "checkpoint_sha256": "a7fd8a55432d4a08800fe4bf5d21519ce3cb7f1d47608a9bb3e7304e4bc025b3",
+  "parameter_count": 49069440,
+  "trained_tokens": 250003456,
+  "protocol": {
+    "context": 512,
+    "windows_per_domain": 256,
+    "window_seed": 90210,
+    "prompt_file_sha256": "bb0c2fab280ae9f8f556dd3763cc6a482d0f301ef68ff245a7d1fb72932c99d0",
+    "tokenizer_sha256": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+    "domain_files": {
+      "web": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+      "stories": "6366189afed3b36e5c625e1ba23055b52315c6d520c6ad9d42e521b90f990b2f"
+    },
+    "temperature": 0.8,
+    "seeds": [
+      42,
+      137
+    ],
+    "max_new_tokens": 128,
+    "top_k": 40,
+    "device": "cuda",
+    "precision": "bfloat16-autocast",
+    "generation_cache": true
+  },
+  "protocol_sha256": "d91197d67a5e3b45ff81f0e9ba3fe482d0cfad2e32f622a972a4424fc7aff376",
+  "domains": {
+    "web": {
+      "nll": 3.773463122546673,
+      "perplexity": 43.53055575029439,
+      "windows": 256,
+      "tokens": 131072
+    },
+    "stories": {
+      "nll": 1.5170900598168373,
+      "perplexity": 4.55893963279112,
+      "windows": 256,
+      "tokens": 131072
+    }
+  },
+  "generation": [
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 42,
+      "text": ". I thought it was a toy that I made.\"\nLily was surprised but happy to find the toy. She took the toy and started to play with it. She made a small ball with the big blue ball. The girl played with the ball all day.\nBut then, something unexpected happened. The ball started to talk! The ball said, \"Thank you for finding me. I was lost and needed a friend.\" Lily was sad, but she learned that friends are always there to help each other.",
+      "tokens": 106,
+      "seconds": 1.9180673251394182,
+      "tokens_per_second": 55.26396211994029,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 137,
+      "text": ". He was running fast and slow. He wanted to be on the road, but he did not know how. So he ran very fast and slow in his big, strong arms. His big, strong arms made him very heavy. He could not go fast anymore.\nHis friend ran to the road with him. But when he got there, he saw the big, slow, slow, big, and slow legs! He was scared and cried for help. His friend hugged him and said, \"Don't worry, my big, slow legs. I will help you.\"\nBut one day, Max saw",
+      "tokens": 128,
+      "seconds": 2.125632663955912,
+      "tokens_per_second": 60.21736594966762,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.010638297872340425
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 42,
+      "text": " the umbrella became dirty and soft. She was so happy. She cleaned her room and put on her new umbrella.\nJust then, the umbrella started to spin. It was cool now. Lila was surprised and happy. She jumped on the umbrella and it made her happy too. From that day on, Lila always kept her room clean and she never forgot the fun days she had with her new umbrella friend.",
+      "tokens": 103,
+      "seconds": 1.732408314011991,
+      "tokens_per_second": 59.45480587164111,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 137,
+      "text": " Lila's umbrella was gone! Her friend, Tim, was in the yard, trying to find the red umbrella. He was excited to find it, so he started to walk on the big leaves.\nAs Tim walked, Lila started to feel tired. She looked around her room, but she could not see the red umbrella. She started to feel sad. But then, Tim remembered that he had a red umbrella. He was so happy to have it back. He went to his mom and said, \"Mira, you made me feel glad!\"\n",
+      "tokens": 128,
+      "seconds": 2.1245362849440426,
+      "tokens_per_second": 60.248441463249165,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.011494252873563218
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 42,
+      "text": " said, \"Oh no, we need to find a place to stay warm.\"\nSam said, \"We need to go back to the park.\" Sam smiled and said, \"Don't forget to come back. I can help you find a place to stay warm.\"\nThey kept looking for a place to stay warm. Sam found a big tree with lots of leaves. Sam climbed the tree and waited for the water to cool down. They were very happy and sat under the tree all day long.",
+      "tokens": 106,
+      "seconds": 1.7726587471552193,
+      "tokens_per_second": 59.797183281954226,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.07407407407407407
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 137,
+      "text": " decided to go inside.\nWhen Sam was done, he and the little boat went back home. Sam was very excited. He had a fun day driving his little boat in the hole. And they went on many adventures together.",
+      "tokens": 47,
+      "seconds": 0.7939181039109826,
+      "tokens_per_second": 59.20006077260311,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 42,
+      "text": " started to wrap it around the apple.\nAs they wrapped the apple, it started to shake. \"Wake up!\" said Ben. \"Here you go!\" said Mia. \"Thank you!\" said Ben. They both laughed and played with the apple together. They had a lot of fun and became good friends.",
+      "tokens": 74,
+      "seconds": 1.2495423729997128,
+      "tokens_per_second": 59.221681152238126,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 137,
+      "text": " took turns to cut the apple.\nThey took turns cutting the apple and making a loud noise. \"Look, our friends!\" said Tim. Sara felt happy to see Tim's friend smile. They all shared the apple and had a fun day.",
+      "tokens": 53,
+      "seconds": 0.8958506339695305,
+      "tokens_per_second": 59.161648147923984,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 42,
+      "text": " a loud noise. It was so loud that she started to cry. Mia was relieved, so she ran back to her house. She hugged her mom and dad, and she couldn't wait to play in the big park again.",
+      "tokens": 51,
+      "seconds": 0.8648495581001043,
+      "tokens_per_second": 58.96979367375345,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 137,
+      "text": " a loud noise. She was scared and ran back to her house.\nIn the back of the street, she found her mom. Her mom asked her for help. \"Mom, can you help me?\" Her mom said.\nHer mom was very kind and dependable. She knew she should always be there for her mom and not take things that she didn't know.\n\"No, I don't need to be here for you,\" said her mom. \"The dog was just playing with our ball. We just missed the ball.\"\nHer mom was very angry and sad. She was scared and",
+      "tokens": 128,
+      "seconds": 2.119296062970534,
+      "tokens_per_second": 60.397413196053144,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.020833333333333332
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 42,
+      "text": " I had an accident and that had gone home the next day. As I said, my kids, it was a big and scary thing. They were so scared and started to cry. My boy told me that I didn't mean to hurt them. I was just playing with my toys in the car. Everyone was so scared that I started to cry and I was very very upset. The boy's cry made me feel so sorry, but it was too late. I still got lost, and now I have to go home and have some hugs to keep me safe.\nThe boy was so happy that he",
+      "tokens": 128,
+      "seconds": 2.125993385910988,
+      "tokens_per_second": 60.207148737272306,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 137,
+      "text": " I was at work and I did not see a fire and I still had to get back home and do my homework and work.\nI was a fire and the rain, and I did not see that the bus was too hot. The fire was too hot and it was the last thing I lost. I felt like I had to pay a little bit.\nAs I was running away from the bus, I was feeling sad and hungry. I was trapped in a fire and the rain. I was trapped in the rain and the rain. I did not see the fire anymore.\nTom was very hot too. He was",
+      "tokens": 128,
+      "seconds": 2.121584054082632,
+      "tokens_per_second": 60.33227849430971,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.06422018348623854
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 42,
+      "text": " scared the shop. I saw an adorable little boy waiting for me. She was a bit worried and a little scared.\n\"Don't be scared,\" said the shopkeeper. \"But I'm going to give you something special. Come on, let's go and have a fun day.\"\nThe shopkeeper followed the shopkeeper to the shop. The shopkeeper showed the shopkeeper some toys. The shopkeeper was so happy and excited. He hugged the shopkeeper and thanked him.\nFrom then on, the shopkeeper kept a good night's sleep. He was not scared of",
+      "tokens": 128,
+      "seconds": 2.1201718819793314,
+      "tokens_per_second": 60.37246370822675,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 137,
+      "text": " pressed the button, but no one heard me.\nIn the shop, there was a big, black dog. The dog was not happy. He thought he lost his way home. But he was happy too. He did not want to be left alone. So, he opened the door and turned. The man was very surprised. He was a nice man.\nThe dog was very happy to be home. The dog was not sad anymore. He was happy to be home. The dog and the dog became good friends. They would always help each other. The end.",
+      "tokens": 117,
+      "seconds": 1.9678479279391468,
+      "tokens_per_second": 59.45581380494666,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.043478260869565216
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 42,
+      "text": " would take a seed to flower and put it in the pot.\nOne day, when she was growing, she planted the seed. She was so excited that she took a big stack of her seeds to the flower.\nBig Brother\u2019s garden was so big that she would not reach the flower. She was so excited that she started to climb the stack.\nBig Brother and she reached the top. She was so happy she ran around the flower, enjoying the flower.\nBut then, something unexpected happened! A big, friendly bug appeared from the garden. It was a friendly bug and he",
+      "tokens": 128,
+      "seconds": 2.1232705921866,
+      "tokens_per_second": 60.284355875801126,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.030303030303030304
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 137,
+      "text": " would take a big pot and fill it with water. She would then bring it to the pot.\nOne day, the pot began to melt because of the pot. She was sad. She needed help to wash it to make it dry. She asked her mum for help. Her mum said that she could help.\nSo the pot and the pot cleaned up the pot. But the pot was too heavy for her. She was very sad. The pot was now dry and the pot was dry. The pot was so wet that she could not be dry anymore. \nThe pot, now on the pot",
+      "tokens": 128,
+      "seconds": 2.1197598360013217,
+      "tokens_per_second": 60.384199108827815,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 42,
+      "text": " of the snow. The snow makes up its amount of snow, even for ice melters. When it comes to the melting of snow, the snow melts again. The snow melts because it melts because it gets less rain. When it melts, the snow melts because that snow melts. The snow melts because of the snow melts. The snow melts because it melts because of the snow melts.\nFreezing snow melts are great, but they also get laundered. They are not so much dirty after all. You can enjoy the snow melts too.\n",
+      "tokens": 128,
+      "seconds": 2.119764087954536,
+      "tokens_per_second": 60.38407798648644,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.1348314606741573
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 137,
+      "text": " of the presence of the sun, which is why the temperatures in the snow are so cold that the water is very hot and the melting temperature is less. It is the warmest part, which we can tell how cold water is.\nThere are two types of snow clouds, which are fairly common in summer. The first is about a few inches in the summer and the second is about a inch shorter. The second type of snow is about a quarter of the size. The second type of snow is about the same as the second type. The third type of snow is about the same.\nThe second type of snowshine",
+      "tokens": 128,
+      "seconds": 2.122257417999208,
+      "tokens_per_second": 60.31313586863277,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.08256880733944955
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 42,
+      "text": " the rider is in the lead. During the rider\u2019s flap, the rider has a sharp point. The rider then pulls the rider\u2019s piers and moves the brake. The rider holds the rider\u2019s piers and moves the rider\u2019s piers. The rider pulls the brake by pushing the rider\u2019s piers to the pedestal. The rider stops the pedestal by pulling the pedestal and the pedestal.\nIn the rider\u2019s wrist, the rider pulls the pedestal to",
+      "tokens": 128,
+      "seconds": 2.123020475031808,
+      "tokens_per_second": 60.291458092547245,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.09210526315789473
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 137,
+      "text": " the pedal is too short and the pedal is too short.\nThe pedal slows down when the pedal is over. The pedal is a little more complicated, so you can learn the best way to pedal slow.\nDoggy Training\nThe pedal slows faster and faster, and it makes the pedal slow, slow and smooth, even when the pedal slows down. This makes the pedal slow, and the pedal slows down.\nDoggy Training\nIn a nutshell, the pedal slows down slowly for a little bit,",
+      "tokens": 128,
+      "seconds": 2.1193973429035395,
+      "tokens_per_second": 60.39452697654235,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.07407407407407407
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 42,
+      "text": " they need electricity. The researchers were asked to \u201cfollow the same directions and we wanted to do it for you,\u201d says Dr. Richard Brinsman of the University of California at Berkeley. \u201cBut it will be a good idea that you\u2019ll need to spend time with the sun.\u201d \u201cThe solar energy of the sun will be in the sun and we should invest in the sun we can\u2019t take in.\u201d",
+      "tokens": 85,
+      "seconds": 1.4222171809524298,
+      "tokens_per_second": 59.76583684854464,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 137,
+      "text": " they are not used to produce water.\nSuggested Lighting\nFor more info on the benefits of using solar water, visit the Center\u2019s Solar Plants website.\nThe USDA Solar Plants and Solar Plants Administration (USDA) has published a study focusing on how solar systems can be used to treat a wide range of diseases including diabetes and diabetes. The study focused on the role solar cells can play in the development and development of a wide variety of diseases.\nThe study, the USDA Solar Plants, provides recommendations for a list of solar systems in the USDA web-based office.",
+      "tokens": 128,
+      "seconds": 2.1211920590139925,
+      "tokens_per_second": 60.34342786456549,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.010416666666666666
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 42,
+      "text": " it is hot. The spoon\u2019s chemical composition is similar to that of a wood spoon and the spoon\u2019s chemical composition is different from that of a wood spoon.\nWhat does it taste like?\nHelpful to taste like a wood spoon, one that will taste like a spoon.\nA few drops of the spoon in the air. As you can see, a small piece of the spoon will get more spoon because your spoon looks like a small piece of wood.\nA few drops of the spoon are very bad to taste like a spoon. When you p",
+      "tokens": 128,
+      "seconds": 2.122304492164403,
+      "tokens_per_second": 60.311798082027785,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.11458333333333333
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 137,
+      "text": " it has a smelly smell.\nThis makes the spoon feel less hot and stains. They are very cold. They have a cold cold feeling and need to stay warm. Mommy helps them warm up, and they feel much better.\nMommy takes the spoon and the spoon out of the fire. She gives them a warm and warm place to sleep. Mommy and Tom sit under a big chair and look at the spoon. Mommy smiles and says, \"Thank you, Mommy. You did a great job. Do you want to fly a spoon?\"",
+      "tokens": 128,
+      "seconds": 2.1204436810221523,
+      "tokens_per_second": 60.36472514954892,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 42,
+      "text": " it is dark and dark. In the long run, the Moon reaches its highest point. The Sun and the Moon rise in the sky and the moon falls into the sky. The Moon also looks bright when you can see the stars. But the Moon is not too small to see the sun. When you get to the Moon, you can see the stars. The Moon is going to look blue, the sky and the sky. The Moon is going to glow because the Moon is very pretty.\nThe Moon looks brightly blue and the moon is pretty. The Moon looks very pretty. The Moon looks bright and the Moon looks pretty.",
+      "tokens": 128,
+      "seconds": 2.12145581189543,
+      "tokens_per_second": 60.335925585759654,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.08256880733944955
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 137,
+      "text": " it's more like a sunset.\nOne day, the Moon and the Moon go for a walk in the woods to find some shade. They meet many other planets. The sun shines on the moon and the sunshine.\nThe Moon and the Moon look at each other and smile.\n\"Let's go outside and see what we can find!\" Lily says.\n\"Yes, let's go!\" Tom says.\nThey run to the moon and look for the sunshine. They see the sunset, the moon, the moon and the flowers. They see the sky, the moon",
+      "tokens": 128,
+      "seconds": 2.120133677031845,
+      "tokens_per_second": 60.37355162397027,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.04395604395604396
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 42,
+      "text": " it is far from a good idea to wait for the thunder to stop.",
+      "tokens": 15,
+      "seconds": 0.26488077198155224,
+      "tokens_per_second": 56.6292520509744,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 137,
+      "text": " it is a huge storm.\nHack said, \"Why can't we hear thunder?\" His mom said, \"Let's hide inside the house, so I can tell you it's not safe.\"\nIn the house, there was a big fire. The fire had seen the fire very well. The kids were scared and ran away from the fire. But the fire had made them all sad.\nThe kids said, \"Don't worry, we won't be sad again.\" The fire and the fire helped the kids learn to stay away. The kids said, \"We're still safe now.\"\nAnd so, the",
+      "tokens": 128,
+      "seconds": 2.1215141240973026,
+      "tokens_per_second": 60.33426718498214,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 42,
+      "text": " you can see that a cup was in the shower. The water was out there and we can all be kind to the kids. We can all help the children and it will be like a shower.\"\nSo, the kids took a toy and they all played together. The kids were very happy when they could play with the toy. The kids had a great day at the park, and they were all very happy too. The moral of the story is that when we help others, we can make new friends.",
+      "tokens": 103,
+      "seconds": 1.7243310711346567,
+      "tokens_per_second": 59.733308599620145,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 137,
+      "text": " something unexpected happened. The cup of coffee fell off the table and got stuck in the cup! Tim was sad and scared. But then, he realized he did not get the coffee.\nTim was so happy that he did not get the coffee. He ate his lunch and went back to the table again. Tim and his mom were very happy. They sat down and had a great day.",
+      "tokens": 81,
+      "seconds": 1.3556105818133801,
+      "tokens_per_second": 59.75167285257356,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.045454545454545456
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 42,
+      "text": " the glass fills the glass fills\nWith the help of a well-fitted glassbrush, the glass fills are\ncontained as a result of the glass fills. The glass\nreactive is an ordinary, non-traditional method of\nwipeing to ensure that the glass fills are well-fitted\nto preserve the glass fills without having to dry out.\nThis method is not a cure if the glass fills don\u2019t\nmaintain the glass fills just because they don\u2019t fall into glass,\nyou can fix the glass fills or your glass",
+      "tokens": 128,
+      "seconds": 2.124065235024318,
+      "tokens_per_second": 60.26180264587521,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.03488372093023256
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 137,
+      "text": " the water will be less than 1 liter. The water will be kept in a closed container, which will be able to be used in a vacuum. In a vacuum, the water will be cooled up and the water can be used to remove the water.\nAs a lightweight, vacuum may be used, but it will be in use for the vacuum. Once the vacuum is in the vacuum, the vacuum will be cooled to the inside.\nThe vacuum will be used to place the vacuum in a vacuum-like container. The vacuum is used to remove it. The vacuum is a type of vacuum created when the vacuum is",
+      "tokens": 128,
+      "seconds": 2.120637832209468,
+      "tokens_per_second": 60.359198565574154,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.037383177570093455
+    }
+  ],
+  "comparison": [
+    {
+      "prompt": "Mira left her umbrella beside the door. Later she wanted it. She should look",
+      "candidates": [
+        " beside the door.",
+        " inside the refrigerator."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.3554351806640623,
+        -2.1600306828816733
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "The boat had a hole and was filling with water. To stop the leak, Sam should",
+      "candidates": [
+        " make the hole larger.",
+        " plug the hole."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -4.39725341796875,
+        -4.266541481018066
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "A person wants two equal pieces of one apple. They should",
+      "candidates": [
+        " cut the apple in half.",
+        " eat the whole apple."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.1624388694763184,
+        -2.3258365631103515
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "Rain is falling outside. To keep dry while walking, you can",
+      "candidates": [
+        " carry an open umbrella.",
+        " remove your raincoat."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.173495292663574,
+        -2.676407950265067
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "The bus leaves at eight. To catch it, you should arrive",
+      "candidates": [
+        " at nine.",
+        " before eight."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -2.5513509114583335,
+        -5.486626942952474
+      ],
+      "predicted": 0,
+      "correct": false
+    },
+    {
+      "prompt": "An empty cup is lighter than the same cup filled with water because",
+      "candidates": [
+        " water has weight.",
+        " empty cups contain more water."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -4.73601770401001,
+        -2.956915719168527
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "A person drops a stone. Without anything holding it up, the stone will",
+      "candidates": [
+        " float upward.",
+        " fall toward the ground."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -3.196783256530762,
+        -2.5346563339233397
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "Ana gave Ben her blue book. Ben placed it on his desk. The book is now",
+      "candidates": [
+        " on Ben's desk.",
+        " in Ana's hand."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -1.5050437927246094,
+        -3.4043232599894204
+      ],
+      "predicted": 0,
+      "correct": true
+    }
+  ],
+  "comparison_accuracy": 0.5,
+  "mean_repeated_4gram_rate": 0.031495854165877676,
+  "mean_generated_tokens": 109.40625,
+  "elapsed_seconds": 60.175296019995585,
+  "limitations": "Local development suite, not independent validation. Fixed random windows may overlap; repetition metric does not establish coherence or truth."
+}

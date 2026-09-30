@@ -1,0 +1,17 @@
+{
+  "selected": "B",
+  "weighted_nll": {
+    "A": 3.5734502881765366,
+    "B": 3.3023160696029668,
+    "C": 3.322188510000706
+  },
+  "rejected": {},
+  "policy": "80% web/20% story NLL, fixed web and repetition guards; development only",
+  "limitations": "One seed, early pilots, heuristic gates; not proof of architectural superiority or general intelligence.",
+  "pilot_hashes": {
+    "A": "34506cb338659821e17e1e55efab852ca8d2a90b06f274901be770fc90101e1f",
+    "B": "e2214e670788d5bf67e7f44c190bd9bbeff290bee7982827156a8d129f16471b",
+    "C": "a7fd8a55432d4a08800fe4bf5d21519ce3cb7f1d47608a9bb3e7304e4bc025b3"
+  },
+  "baseline_hash": "4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e"
+}

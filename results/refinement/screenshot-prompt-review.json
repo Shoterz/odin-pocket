@@ -1,0 +1,21 @@
+{
+  "checkpoint_sha256": "dab13b8947f5a7ac4bc5dcd0a9eb0056d69bcad0dcd4edc99f757711fd8811bb",
+  "prompt": "I saw my friend on the road today",
+  "device": "cpu",
+  "seed": 42,
+  "max_new_tokens": 96,
+  "samples": [
+    {
+      "temperature": 0.6,
+      "text": ". She didn't see it. It was too far away. She felt lost and scared. She called her mom and dad, but they could not hear her. She was lost and alone.\nThe other kids in the park saw her fall. They ran to help her. They were kind and compassionate. They looked for her. They found her and picked her up. She was crying and crying. She could not see her mom and dad any"
+    },
+    {
+      "temperature": 0.8,
+      "text": ". She didn't see it. It was getting dark outside.\" Tim looked up and saw his friend watching the sunset. He smiled and said, \"You're right, Sue. I will go to bed now.\"\nThat night, the sun set and the sky was blue. Sue woke up and saw the sunset too. She was happy because she could see the sunrise. The sunset was very pretty, and Sue knew she would have"
+    },
+    {
+      "temperature": 1.1,
+      "text": ". She didn't see it. Now I've just had to get out!\" \nHis friend was sad and angry. He said, \"Why are you so scared? I can help. Please support me.\"\nThe bear thought for a moment, then said, \"Oh my amazed, little one. I must help you go home. It's not safe here.\"\nThe rabbit said, \"Don't worry, I will support you and"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "checkpoint_sha256": "e2214e670788d5bf67e7f44c190bd9bbeff290bee7982827156a8d129f16471b",
+  "parameter_count": 49295872,
+  "trained_tokens": 250003456,
+  "protocol": {
+    "context": 512,
+    "windows_per_domain": 256,
+    "window_seed": 90210,
+    "prompt_file_sha256": "bb0c2fab280ae9f8f556dd3763cc6a482d0f301ef68ff245a7d1fb72932c99d0",
+    "tokenizer_sha256": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+    "domain_files": {
+      "web": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+      "stories": "6366189afed3b36e5c625e1ba23055b52315c6d520c6ad9d42e521b90f990b2f"
+    },
+    "temperature": 0.8,
+    "seeds": [
+      42,
+      137
+    ],
+    "max_new_tokens": 128,
+    "top_k": 40,
+    "device": "cuda",
+    "precision": "bfloat16-autocast",
+    "generation_cache": true
+  },
+  "protocol_sha256": "d91197d67a5e3b45ff81f0e9ba3fe482d0cfad2e32f622a972a4424fc7aff376",
+  "domains": {
+    "web": {
+      "nll": 3.750074937939644,
+      "perplexity": 42.524268561734985,
+      "windows": 256,
+      "tokens": 131072
+    },
+    "stories": {
+      "nll": 1.511280596256256,
+      "perplexity": 4.532531422160965,
+      "windows": 256,
+      "tokens": 131072
+    }
+  },
+  "generation": [
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 42,
+      "text": ". She was very sad. The road was not fun anymore. It wanted to play with friends too. So, the road decided to go on the road.\nThe road was not fun. It could not go on the road like the other road. The road was sad. It wanted to play with friends. So, the road started to walk on the road. The road was not happy. It could not go on the road.\nThe road was sad. It wished it had not went on the road. The road learned to listen to the road. The road was not good. It was not fun. The road was",
+      "tokens": 128,
+      "seconds": 1.4406328999903053,
+      "tokens_per_second": 88.84983815159391,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.24271844660194175
+    },
+    {
+      "prompt": "I saw my friend on the road today",
+      "seed": 137,
+      "text": ". She was holding a big bag. She was having fun with the toys.\nSue went to the park to play. She saw her friend Sally in the park. Sally wanted to play with the toys too. Sally asked Sally, \"Can we play together?\" Sally said, \"Yes, let's play together.\" They played with the toys and had a great day.",
+      "tokens": 81,
+      "seconds": 0.8333047921769321,
+      "tokens_per_second": 97.20332915450415,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 42,
+      "text": " she ran around the house. But no one was watching her. \n\"Mira, we have to go!\" she shouted, excitedly. \nMira opened the door and looked up. She saw a small, shiny thing on the ground. She walked closer to take a closer look. \n\"This is a big, sparkly thing!\" she shouted as she walked around the house. \nBen watched as the sun was shining through the sky. She stopped and looked at the object. It was a pretty flower. It was glowing in the sun. \n",
+      "tokens": 128,
+      "seconds": 1.2822432941757143,
+      "tokens_per_second": 99.82504925657214,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "seed": 137,
+      "text": " she ran out of the house.\nAt home, Lily ran outside to the garden to get her red umbrella. She ran back into her backyard.\nLily saw a cat running towards her red umbrella. She ran to the cat and said, \"Hi, let's play together!\" The cat meowed happily and Lily ran away.\nLily was glad to have her red umbrella back. She ran back to her backyard and sat on the grass. She looked forward to playing in the garden with her red umbrella.",
+      "tokens": 125,
+      "seconds": 1.265201681992039,
+      "tokens_per_second": 98.79847757014484,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.024096385542168676
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 42,
+      "text": " out of the water was coming up there. He was so happy! He thanked the little boat for helping him out. \nThe little boat stayed with Sam until it was time to go back to his old boat. Then he got back home and told his friends about his adventure. They all had a great time together.",
+      "tokens": 66,
+      "seconds": 0.6697833088692278,
+      "tokens_per_second": 98.53933223780321,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "seed": 137,
+      "text": " out of the water. He thought it was a place of water.\nSam went into the water and started splashed. The water was so warm that his boat started to shiver. He started to feel hot. \nSam started to feel better. He didn't feel much warmer, but soon he was ready to do something special. He was swimming in the sea! \nJoey had learned that day that he should always be ready when swimming.",
+      "tokens": 96,
+      "seconds": 0.9746197229251266,
+      "tokens_per_second": 98.49995617970377,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 42,
+      "text": " put it in the sand. Tim was very happy and said, \"Thank you, friends!\"\nThe race started, and all the animals ran fast. Tim was faster than before, and he felt nervous. He ran in fast, and then he saw the knife on the ground. It was a big, red apple! Tim was surprised and surprised. He picked it up and said, \"Look, my friends!\"\nThe race ran and the animals ran all faster. Tim was so surprised that he couldn't finish the race anymore. He was very proud of himself. The race was a fun day, and",
+      "tokens": 128,
+      "seconds": 1.281169056892395,
+      "tokens_per_second": 99.90875077054774,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "seed": 137,
+      "text": " made a promise to share the apple. They shared the apple and ate it together.\nThe next day, the sun came out. The sun was not bright like the sky. The sky was gray and the sun was bright. The sun and the knife were very happy. They learned that sharing was better with friends. And they lived happily ever after.",
+      "tokens": 73,
+      "seconds": 0.745141264051199,
+      "tokens_per_second": 97.96800086350356,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 42,
+      "text": " a loud noise. It was a huge tree. She looked up and saw an old tree. \nAnna smiled. She looked up at the tree. She saw a lot of trees and the birds. She was amazed. She wanted to see the tree. She followed the branches and started to climb. She was brave.\nThe tree kept climbing. It was incredible! Anna saw her dog. The dog was very friendly. Anna felt proud. She decided to find the dog and the tree. She walked and walked. She saw the dog. It was shady. She wanted to play with the dog.",
+      "tokens": 128,
+      "seconds": 1.2823253171518445,
+      "tokens_per_second": 99.818664022246,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "seed": 137,
+      "text": " a voice. It was her dad, who had left her!\n\"Anna! What are you doing? It's the same!\" Mia answered.\n\"I'm just looking for your dog!\" Tim said.\nMia looked around the park. She saw a new boy with the dog. The new boy looked just like her. They played together, and Mia knew she was just missing her dog.",
+      "tokens": 88,
+      "seconds": 0.8938356479629874,
+      "tokens_per_second": 98.45210380739253,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 42,
+      "text": " I was the only one who would take notice of the bus. On 3 March, it was raped in the head and I felt so tired and tired.\nJune 6, 2007\nMind and Fight\nMindfulness is an important aspect of life. It is something that every human life has to do. It is what we are. It takes one to know what's happening, how many people in a village are in the city who are not in one sense or more. It's not a bad idea to find out how bad things are. It's just a bad idea.\nMindfulness begins when we",
+      "tokens": 128,
+      "seconds": 1.2820923351682723,
+      "tokens_per_second": 99.83680308267363,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "seed": 137,
+      "text": " I was sick.\nI went to the airport and asked for a ticket. I was not happy.\nThe next morning, the plane was gone again. A plane was gone! The plane was never seen again. The airplane was sad.",
+      "tokens": 50,
+      "seconds": 0.5108479619957507,
+      "tokens_per_second": 97.87647934360538,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 42,
+      "text": " the door opened, but the door was always unlocked. When I opened it, I found that the shop was empty. It was very messy!\nThe little girl was sad. She loved to fix things. She loved how she made things. She hugged the shop and asked, \"Why are you sad?\" The shop said, \"I just wanted to play.\"\nThe little girl was sad too. She wanted to play with cars. But she would not want to play with them. She hugged the shop again, and the shop closed. Then, it opened!\nThe little girl played with her",
+      "tokens": 128,
+      "seconds": 1.2846325139980763,
+      "tokens_per_second": 99.63938994633891,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.031914893617021274
+    },
+    {
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "seed": 137,
+      "text": " out, and it was very nice!\" The girl and her mom were surprised. They had never seen a shop close to the window before. They all smiled and laughed, enjoying the day.",
+      "tokens": 43,
+      "seconds": 0.44030204601585865,
+      "tokens_per_second": 97.66023208179969,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 42,
+      "text": " would gather around the seed and take a good look.\nOne day, when she was feeding her friends, she spotted something shiny in the sky. She ran to it and saw a big star. The star was very special and made her wish come true. She wanted to show her friends all the different things she saw.\nThe kids in the park saw the star and wanted to make a wish too. They all wanted to make a wish together. So they all became friends and played together. The kids in the park were very happy to see their new friend. They had a big party and everyone had a great time.",
+      "tokens": 127,
+      "seconds": 1.2841160029638559,
+      "tokens_per_second": 98.90072213637437,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.03669724770642202
+    },
+    {
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "seed": 137,
+      "text": " would wake up and say goodbye to her friends.\nOne day, Sarah was walking through the park when she heard a voice. She looked over her house and saw a small girl sitting alone. She asked Sarah if she could join them. Sarah said yes, so Sarah went to the nearby house. They both smiled and waved to the girl.\nThe girl was so happy to see Sarah. She smiled back and said thank you to Sarah. She said goodbye to the girl and ran away. Sarah felt so proud and excited. She had had a great day with her new friend.",
+      "tokens": 124,
+      "seconds": 1.2488706579897553,
+      "tokens_per_second": 99.28970562860097,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 42,
+      "text": " of the moisture and the warm sun has changed everything.\nSkincrease and eliminate the water as much as possible. If you don't see water, please leave it at your home as soon as possible.\nWastewater Treatment\nWhen you do water, you will likely need two different methods:\n- Water the surface\n- Use water in shallow waters\n- Use faucet and water in a shallow water supply\n- Install the water inside the bottle over the surface.\n- Put the water in a shallow bucket to turn the surface water into faucet\n- Use the fau",
+      "tokens": 128,
+      "seconds": 1.2833878949750215,
+      "tokens_per_second": 99.7360194070486,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.011363636363636364
+    },
+    {
+      "prompt": "Ice melts when it gets warmer because",
+      "seed": 137,
+      "text": " of the increased rainfall in the spring and summer.\nFun Facts About the Winds and how to prevent them\nThe best time to prevent waterfall problems is to keep your feet warm. It\u2019s easy to use a warm bath if you\u2019re working on cold or snowy days.\nHow to prevent the flooding\n- Use a warm bath.\n- If you\u2019re using a warm bath, keep it in a cool place so you don\u2019t overwater it.\n- If you\u2019re planning to turn the shower on, keep your feet warm and dry for several hours.\n- If you\u2019",
+      "tokens": 128,
+      "seconds": 1.2830764309037477,
+      "tokens_per_second": 99.76023011337051,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.05319148936170213
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 42,
+      "text": " the rider is pushing the wheels up his feet. The bicycle runs so fast that it hits him with a breech.\nThe bicycle and the horse are racing up and down again.\n\"Hello,\" yesterday, the bicycle.\n\"Hello,\" says the motor.\n\"Hello,\" says the bicycle.\n\"Hello,\" says the motor.\n\"Hello,\" says the motor.\n\"Hello,\" says the motor.\nThe bicycle then goes down again and again.\n\"Hello,\" says the motor.\n\"Hello,\" says the motor",
+      "tokens": 128,
+      "seconds": 1.2846507551148534,
+      "tokens_per_second": 99.63797513866423,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.2318840579710145
+    },
+    {
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "seed": 137,
+      "text": " he does not feel safe.\nWHY FEAD DIY Gifts?\nBy the way. The bicycle is a good way to keep your body organized, so it will not have to break or break. It will not break, but you have to keep up with your body weight.\nThere are 3 kinds of bicycle:\n- Easy-to-warm. This bicycle has a sharp knife that can pull the rider. It is a good idea to be able to move.\n- Fast. It can be hard to get to the wheel from an angle or to",
+      "tokens": 128,
+      "seconds": 1.281659346073866,
+      "tokens_per_second": 99.87053142639274,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 42,
+      "text": " they need a sun. In other words, Earthworms need their own solar energy to survive, which depends on how well they live.\nA new look at the Sunworms has been done: the latest news from a lot of people who live in the Northern Hemisphere.\nThe answer lies in the fact that the Sunworms are all living in the northern hemisphere, it has been found by a few hundred years ago that the Sunworms were living in the northern hemisphere. The Sunworms are the new ones. The Sunworms are a big deal.\nThese Sunworms are considered to be",
+      "tokens": 128,
+      "seconds": 1.2859992061275989,
+      "tokens_per_second": 99.53349845792955,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.042105263157894736
+    },
+    {
+      "prompt": "Plants need sunlight because",
+      "seed": 137,
+      "text": " they need sunlight to grow. So, water has the right amount of sunlight. This is the best way to grow the plant.\nThe plant needs sun and other nutrients, so the soil will need it to grow.\nWater is important for the plant\u2019s health. You can take water from the roots of the plants to plants that are not too moist or too dry, and keep the plant alive.\nYou can use water to keep the plants fresh. Water is essential for the plant\u2019s health and life.\nThe plant\u2019s water is also critical for the health of all plants.\n- It is good for",
+      "tokens": 128,
+      "seconds": 1.2863842830993235,
+      "tokens_per_second": 99.50370327256007,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.019417475728155338
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 42,
+      "text": " it is hot and hard. This way, the metal spoon will break, and the metal spoon will not break.\nA metal spoon is not a metal spoon. Rather, the metal spoon is a metal spoon. This metal spoon is a metal spoon that makes it difficult to break. The metal spoon is a metal spoon that can break. This metal spoon does not break the metal spoon.\nBen's mom can buy metal spoons. She is very tired. She says they have to go to the store with some gas. She says they have to go to the store",
+      "tokens": 128,
+      "seconds": 1.2804518430493772,
+      "tokens_per_second": 99.96471221843836,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.16666666666666666
+    },
+    {
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "seed": 137,
+      "text": " it does not have a metal spoon. The spoon is designed to be able to move around the room without a spoon.\nThe spoon has four spoons. The spoon is about three inches long, each with a metal spoon. The spoon is not the same as the spoon. The spoon has four holes, each with four holes.\nThe spoon has two holes. The spoon has four holes. The spoon has two holes. The spoon has two holes. The spoon has four holes, each with one hole.\nThe spoon has two holes in the kitchen.",
+      "tokens": 128,
+      "seconds": 1.2854806631803513,
+      "tokens_per_second": 99.5736487263222,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.2857142857142857
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 42,
+      "text": " it is made of gas. When the sun sees the moon, it means its brightness is the most important. So, the Moon is always ready to receive the sun's energy.\nThe sky is very glorious. There are stars in the sky. The sky is beautiful. The sky can be very beautiful. The sky is full of stars. The sky is pretty. The sky is bright. The sky is very glorious. The sky is so beautiful. The sky is bright and pretty.\nOne day, the sky is not bright like the sky. It has no sun, but the sky is bright. The sky is",
+      "tokens": 128,
+      "seconds": 1.2817049189470708,
+      "tokens_per_second": 99.86698038512083,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.07920792079207921
+    },
+    {
+      "prompt": "The Moon looks bright at night because",
+      "seed": 137,
+      "text": " it is so bright that it will come out in the sun. When it is sunny it is shining bright. The Moon looks so bright that all night bright will be bright! The moon will make a bright sun out to the moon, so it will stay in the sky for a long time.\nA few days later, the Moon has been bright enough to get off a star. The Moon gives the Moon a chance to rise and then fly up into the sky. The Moon gets closer to the ground, so it sits there.\nSunlight is bright enough to keep the planet cool. The Moon does not stay in",
+      "tokens": 128,
+      "seconds": 1.285955369938165,
+      "tokens_per_second": 99.53689139783667,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 42,
+      "text": " it is fun to see the stars. This is a special place where we will see some things, like flowers, birds, and a big star.\"\nThe little girl was so excited! She saw an unusual one and she was filled with excitement. She ran up to the sky and saw something brightly. She looked closer and saw a big star! She gasped and watched as the star began to glow. The little girl was so excited! She knew it was the right place for her to find out what was making the sun come up.\nThe little girl looked around and she saw something shiny in the sky. She",
+      "tokens": 128,
+      "seconds": 1.280588529072702,
+      "tokens_per_second": 99.95404229701104,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.03773584905660377
+    },
+    {
+      "prompt": "We see lightning before we hear thunder because",
+      "seed": 137,
+      "text": " it is so lightning that we cannot see the lightning.",
+      "tokens": 13,
+      "seconds": 0.14093895303085446,
+      "tokens_per_second": 92.23851689287085,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 42,
+      "text": " you can get a drink of the ice creams.\n- Saving water\nIf you want water, you will need to save a few minutes on water. Don\u2019t leave your water off! The cup will not have to have water in the cup.\n- Make sure to water in the cup\nFree water is important and not only for the poor, but also for the poor. The cup needs water in the cup, so it would not be too far away from water.\nFree water may not be in the cup.\n- Pour a small cup on the cup\n- Use a bowl of water",
+      "tokens": 128,
+      "seconds": 1.2843759099487215,
+      "tokens_per_second": 99.65929679038466,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.02040816326530612
+    },
+    {
+      "prompt": "To keep a cup from falling off a table,",
+      "seed": 137,
+      "text": " take a picture of the cup.\nHow Does It Work?\nWhat is the purpose of this video?\nThe goal of the video is to give the students a chance to watch and read the full video.",
+      "tokens": 43,
+      "seconds": 0.43938856618478894,
+      "tokens_per_second": 97.86326570436053,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 42,
+      "text": " the water does not break. When water can move around, it has a lot of pressure inside the glass.\nTip: Water is free and free.\nCooling the water is easy. It makes it easier to play out the water.\nIf you want to play with the soap, take a swim.\nIf you\u2019re swimming with water, keep swimming.\nAllow water to stay cool in your water.\nIf you see a leak in the water, then pull out the bottle.\nIt\u2019s easy to play with water.\nSmall, low, and low water.\nIn many",
+      "tokens": 128,
+      "seconds": 1.2832080340012908,
+      "tokens_per_second": 99.74999891550807,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.0
+    },
+    {
+      "prompt": "When water freezes inside a full glass bottle,",
+      "seed": 137,
+      "text": " the water will dissolve. If it is too cold, the water will not turn it. If it is too warm or cold, the water will freeze out. If the water freezes, the water will melt inside the bottle. If the water freezes, the water will get into the bottle!\nThe water is frozen, and the water is free.\nIf you want to have water free, please share it with the children.",
+      "tokens": 91,
+      "seconds": 0.9212936949916184,
+      "tokens_per_second": 98.77414823817706,
+      "context_truncated": false,
+      "repeated_4gram_rate": 0.08823529411764706
+    }
+  ],
+  "comparison": [
+    {
+      "prompt": "Mira left her umbrella beside the door. Later she wanted it. She should look",
+      "candidates": [
+        " beside the door.",
+        " inside the refrigerator."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.4401235580444336,
+        -1.9348821640014648
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "The boat had a hole and was filling with water. To stop the leak, Sam should",
+      "candidates": [
+        " make the hole larger.",
+        " plug the hole."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -4.471683502197266,
+        -3.978114128112793
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "A person wants two equal pieces of one apple. They should",
+      "candidates": [
+        " cut the apple in half.",
+        " eat the whole apple."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.127943674723307,
+        -2.2151363372802733
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "Rain is falling outside. To keep dry while walking, you can",
+      "candidates": [
+        " carry an open umbrella.",
+        " remove your raincoat."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -3.1112711429595947,
+        -3.1814283643450056
+      ],
+      "predicted": 0,
+      "correct": true
+    },
+    {
+      "prompt": "The bus leaves at eight. To catch it, you should arrive",
+      "candidates": [
+        " at nine.",
+        " before eight."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -3.589221954345703,
+        -4.664407094319661
+      ],
+      "predicted": 0,
+      "correct": false
+    },
+    {
+      "prompt": "An empty cup is lighter than the same cup filled with water because",
+      "candidates": [
+        " water has weight.",
+        " empty cups contain more water."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -4.324733257293701,
+        -3.721975326538086
+      ],
+      "predicted": 1,
+      "correct": false
+    },
+    {
+      "prompt": "A person drops a stone. Without anything holding it up, the stone will",
+      "candidates": [
+        " float upward.",
+        " fall toward the ground."
+      ],
+      "expected": 1,
+      "mean_log_likelihood": [
+        -2.491756057739258,
+        -2.103938102722168
+      ],
+      "predicted": 1,
+      "correct": true
+    },
+    {
+      "prompt": "Ana gave Ben her blue book. Ben placed it on his desk. The book is now",
+      "candidates": [
+        " on Ben's desk.",
+        " in Ana's hand."
+      ],
+      "expected": 0,
+      "mean_log_likelihood": [
+        -2.028213310241699,
+        -4.470518430074056
+      ],
+      "predicted": 0,
+      "correct": true
+    }
+  ],
+  "comparison_accuracy": 0.625,
+  "mean_repeated_4gram_rate": 0.04285490861445454,
+  "mean_generated_tokens": 107.875,
+  "elapsed_seconds": 36.44232233194634,
+  "limitations": "Local development suite, not independent validation. Fixed random windows may overlap; repetition metric does not establish coherence or truth."
+}

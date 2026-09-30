@@ -24,3 +24,7 @@ Spec: docs/superpowers/specs/2026-09-29-refinement.md
 - Baseline development reference saved: webNLL3.28934, storyNLL2.83726, repeated4gram fraction0.04443, local comparison6/8. All32 raw continuations retained. These local comparisons are not independent benchmarks.
 - Current stage/status: results/refinement/status.json. Training metrics: runs/refinement/{A,B,C}/metrics.jsonl. On success the runner writes docs/refinement-results.md and all final measurements; it keeps v0.1.0 unchanged and records completed-needs-quality-review. On failure it records the exception and leaves recovery checkpoints.
 - Run remains IN PROGRESS. No new model quality or benchmark improvement claimed.
+
+- 2026-09-30: runner finished2026-09-29 23:54UTC /Sep30 07:54Singapore. B selected and trained to3,000,008,704tokens. All pilots+winner total3,500,015,616tokens /8.857recorded hours. Full evaluations completed.
+- Quality review complete: verified final checkpoint/run/corpus/report identities; inspected all32 frozen final continuations and6 original product continuations, and reran the screenshot prompt at three temperatures on CPU. Mixed benchmark results and continuing semantic failures do not justify release replacement. See docs/refinement-quality-review.md.
+- Local B preview started separately on127.0.0.1:8767 with matching benchmark evidence. Published v0.1.0 unchanged. No new training launched in this review.
