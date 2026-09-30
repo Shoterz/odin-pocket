@@ -1,0 +1,116 @@
+{
+  "reviewer": "OpenAI Codex; author assessment, not independent human validation",
+  "method": "All 128 anonymized continuations read in full before opening model mapping. Some prior-model outputs were recognizable from earlier reviews, limiting blinding. Entity dimension assessed for narrative prompts; scientific/practical failures recorded under causal/factual consistency. Scores are descriptive, not calibrated psychometric measurements.",
+  "rated_items_sha256": "988ea4e09d8bd819699f1c292a10a00a4e5e57f816531f81745c649604855f25",
+  "mapping_sha256": "6120122856b12902c39b78e266751085602e479e0ff76609715de63b32db6871",
+  "models": {
+    "long-warmup": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.65625,
+          "clear_failures": 11,
+          "mixed": 21,
+          "passes": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.375,
+          "clear_failures": 10,
+          "mixed": 6,
+          "passes": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.0,
+          "clear_failures": 32,
+          "mixed": 0,
+          "passes": 0
+        }
+      },
+      "scientific_practical_causal_clear_failures": 16
+    },
+    "published": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.53125,
+          "clear_failures": 15,
+          "mixed": 17,
+          "passes": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.25,
+          "clear_failures": 12,
+          "mixed": 4,
+          "passes": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.0,
+          "clear_failures": 32,
+          "mixed": 0,
+          "passes": 0
+        }
+      },
+      "scientific_practical_causal_clear_failures": 16
+    },
+    "previous-B": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 1.125,
+          "clear_failures": 4,
+          "mixed": 20,
+          "passes": 8
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.5625,
+          "clear_failures": 10,
+          "mixed": 3,
+          "passes": 3
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.34375,
+          "clear_failures": 22,
+          "mixed": 9,
+          "passes": 1
+        }
+      },
+      "scientific_practical_causal_clear_failures": 15
+    },
+    "short-warmup": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.5625,
+          "clear_failures": 14,
+          "mixed": 18,
+          "passes": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.375,
+          "clear_failures": 10,
+          "mixed": 6,
+          "passes": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.0,
+          "clear_failures": 32,
+          "mixed": 0,
+          "passes": 0
+        }
+      },
+      "scientific_practical_causal_clear_failures": 16
+    }
+  }
+}

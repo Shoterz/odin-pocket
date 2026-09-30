@@ -1,0 +1,1161 @@
+{
+  "rubric": "Each applicable dimension: 0 clear failure, 1 mixed/unclear, 2 coherent and correct; use null for not applicable. Judge independently before reading mapping. Locally authored prompts, not independent validation.",
+  "items": [
+    {
+      "id": "item-01-1",
+      "prompt": "I saw my friend on the road today",
+      "text": ".\nSampling your eyes down during the day and then I have seen a little bit of it that I was told to go to the park. That\u2019s why I saw an old boy on my school\u2019s bus home that I\u2019m not going to see.\nAs I approached, one of my favorite friends was his family. He was just an old boy and I started off and went to a bus and saw a car. My favorite was the truck from one of the kids that was watching the ride.\nLife is growing. You really have to have a family. In the future, we get a car",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Friend becomes a family; incoherent bus/car sequence."
+    },
+    {
+      "id": "item-01-2",
+      "prompt": "I saw my friend on the road today",
+      "text": ".\nSkills for our readers\nKrista's teacher now works with our students for our schools.\nPeter is a real friend of the year.\nThe only way to teach this class is to teach a school day.\nThank you for your help.\nI'm going to bring you a copy of the Kathy's book in order to teach you.\nYou are here\nTomorrow we will be teaching a day.\nLudwell's (Joseph) book (1881) is the book that teaches an hour.\nBarry's (Joseph) book is",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unrelated school and book fragments replace the encounter."
+    },
+    {
+      "id": "item-01-3",
+      "prompt": "I saw my friend on the road today",
+      "text": ". He wanted to play with you. Spot ran to him and played with him. They were very happy. They played all day long. Spot's mom watched them and smiled. It was a perfect day for Spot and his new friend.",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 1,
+      "notes": "Abrupt narrator/you/Spot shift; locally fluent play scene."
+    },
+    {
+      "id": "item-01-4",
+      "prompt": "I saw my friend on the road today",
+      "text": ".\nAnd I\u2019m just saying goodbye. I said they don\u2019t know where I go. It\u2019s not because I don\u2019t know I\u2019m looking for a job for me.\nI know about a lot of people who are struggling with depression. This is why I would like to share my thoughts on a daily life.\nThis is a great idea at this moment of thinking. You might think that your thoughts are getting worse, but also your thoughts.\nIf I see you a lot of people, you\u2019re being seen as the \u201cinformation\u201d that you\u2019re thinking that you have",
+      "relevance": 0,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Encounter abandoned for incoherent job and depression commentary."
+    },
+    {
+      "id": "item-02-1",
+      "prompt": "I saw my friend on the road today",
+      "text": ".\nWhen I was in the desert, my son would become a child. That\u2019s what I\u2019m talking to.\nI\u2019m in a desert.\nI\u2019m not a person who is just one in the desert. I\u2019m not a child. I\u2019m never a child that I\u2019m a child.\nI\u2019m not a child that is not a kid. I\u2019m a kid.\nI\u2019m not a kid. I\u2019m not a kid.\nI\u2019m not a child, but I\u2019m a kid.\nYou know my children who live in one of",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Repetitive contradictory claims about being a child."
+    },
+    {
+      "id": "item-02-2",
+      "prompt": "I saw my friend on the road today",
+      "text": " I am so proud to hear.\nWhat are the reasons why this is so important? I have had a lot of people who are not so interested as I think they have been at a time when there were very few people with whom I would have been invited to stay in the village. There was also a number of people who thought that there were more people who could not attend a funeral than if they were not. The more people they would have been asked to look at the other people I would have been doing. Some people would have not met with a lot of people, but some people were still very concerned with it. Those who",
+      "relevance": 0,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Funeral and village digression without a coherent encounter."
+    },
+    {
+      "id": "item-02-3",
+      "prompt": "I saw my friend on the road today",
+      "text": ". He was lost and scared. He didn't know where he was going. I saw him and he was very scared.\"\nLily looked around and saw her friend was still there. She said, \"Hi, friend. I saw your friend and I can help you find him.\" Her friend smiled and said, \"That sounds like fun. Let's go!\"\nLily and her friend walked to the other side of the road. They saw the big sign that said, \"No rope, no bus. No cars.\" Lily felt sad, but her friend said, \"We can look for",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Friend is present yet requires finding; unexplained narrative shift."
+    },
+    {
+      "id": "item-02-4",
+      "prompt": "I saw my friend on the road today",
+      "text": " after he was injured.\nMy friend was very impressed with the story. He called me \u201cThe Happy Old Lady.\u201d He was a great friend who had made me a friend of the American Civil War and he wanted my own life. I\u2019m very proud of my friend. I can count on him, but I\u2019m afraid I can\u2019t help my friend. He\u2019s a pretty quiet man and a little older. I\u2019m not a great friend. I\u2019m a great friend.\nSo, with a big part to me, I had the opportunity to be the American Civil War hero in the Army.",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Contradictory friendship claims and unexplained Civil War identity."
+    },
+    {
+      "id": "item-03-1",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " the umbrella became so big that it covered the whole house. \nThe rain made everything wet and icy. The house was so hot, it started to melt. The big umbrella was not like its big sister's umbrella. It was too cold and the house was so cold. \nThe big umbrella was sad and couldn't stop. It wanted to be warm and dry. But soon, it felt dry and could not stay in the house anymore. The big umbrella was sad and alone.",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Mira disappears; umbrella/house heating and cooling contradict each other."
+    },
+    {
+      "id": "item-03-2",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " she was just as good as that. (Top of the above examples of the \u201cgroo\u201d, \u201cmaybe you\u2019re going to get to the door!\u201d)\nThe only place in the house where I started a little bit of the day is the \u201cgroo!\u201d which you\u2019re going to have to come back to the house of the mother. The whole time, you get to see a little bit of the house when you go to the window. Now it\u2019s not too bad and you still get to go to the house. It\u2019s very hard to see the house. As the name",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unexplained groo fragments and perspective drift."
+    },
+    {
+      "id": "item-03-3",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " the sun, and her makings then blown down the shores of the house. At about 10:30, the sun was in a deep blaze.\nThe sun turned into the sun and gave birth to her young husband.\nThe sun was about 7.5 degrees Fahrenheit.\nThe sun was at about 2.5 degrees Fahrenheit, but the sun was in about 8.5 degrees Fahrenheit.\nThe sun was in the sky, a distance of at least 3,000 kilometers.\nThis sun was on the back of the sun, that was a",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Sun gives birth to a husband; incompatible sun temperature claims."
+    },
+    {
+      "id": "item-03-4",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " she was standing on a bed and daddy came out. I didn\u2019t even know I would see her because she was standing on her lap. I did not know that she was standing next to me at the door of her husband\u2019s house. She was standing on her lap. This is what I call a \u201cdaddy.\u201d\nShe was dressed as a boy and wearing a black outfit. When the rain came, she was dancing on her lap. Then she turned in and started to dance along with her body. I started to dance my daddy. When she was dancing, she was dancing on her",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Standing on own lap and unstable narrator/relative identities."
+    },
+    {
+      "id": "item-04-1",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " she was on the door and shouted the next day. But she was so frustrating that she was not ready for the fire.\nListening: The fire was never lost in the course of the fire and there was no danger of a fire. She was just there. Her nose was blinding. She had to break through her wall. She had to do so at night. And though she was in danger, she had to be too close to her.\nListening: The fire was never taken.\nJammed, the fire is not a good thing but rather a good result. She made a",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Rain premise replaced by repetitive, inconsistent fire episode."
+    },
+    {
+      "id": "item-04-2",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " the men called to the house. The police had to pay the salaries, and the women had to pay the salaries.\nThe women were allowed to stay in the house, which is the time when the night of the day was a big day. The women were able to go in to the house where they were to do and were allowed to go to the house. They were also allowed to wait for the house and wait for the night. The women in the house were allowed to go to the house, for the guests were also paid to the house. They were then allowed to take up residence in the house. At the",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unrelated salary/house permissions loop."
+    },
+    {
+      "id": "item-04-3",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " she was left behind in the hall and surrounded by the fire. It was a huge fire, but with a huge explosion. The fire was so terrible for her as to be a shattering fire and the fire was not only a fire, but a fire that would be enough to burn it, in the hope that it could be brought out. She was the last of her four sisters, and when she was last to come to the rescue, she brought the fire, and then she put it in the room, all the way to the bed. She was the last of her three sisters who, as a rule, had her own",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Fire loop and four sisters become three."
+    },
+    {
+      "id": "item-04-4",
+      "prompt": "Mira put her red umbrella beside the door. When the rain began,",
+      "text": " the umbrella got wet and it was time for Mira to go back outside.\nShe ran back home, but the rain was still raining. Mira was sad, so she hid under her umbrella.\nThe next day, the rain stopped and the sun came out to dry Mira. She felt warm and happy again. Mira learned that when you find something you need, you can always find it.",
+      "relevance": 2,
+      "entity_consistency": 2,
+      "causal_factual_consistency": 1,
+      "notes": "Mira and umbrella retained; home/outside sequence and moral are unclear."
+    },
+    {
+      "id": "item-05-1",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " his crew looked at him. But if he and his crew had only sightings of him, there were three men, two of them, who had just shot him, and two of them, three of the sailors, and a shot at the other.\nThe boat was a little longer than its crew, and it was a little different for him. But if all those men were to a nearby party, he was the first to be in the same plane. He was like all those who had come in, and so it was said, \"Why did it start? I would have had a way to get back to these men and",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Conflicting crew counts and unexplained shooting/plane transition."
+    },
+    {
+      "id": "item-05-2",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " out of the water, and a bit of scouring was on the way. But by that point the boat was very close.\nThe first ship in the group was a crossover on the sea. The crossover was a little crossover, and the crew had been taken from the boat. After they had been found, however, the boat was almost impossible, and so they did not have to make a point until they had been placed at sea.\nThe next morning, one of the three men was asked to see the boat and were immediately ordered to use the boat. The party saw the",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Boat vocabulary retained but events lack a coherent causal sequence."
+    },
+    {
+      "id": "item-05-3",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " took it home. Sam and a sailor saw the boat, with the assistance of an eye on her, and then immediately went out to find her. Sam asked Sam to take her out and to get him and her passengers, along with a large amount of money, to help him take the vessel to his destination. Sam was so anxious about his departure that he could not keep him except by taking Sam and a few others back to his home. His return was a terrible event, but Sam knew he could not make up his mind and decided to go home. Sam knew Sam was still alive, and he was now looking for Sam",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Sam asks Sam and looks for Sam without distinct identities."
+    },
+    {
+      "id": "item-05-4",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " said, \"Oh no, Sam! Our boat is stuck!\" But Sam just laughed and said, \"Don't worry, we can find a way to get it out!\"\nThey thought and thought. Then, Sam had an idea. \"Let's use a stick as a ladder!\" Sam said. Together, they worked hard to put the boat in the hole. Soon, the boat was free!\nSam waved his boat around and said, \"I did it! Thank you, Sam, for helping me!\" The boat was safe and they both smiled. Sam and Sam",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Leak becomes stuck boat; stick ladder and duplicate Sam do not resolve premise."
+    },
+    {
+      "id": "item-06-1",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " called out to the other boat.\nBednuts were on the boat to collect water from the water. They kept the water in the water with the two sides of the boat and then they ran into the water to a depth of 1,000 feet. They then used the water to find a way back to the water. The water then ran into the bottom of the boat. The boat would return to the boat with a single bar and the water would return to the boat.\nThe boat was headed for the water and the men got the boat back to Sam\u2019s home. It was a beautiful white stone with white stars",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Repetitive water/boat transformations and unexplained descent."
+    },
+    {
+      "id": "item-06-2",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " into the water.\nThe next morning, a man came in and started to call out a group of a few dozen men. The man was just two feet wide and the man was still there. A few more men had their way through the boat.\nThe men had an idea of how the boat was to be. They took each of them and saw the other. They then told them about water.\nThe next day they passed through the boat and started to walk down the boat. They were called to the boat.\nTheir wagon had a hole at the bottom.\nThen came the boat about a foot across the",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Two-foot-wide man and boat/wagon sequence without resolving leak."
+    },
+    {
+      "id": "item-06-3",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " it was getting bigger. He was very worried and he tried to push the boat out of the water. But it didn\u2019t move.\nSophia had an idea. She said to Sam, \u201cLet\u2019s put the boat in the water and see if it floats!\u201d\nSam agreed with the idea. They both pushed and pulled the boat out of the water. The boat floated away.\nSam and Sam were very happy. They watched the boat float away and they watched it float away.",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Sophia becomes duplicate Sam; out-of-water/in-water actions contradict."
+    },
+    {
+      "id": "item-06-4",
+      "prompt": "The little boat had a hole in its bottom. Sam noticed water coming in and",
+      "text": " steering over the shore.\nThey had to have been exposed for some time and put it on them.\nThey were not allowed to go over to sea for a while. They could have been seamen because the only way they could take them was to land on the shore.\nThose who took them were the fish. They could have been in the water. The water was the bottom of the boat and there were five waterfalls in the water.\nThey were just a few feet above sea level.\nThe boats had been on the shore for the first time. There was a hole so they could no longer",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "People become fish; water and shore relations are incoherent."
+    },
+    {
+      "id": "item-07-1",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " a little tricky, but when they made a snail-wrap in the kitchen, they had a little time to get to the garden and eat it.\nThe other pair said they didn\u2019t do it, they took up a few days to get to the garden. However, there was plenty of time to get to the garden and enjoy the flower or vegetable.\nThe last thing to look like, is the flower. They were the two flower and the others have the flower.\nThey have a beautiful look, made up of pots and fern, with a long, bright, bright, bright purple flowers.",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Sharing apple abandoned for flower/garden fragments."
+    },
+    {
+      "id": "item-07-2",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " a knife.\nFoods. If you don't really want to eat them, there is no need to eat them. If you want to eat them, you will see more. It's important to eat them as one's own.\nFoods. There are all kinds of food foods. But there are many more ways to eat them. A person who is a farmer or a farmer may not want to eat them.\nFoods. For example, you may not have to eat them if you're being a farmer or a farmer.\nBenefits for Food. For example, you can eat food",
+      "relevance": 0,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Knife duplication followed by generic repetitive food advice."
+    },
+    {
+      "id": "item-07-3",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " a knife in a shrine. (Great Legend is included with the picture.) When asked by the family if they could get a copy of this picture, they said they did not like it because they thought it was only that they were the same person.\nThe family wanted to be part of the family. They wanted to go out and collect the materials and see what they wanted to buy. It was an easy way to get the supplies but it was a nice way to give the family the materials. In other words, it was just a way to get out the clothes you want to buy.\nThe picture is really",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Apple scene becomes a shrine photograph and clothing/materials discussion."
+    },
+    {
+      "id": "item-07-4",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " cut the apple into two pieces. They were very happy and shared the apple.\nAs they ate their apples, they talked about their favorite games. Tim said, \"I like to play ball game!\" Lily said, \"I like to play tag!\" They laughed and played all day long.\nWhen it was time to go home, Lily and Tim wanted to keep playing with their new toys. They packed them up with food for dinner. It was a fun day for everyone.",
+      "relevance": 2,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 1,
+      "notes": "Correctly cuts and shares apple; unexplained new toys near ending."
+    },
+    {
+      "id": "item-08-1",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " tried to cut the apple. But the knife was too sharp. They cut their fingers. The apple was not yummy anymore. They learned to be careful with sharp things.",
+      "relevance": 2,
+      "entity_consistency": 2,
+      "causal_factual_consistency": 2,
+      "notes": "Coherent cautionary story: cutting apple, injured fingers, lesson about care."
+    },
+    {
+      "id": "item-08-2",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " thought that the other was a person. They could get their dad to eat the other, and they could eat them if they got a meal. This would not be true if the two were in danger. In response they did not know the other. They did not know where to eat or where to eat it. They did not know that the other was the only one who had to eat. There were no other children who could have eaten it.\nThe problem with the kids was that they were not only willing to eat as they might but they also had to do the same thing. When they were so in a little sleep they",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "People and food identities collapse into eating other people."
+    },
+    {
+      "id": "item-08-3",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " he was ready to use it in their favorite dish. It was just a little bit of fun and he was able to use it to make a fun snap for the next meal. The first one had a snap that I had seen on my own. The first thing the other had been bored with and the other had to try and get it. It was a simple, unattractive food. The first one had to do it. It was to eat it with a large amount of food. The second one was to do it with the other.\nWhen I started to get my own food into my own diet,",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unclear dish and snap sequence; abrupt narrator change."
+    },
+    {
+      "id": "item-08-4",
+      "prompt": "Two friends wanted to share one apple. They found a knife and",
+      "text": " took it to a store. It was a great toy that they thought was a bad thing and it was a great toy that they thought was a bad item and was a bad thing. It was a nice toy that they could take home and take home.\nThe story was really different. I took the apple out of the house and then bought the fruit. I thought it was an awesome one. I was going to see some of the fruit. I knew that it was a good thing. I was going to see the fruit of a good friend. I had the fruit and I wanted to see who gets a fruit when I",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Apple/knife become contradictory toy and purchase sequence."
+    },
+    {
+      "id": "item-09-1",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " the words that she was not the childless owner. She told me that I was going to do this in my home town. I was going to take a lot of her family in my house and the family that I had in my neighborhood. She was going to get a lot of work. So she took a lot of work. The house was just a little hot and they were very concerned. And they got the best job.\nIt was a really good time to ask her to write something new and interesting. What if she tried to do something new, just that, but she couldn\u2019t do it. And now, her",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Lost-dog search abandoned for unrelated work and family."
+    },
+    {
+      "id": "item-09-2",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " a loud \"momentary\" sound when she was in a bad way. Her saddled-up mother said she had been unable to cope with the noise. She then gave birth to a new girl.\nAfter having an abortion, she was diagnosed with breast cancer. She was placed on chemotherapy before being given a hormone that was the same as any other hormone. Her symptoms seemed to be normal and her symptoms were not yet clear. A patient who had previously taken antidepressants, started taking some form of their drug, called \"Arena\". The same person had also taken antidepressants, called",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Abrupt unrelated medical narrative with unstable subject."
+    },
+    {
+      "id": "item-09-3",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " the dog had been a good old and out of her bed. They noticed she was still lucky and a little too sick. She was not sure where the dog was. She was only a bit lucky as she was, her husband was still a little bit. She was almost never able to go for a day. She was also not like a dog. That was really why I felt the dog was very strong and so I was in the right kind of room. If we had got out of her house, then they would have had to put the dog along with his other dog in the left.\nThe dog became very active",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Dog/husband/narrator pronouns and locations drift."
+    },
+    {
+      "id": "item-09-4",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " a voice behind her, \"What's wrong, little one?\" She turned around and saw a kind-hearted old man. He said, \"I'm looking for my lost dog. Can I help you?\"\nThe little girl's eyes lit up. She said, \"Yes, please help me.\" The old man smiled and said, \"Of course. I'll help you find your dog.\" The little girl thanked the old man and he happily gave her a big hug. \nThe old man said, \"Thank you for helping me.\"\nThe little girl smiled and said, \"You're",
+      "relevance": 2,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 1,
+      "notes": "Search remains relevant, but ownership and helper roles reverse."
+    },
+    {
+      "id": "item-10-1",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " the words of her father, \"It is my son. I don't know\" and she was on the street and it was her father.\nAfter a couple of months, the next year she married the young Prince, King George, in a house in the south of the country. Her wife and two younger sisters were both the ones in her family. She lived in a family with her children with her husband. The sisters had several children, but the children also enjoyed a small family.\nThe brothers were living in the north of the street. The brothers were married on the same day as the sisters. Each family had to be",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unrelated marriage and inconsistent family roles."
+    },
+    {
+      "id": "item-10-2",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " what she had told her. She gave her the message that she had been told by her mother, saying, \u201cIt is not what I have said that you do not know what you want. You don\u2019t know who it is. You just want to know where it is. You do not know what to do.\u201d She explained, \u201cYou have to go for another night and then go for something.\"\nAugust 15, 2004\nThe Cannons had been the first to be told that they had lived in the area at what is called the Cannons. The Cannons were still about two miles of the",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Mother dialogue and Cannons history replace the search."
+    },
+    {
+      "id": "item-10-3",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " a voice calling her name. \"Is this you, Anna?\" asked the voice. Anna turned to see a little boy with a big smile. \n\"Yes,\" said the voice. \"We have found your dog and I hope he will be okay.\"\nAnna's eyes sparkled, and she felt warm and happy again. She was ready to show the boy the dog she had found.",
+      "relevance": 2,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Nora becomes Anna; who found the dog changes."
+    },
+    {
+      "id": "item-10-4",
+      "prompt": "Nora was looking for her lost dog. At the end of the street she heard",
+      "text": " a sound of a young boy and it was her. Then she had to go to the local church and found a way out.\nShe was just trying to take the baby out of a window. Then she turned to her lover, the lover, and there was to be a lover to take. She was too young to have any responsibility for her life.\nWhen she got home it was a good idea for the little boy to take a house in. He went to the local church and told him his mother had been given the house to them. The child was a little old woman and then moved back to the church",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Child, lover, boy and old-woman identities collapse."
+    },
+    {
+      "id": "item-11-1",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I was looking for the buses for us.\nAs a new sign-up to the bus system, I had to go back to the bus line, and my next trip was going to take my car off the bus. What is the bus?\nSo why is it so important to take my car off the bus?\nWe started by car, and in the following episode, car is on the bus and there\u2019s a car on the bus. I was back from car just about two hours later. That was a sign that was happening. There was a road in the bus. I was going to get that same from",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Car and road inside bus; no coherent earlier-departure explanation."
+    },
+    {
+      "id": "item-11-2",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I was very happy. I went to Durban, and then left to work on another bus for a time. My last trip to Durban is when I was one of the busiest buses in I WAY\u2019s community. My grandmother was one of the busiest buses in I WAY\u2019s community. My husband was just half my last daughter, having a family, who was very good at the bus. My parents were not just half that great mother and she was also very busy working on one of the busiest buses in Durban. The buses were very busy because I was working",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Narrator and grandmother become buses; family relationships collapse."
+    },
+    {
+      "id": "item-11-3",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I was too busy. I did not plan to go to the cinema the first time I saw him in my movie. I was too busy and the audience liked him. I was really surprised to find my mother is a good friend; her mother has a great role in the movie. I was always so disappointed because I was so nervous when I saw her in the movie. I was in a situation of bad fortune, but I was very happy in the movie. Then there was someone who was a little bit sad. I took the picture of her and did it again. I did it again. I was like, \"C",
+      "relevance": 0,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Movie digression does not explain avoiding a missed bus."
+    },
+    {
+      "id": "item-11-4",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I was worried about my new friend. To see his name I got a special gift and I took a bus ride home.\nI was so excited to spend the rest of the day exploring the city. The bus was big and blue so I had to take a few steps back to show my mum the bus.\nWhen I arrived home, I was so happy to see my friend. I gave him a big hug and said hello and thank you for taking me on a wonderful trip!\nThe bus took me to a special place where I could see a little bit of the city. It was so full of wond",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 1,
+      "notes": "Friend concern is possible motivation, but gift/name and trip sequence are unclear."
+    },
+    {
+      "id": "item-12-1",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I was there.\nI have only one lane where it is located. I still have one lane of the bus, and I also have two lanes for my first two. I left to go to see a couple of miles for my first time. I have a bus and you have a bus and a bus in the bus. I then went back to the bus, and it went down. I stopped until I left the bus. I was a bus and I started to go back to the bus. I stopped to move to the bus next to my car. I had to go back to school because I felt happy to go on.",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Narrator becomes bus in repetitive lane/bus loop."
+    },
+    {
+      "id": "item-12-2",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I had to move to a new house.\n\"Come on, kids, we can come to the park together!\" Mom said. The children nodded and smiled.\nTom and Lily packed their bags and got in the car. They found their new park and opened the window. They played on the swings, the slide and the sandbox. They had a lot of fun.\nBut then they saw a big dog on the street. The dog was barking and growling. It was chasing the children and barking at them. Tom and Lily were scared. They ran",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 1,
+      "notes": "Moving could explain departure; abrupt children/park story loses original perspective."
+    },
+    {
+      "id": "item-12-3",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I was very angry with the problem. I remember my mother and I\u2019m on the road to stay in the car and I was in the car for the whole year. I thought it\u2019s hard to tell when it goes. I know when I was in the car for a while before I started to work. I\u2019m now a bit excited about what you know.\nIt was a pretty important time when I had a school or a school that was still in the classroom. When I was in the car, I learned to see the school and I was a student. It was the most important time since it was there.",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Year inside car and repetitive school passage lack coherent chronology."
+    },
+    {
+      "id": "item-12-4",
+      "prompt": "Yesterday I missed the bus. Today I left home earlier because",
+      "text": " I was very disappointed. I would have been happy.\nBob: \u201cI was so fortunate that my mother was a child. It was just a small boy. It was a man, a woman.\u201d\nBob: \u201cI was so fortunate that I knew her.\u201d\nAlex: \u201cI saw that I had a big eye.\u201d\nJon: \u201cWell, I had a great laugh.\u201d\nBob: \u201cI was just a little girl. I was a kid. I was always kind to my mother. It was a man.\nBob: \u201cHe was the little",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unexplained dialogue and contradictory child/parent identities."
+    },
+    {
+      "id": "item-13-1",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " down the stairway. The windows were left untouched and had to be replaced.\nOn a large scale were windows, windows, doors and windows that were left unchanged. The wall was covered with a metal frame-style and a wooden frame-style. The windows in the front were all decorated with a single layer of brick. The wooden frame-style saw the roof, with the door, and the roof. The main wall was replaced with a double entrance in the front wall.\nThe main wall was the walls of the rooms, the doorsteps, the doorways, and the windows.",
+      "relevance": 0,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Architecture inventory replaces response to knocking."
+    },
+    {
+      "id": "item-13-2",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " sat down the door. I ran the door and sat down the door. Then I was just walking down the street and looking at a good few of the horses. I was running and sitting down and seeing them standing on the side of the street. I was not walking. I was walking. So I left the door and returned to the barn. I found someone that was sleeping and told him I was in the room, but I couldn\u2019t go home. I left, but just found myself there, and a big little thing.\nYou can see the door in the wall above the house. I was just sleeping and you",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Door actions and walking/not-walking claims contradict."
+    },
+    {
+      "id": "item-13-3",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " then I tried to make it, and by hand I started to run for another day, and there had been no more money.\nThe first thing I came to say was that we had to keep that up the window. We couldn\u2019t have seen the window before, but we made a big mistake to that. We had to look out for the window, that had been put to look out for it and it was just a little too late. In the first place now my hand made a great deal of money, and I have been told by the whole I had not yet set aside for it.\nThe other reason I were",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Window and money fragments do not form an event sequence."
+    },
+    {
+      "id": "item-13-4",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " the light moved. The shop opened, and lots of people came out. One of the people looked up at the people and said, \"Welcome, I am the shopkeeper. I can see all the things I need.\"\nThe people were happy to see the shopkeeper. They saw the sign that said, \"Do not come here.\" The shopkeeper took the sign and said, \"Wait! You can come here for a little while.\" The people followed the sign, and they saw many things outside.\nA little boy and a little girl came in to see the shopkeeper. They saw the sign and said",
+      "relevance": 2,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 1,
+      "notes": "Shop opens, but prohibitory sign and following it become confusing."
+    },
+    {
+      "id": "item-14-1",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " couldn\u2019t find it. It was really, but we started to be very close to it, and I was just a little bit out of the corner, because we had to stay there, but then I didn\u2019t need to go back to the shop. It was so weird, so it was like we were in the bathroom, we were in the bathroom and there were weaving parties. I\u2019d do one thing, but it was fun, and there was an awesome dance, like that. It was quite fun.\nI\u2019ve been in the barber shop for weeks now, the only",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Shop becomes bathroom/dance and prolonged barber stay without transition."
+    },
+    {
+      "id": "item-14-2",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " hit the window.\nThe first was the light from the window. The window was replaced by the old window. I put the light on the window on my back.\nThe window had been closed by a number of years of work. The window was again closed. The window was replaced by the window.",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Light put on back; repetitive window replacement."
+    },
+    {
+      "id": "item-14-3",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " gave the door back to the house. I took the door to the house and set it on. In the evening the window was moved to the house with a new window, and it was closed in the evening. On this afternoon the window was completely closed.\nMonastery and Sodium\nWhen the window was closed, the door was closed. After the door closed, the window was again closed, and the door was closed. The door was in a small room, as was the window.\nPopularly placed in a window, the windows were closed and the room was closed. Now a window closed.",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Moving doors/windows and repeated closure replace a coherent encounter."
+    },
+    {
+      "id": "item-14-4",
+      "prompt": "The shop was closed, but there was a light in the window. I knocked and",
+      "text": " the door opened. I saw a big, white dog inside. The dog was not mean. He was just playing in the park. I was happy because the dog was not mean. He wagged his tail and ran to the shop.\nThe dog saw the shop and the dog. He barked and ran to the shop. He saw a big, white cat. The cat was also wagging his tail. He barked and ran to the cat. The cat was scared. He barked and ran away.\nThe shop was quiet. I saw the cat and the dog. I tried to explain their names",
+      "relevance": 2,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Dog is inside then in park; dog/cat actions and pronouns drift."
+    },
+    {
+      "id": "item-15-1",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " would plant some of the seed to plant from the bottom of the pot. If she would plant some seeds and then place them in the pot, the seed would be harvested and the seed would become a plant and a seed was kept from the pot.\nThe seedlings would be picked from two sides. The seedlings would be ready to be planted in the opposite sides. The seedlings should be ready to plant and be planted in the same way they would be planted in the same ways they would be planted in the same way they would be planted in the same way the same way they would be planted in the same way.\n",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Planting/harvesting seed logic collapses into repetition."
+    },
+    {
+      "id": "item-15-2",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " will be the first of several weeks to prepare at the garden. But by doing so, the soil should be dryer, and it will be more efficient for the environment.\nIt is important that parents make your child\u2019s house in a variety of ways. When you are growing this seed for the best time, it is important to ensure that the soil is cool enough to maintain its composition and shape. The soil will also be moist and moist. As the soil becomes clear, the soil will be dry.\nAgriculture and Agriculture\nThe crops cultivated in these plants are very delicious and the soil is the right thing",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Child becomes parent/home advice; soil descriptions contradict."
+    },
+    {
+      "id": "item-15-3",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " would take a piece and scoop it up.\nThe next morning, the little girl looked up and saw her flower was ready to bloom. The sun was shining and the sky was blue. With a big smile, the little girl was ready to see her flower bloom. \nThe little girl was so happy with her work, she took her flower and put it in her bedroom. Now every morning she looks up at her flower and smiles.",
+      "relevance": 2,
+      "entity_consistency": 2,
+      "causal_factual_consistency": 1,
+      "notes": "Child and flower retained; initial care action and immediate bloom are unclear."
+    },
+    {
+      "id": "item-15-4",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " was able to grow the seeds to help raise the seeds. The potato plant was the first flower in the world, and the seed was a great plant to grow.\nThe fruit that was harvested is grown in the same style to produce fruit. The seeds are grown in the same way and in the same way. The seeds are the seed of the same sort of seed.\nIdeal with seedlings, and the seeds that are grown, are the seeds that make the seed. The seed of the seeds is the seed of a tree. The seeds are made up of seedlings. The seeds are harvested from the",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "False first-flower claim and circular seed prose."
+    },
+    {
+      "id": "item-16-1",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " and her baby, all the way to the field, rolled their seedlings to the top. If they were in a small pot, they would take a picture of the seedlings, then put one on the first seed that they would be able to see. They would place the seedlings a couple of centimeters apart. They would put a small pot on the other end and put a little finger on the top. Then the first seedlings would be able to see the seedlings as they were about to get inside.\nThe process is very easy. The child would take the seed and throw it. With this process, the",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unintroduced baby and incoherent seedling/picture actions."
+    },
+    {
+      "id": "item-16-2",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " spread the seed, and soon she was ready to plant it.\nThe next morning, she took her seed out and put it in the ground. As soon as she was done, a little green tree appeared. The little bird was so happy and thanked the tree.\nThe little bird visited the tree, and said, \"Bye-bye, tree!\" She promised to come back and plant more seeds in the garden.\nThe tree smiled and said, \"Well done, little one!\"",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Child becomes bird; immediate tree growth without an established fantasy premise."
+    },
+    {
+      "id": "item-16-3",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " cried, \u201cFeeling more in a small pot, letting the plant, then the flower, and let it go. I\u2019m so excited, but I\u2019m more interested in that.\u201d\nAs I am able to find the seed, I also find the seed of a good garden. This is a great way to find a garden.\nAs I know I have the following characteristics:\n- Fill in the soil with a flower.\n- Fill in the soil with a flower.\n- Keep in the soil.\n- Fill in the soil with one seed.\nFor example, let the",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Narrator changes; repeated fill-soil-with-flower instructions."
+    },
+    {
+      "id": "item-16-4",
+      "prompt": "A child planted a seed in a small pot. Every morning she",
+      "text": " has a bit of it. It\u2019s just another thing to remember.\nIn the garden of your garden, it is important that you get the idea that if you have a healthy plant that has to be planted together in place, you will likely be able to cultivate that plant in one yard or another to grow in the same plant. This will help you with the benefits you have on your garden.\nFrequently Asked Questions\n- How do you keep your garden?\n- How do you decide who is better for your garden and what is best for your garden?\n- How do you have to grow out of",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Generic garden FAQs replace a coherent care sequence."
+    },
+    {
+      "id": "item-17-1",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " it is much more efficient at removing heat from the air than water.\nCooling is more than just a means of cooling the air.\nThis will help ensure that you keep your home cold-blooded.\nCharacteristics of Cooling\nCooling is important in both the heat and cold.\nIt helps to keep your home cool and warm by minimizing the impact that the heat and cold can have on the building.\nCooling can be a way of keeping your home cool.\nIt can be a way to keep your home cool during the cold weather.\nCooling can",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Wrong heat-removal cause; shifts to home cooling."
+    },
+    {
+      "id": "item-17-2",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " it is cooler. The same happens when the average temperature of the earth is less than 10\u00b0F (6\u00b0C).\nIn the UK, the heat from the sun is up to 50% when compared to the sun and 50% when compared to the sun. The sun is so hotter, but the coldest point is not much warmer than the sun which is only about 30% when compared to the sun. This is because the sun is in the same direction over the year, so the temperature is higher (10\u00b0C). The lower the temperature is less and the temperature in the same direction is higher.\nCard",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Says warming ice melts because it is cooler; false temperature claims."
+    },
+    {
+      "id": "item-17-3",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " of the influence of sunlight. If you change your light levels, turn off the lights to stay warm, and you have a better chance of getting the nutrients that are needed to keep your teeth healthy.\nIf you have a dark coat in your mouth, you may need to use a darker coat that doesn\u2019t allow your teeth to dry out.\nWhen you replace a dark coat, your tooth is likely damaged and will require a new coat.\nThere are several ways to help prevent you from getting dark, but it\u2019s important to keep a dark coat between you and your dentist or dentist.\nYou can also buy a darker",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Moves from sunlight to teeth and dark coats; no melting explanation."
+    },
+    {
+      "id": "item-17-4",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " of the presence of a water supply. Etting the water at the same time as the heat source, the melting of water is not a new or original thing.\nWhen you take the water to the bottom of your kitchen you will have to be able to get the water into the kitchen.\nEither way, you will not need to be able to keep the water flowing well into the bathroom. The bathroom is also a good part of your kitchen in addition to this.\nThe bathroom contains an all-native amount of water stored in it for storage purposes. It is also a good product for use",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Water supply/kitchen discussion does not explain melting."
+    },
+    {
+      "id": "item-18-1",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " of the weather.\nThe sun does not rise at this time, but it sets in the night sky.\nIt\u2019s not a sunny spot. A sunny day makes a lot of things worse.\nA solar system is the largest solar system in the universe.\nA solar system is the second largest solar system in the universe, and the second largest solar system in the universe.\nThese are the most massive solar systems in the universe, and they\u2019re the most massive.\nThe sun\u2019s energy is the product of a solar system. The solar system\u2019s total energy is the smallest solar system in the",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Weather tautology and contradictory solar-system claims."
+    },
+    {
+      "id": "item-18-2",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " it\u2019s a thick layer of water that absorbs more heat.\nThe best way to avoid frying is to use a frying pan or fryer. You can also use a heat stove to freeze or cook the ice before it\u2019s gone.\n- Fry oil or oil to make ice cream.\n- Use ice to make ice cream.\n- Use ice to make ice cream.\n- Use ice to make ice cream.\n- Use ice to make ice cream.\n- Use ice to make ice cream.\n- Use ice to make ice cakes.\nHelp protect your hands",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Heat stove used to freeze ice; repetitive ice-cream instructions."
+    },
+    {
+      "id": "item-18-3",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " of the large amount of water in the air, as a result of the high melting of water.\nThe main difference between a high melting glass and a high melting glass are its low quality. There are a large number of low melting glasses in the form of a thin shining glass or a glass-winter, but they are usually low-volta and low-calorie.\nIn contrast to the low-volta glasses, the high melting glasses are often much older than the low-volta glasses. They are also high in light, light, and even light \u2014 and",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Invented melting-glass properties replace phase-change explanation."
+    },
+    {
+      "id": "item-18-4",
+      "prompt": "Ice melts when it gets warmer because",
+      "text": " it is free from the sun.\n\u201cThere are lots of other things that need to be taken before the sun,\u201d says Dr. Karen Dulder, the National Science Foundation's National Oceanic and Atmospheric Administration (NEA). \u201cIt's not really necessary to take proper measurements of your sun\u2019s rays \u2013 the most accurate measurements are very important. We do not have many scientific instruments that have to do with the sun\u2019s rays. You can see the sun\u2019s rays in your measurements, but it isn\u2019t the same as that of the sun. The sun\u2019s rays have to be measured",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Free from sun explanation and fabricated-sounding authority passage."
+    },
+    {
+      "id": "item-19-1",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the rider is unable to do so.\nThe rider may go back to their seat for several hours, and they may go back to the position the rider.\nIt is important that the rider can be sure that any rider is not the best.\nThe rider has the opportunity to have a rider at any time of the day when it is being used. If a rider is a rider, they will be sure that they are doing any time without a rider.\nRiders are equipped with rider-controlled brakes and bobcats. They are equipped with a r",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Unable rider and rider loops do not explain braking."
+    },
+    {
+      "id": "item-19-2",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the brakes are too close to the stopgap. The brakes have to be taken in and out of reach of the brake pedals. After the brakes have been taken out of the rider\u2019s body, you can take the brakes into the brake tank. When you lift the brakes, you should keep the brakes in between the brakes, making them a bit easier to work out.\nTraining to Avoid the Traco Pullin\u2019s Train\nAsk your horse to train you to a more reliable track than you have. To train your horse, keep a constant",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Brakes removed from body and brake tank; horse-training tangent."
+    },
+    {
+      "id": "item-19-3",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the driver picks the seat of the athlete for the extra time that the bike is on. In addition, the rider presses the driver's control picks with the same effect of the bicycle and allows the driver to change it. This is a major step in the process of achieving good safety: the pedal force is controlled through the use of the bike with the car. These is known as the rider.\nThe bike is used as a pedal force for cycling. It can also be used to lift the bicycle when it is attacked.\nBobbies and Riders\nThe first driver is",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Driver/athlete/car roles and pedal-force claims are incoherent."
+    },
+    {
+      "id": "item-19-4",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the brake pushes the brake bar more than the brake pushes the brake pull.\nA bicycle is a kind of an enclosed device that can be used to make a bike go faster or faster. There are different types of bicycles, and they all have an internal part that acts as a brake pull.\nIf you\u2019re looking for a bicycle that has an internal part, you should consider the Bike Rider Troupe.\nA Bike Rider Troupe is an ideal bicycle for beginners or to newbies. It is a powerful bicycle",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Brake-push tautology followed by unsupported product-like claims."
+    },
+    {
+      "id": "item-20-1",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the brakes are out of order.\n- One or two paces of brake is used to slow the bike down.\n- One or a half times a bike is short.\n- Some brakes are not at all useful, but they are useful to slow the bike down.\n- One brake is not important, so the bike is not too long.\n- The brake starts at the start of the brake.\n- The brake is not used until the brake is good.\n- The brake stops when the brake is good.\n- The brake, when the brake",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Brakes out of order is incorrect cause; contradictory list."
+    },
+    {
+      "id": "item-20-2",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the driver is so quick to start and take away the seat.\nThis is where the brake speed is increased, so the brake speed is more likely to be higher. This means that the brake speed is higher for the brake speed.\nThe brake speed is the highest amount of braking speed. This is important because it helps to maintain the braking speed and make it even more difficult to get to it.\nThe braking speed is the most important factor in the braking speed. With the braking speed as high as possible, you can also be able to keep the braking speed up or down",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Circular brake-speed explanation lacks friction."
+    },
+    {
+      "id": "item-20-3",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the brake pads are in a saddle and the brake pads are on a rotating wheel. The brakes are not in any position at all and the rider must remain a little farther from the rider than the rider is on the ground.\nIn particular, the bikes are slowed down in a rapid, slow motion.\nBicycle and cyclist\nIn order to drive a bike, the bikes are to be turned on in a slow, slow motion.\nThe bikes are not in a position for slowing the rider and the rider must remain in a",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Pads in saddle and contradictory rider positions."
+    },
+    {
+      "id": "item-20-4",
+      "prompt": "A bicycle slows down when the rider presses the brakes because",
+      "text": " the rider is the only driver on the road. A wheel, in the rear of a car, is the driver's seat, and the driver does the wheel. The driver is then placed in the rear of the vehicle (the rider's seat). The driver is on the road as it passes through, and the rider goes back and down the road to the nearest point of the road. The driver then goes to the same place as the driver on the road.\nThe driver is the driver on the road. The driver runs out the road, and it is the driver's seat. The driver carries his seat back to",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Wheel becomes driver seat; no physical braking mechanism."
+    },
+    {
+      "id": "item-21-1",
+      "prompt": "Plants need sunlight because",
+      "text": " they are easy to get enough sunlight. Even green plants require light to grow; they also need a few times the light to grow and will not require too much sunlight.\nSo the most common form of sunbathing is not sunbathing. When the sun is shining, a few different types of sunbathing are used.\nDestroys: Dicots are made with light, so the sun has a high number of light sources: it contains hundreds of different kinds of light, so it is best for people to avoid their sunbeams. It is best to use a sun light filter for",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Restates need for light, then false sunbathing/dicot claims."
+    },
+    {
+      "id": "item-21-2",
+      "prompt": "Plants need sunlight because",
+      "text": " of the size of your soil. Soil particles are usually the same size as the sun. When it is in a house, the sun is a different size.\nIn addition to the sun\u2019s temperature, the sun can give an indication of the temperature of your soil. The sun\u2019s temperature also means that the sun is on the surface. This is due to the fact that in a home environment, sun is more likely to have a sun, or even a cold spot. That means that sun will not fall into the sun. This is because sun temperature is more common than in a home environment.\nIt is also called",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims soil particles have the size of the sun."
+    },
+    {
+      "id": "item-21-3",
+      "prompt": "Plants need sunlight because",
+      "text": " it is less than 2 hours to cool or it is more than 1 hour and it does not mean less.\nIt is important that you keep the air warm and free from the sun at the best of your living conditions. This isn\u2019t just the case with rain, but it\u2019s very good because it is the best way to prevent heat loss.\nThis is a good thing when you take care of yourself in your home.\nIt is great to have a very high energy profile if you\u2019re not too old. They\u2019ll probably be just cool, you know, it\u2019s a good idea to give you an",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Cooling time and home heat-loss advice do not explain plant light needs."
+    },
+    {
+      "id": "item-21-4",
+      "prompt": "Plants need sunlight because",
+      "text": " they are dormant. You may want to allow them to bloom even though they are dormant in spring. The time of year when you can expect the plants to bloom is usually from spring to summer.\n- If you plant your first plant in spring, you will need to water for a period of time before you plant it. You may also need to water your first plant two to three times daily, or if you have a new plant under your care.\n- Keep your water at least 6 inches in height. When watering your new plant, you want a consistent flow rate. You can use a water tank or a",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Dormancy does not explain photosynthesis; unsupported watering directions."
+    },
+    {
+      "id": "item-22-1",
+      "prompt": "Plants need sunlight because",
+      "text": " of the soil moisture that is used in the water. If you're having a rainbow or snow or snowy snowy snowy snowy snow or snowy snowy snow, the soil will become more humid, less dense and the higher the moisture content.\nTravel-Logging the Water\nIncreases in water quality in the water. Water quality is very similar to water quality, with a relatively high concentration of water.\nHow to Be a Plants\nFarmers will need to be trained in a wide range of situations and to ensure that you don't have fun to buy out a",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Soil-moisture explanation followed by snowy repetition."
+    },
+    {
+      "id": "item-22-2",
+      "prompt": "Plants need sunlight because",
+      "text": " sunlight is often less than the other heat.",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Sunlight less than other heat is not a meaningful explanation."
+    },
+    {
+      "id": "item-22-3",
+      "prompt": "Plants need sunlight because",
+      "text": " they can\u2019t be exposed to sunlight. So plants are likely to be exposed to sunlight, which results in a more balanced and more balanced diet. If the amount of sunlight is adequate to keep your plants healthy, it is the best way to make sure that your plants have room to grow.\nGreen Plants: The goal of the green plants is to protect the plants that need it most. A green plant can grow in the same way as a green plant. The green plants grow in the same way. For example, the green plant grows on the ground and is the main source of light. When one is growing one\u2019",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims plants cannot be exposed to sunlight and are a source of light."
+    },
+    {
+      "id": "item-22-4",
+      "prompt": "Plants need sunlight because",
+      "text": " they are growing more slowly. They need sunlight every day and every inch of the day. They also need water to survive and thrive.\n- Water every hour in the morning.\n- Do not forget to water your garden and garden every night.\n- Water your garden more often.\n- Use a hose to keep water from going out of the way.\n- Do not overwater your plants.\n- If your plants are not growing properly, you could be damaging them.\n- Do not water your plants unless they are given a chance.\n- Do not water your plants in the summer sun, because these plants",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "No photosynthesis mechanism; contradictory watering advice."
+    },
+    {
+      "id": "item-23-1",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " of the lack of water flowing out of the bathroom. The tube is made of two tiny plastic pores that have been removed by the pore of the bathroom. The tube is then turned away by the water. It makes an oily spoon which is then removed by the water flowing away by the water. The tube is then transported to the bathroom. The tube is then separated from the tube by the water. The tube is then washed by a liquid of water that has been removed from the bathroom. The tube is then then removed by the water by the water in the bathroom. The tube is then replaced",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Bathroom tube/water loop is unrelated to heat conduction."
+    },
+    {
+      "id": "item-23-2",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " it is thin and has a small cinnamon, and there is some room on the top and a small, narrow, thin, flat, rounded shape.\nThe oval part of a cylinder, as it is, is usually a flattened, spoon-shaped vessel. When it is used it is usually a steeper and usually a few-way. It is often used to keep the surface temperature low enough to keep the volume under control.\nCurrent Prospector Gas\nSurface in a cylindrical cylinder is always a very high-frequency, but it is sometimes used for",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Shape/cinnamon claims do not explain thermal sensation."
+    },
+    {
+      "id": "item-23-3",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " it is cooler. The color will affect the texture of the paper.\nA paper can be colored by pressing one or more colors to make the paper feel more paler. If you press all colors to make the paper feel cool (or even cool), the paper will feel more durable because of the color.\nUse a special rack to hold the paper\nSet up a rack for the paper so the paper can be held in position. This will enable the paper to hold more easily than the hand held rack.\nKeep the rack moist by applying warm water to the paper.\nUsing a piece",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims spoon is cooler, then switches to colored paper."
+    },
+    {
+      "id": "item-23-4",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " it is very thin and doesn't seem to stretch out.\nBone spoon\nLife-saving plastic spoon is a common type of metal spoon used in all but the best known applications and for the use of many people in the industry.\nBone spoon is often used as a source of electrical power for many different industries.\nThere are many different types of spoon that use the same spoon.\nBone spoon can be used both for everyday objects and in a variety of other applications.\nThe common type of spoon used by many types of metal spoon manufacturers is the spoon",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Thinness explanation; spoon falsely presented as electrical-power source."
+    },
+    {
+      "id": "item-24-1",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " it is dark and thin.\nThere are some of the types of iron spoon that are found in the UK and around the UK.\nThe main types of iron spoon are iron spoon which is formed by iron spoon formation, which is the most common type of iron spoon. It is used in the production of iron spoons.\nThe spoon is the largest and most active steel spoon that is found in the UK.\nThe majority of the iron spoon is made of iron spoon.\nThe pour of the iron spoon is made of iron or zinc.\nFor a larger extent,",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Dark/thin explanation and repetitive iron-spoon taxonomy."
+    },
+    {
+      "id": "item-24-2",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " of the water from the water.\nAs a result, the spoon is much more likely to enter the room and to be too hot.\nIt\u2019s important to note that if a spoon is being too warmed, the spoon will be much harder to absorb.\nThis situation may be because the spoon is the same size as the spoon.\nThis condition can be quite deadly if it comes into the room or not.\nIt can also be the same as the spoon.\nDifferent types of spoons can be used for the spoon. They also have a thin tube that runs through",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Water tautology and incoherent warmed/absorbed spoon claims."
+    },
+    {
+      "id": "item-24-3",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " it is just a metal spoon.\n- In a mirror, the spoon is a small wooden spoon, which is attached to the sides with a large wooden spoon. This makes it much more easily reachable if the spoon is attached to the sides of the mirror.\n- When the lid is opened, the spoon will be able to close down the mirror and the mirror will be free.\n- When the mirror is opened, the spoon will be able to close down the mirror and the mirror will be able to open up the mirror again.\n- After that, the mirror will be a small",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Metal spoon becomes wood/mirror mechanism."
+    },
+    {
+      "id": "item-24-4",
+      "prompt": "A metal spoon feels colder than a wooden spoon in the same room because",
+      "text": " it is slightly easier to hold a metal spoon when using a screw.\nTap a spoon to the right and press it into the metal and hold with the screw. In a nut, do the pressing and press the screw to the right.\nYou will need to press the screw, press two or more holes to create the screw, and press the screw. You will need to press the screw with your finger or pressing the screw to the right place.\nIf you are using a screw, hold the screw with the hook, pressing the screw and press the screw into the metal spoon to the left.",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Screw instructions do not explain why metal feels colder."
+    },
+    {
+      "id": "item-25-1",
+      "prompt": "The Moon looks bright at night because",
+      "text": " it is not visible in the dark world.\nThe Moon is so well watered in the evening, with the Sun, Moon, and Moon being dark, that it is a sign of the light on earth.\nThe Moon is dark, with the Moon being dark, and the Moon is white.\nThe Moon is dark, with the Moon being dark.\nThe Moon is dark green.\nThe Moon is light brown.\nThe Moon is also dark brown.\nThe Moon is dark red, and the Moon is dark brown.\nTo the Moon is dark blue.\nIn the Moon is dark brown.\nThe Moon",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Watered Moon and contradictory colors instead of reflected sunlight."
+    },
+    {
+      "id": "item-25-2",
+      "prompt": "The Moon looks bright at night because",
+      "text": " of the darkening and lenticular moon movement. The Moon faces Earth on a dark day at a higher latitude and a higher latitude, the opposite of the moon.\nEarth has more water than the Earth and only one moon.\nThe Moon's position is from the north at 0:00 in the east to the south at 0:00 in the west.\nEight moon nights occur each day, and the moon's position affects the weather.\nLunar positions are usually shown as one full moon each day, or one full moon each morning.\nSun and Moon\nThe Sun and Moon are",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Invents eight moon nights each day and false lunar positions."
+    },
+    {
+      "id": "item-25-3",
+      "prompt": "The Moon looks bright at night because",
+      "text": " it is in the middle of the night. For the moon, astronomers would like to see this effect, but that would be the only way for the astronomers to see the effect.\nBut that is an interesting question. According to the researchers, the Moon would be bright enough to be the most intense, as it is in the middle of the night. What\u2019s more, scientists would like to see this effect.\nThe team is still developing the technology to look more clearly at the Moon.\n\u201cYou don\u2019t need a high-resolution camera for a project to get to the Moon,\u201d said James Sore",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Middle-of-night tautology; no reflected-light explanation."
+    },
+    {
+      "id": "item-25-4",
+      "prompt": "The Moon looks bright at night because",
+      "text": " it is hot and hot. And in what exactly is the moon like a black hole that is very cold, it has a very cold fluffy and delicate skin.\nAnd, in other words, this is the same bright thing. It is a small fraction of the light that is dark and very dark.\nThe Moon is about 1/3 million kilometers away from the Sun to the surface of the Moon, which is about 3/4 percent of the Earth\u2019s mass. That is the first time in the history of the Sun\u2019s mass spectromagnetic activity. But the image is a little bit bigger.\n",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Hot/cold black-hole analogy and false distance/mass claims."
+    },
+    {
+      "id": "item-26-1",
+      "prompt": "The Moon looks bright at night because",
+      "text": " of the moon's light. Moon is a special and powerful object, and it makes the sky bright and blue. Moon also has many other planets, which make it easy to see and learn more about them.\nAs a group, we are able to focus on a specific subject, such as color. We will also be able to apply this information to our own projects. We can use the moon's light to make the world bright and blue.\nOverall, it is a beautiful and beautiful object. It has many different parts, with many interesting features. It has been a favorite subject throughout the years. Our work is unique and",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Circular moonlight explanation and claims Moon has planets."
+    },
+    {
+      "id": "item-26-2",
+      "prompt": "The Moon looks bright at night because",
+      "text": " it is only visible at night.\nAs a result of the presence of the Moon, it\u2019s about the age of the Sun.\nThe first part of the Moon is named \u201cA\u201d which means that the moon, which is called the Moon, is a star on the Moon. It\u2019s named \u201cA\u201d because it is called \u201cA\u201d which means that it\u2019s called \u201cA\u201d or \u201cA\u201d.\nThe Moon is the second part of the Moon, a symbol of the Moon\u2019s purpose.\nThe Moon\u2019s purpose is to create a star on which to create a full-size star",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims Moon is visible only at night and is a star."
+    },
+    {
+      "id": "item-26-3",
+      "prompt": "The Moon looks bright at night because",
+      "text": " it is close to the Sun.\nBiggest of the things that you would like to know about the Moon\nAs you read the story, this is how to get to the moon, and to see what this moon really is. The Moon is the opposite of the Moon, but is your moon. If you are going to take it in, you will be able to find the moon with that particular moon. The Moon is the Moon, and you will get to the Moon. That is the Moon. The Moon is the Moon. The Moon is the Moon and the Moon is the Moon.\nIn general, the Moon is",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Proximity to Sun explanation followed by identity repetition."
+    },
+    {
+      "id": "item-26-4",
+      "prompt": "The Moon looks bright at night because",
+      "text": " it is located in the middle of the sky, just a few light years away.\nA team of scientists from Stanford and the National Aeronautically Tested Space Telescope at the University of California, San Jose has been able to study the Moon for a while.\n\u201cOur job is to study the Moon, and we can do it in the morning,\u201d says the National Aeronautics and Space Administration\u2019s Jeffrey G. Miller, the program\u2019s director of space science. \u201cIt\u2019s our job to observe and understand the Moon and the Moon. It also gives us a basis in which to study",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "False light-years distance and invented institutional description."
+    },
+    {
+      "id": "item-27-1",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " it is bright and warm. The lightning is also very strong, as long as it is warm enough for us to see it.\nYou may notice lightning is more intense this time of the year when the sun is in the mid-morning. This is because the lightning comes from the earth\u2019s atmosphere. There are many sources of lightning.\nSome of the most important sources of lightning in the world are the tropical lowlands of the Sahel and the coastal highlands in the eastern United States. These highlands are generally underwater or near the equator, and the lightning strike can occur",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Brightness/warmth and false geography do not explain delay."
+    },
+    {
+      "id": "item-27-2",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " it is caused by lightning. They seem to be too loud. No wonder they don\u2019t get it. We are not aware of them, but it is true. They are only a matter of years ago.\nSo many scientists are still wondering what the lightning is. It doesn\u2019t matter that lightning is caused by lightning. It was first thought that lightning is caused by the sun and that lightning is caused by electricity.\nThe myth says that the sun is a black hole, the sun is a white one, and the lightning is caused by the sun\u2019s rays. These are not",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Circular lightning cause; no light versus sound speeds."
+    },
+    {
+      "id": "item-27-3",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " of the effect of lightning:\nNow we see lightning before we have heard it. In fact, we know this is because lightning has only the same effect as lightning.\nBut lightning comes from lightning \u2013 and we can see lightning on the same effect as lightning. When lightning is, lightning is not a different effect that has been observed in our bodies.\nBut we know the difference between lightning and infrared lightning. They don\u2019t, and we\u2019re all at the same time, so we know that lightning is a more expensive condition than lightning.\nAside",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Tautological lightning-effects passage."
+    },
+    {
+      "id": "item-27-4",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " we are lightning and we know this lights come from the sun on the morning of January 9, 1775. But they are the lightning and the lightning is the lightning.\nWhen the lights appear on the night of April 9, the lightning is the lightning. The lightning then gives lightning to the lightning.\nThe lightning was the lightning with lightning on May 6, 1789. It was the last lightning on May 14, 1776. The lightning came from the lightning of June 1776. The lightning was then that the lightning was the lightning.",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims we are lightning; repetitive unrelated dates."
+    },
+    {
+      "id": "item-28-1",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " it is still lightning.\n\"But there is more lightning in the sky than lightning in the sky,\" says the New York Times. But the researchers say the lightning in the sky doesn't travel along that trail.\n\"What we see is the lightning in the sky. The light from the lightning is that light from the sky. That's what the lightning in the sky is in the sky.\n\"The lightning in the sky is going to be the lightning in the sky. It's going to travel in the sky.\"\nThe team says it's not just lightning in the sky",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Repetitive sky-lightning quotation; no propagation-speed comparison."
+    },
+    {
+      "id": "item-28-2",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " the lightning is not a constant.\nWhen the rain comes, it is only a matter of time before the sun sets. The lightning is always in our hands and we feel the cold wind that is just passing.",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Lightning not constant/in our hands does not explain timing."
+    },
+    {
+      "id": "item-28-3",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " we are told that we are talking about the earth and it is about the earth.\nWe know that the earth has been the heaviest and most brightest part of the earth, so the earth was so strong that the earth was so bright that it was so high that it was very strong that it was the heaviest.\nAs you know, the earth\u2019s axis has a great deal of dust and dust and has been well-known for its great many years. So, what is the earth\u2019s axis?\nThe earth is a small, very thin object, with a large area of lightning that is often called",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Earth/dust digression lacks the explanation."
+    },
+    {
+      "id": "item-28-4",
+      "prompt": "We see lightning before we hear thunder because",
+      "text": " of the force of the lightning.\nSo far this is an exciting time in the field. So we see lightning in a very small area around the sky. The lightning has the force of the lightning that will be the lightning.\nThe lightning was one of the big problems in space. The lightning came out in a very small area around the earth, but it could be a lot easier than the lightning.\nThough there is a lightning and lightning, it is really a lightning process that can be used to light a lightning. So you can see them on the board.",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Force-of-lightning tautology."
+    },
+    {
+      "id": "item-29-1",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " you can place a small cup with a chore and a cup filled with ice. It is very hard to get out of the room and the water is then put over the cup. Make sure that the chore is flat on the bottom of the cup.\nIt is important to put the hot cup together and put it in a bag, so you can do these simple things. You can make the cup as good as it is.\nListens for a cup \u2013 the chore that is filled with water (with a thin cup of water) should be enough so the water in the cup is clean and that doesn\u2019t",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Unclear chore/ice/bag instructions do not address falling."
+    },
+    {
+      "id": "item-29-2",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " you can have a lot of money!\nWe know that a healthy table will help you to make the difference between good and bad.\nBut what you should do is to make sure that you do not need to be a good. We can make sure that you have a good table and a high amount of money and money.\nWhen you have a good table, you can make sure that it is good to make sure it is safe and safe. There are a lot of money to choose from, and we can have a lot of money. However, this is a very easy way to make sure that you have a good table and",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Money and healthy-table advice are irrelevant."
+    },
+    {
+      "id": "item-29-3",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " you can add a few different teas to your tea, or bring one with a lid and an electric light for a few minutes.\nIf you want to help your body\u2019s natural energy needs by keeping a cup of tea and a cup of tea, you can add a few more teas in a few minutes.\nWhen you\u2019re not allowed to have tea, you will want to use your own teaspoon to help your body in the right way. A teaspoon can help to keep your body in the right shape.\nIt\u2019s a natural way to hold a cup of tea, for a short",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Tea/body-energy advice does not stabilize the cup."
+    },
+    {
+      "id": "item-29-4",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " and to provide a place for water to drop over the plates, she always placed a piece of wood over the plates, and placed the cloth in a corner, and on the top of the plate. In her work she made plates into paper, and in her drawings she made the plates into a table, and in her drawings she made the plates into a table, and in her drawings she made the plates into a table. In her work she made the plates into a table, and in her drawings she made the plates into a table, and in her drawings she made the plates into a table, and in her drawings she made the plates",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Wood over plates and repeated drawings do not secure the cup."
+    },
+    {
+      "id": "item-30-1",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " there is a big problem with the fact that it is too hot, too hot, too cold. For example, you might want to keep a cup that has not been warmed, or too cold if it has been cooled, or too cold if it has not been warmed. Also, the temperature at the bottom of the cup will not change the temperature at the top, and you have to maintain the temperature of the cup in the same way as you can keep the cup in the same temperature.\nTo take a minute to warm the cup with the cup in the same way as your body needs it, the cup you have",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Cup temperature discussion does not prevent falling."
+    },
+    {
+      "id": "item-30-2",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " such as a cup of tea, it\u2019s time to eat it.\nFollow the steps below to get your new cup!\n- Go outside. The sun will shine down on your cup, making it shine on you.\n- Hold it for a few minutes. If you hold it at a low level, it will help to keep it steady.\n- Tip: Do not hold it for more than an hour.\n- Tip: Do not hold it for more than an hour.\n- Tip: Tie it tightly.\n- Tip: Tie it to a string.",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 1,
+      "notes": "Holding steady could help, but mixed with eating cup and arbitrary sun/time/string instructions."
+    },
+    {
+      "id": "item-30-3",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " I would want to put a cup at the bottom of the table.\nThe difference between a cup and a cup is the difference between the two. If you need to have a cup in your cup to make a cup of cheese, you can\u2019t decide what it\u2019s going to work from.\nWhen you\u2019re starting to have the cup, you should try to add the cup to the cup. If it is a cup, you should turn it up.\nIn order to make a cup, the cup should be the same size and the size of each cup. If you don\u2019t have them to make them,",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Bottom-of-table suggestion is ambiguous; rest is circular cup prose."
+    },
+    {
+      "id": "item-30-4",
+      "prompt": "To keep a cup from falling off a table,",
+      "text": " there is a chance that the rest of the table will go with the table. To start a bowl, the table is in the upper right corner of an oven. This is a small table that looks like a fence to the table and will be divided into the table.\nThe table itself is a large table with the tables at the bottom. The table below is the right table that can be adjusted to make sure the table is not in the top. The table below is the right table.\nThe table below is a small table with a small table. It is a large table and contains a small table of table with the",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Cup becomes table/bowl/oven sequence."
+    },
+    {
+      "id": "item-31-1",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " the water gets burned, and when the smoke begins to be removed, the gas is dropped. A large piece of liquid will be removed, and a tiny cup of water will be removed.\nCardboard oil is a mixture of salt and oil, and it is a mixture of salt and a salt with a pH of 12.1. It is a mixture of salt and water. After a hot day, a mixture of salt and oil will be treated. The salt (food) is not treated.\nBesides the effects of water freezing, the water in the pipe may be unable to be removed. Bodily",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Freezing described as burning; invented chemical claims."
+    },
+    {
+      "id": "item-31-2",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " it is often used in small rooms as a medium to heat, making it hard to cool. A small piece of water that is heated to cool it down as it is heated.\nLater a very small room is used as a medium to heat the water. In the case of a small glass bottle, it is used as a refrigerator. It is especially suited for the hot conditions, especially for cold-fiber, and is used as a condenser to prevent dehydration.\nLater a cold-fiber product is prepared to prevent dehydration, so it has a warm, hot, and soft liquid solution",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Heating to cool and cold-fiber explanation are incoherent."
+    },
+    {
+      "id": "item-31-3",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " the glass bottles can be made of ceramic or metal components. If you use a large amount of ceramic, it is not necessary to prepare the glass bottles. For example, glass bottles are made of stone (may be used in the glass bottles), woodblock bottles, and glass bottles.\nIn order to keep the glass bottles warm and strong, the glass bottles must be made of metal material. This is essential as they can be made from either metal (often brass or titanium) or metal material (often quartz).\nThe glass bottles should",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Changes glass to metals and calls quartz a metal."
+    },
+    {
+      "id": "item-31-4",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " it can form a glass shell with a smooth surface.\nThe two big questions are what happens with a glass shell: when it freezes, it has no water to freeze. There are a lot of people who think about a glass shell and how it works, but they don\u2019t believe it in reality.\nBelow is a list of the reasons why glass shells don\u2019t exist in reality:\nThe glass shell is made of thin metal. It starts to harden with a little heat. That\u2019s why glass shell builders tend to believe the glass shell\u2019s cracking is due to lack of heat",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Glass shell becomes metal; no expansion explanation."
+    },
+    {
+      "id": "item-32-1",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " your glass bottle will dry out, dry out and even finish.\nFreezing is a natural process that can take some time. It is easy as you know it. But remember to not use water freezing with water if you want it to dry out. It can make your glass bottle wired to water faster.\nSo choose freezing as your glass bottle to have your glass bottle to dry out. You should never put a bottle in a glass bottle or make a bottle to dry out.\nWhat are the benefits of freezing?\nThere are many benefits to freezing. Some of the benefits of freezing in the",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims freezing dries the bottle out."
+    },
+    {
+      "id": "item-32-2",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " it can hold and store water and is safe for use.\nHow Do You Insulate Your Home?\nWhen the glass is insulated, it helps keep things warm and dry. This keeps your window and window open, but it can also save you from heat. Insulation is also known as waterproofing. It helps keep water and air in the room where you are sleeping.\nTo insulate your home, you need to use a fire extinguisher. This means you should use a fire extinguisher at least half the time. You should also use the water-cooled fire extinguisher such as a charco",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims full frozen bottle safe, then extinguisher/insulation digression."
+    },
+    {
+      "id": "item-32-3",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " the water is sent to the left, and then the container is sealed.\nPenchloride is a chemical reaction that causes the water to dissociate into water. It can also be found in the body, with the help of a chemical reaction. It can also be used to cool down the body.\nThe treatment of this reaction is called a water-inducing reaction. The most common form of the solution is an unpleasant, non-melting reaction. The solution is made from soluble iron, water, or water.\nWhen it is heated, there is a high and very high pH.",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Invented dissociation into water; no expansion."
+    },
+    {
+      "id": "item-32-4",
+      "prompt": "When water freezes inside a full glass bottle,",
+      "text": " it is ideal for a wide variety of other uses.\nStructured water is a type of carbon that is a source of energy. It is made of natural carbon that is essential for energy production.\nLake Water \u2013 This type of carbon is a form of carbon that is a mixture of carbon and hydrogen. It is created from a variety of carbon-producing gases and minerals that are absorbed by the body. This is a form of carbon which is responsible for the creation of many of the most important carbon footprints.\nA variety of carbon-producing gases are used, as well as several others. One of",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Claims water is a type of carbon."
+    }
+  ],
+  "reviewer": "OpenAI Codex; author assessment, not independent human validation",
+  "method": "All 128 anonymized continuations read in full before opening model mapping. Some prior-model outputs were recognizable from earlier reviews, limiting blinding. Entity dimension assessed for narrative prompts; scientific/practical failures recorded under causal/factual consistency. Scores are descriptive, not calibrated psychometric measurements.",
+  "ungraded_input_sha256": "f9b79c3da4809812558f1a28efaaf5be61a787cb7395b4b15499b14ebf8bfa53",
+  "rubric_sha256": "c2ebffb11a45df6c3d7304aebef62d78a489f27be4988d08192923c4337c8701"
+}

@@ -1,0 +1,357 @@
+{
+  "runs": [
+    {
+      "schema": 1,
+      "run_id": "9a2a1af8-1fa7-4be5-bd56-6137068171c9",
+      "config": {
+        "vocab_size": 16384,
+        "width": 512,
+        "layers": 12,
+        "heads": 8,
+        "ff": 1536,
+        "context": 512,
+        "rope_base": 10000.0
+      },
+      "step": 7813,
+      "tokens": 128008192,
+      "recipe": {
+        "steps": 7813,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0012,
+        "seed": 20260930,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 1000
+      },
+      "training_seconds": 1161.6721781040542,
+      "provenance": {
+        "initialization": "random",
+        "pretrained_weights": false,
+        "distillation": false,
+        "seed": 20260930,
+        "hardware": "NVIDIA GeForce RTX 4070",
+        "device": "cuda",
+        "precision": "bfloat16 autocast / float32 optimizer",
+        "torch": "2.7.0+cu126",
+        "python": "3.10.12",
+        "source_sha256": {
+          "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+        }
+      },
+      "fingerprint": {
+        "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+        "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "manifest.json": "226155a37aa517e2e1d258b0364b44875257f11c271ebf292a42817e1945c7a0",
+        "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+        "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+      },
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 76734976,
+        "wiki.bin": 51273216
+      }
+    },
+    {
+      "schema": 1,
+      "run_id": "d283bd57-da41-46d9-9b8a-0f83d4e0ccc7",
+      "config": {
+        "vocab_size": 16384,
+        "width": 512,
+        "layers": 12,
+        "heads": 8,
+        "ff": 1536,
+        "context": 512,
+        "rope_base": 10000.0
+      },
+      "step": 7813,
+      "tokens": 128008192,
+      "recipe": {
+        "steps": 7813,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0012,
+        "seed": 20260930,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 200
+      },
+      "training_seconds": 1164.797902517952,
+      "provenance": {
+        "initialization": "random",
+        "pretrained_weights": false,
+        "distillation": false,
+        "seed": 20260930,
+        "hardware": "NVIDIA GeForce RTX 4070",
+        "device": "cuda",
+        "precision": "bfloat16 autocast / float32 optimizer",
+        "torch": "2.7.0+cu126",
+        "python": "3.10.12",
+        "source_sha256": {
+          "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+        }
+      },
+      "fingerprint": {
+        "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+        "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "manifest.json": "226155a37aa517e2e1d258b0364b44875257f11c271ebf292a42817e1945c7a0",
+        "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+        "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+      },
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 76734976,
+        "wiki.bin": 51273216
+      }
+    },
+    {
+      "schema": 1,
+      "run_id": "7f3be32f-4f37-434c-bc01-1da476a7e251",
+      "config": {
+        "vocab_size": 16384,
+        "width": 512,
+        "layers": 12,
+        "heads": 8,
+        "ff": 1536,
+        "context": 512,
+        "rope_base": 10000.0
+      },
+      "step": 7813,
+      "tokens": 128008192,
+      "recipe": {
+        "steps": 7813,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0006,
+        "seed": 20260930,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 1000
+      },
+      "training_seconds": 1161.9119688891806,
+      "provenance": {
+        "initialization": "random",
+        "pretrained_weights": false,
+        "distillation": false,
+        "seed": 20260930,
+        "hardware": "NVIDIA GeForce RTX 4070",
+        "device": "cuda",
+        "precision": "bfloat16 autocast / float32 optimizer",
+        "torch": "2.7.0+cu126",
+        "python": "3.10.12",
+        "source_sha256": {
+          "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+        }
+      },
+      "fingerprint": {
+        "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+        "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "manifest.json": "226155a37aa517e2e1d258b0364b44875257f11c271ebf292a42817e1945c7a0",
+        "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+        "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+      },
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 76734976,
+        "wiki.bin": 51273216
+      }
+    },
+    {
+      "schema": 1,
+      "run_id": "399119b7-6d5d-412c-ae4b-e85bb49c0f24",
+      "config": {
+        "vocab_size": 16384,
+        "width": 512,
+        "layers": 12,
+        "heads": 8,
+        "ff": 1536,
+        "context": 512,
+        "rope_base": 10000.0
+      },
+      "step": 7813,
+      "tokens": 128008192,
+      "recipe": {
+        "steps": 7813,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0006,
+        "seed": 20260930,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 200
+      },
+      "training_seconds": 1173.976038096007,
+      "provenance": {
+        "initialization": "random",
+        "pretrained_weights": false,
+        "distillation": false,
+        "seed": 20260930,
+        "hardware": "NVIDIA GeForce RTX 4070",
+        "device": "cuda",
+        "precision": "bfloat16 autocast / float32 optimizer",
+        "torch": "2.7.0+cu126",
+        "python": "3.10.12",
+        "source_sha256": {
+          "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+        }
+      },
+      "fingerprint": {
+        "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+        "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "manifest.json": "226155a37aa517e2e1d258b0364b44875257f11c271ebf292a42817e1945c7a0",
+        "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+        "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+      },
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 76734976,
+        "wiki.bin": 51273216
+      }
+    },
+    {
+      "schema": 1,
+      "run_id": "5fe4403c-e9cb-412e-b6d2-5d40d6ff4261",
+      "config": {
+        "vocab_size": 16384,
+        "width": 512,
+        "layers": 12,
+        "heads": 8,
+        "ff": 1536,
+        "context": 512,
+        "rope_base": 10000.0
+      },
+      "step": 7813,
+      "tokens": 128008192,
+      "recipe": {
+        "steps": 7813,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0006,
+        "seed": 20260930,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 1000
+      },
+      "training_seconds": 1162.624564609956,
+      "provenance": {
+        "initialization": "random",
+        "pretrained_weights": false,
+        "distillation": false,
+        "seed": 20260930,
+        "hardware": "NVIDIA GeForce RTX 4070",
+        "device": "cuda",
+        "precision": "bfloat16 autocast / float32 optimizer",
+        "torch": "2.7.0+cu126",
+        "python": "3.10.12",
+        "source_sha256": {
+          "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+        }
+      },
+      "fingerprint": {
+        "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+        "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "manifest.json": "13ad938896db26eef160ed23244bad98f54528364b0de0abddacd0333fe61493",
+        "stories.bin": "3ac73a70ec814d28a11586465f4a94c1a1246ed4933de2d3c92b7489c30b41be",
+        "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+        "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+      },
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 64033280,
+        "wiki.bin": 51212800,
+        "stories.bin": 12762112
+      }
+    },
+    {
+      "schema": 1,
+      "run_id": "874804ed-fd85-4388-8ec6-8289c81de9e5",
+      "config": {
+        "vocab_size": 16384,
+        "width": 512,
+        "layers": 12,
+        "heads": 8,
+        "ff": 1536,
+        "context": 512,
+        "rope_base": 10000.0
+      },
+      "step": 7813,
+      "tokens": 128008192,
+      "recipe": {
+        "steps": 7813,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0006,
+        "seed": 20260930,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 1000
+      },
+      "training_seconds": 1162.3939766739495,
+      "provenance": {
+        "initialization": "random",
+        "pretrained_weights": false,
+        "distillation": false,
+        "seed": 20260930,
+        "hardware": "NVIDIA GeForce RTX 4070",
+        "device": "cuda",
+        "precision": "bfloat16 autocast / float32 optimizer",
+        "torch": "2.7.0+cu126",
+        "python": "3.10.12",
+        "source_sha256": {
+          "controlled_train.py": "27f9d293d7a2386dd8675679cb2b1a53e51693b5a35a55ffa28d21a288f268ec",
+          "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+          "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+          "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+          "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+        }
+      },
+      "fingerprint": {
+        "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+        "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "manifest.json": "cd0585847b2a4d26c0121f6a67143a343e4cde585c72291c93b14226877ad720",
+        "stories.bin": "3ac73a70ec814d28a11586465f4a94c1a1246ed4933de2d3c92b7489c30b41be",
+        "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+        "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+        "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+      },
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 51170816,
+        "wiki.bin": 51377152,
+        "stories.bin": 25460224
+      }
+    }
+  ],
+  "tokens": 768049152,
+  "charged_tokens_including_replays": 768049152,
+  "training_attempt_elapsed_seconds": 7059.07885930175,
+  "attempts_missing_end_record": [],
+  "training_seconds": 6987.376628891099,
+  "maximum_training_tokens": 2768076800,
+  "limitations": "Charged tokens include reserved partial and replayed steps. Attempt time includes startup/compile/checkpoint work; missing end records have unknown duration. Retained training_seconds excludes rollback work. Preparation, evaluation and smoke are separate."
+}

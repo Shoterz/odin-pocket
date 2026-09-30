@@ -1,0 +1,39 @@
+{
+  "selected": "lr6-w1000",
+  "reference": "lr6-w200",
+  "rejected": {},
+  "policy": "ARC token-mean likelihood accuracy first, mean FineWeb/WikiText NLL tie-break; per-domain +0.05 and accuracy -0.03 guards. Stories diagnostic only.",
+  "paired_vs_reference": {
+    "lr6-w200": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "n": 285
+    },
+    "lr6-w1000": {
+      "difference": 0.031578947368421054,
+      "lower": -0.014035087719298246,
+      "upper": 0.07719298245614035,
+      "n": 285
+    },
+    "lr12-w200": {
+      "difference": 0.02456140350877193,
+      "lower": -0.017543859649122806,
+      "upper": 0.07017543859649122,
+      "n": 285
+    },
+    "lr12-w1000": {
+      "difference": 0.010526315789473684,
+      "lower": -0.031578947368421054,
+      "upper": 0.05263157894736842,
+      "n": 285
+    }
+  },
+  "limitations": "One screening seed; heuristic nonregression thresholds, not a significance claim.",
+  "checkpoint_hashes": {
+    "lr6-w200": "d62fb7763702b039cbc7a06f1fae78a02d8f442512ca6baef6f791c19d6dfb91",
+    "lr6-w1000": "7f208369b358ed76ef1b446b174e392d7683e226f39568d09b6a148e63f5c1f1",
+    "lr12-w200": "de4268fda617e1235b216bdada61b37877a3845879707894c398f5ccc52f439c",
+    "lr12-w1000": "fbc1bded71b4138e44a0231aec6a734fc62d0f09e116811efa1c33fe1829f510"
+  }
+}

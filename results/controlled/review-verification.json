@@ -1,0 +1,192 @@
+{
+  "all_six_checkpoints_and_reports_verified": true,
+  "experiment_lock_verified": true,
+  "decisions_recomputed": true,
+  "charged_tokens": 768049152,
+  "confirmation_ran": false,
+  "metrics": {
+    "published": {
+      "correct": 108,
+      "n": 285,
+      "accuracy": 0.37894736842105264,
+      "trained_tokens": 983040000,
+      "domains": {
+        "fineweb": {
+          "nll": 3.404721111059189,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.1108398139476776,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 2.8656554594635963,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e"
+    },
+    "previous-B": {
+      "correct": 112,
+      "n": 285,
+      "accuracy": 0.3929824561403509,
+      "trained_tokens": 3000008704,
+      "domains": {
+        "fineweb": {
+          "nll": 3.261492006480694,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.225037083029747,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 1.2118855267763138,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "dab13b8947f5a7ac4bc5dcd0a9eb0056d69bcad0dcd4edc99f757711fd8811bb"
+    },
+    "lr6-w200": {
+      "correct": 98,
+      "n": 285,
+      "accuracy": 0.34385964912280703,
+      "trained_tokens": 128008192,
+      "domains": {
+        "fineweb": {
+          "nll": 3.766522631049156,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.5233798772096634,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 3.298898719251156,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "d62fb7763702b039cbc7a06f1fae78a02d8f442512ca6baef6f791c19d6dfb91"
+    },
+    "lr6-w1000": {
+      "correct": 107,
+      "n": 285,
+      "accuracy": 0.37543859649122807,
+      "trained_tokens": 128008192,
+      "domains": {
+        "fineweb": {
+          "nll": 3.767850883305073,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.5226756185293198,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 3.288189522922039,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "7f208369b358ed76ef1b446b174e392d7683e226f39568d09b6a148e63f5c1f1"
+    },
+    "lr12-w200": {
+      "correct": 105,
+      "n": 285,
+      "accuracy": 0.3684210526315789,
+      "trained_tokens": 128008192,
+      "domains": {
+        "fineweb": {
+          "nll": 3.731238141655922,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.480749286711216,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 3.2429479211568832,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "de4268fda617e1235b216bdada61b37877a3845879707894c398f5ccc52f439c"
+    },
+    "lr12-w1000": {
+      "correct": 101,
+      "n": 285,
+      "accuracy": 0.3543859649122807,
+      "trained_tokens": 128008192,
+      "domains": {
+        "fineweb": {
+          "nll": 3.744952477514744,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.499656595289707,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 3.2575284764170647,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "fbc1bded71b4138e44a0231aec6a734fc62d0f09e116811efa1c33fe1829f510"
+    },
+    "stories10": {
+      "correct": 103,
+      "n": 285,
+      "accuracy": 0.36140350877192984,
+      "trained_tokens": 128008192,
+      "domains": {
+        "fineweb": {
+          "nll": 3.803323119878769,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.5322659239172935,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 1.7006509080529213,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "6c6b42933ecc235febbbcc6c9e3b0c880599c0b3431cf065e575b4e11d3343a4"
+    },
+    "stories20": {
+      "correct": 94,
+      "n": 285,
+      "accuracy": 0.3298245614035088,
+      "trained_tokens": 128008192,
+      "domains": {
+        "fineweb": {
+          "nll": 3.8571759909391403,
+          "tokens": 131072
+        },
+        "wiki": {
+          "nll": 3.54414089769125,
+          "tokens": 131072
+        },
+        "stories": {
+          "nll": 1.5499764755368233,
+          "tokens": 131072
+        }
+      },
+      "checkpoint_sha256": "bc85fb9a30a05fa82e6f4f2b7bcc2af725f18355f3d311e1b16572eaac377369"
+    }
+  },
+  "selected_screen_minus_historical_reference_intervals": {
+    "published": {
+      "difference": -0.0035087719298245615,
+      "lower": -0.04912280701754386,
+      "upper": 0.042105263157894736,
+      "n": 285
+    },
+    "previous-B": {
+      "difference": -0.017543859649122806,
+      "lower": -0.07017543859649122,
+      "upper": 0.03166666666666539,
+      "n": 285
+    }
+  },
+  "limitations": "Screening winner is selected on these questions. Intervals are unadjusted for selection, one training seed, and are not confirmatory evidence. Historical comparisons have different token budgets and recipes."
+}

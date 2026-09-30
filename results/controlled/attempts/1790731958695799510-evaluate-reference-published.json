@@ -1,0 +1,24 @@
+{
+  "label": "evaluate-reference-published",
+  "started_at": "2026-09-30T01:32:38.695805+00:00",
+  "command": [
+    "/home/ylz/Desktop/odin_llm/project/.venv/bin/python",
+    "-m",
+    "odin.controlled_eval",
+    "--checkpoint",
+    "/home/ylz/Desktop/odin_llm/newnew/runs/pocket/submission.pt",
+    "--data",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/data/controlled/common",
+    "--prompts",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/experiments/prompts.json",
+    "--partition",
+    "screen",
+    "--device",
+    "cuda",
+    "--output",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/results/controlled/reference-published.json"
+  ],
+  "completed": true,
+  "returncode": 0,
+  "elapsed_seconds": 10.049238209147006
+}

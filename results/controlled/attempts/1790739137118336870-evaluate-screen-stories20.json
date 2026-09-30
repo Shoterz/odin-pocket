@@ -1,0 +1,24 @@
+{
+  "label": "evaluate-screen-stories20",
+  "started_at": "2026-09-30T03:32:17.118345+00:00",
+  "command": [
+    "/home/ylz/Desktop/odin_llm/project/.venv/bin/python",
+    "-m",
+    "odin.controlled_eval",
+    "--checkpoint",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/runs/controlled/stories20/submission.pt",
+    "--data",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/data/controlled/common",
+    "--prompts",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/experiments/prompts.json",
+    "--partition",
+    "screen",
+    "--device",
+    "cuda",
+    "--output",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/results/controlled/screen-stories20.json"
+  ],
+  "completed": true,
+  "returncode": 0,
+  "elapsed_seconds": 10.041646520141512
+}

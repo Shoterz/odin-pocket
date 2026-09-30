@@ -1,0 +1,15 @@
+{
+  "decision": "retain-published-baseline",
+  "meaningful_model_improvement_demonstrated": false,
+  "screening_completed": true,
+  "confirmation_ran": false,
+  "confirmation_questions_used": false,
+  "trained_tokens_all_screens": 768049152,
+  "screening_winner": "lr6-w1000",
+  "mixture_winner": "control",
+  "quality_review": "Codex assessment of 128 anonymized continuations; not independent human validation",
+  "report": "docs/controlled-results.md",
+  "verification_sha256": "9a2d7b7734632cec4d807c61714b2727e45c5412c108ed2a5ea0e168cac11c49",
+  "quality_summary_sha256": "b606f40c7fc40512fc0071a01e674147084e8c788ed3efc21d28b27fb9209e87",
+  "next_hypothesis": "Matched longer no-story 200-step versus 1000-step warmup comparison; new protocol required."
+}
