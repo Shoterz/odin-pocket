@@ -1,0 +1,31 @@
+{
+  "status": "completed-retain-published",
+  "primary_gain_demonstrated": false,
+  "promote_checkpoint": null,
+  "qualitative_review_complete": true,
+  "reviewer": "OpenAI Codex; author assessment, not independent human validation",
+  "new_continuations": 64,
+  "historical_exact_match_ratings_reused": 64,
+  "all_report_identities_verified": true,
+  "paired_primary_interval_recomputed": true,
+  "new_training_launched_during_review": false,
+  "recommendation": "Audit scoring sensitivity and freeze the intended benchmark protocol before further compute; design a bounded data-quality experiment with fresh validation.",
+  "final_report": "docs/warmup-confirmation-review.md",
+  "artifact_sha256": {
+    "results/warmup-confirmation/blind-review-mapping.json": "52ddd38d8ffdba0257319961e8692a388895a383fedd1041f877e987f7151e7b",
+    "results/warmup-confirmation/blind-review.json": "0acb943159c973fa6632348672c2333b1d4e9074d35dd700346887a252b2b1a6",
+    "results/warmup-confirmation/compute.json": "75cc02eaad77163bdd2afd9180827c9e8c7ca6bb17d774ef5dfb1b5be0a8b253",
+    "results/warmup-confirmation/confirmation-long.json": "b6c41f2775e61b0ab0fd4fe45474d82d552f12dfed412a87432b67da01db8d5b",
+    "results/warmup-confirmation/confirmation-previous-B.json": "e9e0c80811522e38e6af38e67a25704e6f342efb03262a6ab9f9f50e731fffa0",
+    "results/warmup-confirmation/confirmation-published.json": "88daf1b114c13a7b4ce639fa27ee5a046ae89fa813153eaa263a2ab58cd7a14b",
+    "results/warmup-confirmation/confirmation-short.json": "ffd60d841c401eed7295d0fbe81df2b9cd9d754ee04579b183cc3df182abdf60",
+    "results/warmup-confirmation/experiment-lock.json": "81d9a77bc974ebe88d8684fbd5368b8ea0ca38a5bec90fd4fea26ffc7dd97e9d",
+    "results/warmup-confirmation/historical-comparisons.json": "658ce0c8d05a3317638fb3b5a0e5c6e0bca80b0b6dee614f5889bb91559f40c1",
+    "results/warmup-confirmation/posthoc-scoring-diagnostic.json": "bc611aaa239d27b78cc3f6a8ed74d624c00214340c9c35e71b8e6e331da695fd",
+    "results/warmup-confirmation/primary-comparison.json": "15db612d487de46d5f3e728f8de26b0eebb0b5366cbc455c05d87135078625f8",
+    "results/warmup-confirmation/quality-review.json": "92d53bb28eafd04b801089306111e465947308881251daeef3d43862e77d609c",
+    "results/warmup-confirmation/quality-summary.json": "c995281152584cb5dd0f7f61b87fececbcfdb125c22c9e25e514fb537790f28c",
+    "results/warmup-confirmation/review-checkpoint-verification.json": "a13092ed347894838be8db352253b9d1472b84e7fde9848fcf59aac3d119f6a1",
+    "results/warmup-confirmation/review-new-ratings.json": "b013f37d77bec42d875c850036554087b8ece066fbfaad147e9ff34c93ab2223"
+  }
+}

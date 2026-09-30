@@ -1,0 +1,21 @@
+{
+  "paired_accuracy_interval": {
+    "difference": 0.010526315789473684,
+    "lower": -0.028070175438596492,
+    "upper": 0.04912280701754386,
+    "n": 285
+  },
+  "long_minus_short_domain_nll": {
+    "fineweb": 0.00575990229845047,
+    "wiki": 0.006455682218074799,
+    "stories": 0.017143674194812775
+  },
+  "general_domain_guard_passed": true,
+  "primary_gain_demonstrated": false,
+  "checkpoint_sha256": {
+    "short": "379f11833ed9f5fb32d5f4617a6e7aa98228f0d054c694fc18cc611b05451809",
+    "long": "9fc57cb057ed5781bc9c147b84b1ee3b52bfc4d7db1da85560ce15518ebae0ab"
+  },
+  "release_decision": "Pending qualitative review; no automatic promotion.",
+  "limitations": "One fresh training seed; interval resamples questions, not training runs. Historical comparisons are descriptive."
+}

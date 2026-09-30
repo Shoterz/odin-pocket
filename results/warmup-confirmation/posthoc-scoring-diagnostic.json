@@ -1,0 +1,31 @@
+{
+  "status": "Posthoc exploratory diagnostic; not the preregistered primary endpoint. No multiplicity correction. Same questions, not independent confirmation.",
+  "raw_sum_correct": {
+    "short": 100,
+    "long": 117,
+    "published": 100,
+    "previous-B": 120
+  },
+  "long_minus_short_raw_sum_interval": {
+    "difference": 0.05964912280701754,
+    "lower": 0.007017543859649123,
+    "upper": 0.11228070175438597,
+    "n": 285
+  },
+  "long_minus_published_raw_sum_interval": {
+    "difference": 0.05964912280701754,
+    "lower": 0.013947368421052712,
+    "upper": 0.10877192982456141,
+    "n": 285
+  },
+  "perplexity_reduction_vs_published": {
+    "short": {
+      "fineweb": 0.0394297979628776,
+      "wiki": 0.018563836443974968
+    },
+    "long": {
+      "fineweb": 0.033881042644755555,
+      "wiki": 0.012207501290266931
+    }
+  }
+}

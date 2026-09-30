@@ -1,0 +1,115 @@
+{
+  "reviewer": "OpenAI Codex; author assessment, not independent human validation",
+  "limitations": "Author rubric, locally authored previously used prompts, limited blinding for recognizable historical text. Not independent human validation or a calibrated intelligence measure. Exact prior ratings reused for 64 historical outputs.",
+  "rated_items_sha256": "92d53bb28eafd04b801089306111e465947308881251daeef3d43862e77d609c",
+  "models": {
+    "short": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.65625,
+          "clear_failures": 11,
+          "mixed": 21,
+          "passes": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.375,
+          "clear_failures": 10,
+          "mixed": 6,
+          "passes": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.0,
+          "clear_failures": 32,
+          "mixed": 0,
+          "passes": 0
+        }
+      },
+      "scientific_practical_causal_clear_failures": 16
+    },
+    "long": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.59375,
+          "clear_failures": 13,
+          "mixed": 19,
+          "passes": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.3125,
+          "clear_failures": 11,
+          "mixed": 5,
+          "passes": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.0,
+          "clear_failures": 32,
+          "mixed": 0,
+          "passes": 0
+        }
+      },
+      "scientific_practical_causal_clear_failures": 16
+    },
+    "published": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.53125,
+          "clear_failures": 15,
+          "mixed": 17,
+          "passes": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.25,
+          "clear_failures": 12,
+          "mixed": 4,
+          "passes": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.0,
+          "clear_failures": 32,
+          "mixed": 0,
+          "passes": 0
+        }
+      },
+      "scientific_practical_causal_clear_failures": 16
+    },
+    "previous-B": {
+      "items": 32,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 1.125,
+          "clear_failures": 4,
+          "mixed": 20,
+          "passes": 8
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.5625,
+          "clear_failures": 10,
+          "mixed": 3,
+          "passes": 3
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.34375,
+          "clear_failures": 22,
+          "mixed": 9,
+          "passes": 1
+        }
+      },
+      "scientific_practical_causal_clear_failures": 15
+    }
+  }
+}

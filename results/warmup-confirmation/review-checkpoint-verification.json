@@ -1,0 +1,51 @@
+{
+  "source_and_protocol_hashes_verified": true,
+  "source_token_counts_identical": true,
+  "runs": {
+    "short": {
+      "run_id": "a8c21f30-4974-4020-8ea8-95ab4846d121",
+      "step": 61036,
+      "tokens": 1000013824,
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 599670272,
+        "wiki.bin": 400343552
+      },
+      "training_seconds": 9153.405594194774,
+      "recipe": {
+        "steps": 61036,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0006,
+        "seed": 20261001,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 200
+      },
+      "checkpoint_sha256": "379f11833ed9f5fb32d5f4617a6e7aa98228f0d054c694fc18cc611b05451809"
+    },
+    "long": {
+      "run_id": "f92c8bdd-77a8-4caf-8153-7a0d3bf146fd",
+      "step": 61036,
+      "tokens": 1000013824,
+      "parameter_count": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 599670272,
+        "wiki.bin": 400343552
+      },
+      "training_seconds": 9115.516120384913,
+      "recipe": {
+        "steps": 61036,
+        "batch_size": 32,
+        "accumulation": 1,
+        "lr": 0.0006,
+        "seed": 20261001,
+        "compile_model": true,
+        "deterministic": true,
+        "warmup_steps": 1000
+      },
+      "checkpoint_sha256": "9fc57cb057ed5781bc9c147b84b1ee3b52bfc4d7db1da85560ce15518ebae0ab"
+    }
+  },
+  "new_charged_tokens": 2000027648
+}
