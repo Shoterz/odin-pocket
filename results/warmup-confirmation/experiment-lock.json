@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "recipes": {
+    "short": {
+      "steps": 61036,
+      "batch_size": 32,
+      "accumulation": 1,
+      "lr": 0.0006,
+      "seed": 20261001,
+      "compile_model": true,
+      "deterministic": true,
+      "warmup_steps": 200
+    },
+    "long": {
+      "steps": 61036,
+      "batch_size": 32,
+      "accumulation": 1,
+      "lr": 0.0006,
+      "seed": 20261001,
+      "compile_model": true,
+      "deterministic": true,
+      "warmup_steps": 1000
+    }
+  },
+  "run_names": {
+    "short": "warmup-confirm-200",
+    "long": "warmup-confirm-1000"
+  },
+  "new_charged_token_cap": 2000027648,
+  "cumulative_charged_token_cap": 2768076800,
+  "mixture": {
+    "fineweb": 0.6,
+    "wiki": 0.4,
+    "stories": 0
+  },
+  "partition": "confirmation",
+  "question_count": 285,
+  "evaluation_order": "both training runs finish, then both confirmation evaluations, then historical references",
+  "primary_comparison": "long minus short; positive paired-bootstrap lower bound and per-domain NLL <= short+0.05; generation review required",
+  "source_sha256": {
+    "wrapper": "d109e4d1d120df06ef19c866ac5408fd4f8d2896b19374b1b4140e9c7dff39b3",
+    "engine": "ae62dd4222dc37e38725a0aaec940fef2f94b46be093d2fa39ae028dc049994a",
+    "plan": "54faa1128ac33da2d719a0fb6e701525f0910444ef2f67383eaf6546cbfdfb41",
+    "prior_experiment_lock": "18931ff4c375b7f7d5d59b977af535886e00e00cfd3dea70d1d3e77ddace8ff4",
+    "quality_rubric": "c2ebffb11a45df6c3d7304aebef62d78a489f27be4988d08192923c4337c8701"
+  },
+  "historical_ledger_sha256": {
+    "lr6-w200": "ce5680291c0a9dfb122a10161399efc5a9ec98ee2bb71b045d1d509228aec7fd",
+    "lr6-w1000": "bebca3e0353450e6ac0dde9f99170d001785940cdcdd92e5cbbe765c00ab3d79",
+    "lr12-w200": "d85b5597e9e1dc31ee41246140f4d8f1b5cdce9d0db45056010397bfd4008b06",
+    "lr12-w1000": "7efedca9b4d482304068220f01e83eff73952aba043db1ce3ff22537a651cfff",
+    "stories10": "8fc995588fb7708a19f6bf084266dae08ed3b38819662c7f05cd92e1b07ec024",
+    "stories20": "d56eb13896c2fdd388024d324e9db877e44fb6d64a8b14ec01681dfffead62c6"
+  },
+  "reference_checkpoint_sha256": {
+    "published": "4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e",
+    "previous-B": "dab13b8947f5a7ac4bc5dcd0a9eb0056d69bcad0dcd4edc99f757711fd8811bb"
+  }
+}
