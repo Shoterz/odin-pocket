@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "audit_date": "2026-09-30",
+  "deadline": "2026-10-01T23:45:00+08:00",
+  "deadline_source": "https://gibc-v2.devpost.com/rules",
+  "status": "Read-only reconstruction; scoring is posthoc on observed validation questions, not an official harness run or independent confirmation.",
+  "scoring": {
+    "published": {
+      "n": 285,
+      "token_mean": 77,
+      "raw_sum": 100,
+      "character_normalized": 79,
+      "raw_token_disagreements": 168
+    },
+    "previous-B": {
+      "n": 285,
+      "token_mean": 89,
+      "raw_sum": 120,
+      "character_normalized": 103,
+      "raw_token_disagreements": 166
+    },
+    "short": {
+      "n": 285,
+      "token_mean": 78,
+      "raw_sum": 100,
+      "character_normalized": 84,
+      "raw_token_disagreements": 180
+    },
+    "long": {
+      "n": 285,
+      "token_mean": 81,
+      "raw_sum": 117,
+      "character_normalized": 87,
+      "raw_token_disagreements": 172
+    }
+  },
+  "runs": {
+    "200": {
+      "tokens": 1000013824,
+      "seconds": 9153.405594194774,
+      "peak_allocated_gib": 6.409926414489746,
+      "hours_per_billion_tokens": 2.5425775164625164
+    },
+    "1000": {
+      "tokens": 1000013824,
+      "seconds": 9115.516120384913,
+      "peak_allocated_gib": 6.409926414489746,
+      "hours_per_billion_tokens": 2.532052808120012
+    }
+  },
+  "config": {
+    "vocab_size": 16384,
+    "width": 512,
+    "layers": 12,
+    "heads": 8,
+    "ff": 1536,
+    "context": 512,
+    "rope_base": 10000.0
+  },
+  "recipe": {
+    "steps": 61036,
+    "batch_size": 32,
+    "accumulation": 1,
+    "lr": 0.0006,
+    "seed": 20261001,
+    "compile_model": true,
+    "deterministic": true,
+    "warmup_steps": 1000
+  },
+  "parameter_count": 49295872,
+  "batch_tokens": 16384,
+  "adam_second_moment_half_life_tokens": {
+    "0.95": 221403.6657596805,
+    "0.99": 1129964.5675360817,
+    "0.999": 11350844.197740547
+  },
+  "beta2_for_10m_token_half_life": 0.9988649922684496,
+  "source_token_inventory": {
+    "fineweb": 778581610,
+    "wiki": 110444950,
+    "stories": 576905922
+  },
+  "source_exposure_equivalents_1b_run": {
+    "fineweb.bin": 0.7702086259139873,
+    "wiki.bin": 3.624824421578352
+  },
+  "estimated_hours_same_recipe": {
+    "1B": 2.5373151622912644,
+    "1.5B": 3.8059727434368966,
+    "2B": 5.074630324582529,
+    "3B": 7.611945486873793,
+    "4B": 10.149260649165058
+  },
+  "hypothetical_22_layer_384_width_ff1152_params": 48481152,
+  "input_sha256": {
+    "data/controlled/common/questions.json": "2c2fc3e6c1ca6be6b36faa5d7af743ab6818423d32d57c3c6dcf8969e8483d73",
+    "results/warmup-confirmation/confirmation-published.json": "88daf1b114c13a7b4ce639fa27ee5a046ae89fa813153eaa263a2ab58cd7a14b",
+    "results/warmup-confirmation/confirmation-previous-B.json": "e9e0c80811522e38e6af38e67a25704e6f342efb03262a6ab9f9f50e731fffa0",
+    "results/warmup-confirmation/confirmation-short.json": "ffd60d841c401eed7295d0fbe81df2b9cd9d754ee04579b183cc3df182abdf60",
+    "results/warmup-confirmation/confirmation-long.json": "b6c41f2775e61b0ab0fd4fe45474d82d552f12dfed412a87432b67da01db8d5b",
+    "runs/controlled/warmup-confirm-200/summary.json": "c6f7e65a9fa72b3329c805200901a4bcadc3f468dbe7dd8a73b8f5f116370d30",
+    "runs/controlled/warmup-confirm-200/metrics.jsonl": "c67dbd6ba4f73bbf7ab0bef229ef69cede62012201c2c427f08b08a83abbe7cc",
+    "runs/controlled/warmup-confirm-1000/summary.json": "819c9282f5504508f075c611e4ddff7a3a4006e1e88a9cfbd5398afef3774c93",
+    "runs/controlled/warmup-confirm-1000/metrics.jsonl": "ecad0aa1a40baf615e87910b4277ea3e55d3947c2a030064c940eadfbde292f7",
+    "data/controlled/common/manifest.json": "abb13bb6f79483d439e113fe512453a7cfd9070365c11d28940d8bc71a2a1083"
+  }
+}
