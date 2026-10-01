@@ -1,8 +1,12 @@
-# Demo upload
+# Demo video
 
-Upload **video/odin-pocket-demo.mp4** to YouTube, Vimeo or Youku. The video is 2 minutes 46 seconds, H.264, 1440 × 1140, with English captions burned into the image. It is intentionally silent; English subtitles satisfy the rules. Optional separate subtitle file: `video/demo.en.srt`.
+**Hosted video:** https://youtu.be/OxnweVSt72s
 
-Set visibility to **Unlisted** or **Public**, not Private. Wait for processing, then check playback while signed out and paste the watch URL into Devpost. A GitHub MP4 download does not replace the required video-hosting link. No hosted video URL has yet been verified.
+YouTube metadata checked on October 1: unlisted, not private, playability OK, **122 seconds (2m02s)**. This verifies hosting and metadata, not a complete visual playback review. The hosted version is shorter than the original local recording.
+
+Original local file: **video/odin-pocket-demo.mp4**. The video is 2 minutes 46 seconds, H.264, 1440 × 1140, with English captions burned into the image. It is intentionally silent; English subtitles satisfy the rules. Optional separate subtitle file: `video/demo.en.srt`.
+
+Paste the hosted URL into Devpost and preview the embedded video. Keep the video Unlisted or Public. The upload copy below is retained for reference; another upload is not needed.
 
 ## Suggested title
 

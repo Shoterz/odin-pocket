@@ -17,7 +17,7 @@
 | Model download | https://github.com/Shoterz/odin-pocket/releases/tag/v0.1.0 |
 | Documentation/source release | https://github.com/Shoterz/odin-pocket/releases/tag/v0.1.1-submission |
 | Built With | Copy the tags and full attribution in [built-with.md](built-with.md). Include OpenAI Codex. |
-| Demo video | Upload [video/odin-pocket-demo.mp4](video/odin-pocket-demo.mp4), then paste the YouTube/Vimeo/Youku **watch URL**. [Title, description and upload instructions](video-upload.md). |
+| Demo video | Paste **https://youtu.be/OxnweVSt72s**. YouTube reports the hosted video as unlisted, playable and 2m02s. |
 | Screenshots | Upload `screenshots/01-workbench.png`, `02-comparison.png` and `03-evidence.png`. [Captions](screenshots/README.md). `04-mobile.png` is optional. |
 | Team member | Associate **Yong Li Zhong's actual Devpost account** with the entry; writing the name in the description alone does not add a member. |
 
@@ -25,12 +25,13 @@
 
 - [ ] Confirm registration for GIBC V2 and associate the solo member's Devpost account.
 - [ ] Check the student's eligibility and the organizer's declarations in the actual form. These personal declarations must come from the participant.
-- [ ] Upload the finished MP4 to an accepted host, choose Unlisted/Public, wait for processing, and verify signed-out playback.
+- [x] Upload the demo to an accepted host: https://youtu.be/OxnweVSt72s. YouTube metadata checked without authentication: playability OK, unlisted, not private, 122 seconds.
+- [ ] Preview the video in the actual Devpost embed before submitting.
 - [ ] Create or update the project with the fields and three screenshots above; choose Track 01.
 - [ ] Preview the public description, source link and embedded video.
 - [ ] Submit the entry before the deadline and retain the confirmation/project URL.
 
-**Preparation does not mean submission.** Registration, hosted video and final Devpost submission are not yet verified. GitHub-hosted video is useful for review but does not replace the required accepted-host URL. This checklist stays unchecked until those actions are confirmed.
+**Preparation does not mean submission.** The YouTube link is available; registration and final Devpost submission remain unverified. Metadata checks do not replace watching the embedded video before submitting.
 
 ## Claims and artifacts to preserve
 
@@ -38,6 +39,6 @@ The submitted model is **v0.1.0**, with SHA-256 `4634f90b2120a7a128a0a4bbd59ae70
 
 The model's recorded training loop took 3.923 hours on an RTX 4070. The broader project's available training summaries total 22.355 recorded hours; additional evaluation, preparation and unrecorded partial work are excluded. This distinction is documented for the efficiency criterion.
 
-The demo is an English-captioned, silent recording of actual model operation, 2 minutes 46 seconds long. No instruction-following, factual reliability, state-of-the-art or competition-placement claim is made. The contribution is a complete scratch-trained compact model and a reproducible local inspection system.
+The original local recording is silent with English captions and lasts 2 minutes 46 seconds. The user-uploaded YouTube version lasts 2 minutes 2 seconds; its full content was not independently rewatched in this metadata check. No instruction-following, factual reliability, state-of-the-art or competition-placement claim is made. The contribution is a complete scratch-trained compact model and a reproducible local inspection system.
 
 For technical questions from judges, use [judge-guide.md](judge-guide.md), [the model card](evidence/model-card.md) and [the reproduction guide](../docs/reproduce.md).

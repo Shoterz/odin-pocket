@@ -16,7 +16,7 @@
 | Reasoning performance | Required zero-shot tasks above; [all frozen qualitative outputs](../results/product.json). No claim of reliable general reasoning. |
 | Training efficiency | [Submitted training summary](evidence/training-summary.json), [recorded loss/VRAM metrics](evidence/training-metrics.jsonl), [broader experiment cost](../docs/research-summary.md#compute-disclosure) |
 | Innovation | Inspectable local generation and evidence tied to checkpoint identity; exact-resume/provenance checks; measured KV-cache speedup. Standard Transformer components are credited rather than claimed as novel. |
-| Documentation and demo | [Reproduction guide](../docs/reproduce.md), [model card](evidence/model-card.md), [English-captioned video](video/odin-pocket-demo.mp4), [screenshots](screenshots/README.md), [research results](../docs/research-summary.md) |
+| Documentation and demo | [Reproduction guide](../docs/reproduce.md), [model card](evidence/model-card.md), [YouTube demo](https://youtu.be/OxnweVSt72s), [original captioned recording](video/odin-pocket-demo.mp4), [screenshots](screenshots/README.md), [research results](../docs/research-summary.md) |
 
 ## Eligibility and identity
 

@@ -1,6 +1,6 @@
 # ODIN Pocket — demo recording outline
 
-Completed recording: [video/odin-pocket-demo.mp4](video/odin-pocket-demo.mp4), 2 minutes 46 seconds, with burned-in English captions. It shows the actual submitted v0.1.0 checkpoint, including unsuccessful output. [Upload instructions](video-upload.md); the required hosted URL is not yet verified. The timings below are the original recording outline, not exact chapter boundaries.
+Completed recording: [video/odin-pocket-demo.mp4](video/odin-pocket-demo.mp4), 2 minutes 46 seconds, with burned-in English captions. It shows the actual submitted v0.1.0 checkpoint, including unsuccessful output. [Hosted YouTube version](https://youtu.be/OxnweVSt72s): 2m02s, unlisted; [metadata verification](evidence/hosted-video-verification.json). The timings below are the original recording outline, not exact chapter boundaries.
 
 0:00–0:25 — Explain the constraint: an entire language model, including its vocabulary and output head, under 50 million trainable parameters. ODIN Pocket has 49,295,872. It starts from random weights and runs locally.
 

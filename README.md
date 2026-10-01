@@ -4,7 +4,7 @@ A **49,295,872-parameter causal language model**, trained from random initializa
 
 **Axiom AI** · Yong Li Zhong · Solo developer.
 
-**Submission checkpoint:** v0.1.0, trained from scratch and evaluated on every required benchmark. Start with the [judge’s guide](submission/judge-guide.md) or [submission checklist](submission/submit.md). The [research appendix](docs/research-summary.md) documents later experiments and why this checkpoint was retained. Video hosting and Devpost submission are separate steps; their completion is not yet verified.
+**Submission checkpoint:** v0.1.0, trained from scratch and evaluated on every required benchmark. Start with the [judge’s guide](submission/judge-guide.md) or [submission checklist](submission/submit.md). The [research appendix](docs/research-summary.md) documents later experiments and why this checkpoint was retained. The [hosted demo](https://youtu.be/OxnweVSt72s) is available on YouTube. Devpost registration and final submission remain unverified.
 
 ## Use the workbench
 
@@ -43,7 +43,7 @@ The inference-only checkpoint is `runs/pocket/submission.pt` (198,352,841 bytes)
 
 SHA-256: `4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e`.
 
-[English demo, 2m46s](submission/video/odin-pocket-demo.mp4) · [Submission handoff](submission/submit.md) · [Model card](submission/evidence/model-card.md) · [Training record](submission/evidence/training-summary.json) · [Data manifest](submission/evidence/data-manifest.json). No original training directory is needed to run the exported weights and evidence. The final documentation/source bundle is published separately as **v0.1.1-submission**; it uses the unchanged v0.1.0 model weights.
+[YouTube demo, 2m02s](https://youtu.be/OxnweVSt72s) · [Original captioned recording, 2m46s](submission/video/odin-pocket-demo.mp4) · [Submission handoff](submission/submit.md) · [Model card](submission/evidence/model-card.md) · [Training record](submission/evidence/training-summary.json) · [Data manifest](submission/evidence/data-manifest.json). No original training directory is needed to run the exported weights and evidence. The final documentation/source bundle is published separately as **v0.1.1-submission**; it uses the unchanged v0.1.0 model weights.
 
 ## Architecture
 
