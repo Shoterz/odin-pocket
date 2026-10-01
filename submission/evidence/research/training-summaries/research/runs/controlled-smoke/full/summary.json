@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "run_id": "947dab0a-f03f-4468-902c-0ea1c1c231f6",
+  "config": {
+    "vocab_size": 16384,
+    "width": 512,
+    "layers": 12,
+    "heads": 8,
+    "ff": 1536,
+    "context": 512,
+    "rope_base": 10000.0
+  },
+  "step": 8,
+  "tokens": 131072,
+  "recipe": {
+    "steps": 8,
+    "batch_size": 32,
+    "accumulation": 1,
+    "lr": 0.0006,
+    "seed": 20260929,
+    "compile_model": true,
+    "deterministic": true,
+    "warmup_steps": 2
+  },
+  "training_seconds": 6.595174171961844,
+  "provenance": {
+    "initialization": "random",
+    "pretrained_weights": false,
+    "distillation": false,
+    "seed": 20260929,
+    "hardware": "NVIDIA GeForce RTX 4070",
+    "device": "cuda",
+    "precision": "bfloat16 autocast / float32 optimizer",
+    "torch": "2.7.0+cu126",
+    "python": "3.10.12",
+    "source_sha256": {
+      "controlled_train.py": "276173d08ac8f0eed909e459a942ee3fee42eecbc40705bef979e8c62d5fbc28",
+      "train.py": "1b362ae26791487ec2d9fd8c61e3bee93b97c8f9df600605c019c1ef95b86f6b",
+      "model.py": "c67ee4e8b03a3eb13e5a746d66dc5944daf1de657ccabbc05e3661823ad7c089",
+      "tokenizer.py": "42a1e6ac4841eadf8c6522e05f953fde79f194d38f81e2047a85b4998908e8a5",
+      "sampling.py": "59770a01a9f38b7256b9adbaea0fca766dccc570e67572e8a3f601147cfad4f3"
+    }
+  },
+  "fingerprint": {
+    "dev.bin": "5e7f717f0ade7e2275ab181149c2011a23fd4c17a5c0b78fbb1c51a832402c5c",
+    "fineweb.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+    "manifest.json": "13ad938896db26eef160ed23244bad98f54528364b0de0abddacd0333fe61493",
+    "stories.bin": "3ac73a70ec814d28a11586465f4a94c1a1246ed4933de2d3c92b7489c30b41be",
+    "tokenizer.json": "1c9a0bed2b7cfc2d7a5e57896933893cb5f235d41d99e2a4f5c8d02790082ebb",
+    "train.bin": "7c6adcbd399a66e7fbf421197441e4d3a5ee8bc658f1f31fa0fb1c385f82ef47",
+    "wiki.bin": "5eca47b007ea5cf4340b6e85e9120e8d108ad90d969e21a5a275239593f15421"
+  },
+  "parameter_count": 49295872,
+  "source_tokens": {
+    "fineweb.bin": 65024,
+    "wiki.bin": 48128,
+    "stories.bin": 17920
+  }
+}
