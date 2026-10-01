@@ -1,0 +1,587 @@
+{
+  "rubric": "Each applicable dimension: 0 clear failure, 1 mixed/unclear, 2 coherent and correct; use null for not applicable. Judge independently before reading mapping. Locally authored prompts, not independent validation.",
+  "items": [
+    {
+      "id": "item-01-1",
+      "prompt": "Mara put her yellow scarf in a drawer before leaving the house. When she returned that evening, she opened the same drawer and",
+      "text": " closed the door. She found out that the only way to get through was with a white man and the two were both too close.\nEllen left the house and left the house. After two hours, the man and the black man went to the house and the white man stopped. There he ran into a man who was standing by and asked him to get into the house. So, when she had to get to the house, she ran around and asked her and another man to move into it. She answered by saying, \"Wait, if you can do so, don't make it.\"\nHirsome",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unexplained switch from Mara to Ellen and several men; repetitive movements replace the scarf premise."
+    },
+    {
+      "id": "item-01-2",
+      "prompt": "Mara put her yellow scarf in a drawer before leaving the house. When she returned that evening, she opened the same drawer and",
+      "text": " found the window open, her hand had burned off the window and began to run down to the fire station.\nAt that time, the fire was not much more intense than the fire on the street.\nOn the other side of the street, the fire was almost as intense as the fire was in the windows.\nThe fire was almost as intense as the fire on the street. For a long time, the fire seemed to be very intense. For a long time, the fire seemed to be so intense that the fire was even more intense.\nAfter more than ten days of heavy rain, the fire was not going to go",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "A hand burns off a window; the drawer premise becomes an incoherent fire-and-rain sequence."
+    },
+    {
+      "id": "item-02-1",
+      "prompt": "Mara put her yellow scarf in a drawer before leaving the house. When she returned that evening, she opened the same drawer and",
+      "text": " it was so dark that only a few of her friends had to get away from it. Her friend, who had no interest in her mother, tried to persuade her to leave him and continue to the house. She refused. She turned to his wife for help but refused to get away again.\nThe little boy turned to his mother and she became very angry. When he was about to leave, he left him and told the girl he had a dream about his parents. He was about to arrive in the house. Some friends and neighbors noticed him making good money before leaving him. He made many good things out of it.\n",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unresolved switches among friends, mother, wife and boy; money appears without a coherent connection."
+    },
+    {
+      "id": "item-02-2",
+      "prompt": "Mara put her yellow scarf in a drawer before leaving the house. When she returned that evening, she opened the same drawer and",
+      "text": " stitched her white eyes, to the ground. The next morning she had the two men drive her away, but she didn’t stop with this, leaving the other two still in the house.\nThe other house was a dark, narrow house with a lot of stacks, as the house was too crowded. A few of the women, who were wearing white clothes, came to the house on a bus. There were other women and children.\nA group of the five living houses in the house were gone, as they had been working for decades.\nThe three men, having been brought along, walked over the",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Stitched eyes and disconnected groups of people replace the drawer and scarf."
+    },
+    {
+      "id": "item-03-1",
+      "prompt": "Jon and his sister built a paper boat. They carried it to a shallow pond, placed it on the water, and watched as",
+      "text": " the water drained from the boat. I came to see them doing the fish-fish at all, and I said, “Well, you got this fish.”\nThe fish was so beautiful that the owner of the fishing boat said, “I’m sorry, I’m still doing that fish-fish.”\nSo it was like the fish fish!\nTom didn’t have to go to a pond. He was going there in a river valley!\nThis fish fish fish was a longtime friend of my mother’s. I’ll have to do a little research on this fish fish fish fish",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "The boat becomes a repetitive fish conversation and new characters without transitions."
+    },
+    {
+      "id": "item-03-2",
+      "prompt": "Jon and his sister built a paper boat. They carried it to a shallow pond, placed it on the water, and watched as",
+      "text": " it was frozen. The ice broke into some craters and some made ascent to the surface. They built a hollow, but they did not take any shape.\nThe next day, after learning about the existence of the Great White, he asked the party to go to the hollowed surface and tell them that the Great White had been destroyed. The party found the hollow and began to dig holes and other obstacles. They were able to spot the Great White from where it had been buried, but they only got a tiny bit of ice.\nNext they made a long journey north to the Great White Passage,",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Begins with the pond but shifts into craters and an expedition without coherent continuity."
+    },
+    {
+      "id": "item-04-1",
+      "prompt": "Jon and his sister built a paper boat. They carried it to a shallow pond, placed it on the water, and watched as",
+      "text": " it sank.\nThe young woman was a little older when she was a little older, the woman was a little younger. She was pretty well prepared enough for the young woman to give her advice. It was a good opportunity to learn more about how to grow a beautiful fruit tree.\nThey had a beautiful spring called Marlins. They had a great time growing a variety of fruits such as apples, pears, strawberry, and even peaches.\nThey had to live around a tree in their own hole in their house, and at night they moved to the sunny corner of their house.\nThey started growing",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "A plausible sinking is followed by contradictory age descriptions and disconnected tree-and-house events."
+    },
+    {
+      "id": "item-04-2",
+      "prompt": "Jon and his sister built a paper boat. They carried it to a shallow pond, placed it on the water, and watched as",
+      "text": " the fish sank into the ponds.\nThe fish had been raised and the water was fresh and fresh.\nIt is said that there was a well that contained the fish, and the water was not fresh. The fish was not good enough.\nAt the bottom of the pond was a small pond, in the heart of the lake.\nThe lake was filled with water, and was filled with fresh water, and the fish were found to be dead.\nThey were found in and, not far from the pond, had to drink.\nThey had to feed the fish and the water was fresh and fresh.\nThey were",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Fish replace the boat; fresh-water and dead-fish descriptions conflict with subsequent events."
+    },
+    {
+      "id": "item-05-1",
+      "prompt": "A librarian found a child's drawing inside a returned book. She kept it behind the desk. The next day, the child came back and",
+      "text": " made a name for herself. He told her that she was a kid and her parents said she did it because she didn't know how to read it. The child took the child on a trip out from his village.\nShe called it a \"snake.\" She said she made a list of pictures and told her parents that she wanted to read the book about a girl. She made an account with a friend, and she said she was looking \"many\" out for the \"unseen\" and a \"snake\" which she could keep. He then suggested the child \"share\" with him and make",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Child and adult identities blur, followed by a disconnected snake-and-photograph passage."
+    },
+    {
+      "id": "item-05-2",
+      "prompt": "A librarian found a child's drawing inside a returned book. She kept it behind the desk. The next day, the child came back and",
+      "text": " said, \"I have the whole book back for you. You should also know that you are there. You are a librarian.\"\nWhat is the teacher?\nThe teacher is the librarian. It is a person who creates or creates the books. The teacher is the librarian. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher. There is no teacher",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "The librarian becomes a teacher; repetitive existence/nonexistence statements break continuity."
+    },
+    {
+      "id": "item-06-1",
+      "prompt": "A librarian found a child's drawing inside a returned book. She kept it behind the desk. The next day, the child came back and",
+      "text": " scrubbed the page by her hand.\n\"We were very pleased with the story that the child was just trying to find a story and didn't know she had to do so. She was a very good student and she was really excited and excited and excited.\"\nThe child was taken to the library of a student's book store and sent home. She was very excited and excited by the child's progress and the book's success. She said she would like to go to school more to support the child's learning of art, literature and other disciplines.\n\"We did a great job in order to get kids to do",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 1,
+      "notes": "Keeps some book and child context, but speaker and child identities merge amid repetition and unrelated school commentary."
+    },
+    {
+      "id": "item-06-2",
+      "prompt": "A librarian found a child's drawing inside a returned book. She kept it behind the desk. The next day, the child came back and",
+      "text": " stood out of the book after the child had been drawn and the book had gone into the wall and the child was still in the book. This book became the very best of the days, and it's a great way to get to the point.\nWhat's new to the DBY library?\nWhat is it that I'm looking for?\nWhat is it that I'm looking for?\nA book that I've found can be useful for other children and teachers. It lets in my books and gives you what I want your children to make to their classroom. It gives them the information they need to make good for their",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Child stands out of the book and remains inside a wall-bound book without establishing a fantasy premise; then web-copy drift."
+    },
+    {
+      "id": "item-07-1",
+      "prompt": "Ravi had two apples in his bag. He gave one to his friend and saved the other for lunch. At lunchtime,",
+      "text": " he was offered a new bag with a long piece of gold and a bottle of wine. He gave a little bit of money to buy the wine and it was sold for a very small price. This was not so much a reward for buying the wine.\nThis is a very interesting time for your kids!\nSatan is a little more interesting. She can do simple things. A simple math lesson to practice math is:\n- Calculate the square root of your equation\n- Calculate the dot in the equation\n- Calculate the distance from the square root to the square root\nPut your",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Gold, wine, Satan and disconnected mathematics replace the apple-sharing event."
+    },
+    {
+      "id": "item-07-2",
+      "prompt": "Ravi had two apples in his bag. He gave one to his friend and saved the other for lunch. At lunchtime,",
+      "text": " he was a little bit worried when he left the bag and he did not see the fruit. After he was told to keep the bag, he went to his home and was told to turn it upside down as he was told to stay away from the fruit. He was told to bring the other fruit back to the house and he kept the fruit away until he stopped it.\nIn time for Christmas, I am told by the family that I am giving the fruits to family because they have many good fruit trees. In a moment, I am very worried about the fruit.\nFollowing the winter, I was told to wait until",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 1,
+      "notes": "Starts with Ravi's bag, then unmotivated fruit instructions and a switch to first-person Christmas commentary."
+    },
+    {
+      "id": "item-08-1",
+      "prompt": "Ravi had two apples in his bag. He gave one to his friend and saved the other for lunch. At lunchtime,",
+      "text": " the other was eaten by others and the other was eaten in the house. The two people would eat the same thing at lunchtime. Afterwards, we had our lunch and dinner and the third was served.\nWe left the house for the evening. Here was another apples:\nIn the morning, on Monday the third apples were eaten in the house. This apple was taken to the house from a nearby house where it was served as a dinner. We left the house before Monday. It was then served when the house was gone.\nLong table with a piece of potato, the apple was used as an",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Repeated other apples and an additional apple break the established two-apple accounting."
+    },
+    {
+      "id": "item-08-2",
+      "prompt": "Ravi had two apples in his bag. He gave one to his friend and saved the other for lunch. At lunchtime,",
+      "text": " the other went to the grocery store and the food was a good treat.\nHe ran a store and had to find a house where he worked, for the next two weeks he saw the fruit and vegetables in the store.\nHe also had a friend from the store who had recently been arrested by authorities. When he got to the store he had to go to the store and have a friend come by to see him in his basement. He had to bring him out to meet friends while he was away.\nTruman and the other employees spent hours as a group making the trip back to the store. After dinner they",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "The other apparently goes shopping; unresolved identities and employees replace the lunch event."
+    },
+    {
+      "id": "item-09-1",
+      "prompt": "The dog waited beside the closed garden gate. Its owner came down the path with the key. When she opened the gate,",
+      "text": " she was immediately sent home. Her eyes seemed to be light and sound. But the door was full. The dog came back to her home, but a dog was on the door. Her eyes appeared to have blurred. Her eyes became blurred. She was nowhere to be seen. He saw that the door was empty. It was empty. She went through the door. The horse went out into the open garden, and the dog came back at the door. No one had done it.\nI was on the door from the window and the dog ate the dog. The cat ate the dog. The dog ate the dog",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Door descriptions and animal identities become contradictory; the dog eats an ambiguously identified dog/cat."
+    },
+    {
+      "id": "item-09-2",
+      "prompt": "The dog waited beside the closed garden gate. Its owner came down the path with the key. When she opened the gate,",
+      "text": " the dog jumped over the top of the curb.\nHer first encounter was with the dogs. The dog ran into a fight, but the owners were in awe. Her dog went on to kill the dog, making them fall down and then jumped over the top of the Curb.\nThe dog jumped over the top of the curb. The owner came down and said he could see it and was able to see it before it fell. That's when she stopped at the gate. The owner said she had seen her dog jumped over the curb.\nHer first encounter with the dogs was",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "A plausible jump gives way to confused dog identities, violence and owner pronoun changes."
+    },
+    {
+      "id": "item-10-1",
+      "prompt": "The dog waited beside the closed garden gate. Its owner came down the path with the key. When she opened the gate,",
+      "text": " the gate was opened to pass over the gate. The dog waited in front of the window, and the door opened. The door opened in front of the gate, and the door closed. The window opened in the left hand corner. The dog waited in front of the door, so the door opened before the door. The door opened in the right hand corner, and the door opened in the left hand. The door opened to pass over the door. The door opened in the left hand corner, and the door opened in the right hand corner.\nThe Dane was seen at the top of the tower, and the dog",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Gate/door locations and actions become unintelligible, with unrelated tower references."
+    },
+    {
+      "id": "item-10-2",
+      "prompt": "The dog waited beside the closed garden gate. Its owner came down the path with the key. When she opened the gate,",
+      "text": " she saw a man and ran out of his hand. He was very upset and told him not to. He kept her in the corner. It was just the dog who was there that took the doorway. He said nothing. He kept the door open up. She stood up and said ‘I’m like ‘what’s this?’ and he said ‘I’m like the dog who is lying in the corner’. He said ‘this is what I do.’ He was the king who said ‘I’e like that.’\nThis week the first animal to be introduced to the United States was the American bison,",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "The owner runs out of his hand; a king and bison replace the original scene."
+    },
+    {
+      "id": "item-11-1",
+      "prompt": "Nora planted a bean in a pot and watered the soil. Several days later, a small green shoot appeared. She moved the pot near the window so that",
+      "text": " the bean was planted. It was believed that the bean was very potted.\nThis plant is known as ‘the ‘hole-bean’’. It is one of the best grown varieties of the genus and cultivars of the genus. It is a very popular growing plant with many growers and cultivars.\nSettlement: If you are planting a crop of a bean, set a container of about 1/9 cup of water overnight. It is easy to plant in the first three weeks. The plant can be quite sprawling in the first weeks.\nTill the ground: When",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Retains planting vocabulary but restarts planting and gives inconsistent bean/container/growth descriptions."
+    },
+    {
+      "id": "item-11-2",
+      "prompt": "Nora planted a bean in a pot and watered the soil. Several days later, a small green shoot appeared. She moved the pot near the window so that",
+      "text": " the bean was ready to harvest. Once the bean was ready, the bean was left on the ground in the garden and the bean was being harvested.\nMontana planted a bean in the garden once in the morning. The bean was harvested when the water was coming in and the bean was growing. The bean was also harvested after one of the bean was grown and the bean was harvested before the bean was harvested.\nMontana and her husband found a way to harvest the bean from the garden after the bean was harvested. They discovered",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Harvest follows the new shoot prematurely; Nora changes identity and harvesting statements loop."
+    },
+    {
+      "id": "item-12-1",
+      "prompt": "Nora planted a bean in a pot and watered the soil. Several days later, a small green shoot appeared. She moved the pot near the window so that",
+      "text": " it had a chance to eat and drink.\nThe pot was very well watered, as it was a dark place to grow. As the morning drew sun the sun rose and made the table. As the sun set, the pot grew. It was warm enough. The pot was light when it was full and its plants were grown.\nThe sun set was very bright and the sun was hot. The first thing to do was to grow the plant in the middle of the day, about ten to twelve hours. The little pot had the sweet smell of carrots.\nShe planted the plant in the centre of the house,",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Pot and plant roles blur; the sun/table/growth sequence is not causally coherent. Anthropomorphism alone is not the failure."
+    },
+    {
+      "id": "item-12-2",
+      "prompt": "Nora planted a bean in a pot and watered the soil. Several days later, a small green shoot appeared. She moved the pot near the window so that",
+      "text": " the pot could be covered on its own.\nThe plant was a little bit different from thatch, but it was not really a tree. They planted the plants on the ground without any of the plants. The plant was very small, and had to be planted around the center of the ground.\nThe little little flowers were also very small, and the plant was small. The little flower was small, and it was not as big.\nAnother little flower was also smaller, which one didn’t know. The light green flowers came out of the top of the pot, and the light green ones came out of the bottom.",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 0,
+      "notes": "Plant and pot descriptions conflict, including plants without plants; does not sustain the light/growth explanation."
+    },
+    {
+      "id": "item-13-1",
+      "prompt": "The bus stopped outside the museum. After the passengers stepped off, the driver checked that everyone was clear of the doors and",
+      "text": " that the bus was not the cause of the sudden death. The park park is located near the parking lot at the museum.\nThe park was the last park in the United States to be closed because of its failure to close after the shutdown. The park was closed for the first time in 2009 after an unusually long shutdown.\nThe park is not home to the park's public spaces and has not been used by the park authorities.\nTemperatures inside the park have been above average in the last five years. The temperature was the worst in the past 10 years since the fires started.\nThe park has been",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "An unexplained death and contradictory park closure commentary replace the bus event."
+    },
+    {
+      "id": "item-13-2",
+      "prompt": "The bus stopped outside the museum. After the passengers stepped off, the driver checked that everyone was clear of the doors and",
+      "text": " the bus stop was empty. It was like driving a car back across the highway. The bus stops and passengers were free to go to the museum and look out for the bus.\nIf you don’t notice, you will often feel the bus stops and passengers are not safe. That’s why we’ve been teaching our students that the bus stops are bad for them. We use them in class. They can get their kids to do some more than just check into the bus once the bus stop has been removed.\nWatch this video to learn more about our school bus stop.",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 1,
+      "notes": "Starts on premise, then shifts into ambiguous claims about feeling/removing bus stops and unrelated classroom promotion."
+    },
+    {
+      "id": "item-14-1",
+      "prompt": "The bus stopped outside the museum. After the passengers stepped off, the driver checked that everyone was clear of the doors and",
+      "text": " that all the passengers were able to drive.\nThe passengers were so upset they couldn’t get to the bus and they went to a restaurant where their parents sat. The bus found a train station where the passengers could board the bus. The driver said, “Well, just because someone has been on the bus they’ve got to get to the bus.”\nThe bus stopped the bus and the driver stopped. The driver stopped and the passenger stopped the bus and took the bus inside. The driver said, “When we go down to the bus to get to the bus I’m sorry, but I have to stop",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Passengers all drive and bus/train identities and locations become confused and repetitive."
+    },
+    {
+      "id": "item-14-2",
+      "prompt": "The bus stopped outside the museum. After the passengers stepped off, the driver checked that everyone was clear of the doors and",
+      "text": " walked into the museum. No one was hurt.\n\"I think it was a terrible time for the museum,\" said Dr. Frank Tapper, director of the museum's laboratory and consultant, who was not involved in the investigation. \"It wouldn't hurt anybody.\"\nDavid Kearns, director of the museum's laboratory, said the museum's laboratory was very quiet.\n\"I think it's very different from other museums because it was quite quiet. One way to get around is to start looking at things in a natural environment,\" he said.\n\"I didn't think it was like looking into",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 1,
+      "notes": "Plausible museum entry gives way to an unexplained investigation and loosely connected quotations; invented fictional names are not themselves factual errors."
+    },
+    {
+      "id": "item-15-1",
+      "prompt": "Eli borrowed a red pencil from Sam to finish a picture. Once the picture was complete, Eli turned to Sam and",
+      "text": " asked him to write the text to match the characters. After he gave the script, they moved the script around to Sam.\nAfter the script had been completed, the writers were able to write a lot about the characters. Sam explained in a few lines that he knew the characters were really different but the idea of the characters was the same and the characters were different. When the script was finished, Sam had a dream come about and the character was born the same day. Before filming started, the writers had the idea of creating a scenario that was as different as the characters were from the other characters.\nThe writers wanted to make Sam",
+      "relevance": 1,
+      "entity_consistency": 1,
+      "causal_factual_consistency": 1,
+      "notes": "Retains Sam but drifts from picture completion into repetitive, ambiguous scriptwriting and filming commentary."
+    },
+    {
+      "id": "item-15-2",
+      "prompt": "Eli borrowed a red pencil from Sam to finish a picture. Once the picture was complete, Eli turned to Sam and",
+      "text": " asked him to tell her if he needed to leave the picture. There was only one thing left to go: the camera and the picture.\n“Son, the camera is there to see, not just about the picture.”\nLuke said, “This is the first time I got a movie.”\n“I’m really excited about it,” she said. “It’s all about being there and not being there.”\n“Well, I do,” she said. “It’s the first time I got to sit down and enjoy the pictures, and then I realized that I’m watching the video",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Unresolved him/her and new character identities replace the pencil event; picture and camera roles blur."
+    },
+    {
+      "id": "item-16-1",
+      "prompt": "Eli borrowed a red pencil from Sam to finish a picture. Once the picture was complete, Eli turned to Sam and",
+      "text": " set off to the house (where he was to be reunited with Sam).\nMirror: The kid in a box is missing a moment or two at a time. Eli may be the one who was left behind, or the person who could not have been there.\nLaw: The kid on the street, who was in the house, is missing a moment or two at a time. The kid on the street, who was in the house, is missing. Sam tells her to take care of her (and not die) away from her husband.\nNumber: In a box, the kid on a",
+      "relevance": 0,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Repeated reunions and new family/box identities break the established Eli/Sam scene."
+    },
+    {
+      "id": "item-16-2",
+      "prompt": "Eli borrowed a red pencil from Sam to finish a picture. Once the picture was complete, Eli turned to Sam and",
+      "text": " showed him the picture. However, Sam and Sam did not get much of the credit they were given.\nParkinson also felt strongly that the game had become too difficult for them to watch. The game was not yet over, so they were forced to play for a few minutes. But Sam and Sam continued on. They found that Sam had already gotten a credit for the game. Sam and Sam took a break from school, but Sam did not learn to play for the first time if he did not get the credit. The other student, Jesse, wanted to get playing for the game. The player who was allowed the",
+      "relevance": 1,
+      "entity_consistency": 0,
+      "causal_factual_consistency": 0,
+      "notes": "Plausible picture display is followed by duplicated Sam identity and unrelated game/video credits."
+    },
+    {
+      "id": "item-17-1",
+      "prompt": "A metal spoon left in a bowl of hot soup becomes warm. Heat moves from the hot soup into the spoon because",
+      "text": " it is heat-sensitive. With some help, the baked soup can be ground up or ground down, and then slaughtered with hot water.\nSterilization is one method of heating food, including baking.\nSterilization is a process of breaking the food into smaller pieces and then being removed from the food. Once the food is removed, it can be mixed in the baking bowl, and then boiled and boiled again.\nTo cook, you can have a small or large bowl with a baking bowl or bowl. A small bowl is a good choice, and can",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Heat vocabulary drifts into incoherent food processing and sterilization claims, without conduction explanation."
+    },
+    {
+      "id": "item-17-2",
+      "prompt": "A metal spoon left in a bowl of hot soup becomes warm. Heat moves from the hot soup into the spoon because",
+      "text": " the heat causes the water to move around.\nIf the heat cools you can see the warm spoon. Heat is a strong force, and if you look at the spoon, the heat will increase the temperature, until all the spoon is warm enough to cool.\nIf hot soup is too hot, the spoon will cool. If so, the heat will warm.\nYou will have a cold soup that is hot like a spoon. But when hot soup is heated, the heat will start to heat.\nFullness: A cold soup that is hot will become hot. The",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Heat transfer is confused with force and contradictory hot/cold spoon outcomes."
+    },
+    {
+      "id": "item-18-1",
+      "prompt": "A metal spoon left in a bowl of hot soup becomes warm. Heat moves from the hot soup into the spoon because",
+      "text": " it’s heated by pressing the hot soup and the hot spoon.\nCut the spoon from a thin piece of the paste and turn the spoon (toaster) in the direction you want to. Turn the spoon through the air and turn the spoon into the hot soup.\nSet the spoon up and turn the spoon into the hot soup. Turn the spoon up and turn the spoon into the hot soup then rotate the spoon in order to make sure that the spoon is running.\nIn the event of an earthquake, the spoon will",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Disconnected soup pressing, spoon cutting, toaster actions and earthquake replace heat transfer."
+    },
+    {
+      "id": "item-18-2",
+      "prompt": "A metal spoon left in a bowl of hot soup becomes warm. Heat moves from the hot soup into the spoon because",
+      "text": " the heat is too hot enough for the spoon to cool.\n- A hot salted cheese is added to the sauce and put into the baking powder.\n- Spoon-sweetened sauces are added to the sauce.\n- Sweetened sauces come in a variety of sizes and shapes.\n- A small bowl of sauce is added to the sauce and it will be cool enough for the sauce to cool down.\n- Sweetened sauces are added to the sauce for a variety of reasons.\n- A smooth sauce is added to the sauce and the",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Contradictory spoon cooling claim followed by repetitive sauce/baking advice."
+    },
+    {
+      "id": "item-19-1",
+      "prompt": "A puddle on the pavement becomes smaller during a warm, dry afternoon. Some of the liquid water",
+      "text": " is pumped into a drying bowl into the puddle which is covered with a warm washcloth. When the water reaches the puddle, it is cooled until it is fully submerged.\nWhen the temperature drops to a level of 50 degrees, the water is left for 20 minutes for a few minutes. It is then placed in a large vat to increase its visibility. This is called a \"hole\" - a small puddle in a liquid water container, or water bottle.\nWhen a bath is made, it can be used. The water is then pumped through a filter",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Pumping, washing and submerging replace evaporation; temperature and timing instructions are incoherent."
+    },
+    {
+      "id": "item-19-2",
+      "prompt": "A puddle on the pavement becomes smaller during a warm, dry afternoon. Some of the liquid water",
+      "text": " is used on the roofs or pavement.\n- To build your roof and floor\n- For a long time, you were going to work with a few puddles, but that time came later.\n- Now your roof will be covered with a layer of lime. Then, as you’re going to work with your roof, you don’t need to shred your roof over a layer of lime.\n- A piece of wood called a ladder will be placed around the pavement. This is part of the roof. The base of that roof will be covered with a layer of l",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Roof and ladder instructions do not explain the puddle and become confused."
+    },
+    {
+      "id": "item-20-1",
+      "prompt": "A puddle on the pavement becomes smaller during a warm, dry afternoon. Some of the liquid water",
+      "text": " passes down the pavement to the ground, and it is transported by the wind downstream.\nThe pavement is a little wetter than the wetter, and generally freezes in winter. The water level is usually slightly higher in the first year after the pavement is dry.\nGrowing Conditions in the Pool\nThe pavement is a very difficult pothole or a pothole, and it requires a lot of time to dry, in order to dry out. It begins at about 6-10 a.m. on the third day, and then drops to about 1-1",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Groundwater/wind descriptions and arbitrary water-level timing replace a coherent evaporation explanation."
+    },
+    {
+      "id": "item-20-2",
+      "prompt": "A puddle on the pavement becomes smaller during a warm, dry afternoon. Some of the liquid water",
+      "text": " escapes the puddle.\nThe puddling is usually done by a pokewore or a waterfall. The water in the puddle can be used to drive the water out of the pond. The water in the waterfall absorbs this water and so the water can be used to drive the water through the pond.\nThe puddle is a waterfall. The water comes in from the bottom and enters the puddle.\nThe puddle becomes smaller. The water in the pond becomes more dense and thin. The water in the pond becomes more dense. The water in the pond is",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Initial escaping water is followed by conflation of puddle and waterfall and contradictory density descriptions."
+    },
+    {
+      "id": "item-21-1",
+      "prompt": "The Moon does not make its own visible light like the Sun does. We can see the Moon at night because",
+      "text": " it is very bright and so far away from us.\nIt appears to be a little twisted, and it seems to be the same way. There are three distinct phases of the Moon. In the northern lunar sky, all four phases are visible. In the southern lunar sky, it is known as the \"traditional\" phase. In the northern part of the sky, the moon is the brightest and the brightest. In the southern part of the sky, it is known as the \"lunar\" phase. The moon is so bright it has no bright light, and it is also slightly dimmer",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Conflicting phase counts and invented north/south phase categories fail the reflected-light explanation."
+    },
+    {
+      "id": "item-21-2",
+      "prompt": "The Moon does not make its own visible light like the Sun does. We can see the Moon at night because",
+      "text": " it is at the centre of the light so you can see it by the sky. We can see that if you look at the Moon, the light in the sky will be visible for as long as it does to us. If you go to the Moon, you will see the Moon's light but it would not be visible.\nSo when the Moon is fuller than the Moon, we see it. It is at this time that the Moon is so much more active than the Moon, but we see that it is actually more active. We can see that some of these things are more active than others.\nIf you are interested",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Visibility and brightness comparisons are contradictory and do not explain reflected sunlight."
+    },
+    {
+      "id": "item-22-1",
+      "prompt": "The Moon does not make its own visible light like the Sun does. We can see the Moon at night because",
+      "text": " the moon is not the shadow of the sun.\nAs the Moon moves around the sun we can see the Moon’s shadow. At night the Moon’s shadow is visible along with the sun as well. The Moon’s shadow is not visible anywhere else because the moon is not seen from the sun. The moon’s shadow is visible along with the sun and the moon’s shadow.\nMoon’s shadow is not visible to the naked eye, but it does produce different things in different directions. Each moon has an eye on the moon. But the Moon’s shadow is not visible to the naked eye,",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Confuses shadow and illumination, then claims each moon has an eye without a coherent physical explanation."
+    },
+    {
+      "id": "item-22-2",
+      "prompt": "The Moon does not make its own visible light like the Sun does. We can see the Moon at night because",
+      "text": " the Earth is not too blue or blue.\nThe Earth is not too dark. The surface is dark. The Earth is not too blue. That does not make the Moon look more like the Moon or the Moon, nor does it look like a certain day. But the Moon is not like the Moon or the Moon.\nSo, the Moon is not too blue. The Moon is not too blue.",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Repetitive contradictory blue/not-blue descriptions replace the light explanation."
+    },
+    {
+      "id": "item-23-1",
+      "prompt": "A plant kept in a dark cupboard for many days usually grows poorly. Green plants need light to",
+      "text": " grow and produce. They do best in clay soils, in a very fine sandy soil, such as a sandy, sandy soil. They should also be kept in a very dry, dry place and have good drainage. Most people will have a plant that has a good drainage system. You can often find this plant in a home garden, as it is in the yard. It needs well-drained, well-drained soil.\nMary's Noun is the same word that means “mom,” and both have the same root system. Molly was born in 1867, and was raised in the East",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "A plausible growth clause gives way to conflicting soil advice and unrelated name/date material."
+    },
+    {
+      "id": "item-23-2",
+      "prompt": "A plant kept in a dark cupboard for many days usually grows poorly. Green plants need light to",
+      "text": " grow and need light.\nBoost your plants’ growth as they age. You can keep the plant in a dark cupboard for about two weeks and then transplant it into a well-captured greenery. The cool temperatures will give the plant a light, but it will also keep them cool.\nThe plants will begin to grow in the morning when they are about two weeks old.\nYou can use this plant to keep your plants upright. You can then grow your plants in the morning. You can also use it as a fertilizer, use it for growing your crops, or use it as a plant growth material",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Darkness and cooler temperature are presented as providing light; plant/fertilizer roles are confused."
+    },
+    {
+      "id": "item-24-1",
+      "prompt": "A plant kept in a dark cupboard for many days usually grows poorly. Green plants need light to",
+      "text": " grow well and can be affected by any environmental conditions. It is recommended to avoid sunburn if the plant is having any problems.\nHypoclyrmal plants are those which have a long life cycle and should be kept moist.\nHypoclyrmal plants produce a lot of pollination in the winter.\nHypoclyrmal plants are also known as ‘little plants’. They are plants that have a green color and are not hardy enough to grow well in.\nThe leaves are typically black, the flesh is brown or reddish and the roots are brown. The",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Initial growth clause is followed by unsupported taxonomy and incoherent seasonal leaf descriptions."
+    },
+    {
+      "id": "item-24-2",
+      "prompt": "A plant kept in a dark cupboard for many days usually grows poorly. Green plants need light to",
+      "text": " help the plant grow and have to be watered. If you don't want to take advantage of the sun, use the sun's way or keep on the bus.\nIf you are outside, try to keep the ground moist. Don't use too much sun for long periods of time. If you don't have adequate sun, try to keep a sunny spot on your property. You can also use shingles or pads if you need to leave the ground, but do not attempt to use them.\nThere are several other ways to deal with indoor insects, including watering, mowing, and shading. You",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Initial light/growth wording drifts to buses, shingles, pads and mowing without causal continuity."
+    },
+    {
+      "id": "item-25-1",
+      "prompt": "Before cutting a piece of paper with scissors, place it on a clear surface and keep your fingers away from",
+      "text": " the paper as it will become stuck.\nHow to Cut a Beak in a Beak\nTo cut a bee’s head, use the knife to create a shape on the paper surface.\nHow to Cut a Beak in a Beak\nOnce you have cut a bee’s head, you can cut a bee’s head in a similar manner to a bee’s head.\nYou can use a knife to cut through a bee’s head in the same way you can cut a bee’s head.\nTo cut a bee’s head with a knife, use the knife to",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Fingers are kept away from paper rather than the cutting hazard; bee/beak material replaces scissors safety."
+    },
+    {
+      "id": "item-25-2",
+      "prompt": "Before cutting a piece of paper with scissors, place it on a clear surface and keep your fingers away from",
+      "text": " the paper.\nIf you can, they will have to do much more research. You can even try and make the paper more durable, and try to make it more durable.\nHow to Cut Cotton\nWhen looking through the scissors, you will find that the scissors that are used to cut the cotton are called the cotton. However, if you are loving cotton, there is a risk that you might be losing your cotton. These will likely give you a better idea of the size and shape of your cotton.\nThese scissors are called the cotton scissors. Their shape,",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Paper/durability commentary turns into scissors-as-cotton claims; no coherent safety explanation."
+    },
+    {
+      "id": "item-26-1",
+      "prompt": "Before cutting a piece of paper with scissors, place it on a clear surface and keep your fingers away from",
+      "text": " the scissors. Cut out the scissors so that they can get through. Then place the scissors in a box in the kitchen area and hold the scissors all the way up to the scissors. If you want to know how you can cut away the scissors, start with your scissors.\nStep 3: Cutting the scissors\nOnce you have the scissors, cut them down. They should come from the same color as the scissors. Start cutting a small piece of paper up a lot. You will need to take a closer look at the sciss",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Initially keeps fingers away from scissors, then repeatedly instructs cutting the scissors themselves."
+    },
+    {
+      "id": "item-26-2",
+      "prompt": "Before cutting a piece of paper with scissors, place it on a clear surface and keep your fingers away from",
+      "text": " the brush.\n- The scissors should be placed in a clean place.\nWhen cutting a piece of paper with scissors, cut one piece on the same surface and keep it away from the brush until it is soft.\nCutting a Scissor\n- A scissor might not be as effective as a scissor.\n- A scissor should be used where it is not very effective.\n- A scissor should be applied just around the middle of the scissor, as the scissor looks right.\n- A scissor should be applied about 10-",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Brush and scissorless-cutting descriptions replace the blade hazard and give incoherent instructions."
+    },
+    {
+      "id": "item-27-1",
+      "prompt": "To find a book on a library shelf, first check its label in the catalogue. Then look for the matching section and",
+      "text": " the name of the book. This will explain the basic information in the book to the librarian. The word \"buffer\" is the name of the book, and the names of the book is given out.\nOnce you see the word \"buffer\" in the catalogue in the catalogue, you can find the author's name. Here is an example of a typewriter that can be used with this book.\nThe book on the library shelf (note) is the book on the library shelf (note) and the title on the catalogue. The book on the library shelf is",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 1,
+      "notes": "Some catalogue vocabulary is relevant, but an unexplained buffer title, typewriter aside and repetition make the guidance unclear."
+    },
+    {
+      "id": "item-27-2",
+      "prompt": "To find a book on a library shelf, first check its label in the catalogue. Then look for the matching section and",
+      "text": " then check all the pages from the collection folder.\nOnce you have all the books in it and the books have been checked out, you will be able to buy the books themselves.\nInstagram (http://www.publiclibrary.org)\nThis is a great online book that you can find online. Check all the pages from the collection folder and then choose one from the library folder to find the books.\nCameras (http://www.publiclibrary.org)\nThis is an easy online book that you can find online from the library folder. Check out the collection",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Folders, buying borrowed books and unrelated social/camera link material do not form usable shelf-finding guidance."
+    },
+    {
+      "id": "item-28-1",
+      "prompt": "To find a book on a library shelf, first check its label in the catalogue. Then look for the matching section and",
+      "text": " the label in the book section of the book.\nIf you don't know what kind of books you'll find in your library, there are just many books and websites that you can search for. For example, if you find a book on your own by searching in the catalogue, click on the link under \"My Book List\" and then choose the book you want to find.\nSearching for a book on your own\nIf you find a book on your own or find a book on your own, your librarian might find a book on your own or find a book on your own. A book on your own",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 1,
+      "notes": "Contains a plausible catalogue search, then drifts to online interface assumptions and degenerates into find-on-your-own repetition."
+    },
+    {
+      "id": "item-28-2",
+      "prompt": "To find a book on a library shelf, first check its label in the catalogue. Then look for the matching section and",
+      "text": " examine what books are in class, and then look for other books and books.\nThis course will be a test-taking activity as students go. The exams will be reviewed in a separate exam, and will be presented to a class.\nWhat is this course?\nThis course is a great exercise to teach students a lot about the book and the book. It will be taught in a general course and will be used as a tool to help students learn to read. The material contains books, some of which exist for reading books, and that include reading through books and taking notes.\nThis course is a great way for",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 1,
+      "notes": "Moves from shelf-finding into repetitive course/exam promotion; no complete useful continuation of the requested procedure."
+    },
+    {
+      "id": "item-29-1",
+      "prompt": "If a glass of water spills on a wooden table, use a clean cloth to absorb the water. Drying the surface promptly helps",
+      "text": " to keep the water clean.\nWhen we first have the water poured onto the table, and we want to get it to the water table. It will take a long time to take the water, but a few times before we are able to get it to the table, we need to start using water.\nIf you have a hard water bowl, you can have a water bowl made from the water poured in, and you can use a pipe to make a hole on the table. This is called a hole hole.\nWhen the water is mixed with the table, it flows through a hole in the pipe and makes a",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Drying is said to clean the water, followed by confused drilling instructions rather than preventing wood damage."
+    },
+    {
+      "id": "item-29-2",
+      "prompt": "If a glass of water spills on a wooden table, use a clean cloth to absorb the water. Drying the surface promptly helps",
+      "text": " to prevent overheating. It also does not prevent water from going into the room from any longer use.\nSniffers and bruises can be hard to spot when you are on a water source. If your smouldering skin is not properly cleaned, you may be getting into trouble.\nSniffers and bruises can happen from a variety of different sources. If a person has been on a water source, your doctor will check its effectiveness. If a person is not able to remove the blister, he or she may need to remove it completely. If a person is experiencing more than one",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Drying is said to prevent overheating, then the passage drifts to medical/blister material."
+    },
+    {
+      "id": "item-30-1",
+      "prompt": "If a glass of water spills on a wooden table, use a clean cloth to absorb the water. Drying the surface promptly helps",
+      "text": " keep the water from drying out.\n- Water the table to dry the glass to avoid drying out the glass, since it should retain moisture after the glass is dry.\n- Never use the water in a dish that is too dry or dry.\nSlipped glasses also help to retain water better when they are dry.\nWhen to use a dry glass\nWhen should you use a dry glass?\nIt’s important to use a dry glass with a moist solvent at least twice a day. The water in a dry glass is typically in the form of a water, so the solvent can quickly break",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Drying is said to prevent water drying out; later glass/solvent advice contradicts the premise."
+    },
+    {
+      "id": "item-30-2",
+      "prompt": "If a glass of water spills on a wooden table, use a clean cloth to absorb the water. Drying the surface promptly helps",
+      "text": " prevent water from escaping (therefore, the heat from the hot air is still coming out).\nThis water can be used for drinking. When you heat a glass of water, the water should be cool enough to drain the glass. This can bring the surface to the surface, reducing the risk of causing the glass to sink.\nIf you use a glass of water, use a clean cloth to avoid water from escaping (but not the water) through the glass. If the glass was too hot, use a warm glass of water.\nThere are two main types of glass that you should use.\nCombined",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Heat retention and confused glass/drain instructions replace the reason to dry the wooden table."
+    },
+    {
+      "id": "item-31-1",
+      "prompt": "To compare which of two cups holds more water, fill the first cup and carefully pour its water into the second. If water overflows from the second cup,",
+      "text": " the water rises to a certain degree. Pour the water into the second cup and add the water in to the next cup. If the water overflows from the third cup, the water begins to fall in the same manner. Pour the water into the second cup and add the water from the first cup to the next cup.\nYou can use the equation, F = P=N\nwhere P=N is the water's volume.",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Extra cups and rising water are not tracked coherently; an unsupported equation replaces volume comparison."
+    },
+    {
+      "id": "item-31-2",
+      "prompt": "To compare which of two cups holds more water, fill the first cup and carefully pour its water into the second. If water overflows from the second cup,",
+      "text": " the water should be in the second cup.\nA good water can be mixed with the water to create a water table.\nThe water table should be level and smooth.\nParaffins will also give the water a neutral, neutral, and neutral tone.\nThe water table should then be ready to be used for the process.\nTesting & Preparation\nYour test results can be compared and verified by your doctor. To test the results, it is necessary to use the following test methods:\n- The water table should be checked by an electrolytes test.\n- The water table should be",
+      "relevance": 0,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Paraffin and medical electrolyte testing replace the cup-capacity comparison."
+    },
+    {
+      "id": "item-32-1",
+      "prompt": "To compare which of two cups holds more water, fill the first cup and carefully pour its water into the second. If water overflows from the second cup,",
+      "text": " it is best to have them fill the cup with water and then pour it into the next cup.\nPlace a piece of cloth under the cup, with a small piece of cloth in the top.\nCut the cloth onto the top and turn it inwards. As you put the cloth on top of the cloth, put the cloth over the cloth and let it dry. You can also use paper to make a piece of cloth.\nCut the cloth to the same surface; in the same way, then make sure you are not rushing. Now you have the same amount of water in the same way. If",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Additional cups, cloth and cutting actions fail to preserve a meaningful capacity comparison."
+    },
+    {
+      "id": "item-32-2",
+      "prompt": "To compare which of two cups holds more water, fill the first cup and carefully pour its water into the second. If water overflows from the second cup,",
+      "text": " it may be that the original cups are not waterproof. If water overflow does occur, it may be that the water inside the cup might not hold water.\n1. Do not let water overflow on the cup, as the water that is not overflowing will carry the water overflow.\n2. Do not let water overflow on the cup, as if it is not wet enough.\n3. Do not let water overflow on the cup or cups.\n4. Do not let water overflow on the cup or cups.\n5. Do not let water overflow on a",
+      "relevance": 1,
+      "entity_consistency": null,
+      "causal_factual_consistency": 0,
+      "notes": "Overflow is incorrectly treated as evidence of not being waterproof, followed by contradictory overflow instructions."
+    }
+  ],
+  "reviewed_at_utc": "2026-10-01T02:05:30.674432+00:00",
+  "reviewer": "OpenAI Codex; project-author assessment, not independent human validation",
+  "blinding": "All 64 complete anonymous outputs read and ratings saved before opening model mapping. Numerical results were already known; review was blind to passage-to-model identity only.",
+  "source_blind_review_sha256": "612664f5dfcc36f112c7630f74f726896c24c56ee8ed2028dfd2187735e590c7",
+  "assessment_scope": "Entire generated continuation, up to 128 new tokens; a good opening clause is insufficient. Truncation at the token budget alone is not scored as a failure.",
+  "fully_coherent_rule": "Every applicable dimension equals 2; causal/factual dimension equals 2 is also reported separately to preserve the frozen gate interpretation."
+}

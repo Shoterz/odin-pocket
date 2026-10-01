@@ -1,0 +1,22 @@
+{
+  "label": "evaluate-candidate",
+  "command": [
+    "/home/ylz/Desktop/odin_llm/project/.venv/bin/python",
+    "-m",
+    "odin.beta_eval",
+    "--checkpoint",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/runs/beta-refinement/candidate/submission.pt",
+    "--data",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/data/controlled/common",
+    "--prompts",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/experiments/beta-prompts.json",
+    "--device",
+    "cuda",
+    "--output",
+    "/home/ylz/Desktop/odin_llm/newnew/experiments/refinement/results/beta-refinement/candidate.json"
+  ],
+  "started_at": "2026-09-30T18:40:11.742911+00:00",
+  "completed": true,
+  "returncode": 0,
+  "elapsed_seconds": 60.22383270179853
+}

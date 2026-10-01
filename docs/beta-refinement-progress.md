@@ -14,6 +14,10 @@ The single candidate changes AdamW beta2 from 0.95 to 0.999. It retains the 49,2
 
 ## Execution and follow-up
 
+**Completed and reviewed October 1, approximately 10:10 Singapore.** Training finished around 02:39 and automatic development evaluation around 02:41. The candidate consumed exactly 1,000,013,824 tokens in 9,042.69 seconds. All three held-out domain perplexities improved by 5.7–6.7%, but raw ARC improved by just one answer out of 570. The numeric gate passed; the full continuation review found zero fully coherent passages out of 32 for each model, so the quality gate failed. The conditional continuation will not start and the public checkpoint is unchanged. See the [completed assessment](beta-refinement-review.md), [saved decision](../results/beta-refinement/review-decision.json) and [checkpoint verification](../results/beta-refinement/review-checkpoint-verification.json). The frozen plan and original machine-generated numerical comparison remain unchanged.
+
+The remaining text records launch history and recovery commands, not a request to restart the completed run.
+
 The initial detached shell launch (PID 313580) exited before creating a candidate directory or consuming training work. A transient user service, `odin-beta2-20261001.service`, was then started to survive terminal cleanup. It adds a five-hour whole-job limit. Actual training started at 00:08:13 Singapore on October 1, supervised by PID 318315 with training child PID 318483. At 00:11:31 Singapore, the first checkpoint was loaded and verified: 1,000 steps / 16,384,000 tokens, beta2 .999 in recipe and Adam state, correct source-token sum, 49,295,872 parameters and CUDA provenance. Recorded training time was 156.9 seconds with 6.41GiB peak allocated memory. Early loss is not a capability-improvement claim. Estimated training completion is around 02:45–03:10 Singapore, followed by development evaluation; the four-hour hard timeout remains in force.
 
 Live state is [status.json](../results/beta-refinement/status.json). Training metrics will be under `runs/beta-refinement/candidate/metrics.jsonl`; the supervisor log is `results/beta-refinement/runner.log`.

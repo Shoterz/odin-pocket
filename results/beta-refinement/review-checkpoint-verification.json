@@ -1,0 +1,35 @@
+{
+  "verified_at_utc": "2026-10-01T02:06:59.724480+00:00",
+  "source_and_plan_hashes_match_frozen_lock": true,
+  "models": {
+    "control": {
+      "checkpoint_sha256": "9fc57cb057ed5781bc9c147b84b1ee3b52bfc4d7db1da85560ce15518ebae0ab",
+      "trained_tokens": 1000013824,
+      "charged_tokens": 1000013824,
+      "parameters": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 599670272,
+        "wiki.bin": 400343552
+      },
+      "training_seconds": 9115.516120384913,
+      "summary_sha256": "819c9282f5504508f075c611e4ddff7a3a4006e1e88a9cfbd5398afef3774c93",
+      "report_sha256": "59aef71914c76d4a249e9eb22fad79a892b3368d01fff53bec991d1ea2910963"
+    },
+    "candidate": {
+      "checkpoint_sha256": "0556115d94003592d9cfdeb9dd8ffc4674c4c299eddc4db4c724cfc788f70adb",
+      "trained_tokens": 1000013824,
+      "charged_tokens": 1000013824,
+      "parameters": 49295872,
+      "source_tokens": {
+        "fineweb.bin": 599670272,
+        "wiki.bin": 400343552
+      },
+      "training_seconds": 9042.6872812449,
+      "summary_sha256": "3db7ce0de51ade7e35c798c811f685dbae76d353a989f60b783dfd4902137811",
+      "report_sha256": "d12e73ac596dee8f733a931b4bc3ceb44fe53358e99ef30b624585df618b7934"
+    }
+  },
+  "candidate_verification_training_tokens": 1572864,
+  "candidate_plus_verification_tokens": 1001586688,
+  "earlier_cpu_checkpoint_inspection": "Completed successfully in this review session: checkpoint/model identities, candidate latest/export equality, Adam beta2, training/data identities and recomputed numeric comparison. This artifact additionally rechecks hashes, summaries and charged ledgers."
+}
