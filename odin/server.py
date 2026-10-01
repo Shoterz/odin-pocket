@@ -1,4 +1,4 @@
-"""Loopback workbench. No external inference or prompt transmission."""
+"""Loopback inference workbench with optional access through a public tunnel."""
 import argparse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
@@ -113,7 +113,22 @@ class Workbench:
         return {'training':metrics,'reports':reports,'checkpoint_sha256':self.checkpoint_hash,'benchmark_note':'Only reports matching the loaded checkpoint appear here.'}
 
 
-def make_server(app,host='127.0.0.1',port=8766):
+def make_server(app,host='127.0.0.1',port=8766,public_origin=None):
+    public_host=None
+    if public_origin is not None:
+        try:
+            parsed=urlsplit(public_origin)
+            valid=(parsed.scheme=='https' and parsed.hostname and not parsed.username
+                   and not parsed.password and not parsed.path and not parsed.query
+                   and not parsed.fragment and not any(c.isspace() for c in public_origin)
+                   and '*' not in public_origin and parsed.port!=0
+                   and public_origin==f'https://{parsed.netloc}')
+        except ValueError:
+            valid=False
+        if not valid:
+            raise ValueError('public_origin must be an exact HTTPS origin, e.g. https://odinpocket.stocksuite.app')
+        public_host=parsed.netloc
+
     class Handler(BaseHTTPRequestHandler):
         def setup(self):
             super().setup()
@@ -131,11 +146,15 @@ def make_server(app,host='127.0.0.1',port=8766):
         def allowed(self):
             host_header=self.headers.get('Host','')
             allowed={f'127.0.0.1:{self.server.server_address[1]}',f'localhost:{self.server.server_address[1]}'}
+            origins={f'http://{h}' for h in allowed}
+            if public_host:
+                allowed.add(public_host)
+                origins.add(public_origin)
             if host_header not in allowed:
-                self.send(403,{'error':'Use this workbench through its localhost address'})
+                self.send(403,{'error':'Use this workbench through a configured address'})
                 return False
             origin=self.headers.get('Origin')
-            if origin and origin not in {f'http://{h}' for h in allowed}:
+            if origin and origin not in origins:
                 self.send(403,{'error':'Cross-origin requests are disabled'})
                 return False
             return True
@@ -144,7 +163,7 @@ def make_server(app,host='127.0.0.1',port=8766):
                 return
             path=urlsplit(self.path).path
             if path=='/api/status':
-                return self.send(200,app.status())
+                return self.send(200,{**app.status(),'hosted':bool(public_host),'reload_allowed':not bool(public_host)})
             if path=='/api/evidence':
                 return self.send(200,app.results())
             static={'/':('index.html','text/html; charset=utf-8'),'/app.js':('app.js','text/javascript; charset=utf-8'),'/style.css':('style.css','text/css; charset=utf-8')}
@@ -155,6 +174,8 @@ def make_server(app,host='127.0.0.1',port=8766):
         def do_POST(self):
             if not self.allowed():
                 return
+            if public_host and urlsplit(self.path).path=='/api/reload':
+                return self.send(403,{'error':'Checkpoint reload is disabled for the hosted demo'})
             try:
                 length=int(self.headers.get('Content-Length','0'))
                 if not 0<length<=65536:
@@ -173,7 +194,7 @@ def make_server(app,host='127.0.0.1',port=8766):
             except Exception:
                 import traceback
                 traceback.print_exc()
-                self.send(500,{'error':'Local inference failed. See the server log for details.'})
+                self.send(500,{'error':'Inference failed. See the server log for details.'})
         def log_message(self,format,*args):
             # Do not put user passages in logs.
             pass
@@ -186,9 +207,10 @@ if __name__=='__main__':
     p.add_argument('--evidence',default='submission/evidence' if (ROOT/'submission/evidence/training-metrics.jsonl').exists() else 'runs/pocket')
     p.add_argument('--device',choices=['cpu','cuda'],default='cpu')
     p.add_argument('--port',type=int,default=8766)
+    p.add_argument('--public-origin',help='Allow this exact HTTPS origin through a tunnel; disables checkpoint reload')
     args=p.parse_args()
     torch.set_num_threads(4)
     app=Workbench(args.checkpoint,args.evidence,args.device)
-    server=make_server(app,port=args.port)
+    server=make_server(app,port=args.port,public_origin=args.public_origin)
     print(f'ODIN Pocket: http://127.0.0.1:{args.port}',flush=True)
     server.serve_forever()

@@ -33,7 +33,7 @@ The three views let you:
 - **Compare endings:** rank possible continuations by average token log likelihood. This is a language preference, not a fact check or calibrated confidence.
 - **Model evidence:** inspect the exact loaded checkpoint, recorded training loss, parameter count and matching benchmark reports. Unmeasured results stay unmeasured.
 
-The model is a base next-token predictor, not an instruction-tuned chatbot. It can repeat text or generate incorrect facts. Input text remains local. The server binds to loopback and is intended for a single local user.
+The model is a base next-token predictor, not an instruction-tuned chatbot. It can repeat text or generate incorrect facts. By default, input text remains local and the server accepts only localhost requests. For a public demo through Cloudflare Tunnel, see [hosting instructions](docs/hosting.md).
 
 ![ODIN Pocket workbench](submission/screenshots/01-workbench.png)
 
@@ -47,7 +47,7 @@ SHA-256: `4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e`.
 
 ## Architecture
 
-12 decoder blocks; width 512; 8 attention heads; rotary positions; RMS normalization; SwiGLU intermediate width 1536; context 512; byte-level BPE vocabulary 16,384. Input embedding and output weights are tied and counted once. No pretrained embeddings, checkpoint initialization, teacher outputs or hosted inference are used.
+12 decoder blocks; width 512; 8 attention heads; rotary positions; RMS normalization; SwiGLU intermediate width 1536; context 512; byte-level BPE vocabulary 16,384. Input embedding and output weights are tied and counted once. No pretrained embeddings, checkpoint initialization, teacher outputs or third-party inference APIs are used.
 
 ```bash
 .venv/bin/python -c 'from odin.model import LanguageModel, ModelConfig; print(LanguageModel(ModelConfig()).parameter_count)'
