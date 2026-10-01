@@ -27,13 +27,17 @@ Training runs on one NVIDIA RTX 4070 with 12 GB VRAM. Checkpoints preserve optim
 | PIQA | 57.94% | 56.96% | 1,838 |
 | WinoGrande | 50.04% | — | 1,267 |
 
-WikiText-103 raw test: **19.463 token perplexity**, 39.107 word perplexity, 0.9908 bits/byte over all 297,911 targets. The protocol and complete text identity are in [the full report](../results/official.json).
+WikiText-103 raw test: **19.463 token perplexity**, 39.107 word perplexity, 0.9908 bits/byte over all 297,911 targets. The protocol and complete text identity are in [the full report](https://github.com/Shoterz/odin-pocket/blob/main/results/official.json).
 
-The model processed 983,040,000 tokens in 3.923 hours on one RTX 4070. Approximate training compute: 2.908e+17 FLOPs. On a 13th Gen Intel(R) Core(TM) i5-13400F with four CPU threads, paired generation measured **90.4 tokens/s** with KV caching versus **30.1** without it (3.01×). All 12 paired outputs were identical. This is one host and a six-prompt workload, not a universal speed guarantee. [Raw conditions and outputs](../results/efficiency.json).
+The model processed 983,040,000 tokens in 3.923 hours on one RTX 4070. Approximate training compute: 2.908e+17 FLOPs. On a 13th Gen Intel(R) Core(TM) i5-13400F with four CPU threads, paired generation measured **90.4 tokens/s** with KV caching versus **30.1** without it (3.01×). All 12 paired outputs were identical. This is one host and a six-prompt workload, not a universal speed guarantee. [Raw conditions and outputs](https://github.com/Shoterz/odin-pocket/blob/main/results/efficiency.json).
 
-These are baseline results, not evidence of state-of-the-art performance or a guaranteed win. WinoGrande is approximately chance. Frozen qualitative examples scored 3/6 comparisons and show repetition and false factual claims; inspect [all final outputs](../results/product.json). The model is suitable for studying local language modeling, not factual advice.
+These are baseline results, not evidence of state-of-the-art performance or a guaranteed win. WinoGrande is approximately chance. Frozen qualitative examples scored 3/6 comparisons and show repetition and false factual claims; inspect [all final outputs](https://github.com/Shoterz/odin-pocket/blob/main/results/product.json). The model is suitable for studying local language modeling, not factual advice.
 
 ## What we learned
+
+We also tested expanded data, public story mixtures, warmup and optimizer settings. The final matched beta2 experiment lowered held-out perplexity by roughly 6% but improved ARC development accuracy by only one question out of 570 and failed our continuation-quality gate. We retained the original release instead of treating lower loss as proof of better reasoning. The repository preserves the positive and negative findings separately from the submitted benchmark table.
+
+The submitted model took 3.923 recorded training hours; available completed-run records for the wider project total 22.355 hours. This excludes preprocessing, evaluation and unrecorded partial work. [Experiment evidence and compute accounting](https://github.com/Shoterz/odin-pocket/blob/main/docs/research-summary.md).
 
 Correctness has to span the entire experiment. A good-looking loss curve is insufficient if benchmark scoring drops targets, a resume silently changes data, or a UI shows measurements from another checkpoint. We added tests for those boundaries and used independent code review to find stale-log and stale-evidence errors before submission.
 

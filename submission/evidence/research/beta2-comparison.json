@@ -1,0 +1,34 @@
+{
+  "paired_intervals": {
+    "correct": {
+      "difference": 0.0017543859649122807,
+      "lower": -0.031578947368421054,
+      "upper": 0.03508771929824561,
+      "n": 570
+    },
+    "correct_norm": {
+      "difference": 0.007017543859649123,
+      "lower": -0.02456140350877193,
+      "upper": 0.03859649122807018,
+      "n": 570
+    }
+  },
+  "perplexity_ratios_candidate_over_control": {
+    "fineweb": 0.9390790586887661,
+    "wiki": 0.9427081103500533,
+    "stories": 0.9333320709219393
+  },
+  "gates": {
+    "fineweb_ppl_reduction_at_least_3pct": true,
+    "wiki_ppl_regression_at_most_2pct": true,
+    "raw_accuracy_improves": true,
+    "normalized_regression_at_most_1pp": true
+  },
+  "numeric_gate_passed": true,
+  "decision": "Pending complete generation review; no automatic continuation or promotion",
+  "limitations": "One training seed; observed development questions. Intervals cover question sampling only.",
+  "checkpoint_sha256": {
+    "control": "9fc57cb057ed5781bc9c147b84b1ee3b52bfc4d7db1da85560ce15518ebae0ab",
+    "candidate": "0556115d94003592d9cfdeb9dd8ffc4674c4c299eddc4db4c724cfc788f70adb"
+  }
+}

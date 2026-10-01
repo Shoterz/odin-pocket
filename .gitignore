@@ -5,3 +5,8 @@ data/
 runs/
 *.pt
 .cache/
+
+# Local submission archives and execution notes
+.superpowers/
+submission/*.zip
+submission/*.zip.sha256

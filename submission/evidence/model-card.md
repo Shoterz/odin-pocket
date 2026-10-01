@@ -31,3 +31,7 @@ AI assistance: OpenAI Codex wrote and reviewed implementation, tests, interface 
 On a 13th Gen Intel(R) Core(TM) i5-13400F with four CPU threads, paired generation measured **90.4 tokens/s** with KV caching versus **30.1** without it (3.01×). All 12 paired outputs were identical. This is one host and a six-prompt workload, not a universal speed guarantee. [Raw conditions and outputs](../../results/efficiency.json).
 
 These are baseline results, not evidence of state-of-the-art performance or a guaranteed win. WinoGrande is approximately chance. Frozen qualitative examples scored 3/6 comparisons and show repetition and false factual claims; inspect [all final outputs](../../results/product.json). The model is suitable for studying local language modeling, not factual advice.
+
+## Subsequent experiments and selection
+
+This card describes the submitted v0.1.0 weights only. Later story-mixture, optimizer and warmup experiments did not establish an overall improvement sufficient to replace them. Their separate development results and additional compute are documented in the [research appendix](../../docs/research-summary.md). The 3.923 training hours above are not the total project experiment budget.

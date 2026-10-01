@@ -1,0 +1,65 @@
+{
+  "review_sha256": "8fb4939ede0ef0894f6cbc5e26d41d1d90e03342a34dc770db14469abfa9e2c0",
+  "mapping_sha256": "af2c824920794091d924895b32a742ad665b2361e9aed50063bb32d0ead080c0",
+  "models": {
+    "control": {
+      "n": 32,
+      "fully_coherent": 0,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.5625,
+          "clear_failures": 14,
+          "mixed": 18,
+          "coherent_correct": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.1875,
+          "clear_failures": 13,
+          "mixed": 3,
+          "coherent_correct": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.15625,
+          "clear_failures": 27,
+          "mixed": 5,
+          "coherent_correct": 0
+        }
+      }
+    },
+    "candidate": {
+      "n": 32,
+      "fully_coherent": 0,
+      "dimensions": {
+        "relevance": {
+          "n": 32,
+          "mean": 0.65625,
+          "clear_failures": 11,
+          "mixed": 21,
+          "coherent_correct": 0
+        },
+        "entity_consistency": {
+          "n": 16,
+          "mean": 0.1875,
+          "clear_failures": 13,
+          "mixed": 3,
+          "coherent_correct": 0
+        },
+        "causal_factual_consistency": {
+          "n": 32,
+          "mean": 0.09375,
+          "clear_failures": 29,
+          "mixed": 3,
+          "coherent_correct": 0
+        }
+      }
+    }
+  },
+  "limitations": "Project-author ratings; blind to model identity for passages, not independent human evaluation. Sixteen locally authored prompts, two seeds each; correlated outputs, one training seed.",
+  "additional_fully_coherent": 0,
+  "at_least_four_additional": false,
+  "new_systematic_failure_category": "No clear new category identified in this small review; identity drift, repetition and physical/causal errors occur in both. The count requirement fails regardless.",
+  "quality_gate_passed": false
+}

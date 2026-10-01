@@ -1,0 +1,66 @@
+{
+  "reviewed_at_utc": "2026-10-01T02:06:26.867343+00:00",
+  "checkpoint_sha256": {
+    "control": "9fc57cb057ed5781bc9c147b84b1ee3b52bfc4d7db1da85560ce15518ebae0ab",
+    "candidate": "0556115d94003592d9cfdeb9dd8ffc4674c4c299eddc4db4c724cfc788f70adb"
+  },
+  "numeric_gate_passed": true,
+  "quality_gate_passed": false,
+  "full_gate_passed": false,
+  "decision": "Do not start the conditional continuation or promote the candidate. Preserve the candidate as a successful held-out likelihood ablation, not a demonstrated reasoning or generation-quality improvement. Prioritize final submission evidence and packaging.",
+  "metrics": {
+    "control": {
+      "correct": 243,
+      "correct_norm": 191,
+      "perplexity": {
+        "fineweb": 29.085879125016138,
+        "wiki": 22.16594692919517,
+        "stories": 17.046363626652248
+      }
+    },
+    "candidate": {
+      "correct": 244,
+      "correct_norm": 195,
+      "perplexity": {
+        "fineweb": 27.313939989855385,
+        "wiki": 20.896017943741143,
+        "stories": 15.909917865351762
+      }
+    }
+  },
+  "paired_outcomes": {
+    "correct": {
+      "both_correct": 196,
+      "control_only": 47,
+      "candidate_only": 48,
+      "both_wrong": 279
+    },
+    "correct_norm": {
+      "both_correct": 154,
+      "control_only": 37,
+      "candidate_only": 41,
+      "both_wrong": 338
+    }
+  },
+  "paired_intervals": {
+    "correct": {
+      "difference": 0.0017543859649122807,
+      "lower": -0.031578947368421054,
+      "upper": 0.03508771929824561,
+      "n": 570
+    },
+    "correct_norm": {
+      "difference": 0.007017543859649123,
+      "lower": -0.02456140350877193,
+      "upper": 0.03859649122807018,
+      "n": 570
+    }
+  },
+  "quality_summary_sha256": "4cd1004047a19cfdae2f133710d8db4093392c56f6297b3c4b44b67407016a0a",
+  "limitations": [
+    "One training seed; observed ARC development questions, not official test scores.",
+    "Per-domain likelihood uses 131072 fixed evaluation tokens; no uncertainty interval estimated for domain losses.",
+    "Subjective author assessment of sixteen fresh prompts with two sampling seeds each; no independent human validation.",
+    "No direct comparison with differently trained published checkpoints or their official test sets."
+  ]
+}

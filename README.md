@@ -4,7 +4,7 @@ A **49,295,872-parameter causal language model**, trained from random initializa
 
 **Axiom AI** · Yong Li Zhong · Solo developer.
 
-**Status:** trained from scratch and fully evaluated. The local workbench and release checks pass. Source is public on GitHub. A YouTube/Vimeo/Youku video upload and Devpost submission remain separate, unverified steps.
+**Submission checkpoint:** v0.1.0, trained from scratch and evaluated on every required benchmark. Start with the [judge’s guide](submission/judge-guide.md) or [submission checklist](submission/submit.md). The [research appendix](docs/research-summary.md) documents later experiments and why this checkpoint was retained. Video hosting and Devpost submission are separate steps; their completion is not yet verified.
 
 ## Use the workbench
 
@@ -43,7 +43,7 @@ The inference-only checkpoint is `runs/pocket/submission.pt` (198,352,841 bytes)
 
 SHA-256: `4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e`.
 
-[English demo, 2m46s](submission/video/odin-pocket-demo.mp4) · [Submission handoff](submission/submit.md) · [Model card](submission/evidence/model-card.md) · [Training record](submission/evidence/training-summary.json) · [Data manifest](submission/evidence/data-manifest.json). No original training directory is needed to run the exported weights and evidence.
+[English demo, 2m46s](submission/video/odin-pocket-demo.mp4) · [Submission handoff](submission/submit.md) · [Model card](submission/evidence/model-card.md) · [Training record](submission/evidence/training-summary.json) · [Data manifest](submission/evidence/data-manifest.json). No original training directory is needed to run the exported weights and evidence. The final documentation/source bundle is published separately as **v0.1.1-submission**; it uses the unchanged v0.1.0 model weights.
 
 ## Architecture
 
@@ -84,9 +84,13 @@ Preparation normalizes and deduplicates complete documents, reserves a stable 1%
 
 This recipe processes 983,040,000 tokens. AdamW, peak learning rate 0.0006, 200 warmup steps, cosine decay to 10%, weight decay 0.1, global gradient clipping 1.0. CUDA uses bfloat16 autocast and float32 optimizer state. The completed run took **3.923 hours** on the local RTX 4070 12 GB, with **5,925,274,112 bytes** peak allocated CUDA memory. Approximate training compute is **2.908e+17 FLOPs**; preprocessing, the pilot, final checkpoint writing and the 108.7-second official evaluation are additional work.
 
+The 3.923-hour figure describes the submitted checkpoint, not the full project. Available completed-run records across the project total **22.355 recorded training hours**, including pilots and subsequent experiments; preprocessing, evaluations and unrecorded partial work are additional. See the [compute inventory and research results](docs/research-summary.md).
+
 To resume, repeat the same command with `--resume runs/pocket/latest.pt`. The trainer rejects different data/config/recipe and restores optimizer and RNG state. `--stop-after N` makes a planned interruption without changing the learning-rate schedule. Checkpoints include the tokenizer itself. `metrics.jsonl` records fixed-sample development loss; `summary.json` records hardware, precision, training time and token counters. Checkpoints are replaced atomically. On interruption, restart from the latest completed checkpoint.
 
 ## Official evaluation
+
+These are self-reported results from the competition-required suite, not organizer-certified scores. They apply only to the submitted v0.1.0 checkpoint.
 
 Evaluate an immutable checkpoint copy. Use the required four tasks through `lm-evaluation-harness` with zero-shot prompts. Supply the WikiText-103 raw test Arrow file produced in the cache above:
 

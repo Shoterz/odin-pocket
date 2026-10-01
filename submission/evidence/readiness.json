@@ -4,5 +4,24 @@
   "hosted_demo_video": false,
   "devpost_team_and_submission": false,
   "checkpoint_sha256": "4634f90b2120a7a128a0a4bbd59ae70056dbeff7baee2a35bf551fe0da90ab7e",
-  "repository_url": "https://github.com/Shoterz/odin-pocket"
+  "repository_url": "https://github.com/Shoterz/odin-pocket",
+  "checked_at_utc": "2026-10-01T03:04:34.287890+00:00",
+  "submission_checkpoint": "v0.1.0",
+  "documentation_release": "v0.1.1-submission",
+  "devpost_description_ready": true,
+  "built_with_and_ai_disclosure_ready": true,
+  "team_identity_supplied": true,
+  "devpost_registration_verified": false,
+  "screenshots_count": 4,
+  "local_demo_ready": true,
+  "local_demo_seconds": 165.96,
+  "local_demo_english_burned_in_subtitles": true,
+  "hosted_demo_video_url": null,
+  "devpost_project_url": null,
+  "submission_complete": false,
+  "remaining": [
+    "Upload the MP4 to YouTube, Vimeo or Youku and verify a non-private watch URL.",
+    "Confirm Devpost registration and associate Yong Li Zhong.",
+    "Populate the project, add three screenshots and accepted-host video, then submit and verify confirmation."
+  ]
 }

@@ -1,0 +1,34 @@
+{
+  "selected": "control",
+  "reference": "control",
+  "rejected": {
+    "stories20": "General-domain NLL regression >0.05"
+  },
+  "policy": "ARC token-mean likelihood accuracy first, mean FineWeb/WikiText NLL tie-break; per-domain +0.05 and accuracy -0.03 guards. Stories diagnostic only.",
+  "paired_vs_reference": {
+    "control": {
+      "difference": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "n": 285
+    },
+    "stories10": {
+      "difference": -0.014035087719298246,
+      "lower": -0.06315789473684211,
+      "upper": 0.03508771929824561,
+      "n": 285
+    },
+    "stories20": {
+      "difference": -0.0456140350877193,
+      "lower": -0.0912280701754386,
+      "upper": -0.0035087719298245615,
+      "n": 285
+    }
+  },
+  "limitations": "One screening seed; heuristic nonregression thresholds, not a significance claim.",
+  "checkpoint_hashes": {
+    "control": "7f208369b358ed76ef1b446b174e392d7683e226f39568d09b6a148e63f5c1f1",
+    "stories10": "6c6b42933ecc235febbbcc6c9e3b0c880599c0b3431cf065e575b4e11d3343a4",
+    "stories20": "bc85fb9a30a05fa82e6f4f2b7bcc2af725f18355f3d311e1b16572eaac377369"
+  }
+}
