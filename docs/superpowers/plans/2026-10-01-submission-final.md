@@ -23,7 +23,7 @@
 
 - [x] Audit existing assets and validate the published checkpoint, full reports, tests and representative video frames.
 - [x] Update README, model/data/reproduction documentation, Devpost text, upload instructions and research/compute appendix.
-- [ ] Independently review the assembled package; verify archive contents, three screenshots, English captions, model loading and actual inference.
+- [x] Independently review the assembled package; verify archive contents, three screenshots, English captions, model loading and actual inference.
 - [ ] Publish source/evidence to the authorized GitHub repository and verify links; assemble an upload bundle and record any account-bound steps still pending.
 
 Execution uses an isolated worktree based on `f251662`. Publishing to Shoterz/odin-pocket is already authorized by the user. The immutable older release is retained. No permission checkpoint is required for routine preparation or the already-authorized publication.

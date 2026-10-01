@@ -1,6 +1,11 @@
 {
   "team_name": "Axiom AI",
-  "members": [{"full_name": "Yong Li Zhong", "role": "Solo developer"}],
+  "members": [
+    {
+      "full_name": "Yong Li Zhong",
+      "role": "Solo developer"
+    }
+  ],
   "devpost_registration_verified": false,
-  "registration_note": "Team identity provided by the user. Devpost registration/account association has not been verified."
+  "registration_note": "User confirmed on October 1, 2026 that Devpost registration and video upload have not yet been completed. Team identity was provided by the user."
 }
